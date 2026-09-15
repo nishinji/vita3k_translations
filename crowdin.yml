@@ -1,0 +1,23 @@
+# Crowdin configuration for the Vita3K Qt UI.
+
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
+preserve_hierarchy: true
+
+files:
+  # Vita3K derives the language tag from the file name, so the Chinese variants keep the script
+  # spelling its language menu expects rather than Crowdin's zh-CN / zh-TW.
+  - source: /template/vita3k_template.ts
+    translation: /translations/vita3k_%two_letters_code%.ts
+    # The project already holds this file with its translations, so keep writing to it
+    # instead of letting preserve_hierarchy create a second, empty one.
+    dest: /vita3k_en.ts
+    type: qtts
+    languages_mapping:
+      two_letters_code:
+        en-GB: en_GB
+        pt-BR: pt_BR
+        pt-PT: pt_PT
+        zh-CN: zh_Hans
+        zh-TW: zh_Hant

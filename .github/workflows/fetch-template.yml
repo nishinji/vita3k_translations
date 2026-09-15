@@ -1,0 +1,76 @@
+# Brings the newest source strings over from the emulator repository.
+
+name: Update the translation files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  update-translations:
+    name: Update the translation files
+    runs-on: ubuntu-24.04
+
+    env:
+      SOURCE_REPO: ${{ vars.SOURCE_REPO || 'Vita3K/Vita3K' }}
+      GH_TOKEN: ${{ secrets.TEMPLATE_TOKEN || secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Find the run that published the template
+        id: source-run
+        run: |
+          run_id=$(gh api "repos/$SOURCE_REPO/actions/workflows/qt-ts.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].id')
+          if [ -z "$run_id" ] || [ "$run_id" = "null" ]; then
+            echo "No successful qt-ts run in $SOURCE_REPO."
+            exit 1
+          fi
+          echo "Using run $run_id of $SOURCE_REPO"
+          echo "id=$run_id" >> "$GITHUB_OUTPUT"
+
+      - name: Download the template
+        uses: actions/download-artifact@v8
+        with:
+          name: Vita3K_Translation_Template
+          path: template/
+          repository: ${{ env.SOURCE_REPO }}
+          run-id: ${{ steps.source-run.outputs.id }}
+          github-token: ${{ env.GH_TOKEN }}
+
+      - name: Install the Qt linguist tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qt6-l10n-tools
+
+      # Crowdin only ever sees the template, so the languages have to carry the same message set.
+      - name: Merge the template into every language
+        run: |
+          shopt -s nullglob
+          lupdate=$(find /usr -name lupdate -type f | head -n 1)
+          if [ -z "$lupdate" ]; then
+            echo "lupdate not found."
+            exit 1
+          fi
+          for ts_file in translations/*.ts; do
+            "$lupdate" template/vita3k_template.ts -no-obsolete -ts "$ts_file"
+          done
+
+      - name: Commit the new strings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add template/vita3k_template.ts translations/
+
+          if git diff --cached --quiet; then
+            echo "The template brought no new strings."
+            exit 0
+          fi
+
+          git commit -m "Update the template and merge it into every language"
+          git push

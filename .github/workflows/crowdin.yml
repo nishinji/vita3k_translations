@@ -1,0 +1,50 @@
+# Pulls the Qt translations back from Crowdin every day.
+
+name: Sync with Crowdin
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 1 * * *'
+
+permissions:
+  contents: write
+
+# Two runs would fight over the same branch.
+concurrency:
+  group: crowdin-sync
+  cancel-in-progress: false
+
+jobs:
+  synchronize-with-crowdin:
+    name: Sync with Crowdin
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Sync with Crowdin
+        uses: crowdin/github-action@v3
+        with:
+          # A string Crowdin never received cannot be translated, so push the template first.
+          upload_sources: true
+          upload_translations: false
+          download_translations: true
+          push_translations: true
+          # Approval is barely used on this project, so a language is measured on what is translated.
+          export_only_approved: false
+          # Qt falls back to the source string on its own, and lrelease drops the rest anyway.
+          skip_untranslated_strings: true
+          localization_branch_name: main
+          create_pull_request: false
+          commit_message: 'Update translations from Crowdin'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
