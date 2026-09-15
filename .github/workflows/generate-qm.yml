@@ -1,0 +1,85 @@
+# Compiles the translations and publishes them as the release the emulator build downloads.
+
+name: Publish the compiled translations
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'translations/*.ts'
+  # The Crowdin sync pushes with GITHUB_TOKEN, which raises no push event, so check daily too.
+  schedule:
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-translations
+  cancel-in-progress: false
+
+jobs:
+  generate-qm:
+    name: Publish the compiled translations
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Install the Qt linguist tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qt6-l10n-tools
+
+      - name: Compile the translations
+        run: |
+          shopt -s nullglob
+          mkdir -p qm
+          lrelease=$(find /usr -name lrelease -type f | head -n 1)
+          if [ -z "$lrelease" ]; then
+            echo "lrelease not found."
+            exit 1
+          fi
+          for ts_file in translations/*.ts; do
+            "$lrelease" "$ts_file" -nounfinished -removeidentical -qm "qm/$(basename "$ts_file" .ts).qm"
+          done
+
+      - name: Commit the compiled translations
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add qm/
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No compiled translation changed."
+            exit 0
+          fi
+
+          git commit -m "Compile the translations"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Upload the compiled translations
+        uses: actions/upload-artifact@v7
+        with:
+          name: Vita3K-languages
+          path: qm/
+          compression-level: 1
+
+      - name: Publish the release
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          (cd qm && zip -r ../Vita3K-languages.zip .)
+          date=$(date +'%Y-%m-%d')
+          gh release create "translations-${date}-${{ github.run_number }}" Vita3K-languages.zip \
+            --title "Translations $date" \
+            --notes "Qt translations compiled from the .ts files in this repository."
