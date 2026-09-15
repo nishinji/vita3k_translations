@@ -4,14 +4,14 @@ name: Publish the compiled translations
 
 on:
   workflow_dispatch:
+  # The Crowdin sync pushes with GITHUB_TOKEN, which raises no push event, so it calls this
+  # workflow directly instead of relying on the trigger below.
+  workflow_call:
   push:
     branches:
       - main
     paths:
       - 'translations/*.ts'
-  # The Crowdin sync pushes with GITHUB_TOKEN, which raises no push event, so check daily too.
-  schedule:
-    - cron: '0 2 * * *'
 
 permissions:
   contents: write
