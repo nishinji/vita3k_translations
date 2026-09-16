@@ -27,9 +27,15 @@ jobs:
       - name: Find the run that published the Qt template
         id: source-run
         run: |
-          run_id=$(gh api "repos/$SOURCE_REPO/actions/workflows/qt-ts.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].id')
+          if ! run_id=$(gh api "repos/$SOURCE_REPO/actions/workflows/qt-ts.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].id'); then
+            echo "Could not read qt-ts.yml in $SOURCE_REPO. A workflow that has never run is not"
+            echo "registered there, so this also answers 404. Point the SOURCE_REPO variable at"
+            echo "the repository that runs it, and run it there once."
+            exit 1
+          fi
+
           if [ -z "$run_id" ] || [ "$run_id" = "null" ]; then
-            echo "No successful qt-ts run in $SOURCE_REPO."
+            echo "qt-ts.yml exists in $SOURCE_REPO but has no successful run to take a template from."
             exit 1
           fi
           echo "Using run $run_id of $SOURCE_REPO"
