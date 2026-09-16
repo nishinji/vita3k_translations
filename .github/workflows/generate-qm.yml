@@ -93,7 +93,7 @@ jobs:
       - name: Upload the compiled translations
         uses: actions/upload-artifact@v7
         with:
-          name: Vita3K-languages
+          name: vita3k-languages
           path: qm/
           compression-level: 1
 
@@ -107,15 +107,15 @@ jobs:
           shopt -s nullglob
           assets=()
 
-          (cd qm && zip -r ../Vita3K-languages.zip .)
-          assets+=(Vita3K-languages.zip)
+          (cd qm && zip -r ../vita3k-languages.zip .)
+          assets+=(vita3k-languages.zip)
 
           # Crowdin exports every language region qualified, which stops Android falling back
           # from de-AT to German at all, so the qualifiers are rewritten on the way in.
           values=(android/values-*)
           if [ ${#values[@]} -gt 0 ]; then
-            python3 scripts/pack_android_strings.py --output Vita3K-android-strings.zip
-            assets+=(Vita3K-android-strings.zip)
+            python3 scripts/pack_android_strings.py --output vita3k-android-strings.zip
+            assets+=(vita3k-android-strings.zip)
           fi
 
           date=$(date +'%Y-%m-%d')
