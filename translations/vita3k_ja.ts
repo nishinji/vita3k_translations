@@ -401,7 +401,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>計算中...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
