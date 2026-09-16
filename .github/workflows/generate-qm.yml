@@ -97,8 +97,10 @@ jobs:
           path: qm/
           compression-level: 1
 
+      # A manual run is an explicit request for a release, which is how a change to the
+      # packaging itself reaches one without waiting for the strings to move.
       - name: Publish the release
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
