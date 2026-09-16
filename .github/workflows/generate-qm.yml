@@ -4,6 +4,12 @@ name: Publish the compiled translations
 
 on:
   workflow_dispatch:
+    inputs:
+      review_all:
+        description: 'Review every translated string instead of only what this import changed'
+        type: boolean
+        required: false
+        default: false
   # The Crowdin sync pushes with GITHUB_TOKEN, which raises no push event, so it calls this
   # workflow directly instead of relying on the trigger below.
   workflow_call:
@@ -30,6 +36,8 @@ jobs:
         uses: actions/checkout@v7
         with:
           ref: main
+          # The review compares each language against HEAD~1 to find what this import changed.
+          fetch-depth: 2
 
       - name: Install the Qt linguist tools
         run: |
@@ -48,6 +56,15 @@ jobs:
           for ts_file in translations/*.ts; do
             "$lrelease" "$ts_file" -nounfinished -removeidentical -qm "qm/$(basename "$ts_file" .ts).qm"
           done
+
+      # Crowdsourced strings reach users unread otherwise, so screen them for abuse and
+      # obvious mistranslation. A review that cannot run must not hold up the release.
+      - name: Review the incoming translations
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          REVIEW_ALL: ${{ inputs.review_all || 'false' }}
+        run: python3 scripts/review_translations.py
 
       - name: Commit the compiled translations
         id: commit

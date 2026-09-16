@@ -55,3 +55,4 @@ jobs:
     permissions:
       contents: write
     uses: ./.github/workflows/generate-qm.yml
+    secrets: inherit
