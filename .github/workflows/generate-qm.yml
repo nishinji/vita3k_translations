@@ -108,11 +108,11 @@ jobs:
           (cd qm && zip -r ../Vita3K-languages.zip .)
           assets+=(Vita3K-languages.zip)
 
-          # Zipped from android/ so the entries are values-<code>/strings.xml, the shape the
-          # emulator build unpacks into its res directory.
+          # Crowdin exports every language region qualified, which stops Android falling back
+          # from de-AT to German at all, so the qualifiers are rewritten on the way in.
           values=(android/values-*)
           if [ ${#values[@]} -gt 0 ]; then
-            (cd android && zip -r ../Vita3K-android-strings.zip values-*)
+            python3 scripts/pack_android_strings.py --output Vita3K-android-strings.zip
             assets+=(Vita3K-android-strings.zip)
           fi
 

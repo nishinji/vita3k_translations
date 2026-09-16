@@ -14,7 +14,7 @@ project holds, so a hand-written change is lost at the next run.
 | `translations/vita3k_<tag>.ts` | One Qt file per language, written by Crowdin |
 | `qm/vita3k_<tag>.qm` | Compiled Qt translations, published as a release |
 | `android/strings.xml` | English source strings of the Android interface, copied from the emulator repository |
-| `android/values-<code>/strings.xml` | One Android resource file per language, written by Crowdin |
+| `android/values-<code>/strings.xml` | One Android resource file per language, written by Crowdin. Crowdin always writes a region (`values-de-rDE`); `scripts/pack_android_strings.py` drops it in the release where Android needs the bare language |
 
 ## How it flows
 
