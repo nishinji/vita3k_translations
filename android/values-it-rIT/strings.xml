@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_delete">Elimina</string>
+    <string name="action_yes">Si</string>
+    <string name="action_no">No</string>
+    <string name="action_back">Indietro</string>
+    <string name="action_install">Installa</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Sconosciuto</string>
+    <string name="compat_nothing">Non funzionante</string>
+    <string name="compat_bootable">Avviabile</string>
+    <string name="compat_intro">Intro</string>
+    <string name="compat_menu">Menu</string>
+    <string name="compat_ingame_less">In gioco</string>
+    <string name="compat_ingame_more">In gioco +</string>
+    <string name="compat_playable">Giocabile</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Elimina</string>
+    <string name="action_group_other">Altro</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Applicazione</string>
+    <string name="app_action_save_data">Dati salvati</string>
+    <string name="app_action_patch">Patch</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_license">Licenza</string>
+    <string name="app_action_shader_cache">Cache shader</string>
+    <string name="app_action_shader_log">Log shader</string>
+    <string name="app_action_export_textures">Esporta texturs</string>
+    <string name="app_action_import_textures">Importa texture</string>
+    <string name="app_action_reset_last_played">Reimposta ultimo avvio</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <plurals name="apps_list_n_selected">
+        <item quantity="one">%1$d selezionato</item>
+        <item quantity="other">%1$d selezionati</item>
+    </plurals>
+    <string name="apps_list_cd_install">Installa</string>
+    <string name="apps_list_cd_exit_selection">Chiudi selezione</string>
+    <string name="apps_list_cd_select_all">Seleziona tutti</string>
+    <string name="apps_list_cd_delete_selected">Cancella selezionati</string>
+    <string name="apps_list_cd_search">Cerca</string>
+    <string name="apps_list_cd_sort">Ordina</string>
+    <string name="apps_list_cd_toggle_view">Cambia visualizzazione</string>
+    <string name="apps_list_cd_refresh">Aggiorna</string>
+    <string name="apps_list_cd_more_options">Più opzioni</string>
+    <string name="apps_list_cd_close_search">Chiudi ricerca</string>
+    <string name="apps_list_cd_selected">Selezionato</string>
+    <string name="apps_list_menu_users">Gestione utenti</string>
+    <string name="apps_list_menu_welcome">Schermata di benvenuto</string>
+    <string name="apps_list_menu_check_updates">Verifica aggiornamenti</string>
+    <string name="apps_list_menu_about">Informazioni</string>
+    <string name="apps_list_search_placeholder">Cerca applicazioni\u2026</string>
+    <string name="apps_list_sort_title">Titolo</string>
+    <string name="apps_list_sort_last_played">Ultimo avvio</string>
+    <string name="apps_list_sort_compatibility">Compatibilità</string>
+    <string name="apps_list_custom_config_badge">CC</string>
+    <string name="apps_list_empty_search">Nessuna app corrisponde a \"%1$s\"</string>
+    <string name="apps_list_empty_missing_firmware">Componenti firmware mancanti: %1$s</string>
+    <string name="apps_list_empty_firmware_title">Firmware richiesto</string>
+    <string name="apps_list_empty_firmware_body">Installa i componenti firmware PS Vita mancanti affinché le app funzionino correttamente.</string>
+    <string name="apps_list_empty_firmware_missing_list_title">Componenti mancanti</string>
+    <string name="apps_list_empty_no_firmware">Nessun firmware installato</string>
+    <string name="apps_list_empty_missing_main_firmware">Firmware principale non installato</string>
+    <string name="apps_list_empty_no_apps">Nessuna app installata</string>
+    <string name="apps_list_install_firmware">Installa firmware</string>
+    <string name="apps_list_install_app">Installa app</string>
+    <string name="apps_list_init_failed">Errore durante l’inizializzazione dell’emulatore.</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">Informazioni</string>
+    <string name="app_menu_delete">Elimina\u2026</string>
+    <string name="app_menu_custom_config">Configurazione personalizzata</string>
+    <!-- User management -->
+    <string name="user_management_title">Gestione utenti</string>
+    <string name="user_management_refresh">Aggiorna utenti</string>
+    <string name="user_management_active_user">Utente attuale</string>
+    <string name="user_management_active_none">Nessun utente selezionato</string>
+    <string name="user_management_active_badge">Attivo</string>
+    <string name="user_management_create_user">Crea utente</string>
+    <string name="user_management_create_prompt">Crea un profilo utente Vita locale per salvataggi, cronologia di gioco e dati delle app.</string>
+    <string name="user_management_name_label">Nome utente</string>
+    <string name="user_management_switch_user">Seleziona utente</string>
+    <string name="user_management_delete_user">Elimina utente</string>
+    <string name="user_management_delete_title">Elimina utente</string>
+    <string name="user_management_delete_message">Sei sicuro di voler eliminare l\'utente \"%1$s\"?\n\nTutti i dati dell\'utente saranno persi.</string>
+    <string name="user_management_empty_title">Nessun utente trovato</string>
+    <string name="user_management_empty_message">Crea un utente per iniziare a memorizzare salvataggi e la cronologia di gioco.</string>
+    <string name="user_management_created_success">Utente %1$s creato.</string>
+    <string name="user_management_selected_success">Utente %1$s selezionato.</string>
+    <string name="user_management_deleted_success">Utente %1$s eliminato.</string>
+    <string name="user_management_create_failed">Impossibile creare l\'utente.</string>
+    <string name="user_management_select_failed">Impossibile selezionare l\'utente.</string>
+    <string name="user_management_delete_failed">Impossibile eliminare l\'utente.</string>
+    <!-- Batch delete dialog -->
+    <plurals name="batch_delete_title">
+        <item quantity="one">Elimina %1$d applicazione</item>
+        <item quantity="other">Elimina %1$d applicazioni</item>
+    </plurals>
+    <plurals name="batch_delete_message">
+        <item quantity="one">Sei sicuro di voler eliminare %1$d applicazione selezionata?\n\nQuesta azione non può essere annullata.</item>
+        <item quantity="other">Sei sicuro di voler eliminare %1$d applicazioni selezionate?\n\nQuesta azione non può essere annullata.</item>
+    </plurals>
+    <!-- Action confirm dialog -->
+    <string name="confirm_delete_title">Elimina %1$s</string>
+    <string name="confirm_delete_message">Questo eliminerà definitivamente %1$s per questa applicazione. Questa azione non può essere annullata.</string>
+    <string name="confirm_reset_playtime_title">Reimposta tempo di gioco</string>
+    <string name="confirm_reset_playtime_message">Sei sicuro di voler reimpostare il tempo di gioco per %1$s?</string>
+    <string name="confirm_reset_playtime_this_app">questa app</string>
+    <!-- Action progress / result -->
+    <string name="action_deleting">Eliminazione di %1$s\u2026</string>
+    <string name="action_applying">Applicazione dell’azione\u2026</string>
+    <string name="action_done">Fatto</string>
+    <string name="action_reset">Ripristina</string>
+    <plurals name="batch_delete_success">
+        <item quantity="one">Applicazione %1$d eliminata.</item>
+        <item quantity="other">Applicazioni %1$d eliminate.</item>
+    </plurals>
+    <string name="batch_delete_partial">Eliminate %1$d di %2$d applicazioni.</string>
+    <string name="action_deleted_success">%1$s eliminato per %2$s.</string>
+    <string name="action_deleted_failed">Impossibile eliminare %1$s di %2$s.</string>
+    <!-- App info sheet -->
+    <string name="app_info_title">Informazioni app</string>
+    <string name="app_info_cd_close">Chiudi</string>
+    <string name="app_info_field_title">Titolo</string>
+    <string name="app_info_field_serial">Numero di serie</string>
+    <string name="app_info_field_app_version">Versione app</string>
+    <string name="app_info_field_category">Categoria</string>
+    <string name="app_info_field_install_size">Dimensioni installazione</string>
+    <string name="app_info_field_play_time">Tempo di gioco</string>
+    <string name="app_info_field_last_played">Ultimo avvio</string>
+    <string name="app_info_size_calculating">Calcolo in corso\u2026</string>
+    <string name="app_info_size_unknown">Sconosciuto</string>
+    <string name="app_info_size_kb">%1$d KB</string>
+    <string name="app_info_size_mb">%1$.1f MB</string>
+    <string name="app_info_size_gb">%1$.2f GB</string>
+    <string name="app_info_playtime_never">Mai giocato</string>
+    <string name="app_info_playtime_hm">%1$dh %2$dm</string>
+    <string name="app_info_playtime_ms">%1$dm %2$ds</string>
+    <string name="app_info_playtime_s">%1$ds</string>
+    <string name="app_info_last_played_never">Mai</string>
+    <!-- About sheet -->
+    <string name="about_build">Versione: %1$s</string>
+    <string name="about_revision">Revisione: %1$s</string>
+    <string name="about_legal_notice">Vita3K non supporta la pirateria. Devi estrarre i tuoi giochi personalmente.</string>
+    <!-- Updates -->
+    <string name="updates_check_title">Verifica aggiornamenti</string>
+    <string name="updates_check_progress">Verifica aggiornamenti in corso…</string>
+    <string name="updates_check_in_progress">La verifica degli aggiornamenti è già in corso.</string>
+    <string name="updates_available_title">Aggiornamento disponibile</string>
+    <string name="updates_official_available_title">Versione ufficiale disponibile</string>
+    <string name="updates_latest_build">Ultima versione</string>
+    <string name="updates_open_download_page">Apri pagina di download</string>
+    <string name="updates_summary_available">È disponibile una nuova versione di Vita3K.\n\nVersione attuale: %1$s\nUltima versione: %2$s</string>
+    <string name="updates_summary_available_with_date">È disponibile una nuova versione di Vita3K.\n\nVersione attuale: %1$s\nUltima versione: %2$s\nPubblicata: %3$s</string>
+    <string name="updates_summary_custom_build">Stai usando una versione non ufficiale o PR.\n\nSe aggiorni, passerai all’ultima versione ufficiale e non userai più questa versione personalizzata o PR.\n\nUltima versione ufficiale: %1$s</string>
+    <string name="updates_summary_custom_build_with_date">Stai usando una versione non ufficiale o PR.\n\nSe aggiorni, passerai all’ultima versione ufficiale e non userai più questa versione personalizzata o PR.\n\nUltima versione ufficiale: %1$s\nPubblicata: %2$s</string>
+    <!-- Initial setup -->
+    <string name="initial_setup_welcome_title">Benvenuto in Vita3K</string>
+    <string name="initial_setup_welcome_body">Vita3K è un emulatore open-source per PlayStation Vita scritto in C++ per Windows, Linux, macOS e Android. L’emulatore è ancora in fase di sviluppo attivo, quindi feedback e test sono molto apprezzati.</string>
+    <string name="initial_setup_piracy_notice">Vita3K non supporta la pirateria. Devi estrarre i tuoi giochi personalmente.</string>
+    <string name="initial_setup_firmware_title">Installa firmware</string>
+    <string name="initial_setup_firmware_body">Per iniziare, installa qui sotto i file del firmware PS Vita.</string>
+    <string name="initial_setup_preinstall_title">Preinstalla pacchetto</string>
+    <string name="initial_setup_main_title">Firmware principale</string>
+    <string name="initial_setup_font_title">Pacchetto font</string>
+    <string name="initial_setup_download">Scarica</string>
+    <string name="initial_setup_install_pup">Installa</string>
+    <string name="initial_setup_select_firmware_language">Seleziona la lingua del firmware</string>
+    <string name="initial_setup_status_installed">Installato</string>
+    <string name="initial_setup_status_missing">Mancante</string>
+    <string name="initial_setup_status_optional">Opzionale</string>
+    <string name="initial_setup_back">Indietro</string>
+    <string name="initial_setup_next">Avanti</string>
+    <string name="initial_setup_skip">Salta per ora</string>
+    <string name="initial_setup_open_library">Apri libreria</string>
+    <!-- In-game pause menu -->
+    <string name="emulation_menu_title">In pausa</string>
+    <string name="emulation_menu_subtitle">Sessione in gioco</string>
+    <string name="emulation_menu_close">Chiudi menu di pausa</string>
+    <string name="emulation_tab_session">Sessione</string>
+    <string name="emulation_tab_controls">Controlli</string>
+    <string name="emulation_tab_controller">Controller</string>
+    <string name="emulation_tab_settings">Impostazioni</string>
+    <string name="emulation_resume">Riprendi</string>
+    <string name="emulation_pause">Pausa</string>
+    <string name="emulation_exit">Esci</string>
+    <string name="emulation_exit_title">Uscire dal gioco?</string>
+    <string name="emulation_exit_message">Tutti i progressi di gioco non salvati andranno persi.</string>
+    <string name="emulation_custom_config">Configurazione personalizzata</string>
+    <string name="emulation_custom_config_active">Questo gioco ha una configurazione personalizzata salvata.</string>
+    <string name="emulation_custom_config_inactive">Questo gioco usa le impostazioni globali.</string>
+    <string name="emulation_create_config_short">Crea</string>
+    <string name="emulation_save_config_short">Salva</string>
+    <string name="emulation_reset_config_short">Ripristina</string>
+    <string name="emulation_open_settings_short">Tutte le impostazioni</string>
+    <string name="emulation_settings_saved">Impostazioni salvate.</string>
+    <string name="emulation_controls_show">Mostra comandi</string>
+    <string name="emulation_controls_l2r2">Mostra L2 / R2</string>
+    <string name="emulation_controls_l3r3">Mostra L3 / R3</string>
+    <string name="emulation_controls_touch_switch">Pulsante touchscreen</string>
+    <string name="emulation_controls_hide_toggle">Nascondi pulsante</string>
+    <string name="emulation_controls_scale">Dimensione overlay</string>
+    <string name="emulation_controls_opacity">Opacità overlay</string>
+    <string name="emulation_controls_edit">Modifica layout</string>
+    <string name="emulation_controls_done">Fatto</string>
+    <string name="emulation_controls_reset_layout">Ripristina layout</string>
+    <string name="emulation_controls_editor_title">Modiifca comandi</string>
+    <string name="emulation_runtime_note">Alcune impostazioni avranno effetto dopo il riavvio del gioco.</string>
+    <string name="settings_restart_required_title">Riavvio necessario</string>
+    <string name="settings_restart_required_summary">Alcune modifiche richiedono il riavvio dell’app per avere pieno effetto.</string>
+    <string name="settings_restart_required_message">Queste impostazioni modificate verranno applicate dopo il riavvio:\n- %1$s</string>
+    <string name="settings_restart_app">Riavvia app</string>
+    <string name="settings_restart_later">Riavvia più tardi</string>
+    <string name="settings_restart_in_progress_title">Riavvio dell’app</string>
+    <string name="settings_restart_in_progress_message">Attendi mentre Vita3K riavvia il gioco.</string>
+    <string name="settings_restart_game">Riavvia gioco</string>
+    <string name="settings_continue_playing">Continua a giocare</string>
+    <string name="emulation_ime_placeholder">Inizia a digitare…</string>
+    <!-- Install bottom sheet -->
+    <string name="install_sheet_title">Installa contenuto</string>
+    <string name="install_firmware_title">Firmware (PUP)</string>
+    <string name="install_firmware_desc">Installa firmware PS Vita</string>
+    <string name="install_pkg_title">Package (PKG)</string>
+    <string name="install_pkg_desc">Installa un\'app .pkg o un DLC</string>
+    <string name="install_archive_title">Archivio (ZIP/VPK)</string>
+    <string name="install_archive_desc">Installa da file .zip o .vpk</string>
+    <string name="install_license_title">Lincenza</string>
+    <string name="install_license_desc">Installa un file di licenza .rif o .bin</string>
+    <string name="install_progress_title">Installazione in corso</string>
+    <string name="install_result_success_title">Installazione completata con successo</string>
+    <string name="install_result_partial_title">Installazione completata</string>
+    <string name="install_result_failed_title">Installazione fallita</string>
+    <string name="install_notification_channel_name">Installazione in corso</string>
+    <string name="install_notification_channel_desc">Mantieni le installazioni dei contenuti attive mentre Vita3K è in background.</string>
+    <string name="install_archive_source_title">Installa archivio</string>
+    <string name="install_archive_source_message">Seleziona un singolo archivio o una cartella contenente più archivi .zip e .vpk.</string>
+    <string name="install_archive_source_file">Seleziona archivio</string>
+    <string name="install_archive_source_folder">Seleziona cartella degli archivi</string>
+    <string name="install_license_source_title">Installa licenza</string>
+    <string name="install_license_source_message">Seleziona un file di licenza o inserisci manualmente una chiave zRIF.</string>
+    <string name="install_delete_firmware_file">Elimina il file di firmware dopo l\'installazione</string>
+    <string name="install_delete_package_file">Elimina il file package dopo l\'installazione</string>
+    <string name="install_delete_archive_files">Elimina i file d\'archivio dopo l\'installazione</string>
+    <string name="install_delete_license_file">Elimina il file di licenza dopo l\'installazione</string>
+    <!-- zRIF / license dialogs -->
+    <string name="zrif_dialog_title">Inserisci chiave zRIF</string>
+    <string name="zrif_dialog_hint">zRIF</string>
+    <string name="license_required_title">Licenza richiesta</string>
+    <string name="license_required_message">Nessuna licenza è stata trovata automaticamente.\nCome vuoi fornirla?</string>
+    <string name="license_select_file">Seleziona file .bin / .rif</string>
+    <string name="license_enter_zrif">Inserisci manualmente la chiave zRIF</string>
+    <!-- Install status messages (ViewModel) -->
+    <string name="install_status_firmware">Installazione firmware\u2026</string>
+    <string name="install_status_preparing">Preparazione\u2026</string>
+    <string name="install_status_package">Installazione package\u2026</string>
+    <string name="install_status_archive">Installazione archivio\u2026</string>
+    <string name="install_status_archive_batch">Installazione archivio %1$d di %2$d: %3$s\u2026</string>
+    <string name="install_status_license">Installazione licenza\u2026</string>
+    <string name="install_success_firmware">Firmware %1$s installato con successo.</string>
+    <string name="install_failed_firmware">Installazione firmware fallita.</string>
+    <string name="install_success_package">Package installato con successo.</string>
+    <string name="install_failed_package">Installazione package fallita.</string>
+    <string name="install_success_archive">Archivio installato con successo.</string>
+    <string name="install_failed_archive">Installazione archivio fallita.</string>
+    <string name="install_success_archive_batch">%1$d archivo(i) installati con successo.</string>
+    <string name="install_partial_archive_batch">Installazione archivio completata. %1$d riusciti, %2$d falliti.</string>
+    <string name="install_failed_archive_batch">Installazione archivio(i) fallita per %1$d file.</string>
+    <string name="install_success_license">Licenza installata con successo.</string>
+    <string name="install_failed_license">Installazione licenza fallita.</string>
+    <string name="install_failed_license_zrif">Impossibile creare la licenza dalla chiave zRIF.</string>
+    <string name="install_error_archive_folder_empty">La cartella selezionata non contiene archivi .zip o .vpk.</string>
+    <string name="install_error_read_license">Impossibile leggere il file di licenza.</string>
+    <string name="install_error_pkg_path_lost">Errore interno: percorso PKG perso.</string>
+    <string name="install_error_generic">Errore: %1$s</string>
+    <!-- Filter / sort sheet -->
+    <string name="filter_title">Filtri &amp; vista</string>
+    <string name="filter_section_sort">Ordina per</string>
+    <string name="filter_section_view">Modalità di visualizzazione</string>
+    <string name="filter_view_list">Lista</string>
+    <string name="filter_view_grid">Griglia</string>
+    <string name="filter_cd_open">Filtro</string>
+    <!-- Settings screen — general -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_cd_open">Apri impostazioni</string>
+    <string name="settings_custom_config_label">Impostazioni - %1$s</string>
+    <string name="settings_custom_config_banner">Configurazione personalizzata in uso per questa app</string>
+    <string name="settings_delete_custom_config">Elimina configurazione personalizzata</string>
+    <string name="settings_clear_all_custom_configs">Elimina tutte le configurazioni personalizzate</string>
+    <string name="settings_confirm_delete_custom_config_title">Eliminare configurazione personalizzata?</string>
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

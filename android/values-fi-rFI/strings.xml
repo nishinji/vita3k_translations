@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <!-- Common actions -->
+    <string name="action_cancel">Peruuta</string>
+    <string name="action_delete">Poista</string>
+    <string name="action_yes">Kyllä</string>
+    <string name="action_no">Ei</string>
+    <string name="action_back">Takaisin</string>
+    <string name="action_install">Asenna</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Tuntematon</string>
+    <string name="compat_nothing">Ei mitään</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Poista</string>
+    <string name="action_group_other">Toinen</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Ohjelma</string>
+    <string name="app_action_save_data">Tallenna</string>
+    <string name="app_action_patch">Päivitys</string>
+    <string name="app_action_license">Lisenssi</string>
+    <string name="app_action_export_textures">Vie tekstuurit</string>
+    <string name="app_action_import_textures">Tuo Tekstuurit</string>
+    <string name="app_action_reset_last_played">Nollaa viimeksi pelatut</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_cd_install">Asenna</string>
+    <string name="apps_list_cd_exit_selection">Poistu valinnasta</string>
+    <string name="apps_list_cd_select_all">Valitse kaikki</string>
+    <string name="apps_list_cd_delete_selected">Poista valitut</string>
+    <string name="apps_list_cd_search">Etsi</string>
+    <string name="apps_list_cd_sort">Järjestä</string>
+    <string name="apps_list_cd_toggle_view">Vaihda näkymää</string>
+    <string name="apps_list_cd_refresh">Päivitä</string>
+    <string name="apps_list_cd_more_options">Lisää vaihtoehtoja/asetuksia</string>
+    <string name="apps_list_cd_close_search">Sulje etsintä</string>
+    <string name="apps_list_cd_selected">Valittu</string>
+    <string name="apps_list_menu_users">Käyttäjähallinta</string>
+    <string name="apps_list_menu_check_updates">Tarkista päivitykset</string>
+    <string name="apps_list_sort_last_played">Viimeksi pelattu</string>
+    <string name="apps_list_sort_compatibility">Yhteensopivuus</string>
+    <string name="apps_list_empty_firmware_body">Asenna puuttuvat PS Vita ohjelmistokomponentit jotta ohjelamt/pelit voivat toimia oikein.</string>
+    <!-- App actions menu -->
+    <!-- User management -->
+    <string name="user_management_switch_user">Valitse käyttäjä</string>
+    <string name="user_management_delete_user">Poista käyttäjä</string>
+    <string name="user_management_delete_title">Poista käyttäjä</string>
+    <string name="user_management_delete_message">Oletko varma että haluat poistaa käyttäjän \"%1$s\"?\n\n kaikki käyttäjätiedot tiedot menetetään.</string>
+    <string name="user_management_empty_message">Luo käyttäjä pystyäksesi tallentamaan peleissä sekä näkemään pelihistoriasi.</string>
+    <string name="user_management_created_success">Luotu käyttäjä %1$s.</string>
+    <string name="user_management_selected_success">Valittu käyttäjä %1$s.</string>
+    <string name="user_management_deleted_success">Poistettu käyttäjä %1$s.</string>
+    <string name="user_management_create_failed">Käyttäjän luonti epäonnistui.</string>
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <string name="confirm_delete_message">Tämä poistaa pysyvästi %1$s tälle sovellukselle. Tätä toimintoa ei voi kumota.</string>
+    <string name="confirm_reset_playtime_title">Nollaa peliaika</string>
+    <string name="confirm_reset_playtime_message">Oletko varma, että haluat nollata peliajan %1$s?</string>
+    <string name="confirm_reset_playtime_this_app">tämä sovellus</string>
+    <!-- Action progress / result -->
+    <string name="action_deleting">Poistetaan %1$s\u2026</string>
+    <string name="action_done">Valmis</string>
+    <string name="action_reset">Nollaa</string>
+    <string name="batch_delete_partial">Poistettu %1$d / %2$d sovelluksista.</string>
+    <!-- App info sheet -->
+    <string name="app_info_cd_close">Sulje</string>
+    <string name="app_info_field_serial">Sarjanumero</string>
+    <string name="app_info_field_install_size">Koko asennettuna</string>
+    <string name="app_info_size_unknown">Tuntematon</string>
+    <string name="app_info_playtime_never">Ei pelattu</string>
+    <string name="app_info_last_played_never">Ei koskaan</string>
+    <!-- About sheet -->
+    <string name="about_build">Koontiversio: %1$s</string>
+    <!-- Updates -->
+    <string name="updates_check_title">Tarkista päivitykset</string>
+    <string name="updates_check_progress">Tarkistetaan päivityksiä…</string>
+    <string name="updates_check_in_progress">Päivitystarkistus on jo käynnissä.</string>
+    <string name="updates_available_title">Päivitys saatavilla</string>
+    <string name="updates_official_available_title">Virallinen versio saatavilla</string>
+    <string name="updates_latest_build">Uusin versio</string>
+    <string name="updates_open_download_page">Avaa Lataussivu</string>
+    <string name="updates_summary_available">Uudempi Vita3K versio on saatavilla.\n\nNykyinen versio: %1$s\nViimeisin versio: %2$s</string>
+    <string name="updates_summary_available_with_date">Uudempi Vita3K versio on saatavilla.\n\nNykyinen versio: %1$s\nViimeisin versio: %2$s\nJulkaistu: %3$s</string>
+    <string name="updates_summary_custom_build">Käytössäsi on tällä hetkellä ei-virallinen tai PR-versio.\n\nJos päivität, vaihdat uusimpaan viralliseen versioon etkä enää ole tässä mukautetussa tai PR-versiossa.\n\nViimeisimmät viralliset versiot: %1$s</string>
+    <!-- Initial setup -->
+    <string name="initial_setup_firmware_body">Aloittaaksesi asenna PS Vita firmware -tiedostot alta.</string>
+    <string name="initial_setup_download">Lataa</string>
+    <string name="initial_setup_install_pup">Asenna</string>
+    <!-- In-game pause menu -->
+    <string name="emulation_custom_config_inactive">Tämä peli käyttää globaaleja/yleisiä asetuksia.</string>
+    <string name="emulation_create_config_short">Luo</string>
+    <string name="emulation_save_config_short">Tallenna</string>
+    <string name="emulation_reset_config_short">Nollaa</string>
+    <string name="emulation_open_settings_short">Kaikki asetukset</string>
+    <string name="emulation_settings_saved">Asetukset tallennettu.</string>
+    <string name="emulation_controls_done">Valmis</string>
+    <string name="emulation_controls_reset_layout">Nollaa asettelu</string>
+    <string name="emulation_runtime_note">Jotkut asetukset tulevat voimaan pelin uudelleenkäynnistyksen jälkeen.</string>
+    <string name="settings_restart_required_title">Uudelleenkäynnistys vaaditaan</string>
+    <string name="settings_restart_required_summary">Jotkin muutokset vaativat sovelluksen uudelleenkäynnistyksen, jotta ne tulevat täysin voimaan.</string>
+    <string name="settings_restart_required_message">Nämä muutetut asetukset tulevat voimaan uudelleenkäynnistyksen jälkeen:\n- %1$s</string>
+    <string name="settings_restart_app">Käynnistä sovellus uudelleen</string>
+    <string name="settings_restart_later">Käynnistä uudelleen myöhemmin</string>
+    <string name="settings_restart_in_progress_title">Käynnistetään sovellusta uudelleen</string>
+    <string name="settings_restart_in_progress_message">Odota kunnes Vita3K käynnistää pelin uudelleen.</string>
+    <string name="settings_restart_game">Käynnistä peli uudelleen</string>
+    <string name="settings_continue_playing">Jatka pelaamista</string>
+    <string name="emulation_ime_placeholder">Aloita kirjoittaminen…</string>
+    <!-- Install bottom sheet -->
+    <string name="install_sheet_title">Asenna Sisältö</string>
+    <string name="install_firmware_title">Laiteohjelmisto (PUP)</string>
+    <string name="install_firmware_desc">Asenna PS Vita -laiteohjelmisto</string>
+    <string name="install_pkg_title">Paketti (PKG)</string>
+    <string name="install_pkg_desc">Asenna .pkg- tai DLC lisäosa</string>
+    <string name="install_archive_desc">Asenna .zip tai .vpk tiedostosta</string>
+    <string name="install_license_title">Lisenssi</string>
+    <string name="install_license_desc">Asenna .rif tai .bin -lisenssitiedosto</string>
+    <string name="install_progress_title">Asennetaan</string>
+    <string name="install_result_success_title">Asennus Onnistui</string>
+    <string name="install_result_partial_title">Asennus valmis</string>
+    <string name="install_result_failed_title">Asennus epäonnistui</string>
+    <string name="install_notification_channel_name">Asennuksen edistyminen</string>
+    <string name="install_notification_channel_desc">Pitää sisällön asennuksen käynnissä silloinkin kun Vita3K on taustalla.</string>
+    <string name="install_archive_source_title">Asenna Arkisto</string>
+    <string name="install_archive_source_message">Valitse yksi arkisto tai kansio, joka sisältää useita .zip ja .vpk arkistoja.</string>
+    <string name="install_archive_source_file">Valitse arkistotiedosto</string>
+    <string name="install_archive_source_folder">Valitse arkistokansio</string>
+    <string name="install_license_source_title">Asenna Lisenssi</string>
+    <string name="install_license_source_message">Valitse lisenssitiedosto tai syötä zRIF avain manuaalisesti.</string>
+    <string name="install_delete_firmware_file">Poista firmware-tiedosto asennuksen jälkeen</string>
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

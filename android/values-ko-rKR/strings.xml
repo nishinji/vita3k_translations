@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">확인</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_delete">삭제</string>
+    <string name="action_yes">예</string>
+    <string name="action_no">아니요</string>
+    <string name="action_back">뒤로</string>
+    <string name="action_install">설치</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">알 수 없음</string>
+    <string name="compat_nothing">작동 안 함</string>
+    <string name="compat_bootable">부팅 가능</string>
+    <string name="compat_intro">인트로</string>
+    <string name="compat_menu">메뉴</string>
+    <string name="compat_ingame_less">인게임−</string>
+    <string name="compat_ingame_more">인게임+</string>
+    <string name="compat_playable">플레이 가능</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">삭제</string>
+    <string name="action_group_other">기타</string>
+    <!-- App action labels -->
+    <string name="app_action_application">애플리케이션</string>
+    <string name="app_action_save_data">세이브 데이터</string>
+    <string name="app_action_patch">패치</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_license">라이센스</string>
+    <string name="app_action_shader_cache">셰이더 캐시</string>
+    <string name="app_action_shader_log">셰이더 로그</string>
+    <string name="app_action_export_textures">텍스처 내보내기</string>
+    <string name="app_action_import_textures">텍스처 불러오기</string>
+    <string name="app_action_reset_last_played">마지막 플레이 초기화</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <plurals name="apps_list_n_selected">
+        <item quantity="other">%1$d 항목 선택됨</item>
+    </plurals>
+    <string name="apps_list_cd_install">설치</string>
+    <string name="apps_list_cd_exit_selection">선택 메뉴 나가기</string>
+    <string name="apps_list_cd_select_all">모두 선택</string>
+    <string name="apps_list_cd_delete_selected">선택항목 삭제</string>
+    <string name="apps_list_cd_search">검색</string>
+    <string name="apps_list_cd_sort">정렬</string>
+    <string name="apps_list_cd_toggle_view">보기 전환</string>
+    <string name="apps_list_cd_refresh">새로고침</string>
+    <string name="apps_list_cd_more_options">옵션 더 보기</string>
+    <string name="apps_list_cd_close_search">검색 닫기</string>
+    <string name="apps_list_cd_selected">선택됨</string>
+    <string name="apps_list_menu_users">사용자 관리</string>
+    <string name="apps_list_menu_welcome">시작 화면</string>
+    <string name="apps_list_menu_check_updates">업데이트 확인</string>
+    <string name="apps_list_menu_about">정보</string>
+    <string name="apps_list_search_placeholder">앱 검색\u2026</string>
+    <string name="apps_list_sort_title">제목</string>
+    <string name="apps_list_sort_last_played">최근 플레이 순</string>
+    <string name="apps_list_sort_compatibility">호환성</string>
+    <string name="apps_list_custom_config_badge">맞춤 설정</string>
+    <string name="apps_list_empty_search">\'%1$s\'와 일치하는 앱이 없습니다</string>
+    <string name="apps_list_empty_missing_firmware">펌웨어 구성 요소가 없습니다: %1$s</string>
+    <string name="apps_list_empty_firmware_title">펌웨어 필요</string>
+    <string name="apps_list_empty_firmware_body">앱이 정상적으로 작동할 수 있도록 PS Vita 펌웨어 구성 요소를 설치하십시오.</string>
+    <string name="apps_list_empty_firmware_missing_list_title">구성 요소 없음</string>
+    <string name="apps_list_empty_no_firmware">설치된 펌웨어 없음</string>
+    <string name="apps_list_empty_missing_main_firmware">주 펌웨어 설치되지 않음</string>
+    <string name="apps_list_empty_no_apps">설치된 앱 없음</string>
+    <string name="apps_list_install_firmware">펌웨어 설치</string>
+    <string name="apps_list_install_app">앱 설치</string>
+    <string name="apps_list_init_failed">에뮬레이터 초기화에 실패했습니다.</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">정보</string>
+    <string name="app_menu_delete">삭제\u2026</string>
+    <string name="app_menu_custom_config">맞춤 설정</string>
+    <!-- User management -->
+    <string name="user_management_title">사용자 관리</string>
+    <string name="user_management_refresh">사용자 새로고침</string>
+    <string name="user_management_active_user">현재 사용자</string>
+    <string name="user_management_active_none">선택된 사용자 없음</string>
+    <string name="user_management_active_badge">활성</string>
+    <string name="user_management_create_user">사용자 생성</string>
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <string name="confirm_reset_playtime_this_app">이 앱</string>
+    <!-- Action progress / result -->
+    <string name="action_done">완료</string>
+    <string name="action_reset">초기화</string>
+    <!-- App info sheet -->
+    <string name="app_info_title">앱 정보</string>
+    <!-- About sheet -->
+    <string name="about_build">빌드: %1$s</string>
+    <string name="about_revision">리비전: %1$s</string>
+    <!-- Updates -->
+    <!-- Initial setup -->
+    <!-- In-game pause menu -->
+    <string name="emulation_tab_controller">컨트롤러</string>
+    <string name="emulation_tab_settings">설정</string>
+    <string name="emulation_resume">이어서 하기</string>
+    <string name="emulation_pause">일시정지</string>
+    <string name="emulation_exit">나가기</string>
+    <string name="emulation_exit_title">게임에서 나갈까요?</string>
+    <string name="emulation_exit_message">저장되지 않은 진행 상황은 사라집니다.</string>
+    <string name="emulation_custom_config">맞춤 설정</string>
+    <string name="emulation_custom_config_active">이 게임은 저장된 맞춤 설정이 있습니다.</string>
+    <string name="emulation_custom_config_inactive">이 게임은 범용 설정을 사용하고 있습니다.</string>
+    <string name="emulation_create_config_short">만들기</string>
+    <string name="emulation_save_config_short">저장</string>
+    <string name="emulation_reset_config_short">초기화</string>
+    <string name="settings_restart_required_summary">일부 변경 사항을 적용하기 위해 앱을 재시작해야 합니다.</string>
+    <string name="settings_restart_required_message">다음 변경 사항은 재시작 후 적용됩니다:\n- %1$s</string>
+    <string name="settings_restart_app">앱 재시작</string>
+    <string name="settings_restart_later">나중에 다시 시작</string>
+    <string name="settings_restart_in_progress_title">앱 다시 시작 중</string>
+    <string name="settings_restart_in_progress_message">Vita3K가 게임을 재시작할 동안 기다려 주세요.</string>
+    <string name="settings_restart_game">게임 재시작</string>
+    <string name="settings_continue_playing">게임 계속하기</string>
+    <string name="emulation_ime_placeholder">글자를 입력하세요…</string>
+    <!-- Install bottom sheet -->
+    <string name="install_sheet_title">컨텐츠 설치</string>
+    <string name="install_firmware_title">펌웨어 (PUP)</string>
+    <string name="install_firmware_desc">PS Vita 펌웨어 설치</string>
+    <string name="install_pkg_title">패키지 (PKG)</string>
+    <string name="install_pkg_desc">.pkg 앱이나 DLC를 설치합니다</string>
+    <string name="install_archive_title">압축 파일 (ZIP/VPK)</string>
+    <string name="install_archive_desc">.zip이나 .vpk로 설치하기</string>
+    <string name="install_license_title">라이센스</string>
+    <string name="install_license_desc">.rif 또는 .bin 라이센스 파일 설치</string>
+    <string name="install_progress_title">설치 중</string>
+    <string name="install_result_success_title">설치 성공</string>
+    <string name="install_result_partial_title">설치 완료</string>
+    <string name="install_result_failed_title">설치 실패</string>
+    <string name="install_notification_channel_name">설치 진행도</string>
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <string name="settings_debug_diagnostics">진단</string>
+    <string name="settings_debug_logging_section">로깅</string>
+    <string name="settings_debug_graphics_section">그래픽</string>
+    <string name="settings_debug_misc_section">기타</string>
+    <string name="settings_controls_bind_dpad_up">방향키 위</string>
+    <string name="settings_controls_bind_dpad_down">방향키 아래</string>
+    <string name="settings_controls_bind_dpad_left">방향키 왼쪽</string>
+    <string name="settings_controls_bind_dpad_right">방향키 오른쪽</string>
+    <string name="settings_controls_bind_triangle">삼각형</string>
+    <string name="settings_controls_bind_circle">원</string>
+    <string name="settings_controls_bind_cross">가윗자</string>
+    <string name="settings_controls_bind_square">사각형</string>
+    <string name="settings_controls_bind_l1">L1</string>
+    <string name="settings_controls_bind_r1">R1</string>
+    <string name="settings_controls_bind_l2">L2</string>
+    <string name="settings_controls_bind_r2">R2</string>
+    <string name="settings_controls_bind_l3">L3</string>
+    <string name="settings_controls_bind_r3">R3</string>
+    <string name="settings_controls_bind_select">셀렉트</string>
+    <string name="settings_controls_bind_start">스타트</string>
+    <string name="settings_controls_bind_ps_button">PS 버튼</string>
+    <string name="settings_controls_bind_left_stick_up">왼쪽 스틱 위</string>
+    <string name="settings_controls_bind_left_stick_down">왼쪽 스틱 아래</string>
+    <string name="settings_controls_bind_left_stick_left">왼쪽 스틱 왼쪽</string>
+    <string name="settings_controls_bind_left_stick_right">왼쪽 스틱 오른쪽</string>
+    <string name="settings_controls_bind_right_stick_up">오른쪽 스틱 위</string>
+    <string name="settings_controls_bind_right_stick_down">오른쪽 스틱 아래</string>
+    <string name="settings_controls_bind_right_stick_left">오른쪽 스틱 왼쪽</string>
+    <string name="settings_controls_bind_right_stick_right">오른쪽 스틱 오른쪽</string>
+    <!-- Settings — Emulator tab -->
+    <string name="settings_emulator_general">일반</string>
+    <string name="settings_emulator_logging">로깅</string>
+    <string name="settings_emulator_display_overlay">화면과 오버레이</string>
+    <string name="settings_emulator_storage_capture">저장공간과 캡쳐</string>
+    <string name="settings_emulator_texture_cache">텍스쳐 캐시 활성화</string>
+    <string name="settings_emulator_ui_language">인터페이스 언어</string>
+    <string name="settings_emulator_share_log">vita3k.log 공유</string>
+    <string name="settings_emulator_pixel_perfect">전체 화면 HD 픽셀 퍼펙트</string>
+    <string name="settings_emulator_log_level">로그 수준</string>
+    <!-- Settings option values -->
+    <string name="settings_opt_trace">트레이스</string>
+    <string name="settings_opt_debug">디버그</string>
+    <string name="settings_opt_info">정보</string>
+    <string name="settings_opt_warning">경고</string>
+    <string name="settings_opt_error">오류</string>
+    <string name="settings_opt_critical">치명적</string>
+    <string name="settings_opt_off">끄기</string>
+    <string name="settings_opt_minimum">최소</string>
+    <string name="settings_opt_low">낮음</string>
+    <string name="settings_opt_medium">보통</string>
+    <string name="settings_opt_maximum">최대</string>
+    <string name="settings_opt_top_left">왼쪽 상단</string>
+    <string name="settings_opt_top_center">중앙 상단</string>
+    <string name="settings_opt_top_right">우측 상단</string>
+    <string name="settings_opt_bottom_left">좌측 하단</string>
+    <string name="settings_opt_bottom_center">중앙 하단</string>
+    <string name="settings_opt_bottom_right">우측 하단</string>
+    <string name="settings_opt_none">없음</string>
+    <string name="settings_opt_12h">12시간</string>
+    <string name="settings_opt_24h">24시간</string>
+    <string name="settings_opt_date_ymd">연도/달/날짜</string>
+    <string name="settings_opt_date_dmy">날짜/달/연도</string>
+    <string name="settings_opt_date_mdy">달/날짜/연도</string>
+    <!-- System language options -->
+    <string name="settings_lang_japanese">일본어</string>
+    <string name="settings_lang_english_us">영어 (미국)</string>
+    <string name="settings_lang_french">프랑스어</string>
+    <string name="settings_lang_spanish">스페인어</string>
+    <string name="settings_lang_german">독일어</string>
+    <string name="settings_lang_italian">이탈리아어</string>
+    <string name="settings_lang_dutch">네덜란드어</string>
+    <string name="settings_lang_portuguese_pt">포르투갈어 (포르투갈)</string>
+    <string name="settings_lang_russian">러시아어</string>
+    <string name="settings_lang_korean">한국어</string>
+    <string name="settings_lang_chinese_trad">중국어 (번체)</string>
+    <string name="settings_lang_chinese_simp">중국어 (간체)</string>
+    <string name="settings_lang_finnish">핀란드어</string>
+    <string name="settings_lang_swedish">스웨덴어</string>
+    <string name="settings_lang_danish">덴마크어</string>
+    <string name="settings_lang_norwegian">노르웨이어</string>
+    <string name="settings_lang_polish">폴란드어</string>
+    <string name="settings_lang_portuguese_br">포르투갈어 (브라질)</string>
+    <string name="settings_lang_english_gb">영어 (영국)</string>
+    <string name="settings_lang_turkish">튀르키예어</string>
+    <!-- IME language options -->
+    <string name="settings_ime_danish">덴마크어</string>
+    <string name="settings_ime_german">독일어</string>
+    <string name="settings_ime_english_us">영어 (미국)</string>
+    <string name="settings_ime_spanish">스페인어</string>
+    <string name="settings_ime_french">프랑스어</string>
+    <string name="settings_ime_italian">이탈리아어</string>
+    <string name="settings_ime_dutch">네덜란드어</string>
+    <string name="settings_ime_norwegian">노르웨이어</string>
+    <string name="settings_ime_polish">폴란드어</string>
+    <string name="settings_ime_portuguese_pt">포르투갈어 (포르투갈)</string>
+    <string name="settings_ime_russian">러시아어</string>
+    <string name="settings_ime_finnish">핀란드어</string>
+    <string name="settings_ime_swedish">스웨덴어</string>
+    <string name="settings_ime_japanese">일본어</string>
+    <string name="settings_ime_korean">한국어</string>
+    <string name="settings_ime_chinese_simp">중국어 간체</string>
+    <string name="settings_ime_chinese_trad">중국어 번체</string>
+    <string name="settings_ime_portuguese_br">포르투갈어 (브라질)</string>
+    <string name="settings_ime_english_gb">영어 (영국)</string>
+    <string name="settings_ime_turkish">튀르키예어</string>
+    <!-- Trophy viewer -->
+</resources>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">Okej</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_delete">Radera</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nej</string>
+    <string name="action_back">Tillbaka</string>
+    <string name="action_install">Installera</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Okänt</string>
+    <string name="compat_nothing">Ingenting</string>
+    <string name="compat_bootable">Bootbar</string>
+    <string name="compat_intro">Intro</string>
+    <string name="compat_menu">Meny</string>
+    <string name="compat_ingame_less">I spel-</string>
+    <string name="compat_ingame_more">I spel+</string>
+    <string name="compat_playable">Spelbart</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Radera</string>
+    <string name="action_group_other">Annat</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Applikation</string>
+    <string name="app_action_save_data">Spara Data</string>
+    <string name="app_action_patch">Patch</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_license">Licens</string>
+    <string name="app_action_shader_cache">Shader cache</string>
+    <string name="app_action_shader_log">Shader logg</string>
+    <string name="app_action_export_textures">Exporterar Texturer</string>
+    <string name="app_action_import_textures">Importerar Texturer</string>
+    <string name="app_action_reset_last_played">Återställ Senast Spelad</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <plurals name="apps_list_n_selected">
+        <item quantity="one">%1$d markerad</item>
+        <item quantity="other">%1$d markerad</item>
+    </plurals>
+    <string name="apps_list_cd_install">Installera</string>
+    <string name="apps_list_cd_exit_selection">Avmarkera</string>
+    <string name="apps_list_cd_select_all">Markera Alla</string>
+    <string name="apps_list_cd_delete_selected">Radera Valda</string>
+    <string name="apps_list_cd_search">Sök</string>
+    <string name="apps_list_cd_sort">Sortera</string>
+    <string name="apps_list_cd_toggle_view">Växla Vy</string>
+    <string name="apps_list_cd_refresh">Uppdatera</string>
+    <string name="apps_list_cd_more_options">Flera Inställningar</string>
+    <string name="apps_list_cd_close_search">Stäng Sök</string>
+    <string name="apps_list_cd_selected">Vald</string>
+    <string name="apps_list_menu_users">Användarhantering</string>
+    <string name="apps_list_menu_welcome">Välkomstskärm</string>
+    <string name="apps_list_menu_check_updates">Sök efter uppdateringar</string>
+    <string name="apps_list_menu_about">Om </string>
+    <string name="apps_list_search_placeholder">Sök Applikationer</string>
+    <string name="apps_list_sort_title">Titel</string>
+    <string name="apps_list_sort_last_played">Senast Spelat</string>
+    <string name="apps_list_sort_compatibility">Kompatibilitet</string>
+    <string name="apps_list_custom_config_badge">CC</string>
+    <string name="apps_list_empty_search">Inga appar matchar \"%1$s\"</string>
+    <string name="apps_list_empty_missing_firmware">Saknar systemmjukvarukomponenterna: %1$s</string>
+    <string name="apps_list_empty_firmware_title">Firmware krävs</string>
+    <string name="apps_list_empty_firmware_body">Installera den saknade PS Vita systemmjukvarukomponenterna för att få apparna att fungera korrekt.</string>
+    <string name="apps_list_empty_firmware_missing_list_title">Komponenter saknas</string>
+    <string name="apps_list_empty_no_firmware">Ingen systemmjukvara installerad</string>
+    <string name="apps_list_empty_missing_main_firmware">Huvudsystemmjukvara inte installerad</string>
+    <string name="apps_list_empty_no_apps">Inga appar installerade</string>
+    <string name="apps_list_install_firmware">Installera systemmjukvara</string>
+    <string name="apps_list_install_app">Installera appar</string>
+    <string name="apps_list_init_failed">Misslyckades med att initiera emulatorn</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">Information</string>
+    <string name="app_menu_delete">Radera</string>
+    <string name="app_menu_custom_config">Anpassad konfiguration</string>
+    <!-- User management -->
+    <string name="user_management_title">Användarhantering</string>
+    <string name="user_management_refresh">Uppdatera Användare</string>
+    <string name="user_management_active_user">Nuvarande användare</string>
+    <string name="user_management_active_none">Ingen användare vald</string>
+    <string name="user_management_active_badge">Aktiv</string>
+    <string name="user_management_create_user">Skapa användare</string>
+    <string name="user_management_create_prompt">Skapa en lokal Vita-användarprofil för sparfiler</string>
+    <string name="user_management_name_label">Användarnamn</string>
+    <string name="user_management_switch_user">Välj Användare</string>
+    <string name="user_management_delete_user">Radera Användare</string>
+    <string name="user_management_delete_title">Radera Användare</string>
+    <string name="user_management_delete_message">Är du säker på att du vill radera användaren \"%1$s\"?\n\nAll användardata kommer att gå förlorad.</string>
+    <string name="user_management_empty_title">Ingen användare hittad</string>
+    <string name="user_management_empty_message">Skapa en användare för att börja lagra sparfiler och spelhistorik</string>
+    <string name="user_management_created_success">Skapa användare %1$s.</string>
+    <string name="user_management_selected_success">Vald användare %1$s.</string>
+    <string name="user_management_deleted_success">Radera användare %1$s.</string>
+    <string name="user_management_create_failed">Misslyckades med att skapa användaren.</string>
+    <string name="user_management_select_failed">Misslyckades att ladda användaren.</string>
+    <string name="user_management_delete_failed">Misslyckades att radera användaren.</string>
+    <!-- Batch delete dialog -->
+    <plurals name="batch_delete_title">
+        <item quantity="one">Radera %1$d applikation</item>
+        <item quantity="other">Radera %1$d Applikationer</item>
+    </plurals>
+    <plurals name="batch_delete_message">
+        <item quantity="one">Är du säker att du vill radera %1$d vald applikation? \n\nDenna åtgärd kan inte ångras.</item>
+        <item quantity="other">Är du säker att du vill radera %1$d vald applikation? \n\nDenna åtgärd går ej att ångra.</item>
+    </plurals>
+    <!-- Action confirm dialog -->
+    <string name="confirm_delete_title">Radera %1$s</string>
+    <string name="confirm_delete_message">Detta kommer permanent radera %1$s från applikationen. Denna åtgärd går ej att ångra.</string>
+    <string name="confirm_reset_playtime_title">Återställ speltid</string>
+    <string name="confirm_reset_playtime_message">Är du säker att du vill återställa %1$ss speltid?</string>
+    <string name="confirm_reset_playtime_this_app">denna app</string>
+    <!-- Action progress / result -->
+    <string name="action_deleting">Tar bort %1$s\u2026</string>
+    <string name="action_applying">Färdigställer handling\u2026</string>
+    <string name="action_done">Klar</string>
+    <string name="action_reset">Återställ</string>
+    <plurals name="batch_delete_success">
+        <item quantity="one">Raderade %1$d applikation.</item>
+        <item quantity="other">Raderade %1$d applikationer.</item>
+    </plurals>
+    <string name="batch_delete_partial">Raderade %1$d av %2$d applikationer.</string>
+    <string name="action_deleted_success">%1$s raderade för %2$s</string>
+    <string name="action_deleted_failed">Misslyckades att radera %1$s för %2$s</string>
+    <!-- App info sheet -->
+    <string name="app_info_title">App Information</string>
+    <string name="app_info_cd_close">Stäng</string>
+    <string name="app_info_field_title">Titel</string>
+    <string name="app_info_field_serial">Serial</string>
+    <string name="app_info_field_app_version">App Version</string>
+    <string name="app_info_field_category">Kategori</string>
+    <string name="app_info_field_install_size">Installations storlek</string>
+    <string name="app_info_field_play_time">Speltid</string>
+    <string name="app_info_field_last_played">Senast spelad</string>
+    <string name="app_info_size_calculating">Kalkylerar\u2026</string>
+    <string name="app_info_size_unknown">Okänd</string>
+    <string name="app_info_size_kb">%1$d KB</string>
+    <string name="app_info_size_mb">%1$.1f MB</string>
+    <string name="app_info_size_gb">%1$.2f GB</string>
+    <string name="app_info_playtime_never">Aldrig spelat</string>
+    <string name="app_info_playtime_hm">%1$dt %2$dmin</string>
+    <string name="app_info_playtime_ms">%1$dmin %2$dsek</string>
+    <string name="app_info_playtime_s">%1$dsek</string>
+    <string name="app_info_last_played_never">Aldrig</string>
+    <!-- About sheet -->
+    <string name="about_build">Byggnad %1$s</string>
+    <string name="about_revision">Revision: %1$s</string>
+    <!-- Updates -->
+    <string name="updates_check_title">Kolla efter Uppdateringar</string>
+    <string name="updates_check_progress">Kollar efter uppdateringar…</string>
+    <string name="updates_check_in_progress">En uppdateringskontroll pågår redan. </string>
+    <string name="updates_available_title">Tillgängliga Uppdateringar</string>
+    <string name="updates_official_available_title">Officiella Byggnader Tillgängliga</string>
+    <string name="updates_latest_build">Senaste Byggnad</string>
+    <string name="updates_open_download_page">Öppna Nedladdnings Sidan</string>
+    <string name="updates_summary_available">En nyare byggnad finns tillgänglig.\n\nNuvarande version: %1$s\nSenaste version: %2$s</string>
+    <!-- Initial setup -->
+    <string name="initial_setup_welcome_title">Välkommen till Vita3K</string>
+    <string name="initial_setup_welcome_body">Vita3K är en öppen källkods Playstation Vita emulator skriven i C++ för Windows, Linux, macOS och Android. Emulatorn är under aktiv utveckling och därför att feedback och testare väldigt tacksamt.</string>
+    <string name="initial_setup_piracy_notice">Vita3K tolererar inte piratkopiering. Du måste dumpa dina egna spel.</string>
+    <string name="initial_setup_firmware_title">Installera systemmjukvara</string>
+    <string name="initial_setup_firmware_body">Starta med att installera PS Vita systemmjukvara filer under.</string>
+    <string name="initial_setup_preinstall_title">Förinstallera paket</string>
+    <string name="initial_setup_main_title">Huvudsystemmjukvara</string>
+    <string name="initial_setup_font_title">Font paket</string>
+    <string name="initial_setup_download">Ladda Ner</string>
+    <string name="initial_setup_install_pup">Installera</string>
+    <string name="initial_setup_select_firmware_language">Välj systemmjukvaruspråk</string>
+    <string name="initial_setup_status_installed">Installerad</string>
+    <!-- In-game pause menu -->
+    <string name="emulation_menu_close">Stäng paus meny</string>
+    <string name="emulation_tab_session">Session</string>
+    <string name="emulation_tab_controls">Kontroller</string>
+    <string name="emulation_tab_controller">Kontroller</string>
+    <!-- Install bottom sheet -->
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

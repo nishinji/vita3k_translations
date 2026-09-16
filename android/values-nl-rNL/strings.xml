@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">Oké</string>
+    <string name="action_cancel">Annuleer</string>
+    <string name="action_delete">Verwijder</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nee</string>
+    <string name="action_back">Terug</string>
+    <string name="action_install">Installeer</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Onbekend</string>
+    <string name="compat_nothing">Niks</string>
+    <string name="compat_bootable">Opstart baar</string>
+    <string name="compat_intro">Intro</string>
+    <string name="compat_menu">Menu</string>
+    <string name="compat_ingame_less">In het spel -</string>
+    <string name="compat_ingame_more">In het spel +</string>
+    <string name="compat_playable">Speelbaar</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Verwijder</string>
+    <string name="action_group_other">Anders</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Applicatie</string>
+    <string name="app_action_license">Licentie</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_cd_install">Installeer</string>
+    <string name="apps_list_cd_exit_selection">Selectie afsluiten</string>
+    <string name="apps_list_cd_select_all">Alles selecteren</string>
+    <string name="apps_list_cd_delete_selected">Verwijder selectie</string>
+    <string name="apps_list_cd_search">Zoek</string>
+    <string name="apps_list_cd_sort">Sorteer</string>
+    <string name="apps_list_cd_toggle_view">Weergave wisselen</string>
+    <string name="apps_list_cd_refresh">Vernieuw</string>
+    <string name="apps_list_cd_more_options">Meer opties</string>
+    <string name="apps_list_cd_close_search">Zoekfunctie sluiten</string>
+    <string name="apps_list_cd_selected">Geselecteerd</string>
+    <string name="apps_list_menu_welcome">Welkomstscherm</string>
+    <string name="apps_list_menu_check_updates">Controleer op updates</string>
+    <string name="apps_list_menu_about">Over</string>
+    <string name="apps_list_sort_title">Titel</string>
+    <string name="apps_list_sort_last_played">Laatst gespeeld</string>
+    <string name="apps_list_sort_compatibility">Compatibiliteit</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">Informatie</string>
+    <string name="app_menu_delete">Verwijder</string>
+    <!-- User management -->
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <!-- Action progress / result -->
+    <!-- App info sheet -->
+    <!-- About sheet -->
+    <!-- Updates -->
+    <!-- Initial setup -->
+    <!-- In-game pause menu -->
+    <!-- Install bottom sheet -->
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

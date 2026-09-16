@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_back">Back</string>
+    <string name="action_install">Install</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Unknown</string>
+    <string name="compat_nothing">Nothing</string>
+    <string name="compat_bootable">Bootable</string>
+    <string name="compat_intro">Intro</string>
+    <string name="compat_menu">Menu</string>
+    <string name="compat_ingame_less">Ingame-</string>
+    <string name="compat_ingame_more">Ingame+</string>
+    <string name="compat_playable">Playable</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Delete</string>
+    <string name="action_group_other">Other</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Application</string>
+    <string name="app_action_save_data">Save Data</string>
+    <string name="app_action_patch">Patch</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_license">Licence</string>
+    <string name="app_action_shader_cache">Shader Cache</string>
+    <string name="app_action_shader_log">Shader Log</string>
+    <string name="app_action_export_textures">Export Textures</string>
+    <string name="app_action_import_textures">Import Textures</string>
+    <string name="app_action_reset_last_played">Reset Last Played</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <plurals name="apps_list_n_selected">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <string name="apps_list_cd_install">Install</string>
+    <string name="apps_list_cd_exit_selection">Exit selection</string>
+    <string name="apps_list_cd_select_all">Select all</string>
+    <string name="apps_list_cd_delete_selected">Delete selected</string>
+    <string name="apps_list_cd_search">Search</string>
+    <string name="apps_list_cd_sort">Sort</string>
+    <string name="apps_list_cd_toggle_view">Toggle view</string>
+    <string name="apps_list_cd_refresh">Refresh</string>
+    <string name="apps_list_cd_more_options">More options</string>
+    <string name="apps_list_cd_close_search">Close search</string>
+    <string name="apps_list_cd_selected">Selected</string>
+    <string name="apps_list_menu_users">User Management</string>
+    <string name="apps_list_menu_welcome">Welcome Screen</string>
+    <string name="apps_list_menu_check_updates">Check for Updates</string>
+    <string name="apps_list_menu_about">About</string>
+    <string name="apps_list_search_placeholder">Search apps\u2026</string>
+    <string name="apps_list_sort_title">Title</string>
+    <string name="apps_list_sort_last_played">Last Played</string>
+    <string name="apps_list_sort_compatibility">Compatibility</string>
+    <string name="apps_list_custom_config_badge">CC</string>
+    <string name="apps_list_empty_search">No apps match \"%1$s\"</string>
+    <string name="apps_list_empty_missing_firmware">Missing firmware components: %1$s</string>
+    <string name="apps_list_empty_firmware_title">Firmware Required</string>
+    <string name="apps_list_empty_firmware_body">Install the missing PS Vita firmware components so that apps can function correctly.</string>
+    <string name="apps_list_empty_firmware_missing_list_title">Missing components</string>
+    <string name="apps_list_empty_no_firmware">No firmware installed</string>
+    <string name="apps_list_empty_missing_main_firmware">Main firmware is not installed</string>
+    <string name="apps_list_empty_no_apps">No apps installed</string>
+    <string name="apps_list_install_firmware">Install Firmware</string>
+    <string name="apps_list_install_app">Install App</string>
+    <string name="apps_list_init_failed">Failed to initialise emulator.</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">Information</string>
+    <string name="app_menu_delete">Delete\u2026</string>
+    <string name="app_menu_custom_config">Custom Config</string>
+    <!-- User management -->
+    <string name="user_management_title">User Management</string>
+    <string name="user_management_refresh">Refresh users</string>
+    <string name="user_management_active_user">Current user</string>
+    <string name="user_management_active_none">No user selected</string>
+    <string name="user_management_active_badge">Active</string>
+    <string name="user_management_create_user">Create User</string>
+    <string name="user_management_create_prompt">Create a local Vita user profile for saves, play history and app data.</string>
+    <string name="user_management_name_label">Username</string>
+    <string name="user_management_switch_user">Select User</string>
+    <string name="user_management_delete_user">Delete User</string>
+    <string name="user_management_delete_title">Delete User</string>
+    <string name="user_management_delete_message">Are you sure you want to delete user \"%1$s\"?\n\nAll user data will be lost.</string>
+    <string name="user_management_empty_title">No users found</string>
+    <string name="user_management_empty_message">Create a user to start storing saves and play history.</string>
+    <string name="user_management_created_success">Created user %1$s.</string>
+    <string name="user_management_selected_success">Selected user %1$s.</string>
+    <string name="user_management_deleted_success">Deleted user %1$s.</string>
+    <string name="user_management_create_failed">Failed to create user.</string>
+    <string name="user_management_select_failed">Failed to select user.</string>
+    <string name="user_management_delete_failed">Failed to delete user.</string>
+    <!-- Batch delete dialog -->
+    <plurals name="batch_delete_title">
+        <item quantity="one">Delete %1$d Application</item>
+        <item quantity="other">Delete %1$d Applications</item>
+    </plurals>
+    <plurals name="batch_delete_message">
+        <item quantity="one">Are you sure you want to delete %1$d selected application?\n\nThis action cannot be undone.</item>
+        <item quantity="other">Are you sure you want to delete %1$d selected applications?\n\nThis action cannot be undone.</item>
+    </plurals>
+    <!-- Action confirm dialog -->
+    <string name="confirm_delete_title">Delete %1$s</string>
+    <string name="confirm_reset_playtime_title">Reset Play Time</string>
+    <string name="confirm_reset_playtime_this_app">this app</string>
+    <!-- Action progress / result -->
+    <string name="action_deleting">Deleting %1$s\u2026</string>
+    <string name="action_applying">Applying action\u2026</string>
+    <string name="action_done">Done</string>
+    <string name="action_reset">Reset</string>
+    <!-- App info sheet -->
+    <string name="app_info_title">App Information</string>
+    <string name="app_info_cd_close">Close</string>
+    <string name="app_info_field_title">Title</string>
+    <string name="app_info_field_serial">Serial</string>
+    <string name="app_info_field_app_version">App Version</string>
+    <string name="app_info_field_category">Category</string>
+    <string name="app_info_field_install_size">Install Size</string>
+    <string name="app_info_field_play_time">Play Time</string>
+    <string name="app_info_field_last_played">Last Played</string>
+    <string name="app_info_size_calculating">Calculating\u2026</string>
+    <string name="app_info_size_unknown">Unknown</string>
+    <string name="app_info_size_kb">%1$d KB</string>
+    <string name="app_info_size_mb">%1$.1f MB</string>
+    <string name="app_info_size_gb">%1$.2f GB</string>
+    <string name="app_info_playtime_never">Never played</string>
+    <string name="app_info_playtime_hm">%1$dh %2$dm</string>
+    <string name="app_info_playtime_ms">%1$dm %2$ds</string>
+    <string name="app_info_playtime_s">%1$ds</string>
+    <string name="app_info_last_played_never">Never</string>
+    <!-- About sheet -->
+    <string name="about_build">Build: %1$s</string>
+    <string name="about_revision">Revision: %1$s</string>
+    <string name="about_legal_notice">Vita3K does not condone piracy. You must dump your own games.</string>
+    <!-- Updates -->
+    <string name="updates_check_title">Check for Updates</string>
+    <string name="updates_check_progress">Checking for updates…</string>
+    <string name="updates_check_in_progress">An update check is already running.</string>
+    <string name="updates_available_title">Update Available</string>
+    <string name="updates_official_available_title">Official Build Available</string>
+    <string name="updates_latest_build">Latest build</string>
+    <string name="updates_open_download_page">Open Download Page</string>
+    <string name="updates_summary_available">A newer Vita3K build is available.\n\nCurrent version: %1$s\nLatest version: %2$s</string>
+    <string name="updates_summary_available_with_date">A newer Vita3K build is available.\n\nCurrent version: %1$s\nLatest version: %2$s\nPublished: %3$s</string>
+    <string name="updates_summary_custom_build">You are currently running a non-official or PR build.\n\nIf you update, you will switch to the latest official build and will no longer be on this custom or PR build.\n\nLatest official build: %1$s</string>
+    <string name="updates_summary_custom_build_with_date">You are currently running a non-official or PR build.\n\nIf you update, you will switch to the latest official build and will no longer be on this custom or PR build.\n\nLatest official build: %1$s\nPublished: %2$s</string>
+    <!-- Initial setup -->
+    <string name="initial_setup_welcome_title">Welcome to Vita3K</string>
+    <string name="initial_setup_welcome_body">Vita3K is an open-source PlayStation Vita emulator written in C++ for Windows, Linux, macOS and Android. The emulator is still under active development, so feedback and testing are greatly appreciated.</string>
+    <string name="initial_setup_piracy_notice">Vita3K does not condone piracy. You must dump your own games.</string>
+    <string name="initial_setup_firmware_title">Install Firmware</string>
+    <string name="initial_setup_firmware_body">To get started, install the PS Vita firmware files below.</string>
+    <string name="initial_setup_preinstall_title">Pre-Install Package</string>
+    <string name="initial_setup_main_title">Main Firmware</string>
+    <string name="initial_setup_font_title">Font Package</string>
+    <string name="initial_setup_download">Download</string>
+    <string name="initial_setup_install_pup">Install</string>
+    <string name="initial_setup_select_firmware_language">Select Firmware Language</string>
+    <string name="initial_setup_status_installed">Installed</string>
+    <string name="initial_setup_status_missing">Missing</string>
+    <string name="initial_setup_status_optional">Optional</string>
+    <string name="initial_setup_back">Back</string>
+    <string name="initial_setup_next">Next</string>
+    <string name="initial_setup_skip">Skip for now</string>
+    <string name="initial_setup_open_library">Open Library</string>
+    <!-- In-game pause menu -->
+    <string name="emulation_menu_title">Paused</string>
+    <string name="emulation_menu_subtitle">In-game session</string>
+    <string name="emulation_menu_close">Close pause menu</string>
+    <string name="emulation_tab_session">Session</string>
+    <string name="emulation_tab_controls">Controls</string>
+    <string name="emulation_tab_controller">Controller</string>
+    <string name="emulation_tab_settings">Settings</string>
+    <string name="emulation_resume">Resume</string>
+    <string name="emulation_pause">Pause</string>
+    <string name="emulation_exit">Exit</string>
+    <string name="emulation_exit_title">Exit Game?</string>
+    <string name="emulation_exit_message">Any unsaved in-game progress will be lost.</string>
+    <string name="emulation_custom_config">Custom Config</string>
+    <string name="emulation_custom_config_active">This game has a saved custom config.</string>
+    <string name="emulation_custom_config_inactive">This game is using global settings.</string>
+    <string name="emulation_create_config_short">Create</string>
+    <string name="emulation_save_config_short">Save</string>
+    <string name="emulation_reset_config_short">Reset</string>
+    <string name="emulation_open_settings_short">All Settings</string>
+    <string name="emulation_settings_saved">Settings saved.</string>
+    <string name="emulation_controls_show">Show Controls</string>
+    <string name="emulation_controls_l2r2">Show L2 / R2</string>
+    <string name="emulation_controls_l3r3">Show L3 / R3</string>
+    <string name="emulation_controls_touch_switch">Touchscreen Switch</string>
+    <string name="emulation_controls_hide_toggle">Hide Toggle</string>
+    <string name="emulation_controls_scale">Overlay Scale</string>
+    <string name="emulation_controls_opacity">Overlay Opacity</string>
+    <string name="emulation_controls_edit">Edit Layout</string>
+    <string name="emulation_controls_done">Done</string>
+    <string name="emulation_controls_reset_layout">Reset Layout</string>
+    <string name="emulation_controls_editor_title">Edit Controls</string>
+    <string name="emulation_runtime_note">Some settings take effect after restarting the game.</string>
+    <string name="settings_restart_required_title">Restart Required</string>
+    <string name="settings_restart_required_summary">Some changes need an app restart to fully take effect.</string>
+    <string name="settings_restart_required_message">These changed settings will apply after restart:\n- %1$s</string>
+    <string name="settings_restart_app">Restart App</string>
+    <string name="settings_restart_later">Restart Later</string>
+    <string name="settings_restart_in_progress_title">Restarting App</string>
+    <string name="settings_restart_in_progress_message">Please wait while Vita3K restarts the game.</string>
+    <string name="settings_restart_game">Restart Game</string>
+    <string name="settings_continue_playing">Continue Playing</string>
+    <string name="emulation_ime_placeholder">Start typing…</string>
+    <!-- Install bottom sheet -->
+    <string name="install_sheet_title">Install Content</string>
+    <string name="install_firmware_title">Firmware (PUP)</string>
+    <string name="install_firmware_desc">Install PS Vita firmware</string>
+    <string name="install_pkg_title">Package (PKG)</string>
+    <string name="install_pkg_desc">Install a .pkg app or DLC</string>
+    <string name="install_archive_title">Archive (ZIP/VPK)</string>
+    <string name="install_archive_desc">Install from .zip or .vpk file</string>
+    <string name="install_license_title">Licence</string>
+    <string name="install_license_desc">Install a .rif or .bin licence file</string>
+    <string name="install_progress_title">Installing</string>
+    <string name="install_result_success_title">Install Successful</string>
+    <string name="install_result_partial_title">Install Complete</string>
+    <string name="install_result_failed_title">Install Failed</string>
+    <string name="install_notification_channel_name">Install progress</string>
+    <string name="install_archive_source_title">Install Archive</string>
+    <string name="install_archive_source_file">Select archive file</string>
+    <string name="install_archive_source_folder">Select archive folder</string>
+    <string name="install_license_source_title">Install Licence</string>
+    <string name="install_license_source_message">Choose a licence file or enter a zRIF key manually.</string>
+    <string name="install_delete_firmware_file">Delete firmware file after install</string>
+    <string name="install_delete_package_file">Delete package file after install</string>
+    <string name="install_delete_archive_files">Delete archive files after install</string>
+    <string name="install_delete_license_file">Delete licence file after install</string>
+    <!-- zRIF / license dialogs -->
+    <string name="zrif_dialog_title">Enter zRIF Key</string>
+    <string name="zrif_dialog_hint">zRIF</string>
+    <string name="license_required_title">Licence Required</string>
+    <string name="license_required_message">No licence was found automatically.\nHow would you like to provide it?</string>
+    <string name="license_select_file">Select .bin / .rif file</string>
+    <string name="license_enter_zrif">Enter zRIF key manually</string>
+    <!-- Install status messages (ViewModel) -->
+    <string name="install_status_firmware">Installing firmware\u2026</string>
+    <string name="install_status_preparing">Preparing\u2026</string>
+    <string name="install_status_package">Installing package\u2026</string>
+    <string name="install_status_license">Installing licence\u2026</string>
+    <string name="install_success_license">Licence installed successfully.</string>
+    <string name="install_failed_license">Licence installation failed.</string>
+    <string name="install_failed_license_zrif">Failed to create licence from zRIF key.</string>
+    <string name="install_error_read_license">Failed to read licence file.</string>
+    <!-- Filter / sort sheet -->
+    <string name="filter_section_sort">Sort By</string>
+    <string name="filter_section_view">View Mode</string>
+    <string name="filter_view_list">List</string>
+    <string name="filter_view_grid">Grid</string>
+    <string name="filter_cd_open">Filter</string>
+    <!-- Settings screen — general -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_cd_open">Open Settings</string>
+    <string name="settings_custom_config_label">Settings - %1$s</string>
+    <string name="settings_custom_config_banner">Using custom config for this app</string>
+    <string name="settings_delete_custom_config">Delete Custom Config</string>
+    <string name="settings_clear_all_custom_configs">Clear All Custom Configs</string>
+    <string name="settings_confirm_delete_custom_config_title">Clear All Custom Configs</string>
+    <string name="settings_confirm_clear_all_title">Clear All Custom Configs?</string>
+    <string name="settings_confirm_clear_all_message">This will remove all per-app custom configuration files. This action cannot be undone.</string>
+    <string name="settings_clear_all_custom_configs_success">Cleared %1$d custom configs.</string>
+    <string name="settings_unsaved_title">Unsaved Changes</string>
+    <string name="settings_unsaved_message">You have unsaved changes. What would you like to do?</string>
+    <string name="settings_discard">Discard</string>
+    <string name="settings_reset_defaults">Reset to Defaults</string>
+    <string name="settings_confirm_reset_defaults_title">Reset Settings to Defaults?</string>
+    <string name="settings_confirm_reset_defaults_message">This resets the current settings form to the emulator defaults. Storage folder changes are not included until you change them separately.</string>
+    <string name="settings_reset_defaults_done">Settings reset to defaults.</string>
+    <string name="settings_save_and_exit">Save and Exit</string>
+    <string name="settings_save_cd">Save settings</string>
+    <string name="settings_more_options">More options</string>
+    <string name="settings_search_placeholder">Search settings\u2026</string>
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <string name="settings_camera_front_desc">Select the front camera source. Solid Colour or Static Image can be used as substitutes.</string>
+    <string name="settings_camera_back_desc">Select the back camera source. Solid Colour or Static Image can be used as substitutes.</string>
+    <string name="settings_camera_solid_color">Solid Colour</string>
+    <string name="settings_camera_color">Camera Colour</string>
+    <string name="settings_camera_color_desc">Choose the fallback colour used when the camera source is Solid Colour.</string>
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <string name="settings_debug_color_surface">Save colour surfaces</string>
+    <string name="settings_debug_color_surface_desc">Save colour surfaces to files.</string>
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

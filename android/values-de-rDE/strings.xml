@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_yes">Ja</string>
+    <string name="action_no">Nein</string>
+    <string name="action_back">Zurück</string>
+    <string name="action_install">Installieren</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">Unbekannt</string>
+    <string name="compat_intro">Intro</string>
+    <string name="compat_menu">Menü</string>
+    <string name="compat_ingame_less">Ingame−</string>
+    <string name="compat_ingame_more">Ingame+</string>
+    <string name="compat_playable">Spielbar</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">Löschen</string>
+    <string name="action_group_other">Andere</string>
+    <!-- App action labels -->
+    <string name="app_action_application">Anwendung</string>
+    <string name="app_action_save_data">Spiel speichern</string>
+    <string name="app_action_patch">Patch</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_license">Lizenz</string>
+    <string name="app_action_shader_cache">Shader Cache</string>
+    <string name="app_action_shader_log">Shader Log</string>
+    <string name="app_action_export_textures">Texturen exportieren</string>
+    <string name="app_action_import_textures">Texturen importieren</string>
+    <string name="app_action_reset_last_played">\"Zuletzt gespielt\" zurücksetzen</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <plurals name="apps_list_n_selected">
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="other">%1$d ausgewählt</item>
+    </plurals>
+    <string name="apps_list_cd_install">Installieren</string>
+    <string name="apps_list_cd_exit_selection">Auswahl beenden</string>
+    <string name="apps_list_cd_select_all">Alles auswählen</string>
+    <string name="apps_list_cd_delete_selected">Markierte Titel löschen</string>
+    <string name="apps_list_cd_search">Suchen</string>
+    <string name="apps_list_cd_sort">Sortieren</string>
+    <string name="apps_list_cd_toggle_view">Ansicht wechseln</string>
+    <string name="apps_list_cd_refresh">Aktualisieren</string>
+    <string name="apps_list_cd_more_options">Weitere Optionen</string>
+    <string name="apps_list_cd_close_search">Suche schließen</string>
+    <string name="apps_list_cd_selected">Ausgewählt</string>
+    <string name="apps_list_menu_users">Nutzerverwaltung</string>
+    <string name="apps_list_menu_welcome">Startbildschirm</string>
+    <string name="apps_list_menu_check_updates">Auf Updates überprüfen</string>
+    <string name="apps_list_menu_about">Über uns</string>
+    <string name="apps_list_search_placeholder">Suche Anwendungen\u2026</string>
+    <string name="apps_list_sort_title">Titel</string>
+    <string name="apps_list_sort_last_played">Zuletzt gespielt</string>
+    <string name="apps_list_sort_compatibility">Kompatibilität</string>
+    <string name="apps_list_custom_config_badge">CC</string>
+    <!-- App actions menu -->
+    <!-- User management -->
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <!-- Action progress / result -->
+    <!-- App info sheet -->
+    <!-- About sheet -->
+    <!-- Updates -->
+    <!-- Initial setup -->
+    <!-- In-game pause menu -->
+    <!-- Install bottom sheet -->
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>

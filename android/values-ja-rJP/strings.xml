@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <string name="app_name">Vita3K</string>
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_delete">削除</string>
+    <string name="action_yes">はい</string>
+    <string name="action_no">いいえ</string>
+    <string name="action_back">戻る</string>
+    <string name="action_install">インストール</string>
+    <!-- Compatibility states -->
+    <string name="compat_unknown">不明</string>
+    <string name="compat_nothing">ダメダメ</string>
+    <string name="compat_bootable">起動のみ</string>
+    <string name="compat_intro">イントロ</string>
+    <string name="compat_menu">メニュー</string>
+    <string name="compat_ingame_less">プレイ可能-</string>
+    <string name="compat_ingame_more">プレイ可能+</string>
+    <string name="compat_playable">クリア可能</string>
+    <!-- App action groups -->
+    <string name="action_group_delete">削除</string>
+    <string name="action_group_other">その他</string>
+    <!-- App action labels -->
+    <string name="app_action_application">アプリケーション</string>
+    <string name="app_action_save_data">セーブデータ</string>
+    <string name="app_action_patch">パッチ</string>
+    <string name="app_action_dlc">DLC</string>
+    <string name="app_action_shader_cache">シェーダーキャッシュ</string>
+    <string name="app_action_shader_log">シェーダーログ</string>
+    <string name="app_action_export_textures">テクスチャを輸出</string>
+    <string name="app_action_import_textures">テクスチャを輸入</string>
+    <!-- Apps list screen -->
+    <string name="apps_list_app_title">Vita3K</string>
+    <string name="apps_list_cd_install">インストール</string>
+    <string name="apps_list_cd_sort">並び替え</string>
+    <string name="apps_list_sort_title">タイトル</string>
+    <string name="apps_list_sort_last_played">前回のプレイ</string>
+    <string name="apps_list_sort_compatibility">互換性リスト</string>
+    <string name="apps_list_custom_config_badge">CC</string>
+    <string name="apps_list_install_app">アプリをインストールする</string>
+    <!-- App actions menu -->
+    <string name="app_menu_information">情報</string>
+    <string name="app_menu_custom_config">カスタム設定</string>
+    <!-- User management -->
+    <string name="user_management_refresh">ユーザーの更新</string>
+    <string name="user_management_name_label">ユーザー名</string>
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <string name="confirm_reset_playtime_this_app">このアプリ</string>
+    <!-- Action progress / result -->
+    <string name="action_done">完了</string>
+    <!-- App info sheet -->
+    <string name="app_info_size_unknown">不明</string>
+    <!-- About sheet -->
+    <!-- Updates -->
+    <!-- Initial setup -->
+    <string name="initial_setup_welcome_title">Vita3Kへようこそ</string>
+    <string name="initial_setup_firmware_title">ファームウェアをインストール</string>
+    <string name="initial_setup_download">ダウンロード</string>
+    <string name="initial_setup_install_pup">インストール</string>
+    <string name="initial_setup_back">戻る</string>
+    <!-- In-game pause menu -->
+    <string name="emulation_resume">つづける</string>
+    <string name="emulation_exit">終了</string>
+    <!-- Install bottom sheet -->
+    <string name="install_progress_title">インストール中</string>
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <string name="settings_title">設定</string>
+    <string name="settings_custom_config_label">設定 - %1$s</string>
+    <!-- Settings tabs -->
+    <string name="settings_tab_cpu">CPU</string>
+    <string name="settings_tab_network">ネットワーク</string>
+    <!-- Settings — Core tab -->
+    <string name="settings_modules_automatic">自動</string>
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <string name="settings_gpu_accuracy_standard">標準</string>
+    <string name="settings_gpu_accuracy_high">高</string>
+    <!-- Settings — Audio tab -->
+    <string name="settings_audio_volume">音量</string>
+    <!-- Settings — Camera tab -->
+    <string name="settings_tab_camera">カメラ</string>
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <string name="settings_emulator_general">一般</string>
+    <!-- Settings option values -->
+    <string name="settings_opt_error">エラー</string>
+    <string name="settings_opt_off">オフ</string>
+    <string name="settings_opt_minimum">最小</string>
+    <string name="settings_opt_low">低</string>
+    <string name="settings_opt_maximum">最大</string>
+    <string name="settings_opt_date_ymd">YYYY/MM/DD</string>
+    <!-- System language options -->
+    <string name="settings_lang_japanese">日本語</string>
+    <string name="settings_lang_english_us">英語（アメリカ）</string>
+    <string name="settings_lang_french">フランス語</string>
+    <string name="settings_lang_spanish">スペイン語</string>
+    <string name="settings_lang_german">ドイツ語</string>
+    <string name="settings_lang_italian">イタリア語</string>
+    <string name="settings_lang_dutch">オランダ語</string>
+    <string name="settings_lang_russian">ロシア語</string>
+    <string name="settings_lang_korean">韓国語</string>
+    <string name="settings_lang_chinese_trad">中国語（繁体字）</string>
+    <string name="settings_lang_chinese_simp">中国語（簡体字）</string>
+    <string name="settings_lang_finnish">フィンランド語</string>
+    <string name="settings_lang_swedish">スウェーデン語</string>
+    <string name="settings_lang_danish">デンマーク語</string>
+    <string name="settings_lang_norwegian">ノルウェー語</string>
+    <string name="settings_lang_polish">ポーランド語</string>
+    <string name="settings_lang_english_gb">英語 (英国)</string>
+    <string name="settings_lang_turkish">トルコ語</string>
+    <!-- IME language options -->
+    <string name="settings_ime_german">ドイツ語</string>
+    <string name="settings_ime_english_us">英語（アメリカ）</string>
+    <string name="settings_ime_spanish">スペイン語</string>
+    <string name="settings_ime_french">フランス語</string>
+    <string name="settings_ime_italian">イタリア語</string>
+    <string name="settings_ime_dutch">オランダ語</string>
+    <string name="settings_ime_polish">ポーランド語</string>
+    <string name="settings_ime_russian">ロシア語</string>
+    <string name="settings_ime_finnish">フィンランド語</string>
+    <string name="settings_ime_japanese">日本語</string>
+    <string name="settings_ime_korean">韓国語</string>
+    <string name="settings_ime_portuguese_br">ポルトガル語 (ブラジル)</string>
+    <string name="settings_ime_english_gb">英語 (英国)</string>
+    <!-- Trophy viewer -->
+</resources>

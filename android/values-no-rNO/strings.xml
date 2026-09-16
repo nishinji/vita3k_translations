@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name -->
+    <!-- Common actions -->
+    <!-- Compatibility states -->
+    <!-- App action groups -->
+    <!-- App action labels -->
+    <!-- Apps list screen -->
+    <!-- App actions menu -->
+    <!-- User management -->
+    <!-- Batch delete dialog -->
+    <!-- Action confirm dialog -->
+    <!-- Action progress / result -->
+    <!-- App info sheet -->
+    <!-- About sheet -->
+    <!-- Updates -->
+    <!-- Initial setup -->
+    <!-- In-game pause menu -->
+    <!-- Install bottom sheet -->
+    <!-- zRIF / license dialogs -->
+    <!-- Install status messages (ViewModel) -->
+    <!-- Filter / sort sheet -->
+    <!-- Settings screen — general -->
+    <!-- Settings tabs -->
+    <!-- Settings — Core tab -->
+    <!-- Settings — CPU tab -->
+    <!-- Settings — GPU tab -->
+    <!-- Settings — Audio tab -->
+    <!-- Settings — Camera tab -->
+    <!-- Settings — System tab -->
+    <!-- Settings — Network tab -->
+    <!-- Settings — Controls tab -->
+    <!-- Settings — Debug tab -->
+    <!-- Settings — Emulator tab -->
+    <!-- Settings option values -->
+    <!-- System language options -->
+    <!-- IME language options -->
+    <!-- Trophy viewer -->
+</resources>
