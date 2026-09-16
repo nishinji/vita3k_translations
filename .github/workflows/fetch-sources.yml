@@ -1,6 +1,6 @@
 # Brings the newest source strings over from the emulator repository.
 
-name: Update the translation files
+name: Update the translation sources
 
 on:
   workflow_dispatch:
@@ -11,19 +11,20 @@ permissions:
   contents: write
 
 jobs:
-  update-translations:
-    name: Update the translation files
+  update-sources:
+    name: Update the translation sources
     runs-on: ubuntu-24.04
 
     env:
       SOURCE_REPO: ${{ vars.SOURCE_REPO || 'Vita3K/Vita3K' }}
+      SOURCE_BRANCH: ${{ vars.SOURCE_BRANCH || 'master' }}
       GH_TOKEN: ${{ secrets.TEMPLATE_TOKEN || secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v7
 
-      - name: Find the run that published the template
+      - name: Find the run that published the Qt template
         id: source-run
         run: |
           run_id=$(gh api "repos/$SOURCE_REPO/actions/workflows/qt-ts.yml/runs?status=success&per_page=1" --jq '.workflow_runs[0].id')
@@ -34,7 +35,7 @@ jobs:
           echo "Using run $run_id of $SOURCE_REPO"
           echo "id=$run_id" >> "$GITHUB_OUTPUT"
 
-      - name: Download the template
+      - name: Download the Qt template
         uses: actions/download-artifact@v8
         with:
           name: Vita3K_Translation_Template
@@ -42,6 +43,17 @@ jobs:
           repository: ${{ env.SOURCE_REPO }}
           run-id: ${{ steps.source-run.outputs.id }}
           github-token: ${{ env.GH_TOKEN }}
+
+      # Android resources are plain files in the emulator repository, so unlike the Qt template
+      # they need no build step. The download goes through a temporary file: a truncated one
+      # committed here would empty the source file on Crowdin.
+      - name: Download the Android strings
+        run: |
+          incoming="$RUNNER_TEMP/strings.xml"
+          gh api "repos/$SOURCE_REPO/contents/android/app/src/main/res/values/strings.xml?ref=$SOURCE_BRANCH" \
+            -H "Accept: application/vnd.github.raw" > "$incoming"
+          python3 -c "import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])" "$incoming"
+          mv "$incoming" android/strings.xml
 
       - name: Install the Qt linguist tools
         run: |
@@ -65,12 +77,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add template/vita3k_template.ts translations/
+          git add template/vita3k_template.ts translations/ android/strings.xml
 
           if git diff --cached --quiet; then
-            echo "The template brought no new strings."
+            echo "The emulator repository brought no new strings."
             exit 0
           fi
 
-          git commit -m "Update the template and merge it into every language"
+          git commit -m "Update the sources and merge them into every language"
           git push

@@ -71,17 +71,24 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add qm/
 
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No compiled translation changed."
-            exit 0
+          # The Android resources need no compiling and are committed by the sync, so a run that
+          # only changed them leaves qm/ untouched and would otherwise publish nothing.
+          changed=false
+          if git show --name-only --format= HEAD -- android | grep -q .; then
+            changed=true
           fi
 
-          git commit -m "Compile the translations"
-          git push
-          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git add qm/
+          if git diff --cached --quiet; then
+            echo "No compiled translation changed."
+          else
+            git commit -m "Compile the translations"
+            git push
+            changed=true
+          fi
+
+          echo "changed=$changed" >> "$GITHUB_OUTPUT"
 
       - name: Upload the compiled translations
         uses: actions/upload-artifact@v7
@@ -95,8 +102,21 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          shopt -s nullglob
+          assets=()
+
           (cd qm && zip -r ../Vita3K-languages.zip .)
+          assets+=(Vita3K-languages.zip)
+
+          # Zipped from android/ so the entries are values-<code>/strings.xml, the shape the
+          # emulator build unpacks into its res directory.
+          values=(android/values-*)
+          if [ ${#values[@]} -gt 0 ]; then
+            (cd android && zip -r ../Vita3K-android-strings.zip values-*)
+            assets+=(Vita3K-android-strings.zip)
+          fi
+
           date=$(date +'%Y-%m-%d')
-          gh release create "translations-${date}-${{ github.run_number }}" Vita3K-languages.zip \
+          gh release create "translations-${date}-${{ github.run_number }}" "${assets[@]}" \
             --title "Translations $date" \
-            --notes "Qt translations compiled from the .ts files in this repository."
+            --notes "Qt translations compiled from the .ts files, and the Android string resources, in this repository."

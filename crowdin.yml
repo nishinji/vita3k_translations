@@ -1,4 +1,4 @@
-# Crowdin configuration for the Vita3K Qt UI.
+# Crowdin configuration for the Vita3K interface strings.
 
 project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
@@ -21,3 +21,10 @@ files:
         pt-PT: pt_PT
         zh-CN: zh_Hans
         zh-TW: zh_Hant
+
+  # %android_code% produces the resource directory qualifier Android itself expects
+  # (es, zh-rCN, pt-rBR), which is what the emulator build unpacks into its res directory.
+  - source: /android/strings.xml
+    translation: /android/values-%android_code%/strings.xml
+    dest: /strings.xml
+    type: android
