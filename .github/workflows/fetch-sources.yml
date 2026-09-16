@@ -10,6 +10,12 @@ on:
 permissions:
   contents: write
 
+# The sync commits to main as well, so the two must not be in flight together: whichever
+# pushes second is rejected.
+concurrency:
+  group: crowdin-sync
+  cancel-in-progress: false
+
 jobs:
   update-sources:
     name: Update the translation sources
