@@ -27,7 +27,7 @@ project holds, so a hand-written change is lost at the next run.
 3. **`crowdin.yml`** (daily, 01:00 UTC) — uploads both sources to Crowdin and commits the
    translations it downloads straight to `main`.
 4. **`generate-qm.yml`** — runs `lrelease`, commits the `.qm` files, screens the incoming
-   strings with Gemini, and publishes `vita3k-languages.zip` and `vita3k-android-strings.zip`
+   strings with Gemini, and publishes `vita3k-qt-translations.zip` and `vita3k-android-translations.zip`
    as a release. The sync calls it directly, because a push made with `GITHUB_TOKEN` raises no
    push event.
 5. **Emulator build** — `.ci/common.sh` unpacks the Qt archive into the build's

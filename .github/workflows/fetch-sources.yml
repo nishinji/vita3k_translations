@@ -50,7 +50,7 @@ jobs:
       - name: Download the Qt template
         uses: actions/download-artifact@v8
         with:
-          name: Vita3K_Translation_Template
+          name: vita3k-qt-template
           path: template/
           repository: ${{ env.SOURCE_REPO }}
           run-id: ${{ steps.source-run.outputs.id }}

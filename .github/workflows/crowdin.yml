@@ -1,4 +1,4 @@
-# Pulls the Qt translations back from Crowdin every day.
+# Sends the source strings to Crowdin and brings the translations back, every day.
 
 name: Sync with Crowdin
 
@@ -29,11 +29,26 @@ jobs:
         with:
           ref: main
 
-      - name: Sync with Crowdin
+      # This repository -> Crowdin. A string Crowdin never received cannot be translated, so
+      # the sources go up before anything is pulled back.
+      - name: Upload the source strings to Crowdin
         uses: crowdin/github-action@v3
         with:
-          # A string Crowdin never received cannot be translated, so push the template first.
           upload_sources: true
+          upload_translations: false
+          download_translations: false
+          push_translations: false
+          create_pull_request: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+      # Crowdin -> this repository, committed straight to main.
+      - name: Download the translations from Crowdin
+        uses: crowdin/github-action@v3
+        with:
+          upload_sources: false
           upload_translations: false
           download_translations: true
           push_translations: true
