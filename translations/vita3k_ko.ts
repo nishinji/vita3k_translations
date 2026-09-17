@@ -584,7 +584,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
       <source>Delete archive files after install?</source>
-      <translation>설치 후 펌웨어 파일을 지울까요?</translation>
+      <translation type="unfinished"/>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>

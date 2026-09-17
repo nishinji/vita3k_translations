@@ -284,7 +284,7 @@ Questa azione non potrà essere annullata.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="485"/>
       <source>Are you sure you want to delete the save data?</source>
-      <translation>Sei sicuro di voler cancellare i dati salvati?</translation>
+      <translation type="unfinished"/>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="501"/>
