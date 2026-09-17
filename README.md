@@ -37,10 +37,15 @@ project holds, so a hand-written change is lost at the next run.
 
 ## Review
 
-Every import is screened by `scripts/review_translations.py` before it is published: it asks
-Gemini to flag abuse, spam, vandalism, obvious mistranslation, and placeholders a translation
-breaks, and writes what it finds to the run summary. It reads only what the import changed.
+Every import is screened by `scripts/review_translations.py` before it is published, and what
+it finds goes to the run summary. Placeholders are compared in code, so a translation that
+drops a `%1` or a `%1$s` the English source has is caught exactly; abuse, spam, vandalism and
+obvious mistranslation are what Gemini is asked for. It reads only what the import changed.
 Run `generate-qm.yml` by hand with **Review every translated string** to screen everything.
+
+What it finds is reported, not acted on: a string it flags still ships, and clearing it is done
+by hand on Crowdin, where the translation actually lives. Editing one out of this repository
+alone would only last until the next sync put it back.
 
 The review needs a `GEMINI_API_KEY` secret. Without one the run still publishes, and the
 summary says the review did not happen.

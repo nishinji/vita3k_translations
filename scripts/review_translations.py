@@ -26,10 +26,18 @@ MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 # Small enough that one bad batch is cheap to retry, large enough to keep the run short.
 BATCH_SIZE = 120
 
-# A bulk import is tens of thousands of strings; past this the run is sampled instead.
-MAX_ENTRIES = 6000
+# Every string the project has is 14149 across 42 files, so this clears a review of the whole
+# lot with room for the languages and strings still to come. It is a backstop against an
+# import that has gone wrong, not a budget: past it the run is sampled instead.
+MAX_ENTRIES = 25000
 
 UNFINISHED_TYPES = frozenset({"unfinished", "vanished", "obsolete"})
+
+# Qt uses %1 through %9; Android uses the positional %1$s, %1$d and %1$.2f forms. The positional
+# form is matched first so %1$s reads as one placeholder rather than %1 with a letter after it,
+# which is also how a %1$.2f degraded to a bare %1 shows up as a difference. A lone % is a
+# literal percent sign in both and is left alone.
+PLACEHOLDER = re.compile(r"%(?:\d+\$[-#+ 0,(]*\d*(?:\.\d+)?[a-zA-Z]|\d+)")
 
 SCHEMA = {
     "type": "object",
@@ -42,7 +50,7 @@ SCHEMA = {
                     "id": {"type": "integer", "description": "The id of the entry, exactly as given."},
                     "category": {
                         "type": "string",
-                        "enum": ["abuse", "spam", "vandalism", "mistranslation", "markup"],
+                        "enum": ["abuse", "spam", "vandalism", "mistranslation"],
                     },
                     "severity": {"type": "string", "enum": ["high", "medium", "low"]},
                     "explanation": {
@@ -73,13 +81,12 @@ Report an entry only when the incoming translation is a real problem:
 - vandalism: text unrelated to the English source, or joke and troll content
 - mistranslation: the translation plainly says something different from the English source,
   especially where it would mislead about deleting data, legality, piracy, or a warning
-- markup: a placeholder such as %1, %n or %1$s, an ampersand accelerator, or a line break
-  that the source has and the translation breaks, renumbers, or drops
 
 Do not report ordinary wording choices, regional spelling, differences in tone or length,
 text deliberately left in English, technical terms kept in English, punctuation or
-capitalisation preferences, or anything you are merely unsure about. A healthy batch produces
-an empty findings list, and that is the answer to give when nothing is wrong."""
+capitalisation preferences, placeholders such as %1 or %1$s and the spacing around them,
+which are checked separately in code, or anything you are merely unsure about. A healthy
+batch produces an empty findings list, and that is the answer to give when nothing is wrong."""
 
 
 # Explicit UTF-8: the default is the locale codec, which cannot decode translated strings.
@@ -234,8 +241,42 @@ def collect_entries() -> list[dict]:
     return entries
 
 
-# A bulk import would cost far more than it is worth to read in full, so take an even slice
-# of every language rather than refusing to review anything at all.
+# Placeholders are the one part of a translation that fails at runtime rather than merely
+# reading badly, and comparing them is exact work the model had no business guessing at: it
+# reported the spacing around them instead.
+#
+# Only the source's own placeholders are required to survive. A translation is free to hold a
+# token that looks like one but is not, because Turkish writes 100% as %100, and counts are
+# free to differ, because repeating a placeholder or dropping a repeat is legitimate. A
+# renumbered or truncated placeholder still shows up here as the original going missing.
+def placeholder_findings(entries: list[dict]) -> list[dict]:
+    findings: list[dict] = []
+
+    for entry in entries:
+        if not entry["source"]:
+            continue
+
+        missing = set(PLACEHOLDER.findall(entry["source"])) - set(PLACEHOLDER.findall(entry["incoming"]))
+        if not missing:
+            continue
+
+        findings.append(
+            {
+                "id": entry["id"],
+                "category": "markup",
+                "severity": "high",
+                "explanation": f"The translation drops {', '.join(sorted(missing))}, which the English"
+                " source has, so the value it stood for never reaches the user.",
+                "entry": entry,
+            }
+        )
+
+    return findings
+
+
+# Only an import larger than the entire project gets here. Take an even slice of every
+# language rather than refusing to review anything at all, but the slice is the head of each
+# file in document order, so the tail of a sampled run goes unread.
 def sample(entries: list[dict]) -> list[dict]:
     if len(entries) <= MAX_ENTRIES:
         return entries
@@ -359,45 +400,59 @@ def render(entries: list[dict], reviewed: list[dict], findings: list[dict], fail
 
     if not entries:
         lines.append("No translated strings changed, so there was nothing to review.")
-    elif failure:
+        return "\n".join(lines) + "\n"
+
+    # The placeholder check runs in this process, so it still has something to say when the
+    # model could not be reached.
+    if failure:
         lines += [
             "> [!WARNING]",
-            f"> The automated review did not run: {cell(failure, 300)}",
+            f"> The `{MODEL}` screen did not run: {cell(failure, 300)} Only the placeholder check below ran.",
+            "",
         ]
+
+    if failure:
+        read, scope = "The placeholder check read", f"**{len(entries)}**"
     else:
+        read = f"`{MODEL}` and the placeholder check read"
         scope = f"**{len(reviewed)}** of {len(entries)}" if len(reviewed) < len(entries) else f"**{len(entries)}**"
-        if not findings:
-            lines.append(f"`{MODEL}` read {scope} changed strings across **{len(languages)}** languages and flagged nothing.")
-        else:
-            lines += [
-                "> [!WARNING]",
-                f"> `{MODEL}` flagged **{len(findings)}** of {scope} changed strings across"
-                f" **{len(languages)}** languages. This is a screen for abuse and obvious"
-                " mistranslation, not a judgement on translation quality.",
-                "",
-                "| Severity | Language | Category | Incoming translation | English source | Why |",
-                "| --- | --- | --- | --- | --- | --- |",
-            ]
-            for finding in findings:
-                entry = finding["entry"]
-                severity = finding.get("severity", "low")
-                lines.append(
-                    "| "
-                    + " | ".join(
-                        [
-                            f"**{severity}**" if severity == "high" else cell(severity, 10),
-                            cell(entry["locale"], 20),
-                            cell(finding.get("category"), 20),
-                            cell(entry["incoming"]),
-                            cell(entry["source"]),
-                            cell(finding.get("explanation"), 300),
-                        ]
-                    )
-                    + " |"
+
+    if not findings:
+        lines.append(f"{read} {scope} changed strings across **{len(languages)}** languages and flagged nothing.")
+    else:
+        lines += [
+            "> [!WARNING]",
+            f"> {read} {scope} changed strings across **{len(languages)}** languages and flagged"
+            f" **{len(findings)}** of them. This is a screen for abuse, broken placeholders and"
+            " obvious mistranslation, not a judgement on translation quality.",
+            "",
+            "| Severity | Language | Category | Incoming translation | English source | Why |",
+            "| --- | --- | --- | --- | --- | --- |",
+        ]
+        for finding in findings:
+            entry = finding["entry"]
+            severity = finding.get("severity", "low")
+            lines.append(
+                "| "
+                + " | ".join(
+                    [
+                        f"**{severity}**" if severity == "high" else cell(severity, 10),
+                        cell(entry["locale"], 20),
+                        cell(finding.get("category"), 20),
+                        cell(entry["incoming"]),
+                        cell(entry["source"]),
+                        cell(finding.get("explanation"), 300),
+                    ]
                 )
+                + " |"
+            )
 
     if len(reviewed) < len(entries) and not failure:
-        lines += ["", f"Sampled evenly across languages because the import is larger than {MAX_ENTRIES} strings."]
+        lines += [
+            "",
+            f"The `{MODEL}` screen was sampled evenly across languages because the import is larger"
+            f" than {MAX_ENTRIES} strings. The placeholder check read all of it.",
+        ]
 
     return "\n".join(lines) + "\n"
 
@@ -408,7 +463,9 @@ def main() -> None:
 
     entries = collect_entries()
     reviewed = sample(entries)
-    findings: list[dict] = []
+    # Exact and free, so it reads the whole import rather than only what the model is sent.
+    findings = placeholder_findings(entries)
+    flagged: list[dict] = []
     failure = ""
 
     if reviewed and not os.environ.get("GEMINI_API_KEY"):
@@ -417,7 +474,7 @@ def main() -> None:
     if reviewed and not failure:
         try:
             for start in range(0, len(reviewed), BATCH_SIZE):
-                findings += ask(reviewed[start : start + BATCH_SIZE])
+                flagged += ask(reviewed[start : start + BATCH_SIZE])
         except Exception as error:
             failure = str(error)
 
@@ -425,7 +482,7 @@ def main() -> None:
     by_id = {entry["id"]: entry for entry in reviewed}
 
     # Drop anything that does not point at a string actually in this import.
-    findings = [dict(finding, entry=by_id[finding["id"]]) for finding in findings if finding.get("id") in by_id]
+    findings += [dict(finding, entry=by_id[finding["id"]]) for finding in flagged if finding.get("id") in by_id]
     findings.sort(key=lambda finding: rank.get(finding.get("severity"), 3))
 
     report = render(entries, reviewed, findings, failure)
