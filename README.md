@@ -52,17 +52,3 @@ from the resource directory alone, but the Qt interface only lists a language it
 `k_ui_languages` table knows, so a language new to Vita3K also needs an entry in
 `vita3k/gui-qt/src/gui_language.cpp`. Qt file names carry the tag that table uses, which is why
 `crowdin.yml` maps Crowdin's `zh-CN` and `zh-TW` onto `zh_Hans` and `zh_Hant`.
-
-## Setup
-
-Repository secrets:
-
-| Secret | Purpose |
-| --- | --- |
-| `CROWDIN_PROJECT_ID` | Crowdin project the sync talks to |
-| `CROWDIN_PERSONAL_TOKEN` | Crowdin token with the manager or developer role and the `project`, `project.source` and `project.translation` scopes |
-| `GEMINI_API_KEY` | Key the review uses |
-| `TEMPLATE_TOKEN` | Optional. Only needed if the default token cannot read the emulator repository's artifacts |
-
-Repository variables `SOURCE_REPO` and `SOURCE_BRANCH` override where the sources come from;
-they default to `Vita3K/Vita3K` and `master`.
