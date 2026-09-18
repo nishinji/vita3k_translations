@@ -96,9 +96,7 @@ Visita o nosso website em &lt;a href=&quot;https://vita3k.org/quickstart.html&qu
       <source>Are you sure you want to delete %1 selected applications?
 
 This action cannot be undone.</source>
-      <translation>Tens a certeza de que queres eliminar %1 aplicações selecionadas?
-
-Esta ação não pode ser desfeita.</translation>
+      <translation type="unfinished"/>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="167"/>

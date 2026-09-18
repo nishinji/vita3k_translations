@@ -1566,7 +1566,7 @@ The key may be invalid.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="366"/>
       <source>Mutexes</source>
-      <translation>Aaaaaaaaaaaaaaaaa</translation>
+      <translation>Mutexes</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="371"/>

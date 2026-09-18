@@ -2507,7 +2507,7 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="473"/>
       <source>Portuguese (PT)</source>
-      <translation>ポルトガル語 (ポルとかる)</translation>
+      <translation>ポルトガル語 (ポルトガル)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="474"/>

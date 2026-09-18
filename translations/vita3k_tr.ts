@@ -1155,7 +1155,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="126"/>
       <source>Firmware installed successfully!%1</source>
-      <translation>Paket başarıyla indirildi!%1</translation>
+      <translation type="unfinished"/>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="127"/>
