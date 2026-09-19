@@ -142,7 +142,7 @@
     <!-- About sheet -->
     <string name="about_build">建置版本：%1$s</string>
     <string name="about_revision">修訂版本：%1$s</string>
-    <string name="about_legal_notice">Vita3K不會縱容盜版，你必須轉儲自己擁有的遊戲。</string>
+    <string name="about_legal_notice">Vita3K不會縱容盜版，你必須傾印自己擁有的遊戲。</string>
     <!-- Updates -->
     <string name="updates_check_title">檢查更新</string>
     <string name="updates_check_progress">正在檢查更新…</string>
@@ -158,12 +158,12 @@
     <!-- Initial setup -->
     <string name="initial_setup_welcome_title">歡迎使用Vita3K</string>
     <string name="initial_setup_welcome_body">Vita3K是一個開源PlayStation Vita模擬器，使用C++來編寫，適用於Windows、Linux、macOS以及Android。 模擬器仍在開發階段，因此非常感謝各位的反饋和測試。</string>
-    <string name="initial_setup_piracy_notice">Vita3K不會縱容盜版，你必須轉儲自己擁有的遊戲。</string>
+    <string name="initial_setup_piracy_notice">Vita3K不會縱容盜版，你必須傾印自己擁有的遊戲。</string>
     <string name="initial_setup_firmware_title">安裝韌體</string>
     <string name="initial_setup_firmware_body">如要開始使用，請先安裝下面的PS Vita韌體檔案。</string>
-    <string name="initial_setup_preinstall_title">預裝套件</string>
+    <string name="initial_setup_preinstall_title">預裝軟體包</string>
     <string name="initial_setup_main_title">主要韌體</string>
-    <string name="initial_setup_font_title">字型套件</string>
+    <string name="initial_setup_font_title">字型軟體包</string>
     <string name="initial_setup_download">下載</string>
     <string name="initial_setup_install_pup">安裝</string>
     <string name="initial_setup_select_firmware_language">選取韌體語言</string>
@@ -221,7 +221,7 @@
     <string name="install_sheet_title">安裝內容</string>
     <string name="install_firmware_title">韌體(PUP)</string>
     <string name="install_firmware_desc">安裝PS Vita韌體</string>
-    <string name="install_pkg_title">套件(PKG)</string>
+    <string name="install_pkg_title">軟體包(PKG)</string>
     <string name="install_pkg_desc">安裝.pkg格式應用程式或DLC</string>
     <string name="install_archive_title">封存檔(ZIP/VPK)</string>
     <string name="install_archive_desc">從.zip或.vpk格式檔案進行安裝</string>
@@ -240,27 +240,27 @@
     <string name="install_license_source_title">安裝授權</string>
     <string name="install_license_source_message">選取授權檔或手動輸入 zRIF 金鑰。</string>
     <string name="install_delete_firmware_file">安裝後刪除韌體檔案</string>
-    <string name="install_delete_package_file">安裝後刪除套件檔案</string>
+    <string name="install_delete_package_file">安裝後刪除軟體包檔案</string>
     <string name="install_delete_archive_files">安裝後刪除封存檔</string>
     <string name="install_delete_license_file">安裝後刪除授權檔</string>
     <!-- zRIF / license dialogs -->
     <string name="zrif_dialog_title">輸入 zRIF 金鑰</string>
     <string name="zrif_dialog_hint">zRIF</string>
     <string name="license_required_title">需要授權</string>
-    <string name="license_required_message">未能自動找到授權。\n您想如何提供？</string>
+    <string name="license_required_message">未能自動找到授權。\n你想如何提供？</string>
     <string name="license_select_file">選取.bin/.rif格式檔案</string>
     <string name="license_enter_zrif">手動輸入 zRIF 金鑰</string>
     <!-- Install status messages (ViewModel) -->
     <string name="install_status_firmware">正在安裝韌體\u2026</string>
     <string name="install_status_preparing">正在準備\u2026</string>
-    <string name="install_status_package">正在安裝套件\u2026</string>
+    <string name="install_status_package">正在安裝軟體包\u2026</string>
     <string name="install_status_archive">正在安裝封存檔\u2026</string>
     <string name="install_status_archive_batch">正在安裝封存檔 %1$d/%2$d：%3$s\u2026</string>
     <string name="install_status_license">正在安裝授權\u2026</string>
     <string name="install_success_firmware">已成功安裝韌體 %1$s。</string>
     <string name="install_failed_firmware">韌體安裝失敗。</string>
-    <string name="install_success_package">已成功安裝套件 。</string>
-    <string name="install_failed_package">套件安裝失敗。</string>
+    <string name="install_success_package">已成功安裝軟體包。</string>
+    <string name="install_failed_package">軟體包安裝失敗。</string>
     <string name="install_success_archive">已成功安裝封存檔 。</string>
     <string name="install_failed_archive">封存檔安裝失敗。</string>
     <string name="install_success_archive_batch">已成功安裝 %1$d 個封存檔。</string>
@@ -271,7 +271,7 @@
     <string name="install_failed_license_zrif">無法從 zRIF 金鑰建立授權。</string>
     <string name="install_error_archive_folder_empty">所選的資料夾中沒有.zip或.vpk格式封存檔。</string>
     <string name="install_error_read_license">無法讀取授權檔。</string>
-    <string name="install_error_pkg_path_lost">內部錯誤：遺失套件 (PKG) 路徑。</string>
+    <string name="install_error_pkg_path_lost">內部錯誤：遺失軟體包 (PKG) 路徑。</string>
     <string name="install_error_generic">錯誤：%1$s</string>
     <!-- Filter / sort sheet -->
     <string name="filter_title">篩選&amp;檢視</string>
@@ -293,11 +293,11 @@
     <string name="settings_confirm_clear_all_message">這將移除所有應用程式的個別自訂組態檔。此操作無法復原。</string>
     <string name="settings_clear_all_custom_configs_success">已清除 %1$d 個自訂組態。</string>
     <string name="settings_unsaved_title">未儲存的變更</string>
-    <string name="settings_unsaved_message">您有尚未儲存的變更。您想怎麼做？</string>
+    <string name="settings_unsaved_message">你有尚未儲存的變更。你想怎麼做？</string>
     <string name="settings_discard">捨棄</string>
     <string name="settings_reset_defaults">重設為預設值</string>
     <string name="settings_confirm_reset_defaults_title">將設定重設為預設值？</string>
-    <string name="settings_confirm_reset_defaults_message">這樣會將目前的設定重設為模擬器的預設值。儲存空間資料夾的變更在您另行變更之前不會包含在內。</string>
+    <string name="settings_confirm_reset_defaults_message">這樣會將目前的設定重設為模擬器的預設值。儲存空間資料夾的變更在你另行變更之前不會包含在內。</string>
     <string name="settings_reset_defaults_done">設定已重設為預設值。</string>
     <string name="settings_save_and_exit">儲存並結束</string>
     <string name="settings_save_cd">儲存設定</string>
@@ -334,7 +334,7 @@
     <string name="settings_modules_search">搜尋模組\u2026</string>
     <string name="settings_modules_no_firmware">沒有可用的模組。請先安裝韌體。</string>
     <string name="settings_modules_firmware_language">韌體語言</string>
-    <string name="settings_modules_firmware_language_desc">請選取您想在瀏覽器中開啟的 PlayStation 韌體頁面地區設定。</string>
+    <string name="settings_modules_firmware_language_desc">請選取你想在瀏覽器中開啟的 PlayStation 韌體頁面地區設定。</string>
     <string name="settings_modules_download_firmware">下載韌體</string>
     <string name="settings_core_module_management">模組管理</string>
     <!-- Settings — CPU tab -->
@@ -467,9 +467,9 @@
     <string name="settings_network_http_enable">啟用 HTTP 網路</string>
     <string name="settings_network_http_enable_desc">啟用 HTTP 網路以供支援的應用程式去使用。</string>
     <string name="settings_network_http_timeout_attempts">逾時嘗試次數</string>
-    <string name="settings_network_http_timeout_attempts_desc">伺服器沒有回應時嘗試連線的次數。如果您的網路非常不穩定或者非常慢，這樣會很有用。</string>
+    <string name="settings_network_http_timeout_attempts_desc">伺服器沒有回應時嘗試連線的次數。如果你的網路非常不穩定或者非常慢，這樣會很有用。</string>
     <string name="settings_network_http_timeout_sleep">逾時休眠</string>
-    <string name="settings_network_http_timeout_sleep_desc">重試連線的間隔時間。如果您的網路非常不穩定或速度非常慢，這樣會很有用。</string>
+    <string name="settings_network_http_timeout_sleep_desc">重試連線的間隔時間。如果你的網路非常不穩定或速度非常慢，這樣會很有用。</string>
     <string name="settings_network_http_read_end_attempts">讀取結束嘗試</string>
     <string name="settings_network_http_read_end_attempts_desc">當沒有更多資料可讀取時，重試的次數。數值較低可提升效能，但如果網路連線不佳，可能會導致遊戲不穩定。</string>
     <string name="settings_network_http_read_end_sleep">讀取結束休眠</string>
@@ -493,7 +493,7 @@
     <string name="settings_controls_hide_toggle">顯示 隱藏螢幕上控制項 切換</string>
     <string name="settings_controls_hide_toggle_desc">顯示可暫時隱藏螢幕上控制項按鈕。</string>
     <string name="settings_controls_scale">疊加層縮放比例</string>
-    <string name="settings_controls_scale_desc">調整觸控控制項的大小，使其更適合您的手型和螢幕。</string>
+    <string name="settings_controls_scale_desc">調整觸控控制項的大小，使其更適合你的手型和螢幕。</string>
     <string name="settings_controls_opacity">疊加層不透明度</string>
     <string name="settings_controls_opacity_desc">調整遊戲中觸控操作介面的透明度。</string>
     <string name="settings_controls_percent_value">%1$d%%</string>
@@ -507,7 +507,7 @@
     <string name="settings_controls_connected_title">已連線的控制器</string>
     <string name="settings_controls_connected_desc">顯示 Android 目前報告給前端的實體控制器。按鈕標籤盡可能遵循第一個連線的控制器。</string>
     <string name="settings_controls_connected_none">未偵測到實體控制器。</string>
-    <string name="settings_controls_manual_available">即使目前沒有連線任何控制器，您仍然可以手動選取對應項目。</string>
+    <string name="settings_controls_manual_available">即使目前沒有連線任何控制器，你仍然可以手動選取對應項目。</string>
     <string name="settings_controls_mapping_buttons_title">控制器按鈕對應</string>
     <string name="settings_controls_mapping_buttons_desc">選取實體控制器哪個按鈕對應到某個輸入。</string>
     <string name="settings_controls_mapping_buttons_help">點選一列，然後按下控制器按鈕或從列表中手動選取一個。</string>
@@ -578,7 +578,7 @@
     <string name="settings_emulator_ui_language">介面語言</string>
     <string name="settings_emulator_ui_language_desc">選取 Android 前端使用的介面語言。\n使用「系統預設值」會遵循作業系統的語言設定。</string>
     <string name="settings_emulator_storage_folder">模擬系統儲存空間資料夾</string>
-    <string name="settings_emulator_storage_folder_desc">變更模擬系統儲存空間資料夾的位置。\n如果您移動至不同的資料夾，請手動將現有的資料移動至該處。</string>
+    <string name="settings_emulator_storage_folder_desc">變更模擬系統儲存空間資料夾的位置。\n如果你移動至不同的資料夾，請手動將現有的資料移動至該處。</string>
     <string name="settings_emulator_share_log">分享 vita3k.log</string>
     <string name="settings_emulator_share_log_desc">開啟目前 Vita3K 日誌記錄檔的 Android 分享功能表，以便傳送至 Discord 或其他應用程式。</string>
     <string name="settings_emulator_storage_folder_resolve_failed">無法解析所選儲存空間的資料夾路徑。</string>
@@ -587,13 +587,13 @@
     <string name="settings_emulator_stretch_display">延伸顯示區域</string>
     <string name="settings_emulator_stretch_display_desc">拉伸顯示區域以填滿整個視窗，忽略原始長寬比。</string>
     <string name="settings_emulator_pixel_perfect">全螢幕HD像素精準對齊</string>
-    <string name="settings_emulator_pixel_perfect_desc">勾選此方塊，即可在 16:9 比例螢幕上以全螢幕模式獲得像素精準對齊的 HD 解析度 (1080p, 4K) 渲染，代價是畫面頂部和底部會稍有裁切。</string>
+    <string name="settings_emulator_pixel_perfect_desc">勾選此方塊，即可在 16:9 比例螢幕上以全螢幕模式獲得像素精準對齊的 HD 解析度 (1080p, 4K) 算繪，代價是畫面頂部和底部會稍有裁切。</string>
     <string name="settings_emulator_file_loading_delay">檔案載入延遲：%1$d 毫秒</string>
     <string name="settings_emulator_file_loading_delay_desc">加入人為延遲到載入檔案過程。這個設定對於某些載入檔案速度過快(比起真實硬體)的遊戲(例如《沉默之丘Silent Hill》)是必需的。</string>
     <string name="settings_emulator_show_compile_shaders">顯示著色器編譯提示</string>
     <string name="settings_emulator_show_compile_shaders_desc">在遊玩過程中編譯著色器時顯示提示。</string>
     <string name="settings_emulator_check_updates">檢查更新模式</string>
-    <string name="settings_emulator_check_updates_desc">選取 Vita3K 是否在啟動時檢查更新。\n&quot;檢查&quot;會在有新版本時通知您，&quot;不檢查&quot;則會停用啟動檢查。</string>
+    <string name="settings_emulator_check_updates_desc">選取 Vita3K 是否在啟動時檢查更新。\n&quot;檢查&quot;會在有新版本時通知你，&quot;不檢查&quot;則會停用啟動檢查。</string>
     <string name="settings_emulator_check_updates_check">檢查</string>
     <string name="settings_emulator_check_updates_dont_check">不檢查</string>
     <string name="settings_emulator_archive_log">封存日誌記錄</string>

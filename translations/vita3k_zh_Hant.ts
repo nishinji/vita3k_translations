@@ -63,7 +63,7 @@
       <source>Vita3K is the world&apos;s first functional PS Vita™/PS TV™ emulator, open-source and written in C++ for Windows, Linux, macOS, and Android.
 Visit our website at &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&gt;vita3k.org&lt;/a&gt; for more info. If you&apos;re interested in contributing, check out our &lt;a href=&quot;https://github.com/Vita3K/Vita3K&quot;&gt;GitHub&lt;/a&gt;. If you want to support us, you can donate via &lt;a href=&quot;https://ko-fi.com/vita3k&quot;&gt;Ko-fi&lt;/a&gt;.</source>
       <translation>Vita3K 是全球首款&apos;可運作的 PS Vita™/PS TV™ 模擬器，採用 C++ 開源編寫，支援 Windows、Linux、macOS 以及 Android。&apos;
-如需更多資訊，請造訪我們的網站： &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&gt; vita3k.org &lt;/a&gt;。如果您有興趣貢獻，請查看我們的 &lt;a href=&quot;https://github.com/Vita3K/Vita3K&quot;&gt; GitHub &lt;/a&gt; 。若想支持我們，您可以透過 &lt;a href=&quot;https://ko-fi.com/vita3k&quot;&gt;Ko-fi&lt;/a&gt;進行捐贈。</translation>
+如需更多資訊，請造訪我們的網站： &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&gt; vita3k.org &lt;/a&gt;。如果你有興趣貢獻，請查看我們的 &lt;a href=&quot;https://github.com/Vita3K/Vita3K&quot;&gt; GitHub &lt;/a&gt;。若想支持我們，您可以透過 &lt;a href=&quot;https://ko-fi.com/vita3k&quot;&gt;Ko-fi&lt;/a&gt;進行捐贈。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.cpp" line="61"/>
@@ -139,7 +139,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="246"/>
       <source>Copy Test Environment Summary</source>
-      <translation type="unfinished"/>
+      <translation>複製測試環境摘要</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="272"/>
@@ -381,7 +381,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>磁碟上的大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
@@ -399,22 +399,22 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>正在計算...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
       <source>Icon Crop</source>
-      <translation type="unfinished"/>
+      <translation>裁剪圖示</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="537"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>正方形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="538"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>圓形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="598"/>
@@ -473,12 +473,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="202"/>
       <source>What would you like to install?</source>
-      <translation>您要安裝那些？</translation>
+      <translation>你要安裝那些？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation type="unfinished"/>
+      <translation>選取檔案 (.zip / .vpk / .vci)……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
@@ -498,7 +498,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation Vita 商業軟體包 (NoNpDrm/FAGDec) / PlayStation Vita 自製軟體包 (*.zip *.vpk *.vci);;PlayStation Vita 商業軟體包 (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita 自製軟體包 (*.vpk);;Vita 卡帶映像 (VCI) 檔案 (*.vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
@@ -513,52 +513,52 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="249"/>
       <source>The selected directory contains no .zip, .vpk, or .vci files.</source>
-      <translation type="unfinished"/>
+      <translation>所選的資料夾中沒有 .zip、.vpk 或 .vci 檔案。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>正在安裝封存檔</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>正在準備安裝...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>封存檔進度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
       <source>Archive 1 of %1</source>
-      <translation type="unfinished"/>
+      <translation>封存檔 1 / %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>內容進度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>內容 0 / 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
       <source>File Extraction</source>
-      <translation type="unfinished"/>
+      <translation>檔案抽取</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
       <source>0% complete</source>
-      <translation type="unfinished"/>
+      <translation>0% 完成</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
@@ -569,17 +569,18 @@ This action cannot be undone.</source>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1 已安裝。
+是否要覆蓋它？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
       <source>Installation complete. %1 item(s) installed successfully.</source>
-      <translation type="unfinished"/>
+      <translation>安裝完成。 %1 項安裝成功。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>安裝完成。 %1 個成功，%2 個失敗。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
@@ -589,14 +590,16 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
       <source>Could Not Delete Archives</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除封存檔</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="447"/>
       <source>The following archive files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除封存檔。它可能仍然在另一個程式中開啟：
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -610,7 +613,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.ui" line="23"/>
       <source>settings-window</source>
-      <translation type="unfinished"/>
+      <translation>設定視窗</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="281"/>
@@ -631,36 +634,37 @@ Do you want to overwrite it?</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="414"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="600"/>
       <source>Hotkeys</source>
-      <translation type="unfinished"/>
+      <translation>快捷鍵</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="420"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1112"/>
       <source>Controller Port %1
 Not Connected</source>
-      <translation type="unfinished"/>
+      <translation>控制器連接埠 %1
+未連線</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="502"/>
       <source>Keyboard Mapping</source>
-      <translation type="unfinished"/>
+      <translation>鍵盤指派</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="505"/>
       <source>Map your keyboard to Vita controls. Left-click a field to capture a key, press Escape to cancel, and right-click a keyboard binding to clear it.</source>
-      <translation type="unfinished"/>
+      <translation>將你的鍵盤指派到 Vita 控制項。滑鼠左鍵單擊欄位以擷取鍵，按 Esc 鍵取消，然後滑鼠右鍵單擊鍵盤對應以清除它。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="511"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="624"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>主要</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="512"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="625"/>
       <source>Alternate</source>
-      <translation type="unfinished"/>
+      <translation>替代</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="518"/>
@@ -671,27 +675,27 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="603"/>
       <source>Keyboard-only emulator actions.</source>
-      <translation type="unfinished"/>
+      <translation>僅鍵盤模擬器操作。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>全螢幕</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>
       <source>Toggle Front/Back Touch</source>
-      <translation type="unfinished"/>
+      <translation>切換前/後觸控</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="638"/>
       <source>Replace Textures</source>
-      <translation type="unfinished"/>
+      <translation>替換紋理</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="639"/>
       <source>Take a Screenshot</source>
-      <translation type="unfinished"/>
+      <translation>擷取螢幕快照</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="640"/>
@@ -711,7 +715,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="664"/>
       <source>Controller Port %1</source>
-      <translation type="unfinished"/>
+      <translation>控制器連接埠 %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="666"/>
@@ -722,17 +726,17 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="670"/>
       <source>Bindings</source>
-      <translation type="unfinished"/>
+      <translation>對應按鈕</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="671"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>設定</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
       <source>Reset Mapping</source>
-      <translation type="unfinished"/>
+      <translation>重置指派</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="695"/>
@@ -747,12 +751,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="708"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="710"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="719"/>
@@ -807,12 +811,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="751"/>
       <source>Shared Controller Settings</source>
-      <translation type="unfinished"/>
+      <translation>共用控制器設定</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="753"/>
       <source>Analog Stick Multiplier:</source>
-      <translation type="unfinished"/>
+      <translation>類比搖桿倍數：</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="763"/>
@@ -826,17 +830,17 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1194"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1207"/>
       <source>Capturing...(%1)</source>
-      <translation type="unfinished"/>
+      <translation>正在擷取...(%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="972"/>
       <source>Unsupported Key</source>
-      <translation type="unfinished"/>
+      <translation>不支援的按鍵</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="973"/>
       <source>This key cannot be mapped on the current platform.</source>
-      <translation type="unfinished"/>
+      <translation>這個按鍵無法指派到目前平台。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="977"/>
@@ -851,13 +855,14 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1104"/>
       <source>Connected to %1. Use Bindings to remap controls or Settings for shared controller options.</source>
-      <translation type="unfinished"/>
+      <translation>已連線至 %1。使用對應功能來重新指派按鍵或設定以啟用共用控制器選項。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1105"/>
       <source>Controller Port %1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>控制器連接埠 %1
+%2</translation>
     </message>
   </context>
   <context>
@@ -1128,12 +1133,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="51"/>
       <source>Select Firmware Package</source>
-      <translation>選取韌體套件</translation>
+      <translation>選取韌體軟體包</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="53"/>
       <source>PlayStation Vita Firmware Package (*.PUP *.pup)</source>
-      <translation>PlayStation Vita 軔體套件(*.PUP *.pup)</translation>
+      <translation>PlayStation Vita 軔體軟體包(*.PUP *.pup)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="80"/>
@@ -1175,14 +1180,16 @@ Version: %1</source>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="141"/>
       <source>Could Not Delete Firmware</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除韌體</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="142"/>
       <source>The firmware file could not be deleted. It may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除韌體檔案。它可能仍然在另一個程式中開啟：
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -1203,19 +1210,21 @@ Version: %1</source>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="429"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>是否退出應用程序？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="430"/>
       <source>Do you really want to exit the app?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>確定要退出應用程式嗎？
+
+任何未儲存的遊戲進度都將會遺失！</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="435"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>不再&apos;顯示此警告</translation>
     </message>
   </context>
   <context>
@@ -1228,7 +1237,7 @@ Any unsaved progress will be lost!</source>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="40"/>
       <source>How would you like to install the license?</source>
-      <translation>您想如何安裝授權？</translation>
+      <translation>你想如何安裝授權？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="42"/>
@@ -1294,7 +1303,7 @@ Title ID:   %2</source>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="87"/>
       <source>Paste your zRIF key:</source>
-      <translation>貼上您的 zRIF 金鑰：</translation>
+      <translation>貼上你的 zRIF 金鑰：</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="99"/>
@@ -1332,22 +1341,22 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="595"/>
       <source>Find in log...</source>
-      <translation type="unfinished"/>
+      <translation>在日誌記錄中尋找……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="597"/>
       <source>Find Previous</source>
-      <translation type="unfinished"/>
+      <translation>尋找上一個</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="598"/>
       <source>Find Next</source>
-      <translation type="unfinished"/>
+      <translation>尋找下一個</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="599"/>
       <source>Close Search</source>
-      <translation type="unfinished"/>
+      <translation>關閉搜尋</translation>
     </message>
   </context>
   <context>
@@ -1457,12 +1466,12 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="211"/>
       <source>Install Package (.pkg)</source>
-      <translation>安裝套件(.pkg)</translation>
+      <translation>安裝軟體包(.pkg)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="216"/>
       <source>Install Archive (.zip / .vpk / .vci)</source>
-      <translation type="unfinished"/>
+      <translation>安裝封存檔(.zip / .vpk/ .vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="221"/>
@@ -1484,7 +1493,7 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="247"/>
       <source>Vita Themes</source>
-      <translation type="unfinished"/>
+      <translation>Vita主題</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="252"/>
@@ -1504,7 +1513,7 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="267"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>圖形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="272"/>
@@ -1529,7 +1538,7 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="292"/>
       <source>Interface</source>
-      <translation type="unfinished"/>
+      <translation>介面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="297"/>
@@ -1623,19 +1632,21 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="224"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>是否退出應用程序？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="225"/>
       <source>An app is still running. Do you really want to exit?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>應用程式仍在執行中。確定要退出嗎？
+
+將會遺失一切未儲存的進度！</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="229"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>不再&apos;顯示此警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="741"/>
@@ -1681,14 +1692,14 @@ Any unsaved progress will be lost!</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="939"/>
       <source>%1 (%2) | Loading...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | 正在載入……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="982"/>
       <source>Could not create OpenGL context.
 Does your GPU support at least OpenGL 4.4?</source>
       <translation>無法建立 OpenGL 上下文。
-您的 GPU 是否至少支援 OpenGL 4.4？</translation>
+你的 GPU 是否至少支援 OpenGL 4.4？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="986"/>
@@ -1703,7 +1714,7 @@ Does your GPU support at least OpenGL 4.4?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="996"/>
       <source>%1 (%2) | Initializing...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | 正在初始化……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1001"/>
@@ -1713,7 +1724,7 @@ Does your GPU support at least OpenGL 4.4?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1005"/>
       <source>%1 (%2) | Loading modules...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | 正在載入模組……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1010"/>
@@ -1723,7 +1734,7 @@ Does your GPU support at least OpenGL 4.4?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1040"/>
       <source>%1 (%2) | Please wait, loading...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | 請稍候，正在載入……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1117"/>
@@ -1733,7 +1744,7 @@ Does your GPU support at least OpenGL 4.4?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1119"/>
       <source>Font package</source>
-      <translation>字型套件</translation>
+      <translation>字型軟體包</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1124"/>
@@ -1753,7 +1764,7 @@ Does your GPU support at least OpenGL 4.4?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1128"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>取消</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1130"/>
@@ -1775,7 +1786,7 @@ Games may fail to boot or render correctly until they are installed.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1151"/>
       <source>Running with Administrator Privileges</source>
-      <translation type="unfinished"/>
+      <translation>正在以系統管理員權限執行</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1152"/>
@@ -1783,17 +1794,20 @@ Games may fail to boot or render correctly until they are installed.</source>
 
 This can create files owned by the wrong user and cause permission problems later.
 Please close Vita3K and relaunch it without elevated privileges.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K 正在以管理員或 root 權限執行。
+
+這樣可能會建立由錯誤使用者所擁有的檔案，並在以後導致權限問題。
+請關閉 Vita3K 並在不提升權限的情況下重新啟動它。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1165"/>
       <source>Continue</source>
-      <translation type="unfinished"/>
+      <translation>繼續</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1166"/>
       <source>Exit</source>
-      <translation type="unfinished"/>
+      <translation>退出</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1199"/>
@@ -1824,13 +1838,13 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1445"/>
       <source>Open ELF Dumps Path</source>
-      <translation type="unfinished"/>
+      <translation>開啟 ELF 傾印路徑</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1483"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1484"/>
       <source>Icon Size</source>
-      <translation type="unfinished"/>
+      <translation>圖示大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1832"/>
@@ -1887,12 +1901,12 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2080"/>
       <source>UPDATE AVAILABLE</source>
-      <translation type="unfinished"/>
+      <translation>有可用更新</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2083"/>
       <source>Click to review the latest Vita3K release information.</source>
-      <translation type="unfinished"/>
+      <translation>點擊去查閱最新的Vita3K發佈資訊。</translation>
     </message>
   </context>
   <context>
@@ -1902,35 +1916,36 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="145"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="160"/>
       <source>Install Package</source>
-      <translation>安裝套件</translation>
+      <translation>安裝軟體包</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="114"/>
       <source>Select Package And Optional License</source>
-      <translation type="unfinished"/>
+      <translation>選取軟體包和可選的授權</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="116"/>
       <source>PlayStation Vita package or license (*.pkg *.bin *.rif);;PlayStation Store Downloaded Package (*.pkg);;PlayStation Vita software license file (*.bin *.rif)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation Vita 軟體包或授權 (*.pkg *.bin *.rif);;PlayStation 商店下載的軟體包 (*.pkg);;PlayStation Vita 軟體授權檔案 (*.bin *.rif)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="127"/>
       <source>Invalid Selection</source>
-      <translation type="unfinished"/>
+      <translation>無效選取</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="176"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="217"/>
       <source>Invalid License File</source>
-      <translation type="unfinished"/>
+      <translation>無效的授權檔案</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="177"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="218"/>
       <source>Failed to read the selected license file.
 The file may be corrupted.</source>
-      <translation type="unfinished"/>
+      <translation>無法讀取選取的授權檔案。
+檔案可能已損毀。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="189"/>
@@ -1942,7 +1957,7 @@ The file may be corrupted.</source>
       <source>No license was found automatically.
 How would you like to provide it?</source>
       <translation>未能自動找到授權。
-您想如何提供？</translation>
+你想如何提供？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="195"/>
@@ -1977,7 +1992,7 @@ How would you like to provide it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="230"/>
       <source>Paste your zRIF key:</source>
-      <translation>貼上您的 zRIF 金鑰：</translation>
+      <translation>貼上你的 zRIF 金鑰：</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="236"/>
@@ -1994,7 +2009,7 @@ Please check and try again.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="255"/>
       <source>Installing package, please wait…</source>
-      <translation>正在安裝套件，請稍候…</translation>
+      <translation>正在安裝軟體包，請稍候……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="292"/>
@@ -2005,7 +2020,7 @@ Please check and try again.</source>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="293"/>
       <source>Failed to install the package.
 Check the log for details.</source>
-      <translation>無法安裝套件。
+      <translation>無法安裝軟體包。
 
 請查閱日誌記錄以了解詳情。</translation>
     </message>
@@ -2021,7 +2036,7 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="313"/>
       <source>Delete package file after install</source>
-      <translation>安裝後刪除套件檔案</translation>
+      <translation>安裝後刪除軟體包檔案</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="316"/>
@@ -2031,14 +2046,16 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="341"/>
       <source>Could Not Delete Files</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除檔案</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="342"/>
       <source>The following files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>無法刪除檔案。它可能仍然在另一個程式中開啟：
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -2091,17 +2108,17 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="91"/>
       <source>Unknown Content</source>
-      <translation type="unfinished"/>
+      <translation>未知內容</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="105"/>
       <source>Installed</source>
-      <translation type="unfinished"/>
+      <translation>已安裝</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="105"/>
       <source>Failed</source>
-      <translation type="unfinished"/>
+      <translation>已失敗</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="141"/>
@@ -2111,22 +2128,22 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="338"/>
       <source>Archive %1 of %2</source>
-      <translation type="unfinished"/>
+      <translation>封存檔 %1 / %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="345"/>
       <source>Content %1 of %2</source>
-      <translation type="unfinished"/>
+      <translation>內容 %1 / %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="352"/>
       <source>%1% complete</source>
-      <translation type="unfinished"/>
+      <translation>%1% 完成</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="122"/>
       <source>Capturing...(%1)</source>
-      <translation type="unfinished"/>
+      <translation>正在擷取...(%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="141"/>
@@ -2151,112 +2168,112 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="198"/>
       <source>L2</source>
-      <translation type="unfinished"/>
+      <translation>L2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="199"/>
       <source>L3</source>
-      <translation type="unfinished"/>
+      <translation>L3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="200"/>
       <source>R3</source>
-      <translation type="unfinished"/>
+      <translation>R3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="201"/>
       <source>R2</source>
-      <translation type="unfinished"/>
+      <translation>R2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="447"/>
       <source>D-Pad</source>
-      <translation type="unfinished"/>
+      <translation>十字方向鍵</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="449"/>
       <source>Left Stick</source>
-      <translation type="unfinished"/>
+      <translation>左搖杆</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="458"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="460"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="471"/>
       <source>PS Button</source>
-      <translation type="unfinished"/>
+      <translation>PS按鈕</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="473"/>
       <source>Select</source>
-      <translation type="unfinished"/>
+      <translation>選擇</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="474"/>
       <source>Start</source>
-      <translation type="unfinished"/>
+      <translation>開始</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="476"/>
       <source>PS TV Mode</source>
-      <translation type="unfinished"/>
+      <translation>PS TV模式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="482"/>
       <source>Face Buttons</source>
-      <translation type="unfinished"/>
+      <translation>功能按鈕</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="484"/>
       <source>Triangle</source>
-      <translation type="unfinished"/>
+      <translation>三角</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="485"/>
       <source>Cross</source>
-      <translation type="unfinished"/>
+      <translation>交叉</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="486"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>正方形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="487"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>圓形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="488"/>
       <source>Right Stick</source>
-      <translation type="unfinished"/>
+      <translation>右搖桿</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="71"/>
       <source>Only .pkg, .bin, and .rif files can be selected here.</source>
-      <translation type="unfinished"/>
+      <translation>這裡只能選取 .pkg、.bin 和 .rif 檔案。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="78"/>
       <source>Select one .pkg file to install.</source>
-      <translation type="unfinished"/>
+      <translation>選取一個 .pkg 檔案進行安裝。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="79"/>
       <source>Select only one .pkg file at a time.</source>
-      <translation type="unfinished"/>
+      <translation>一次只能選取一個 .pkg 檔案。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="84"/>
       <source>Select at most one license file (.bin or .rif) per package install.</source>
-      <translation type="unfinished"/>
+      <translation>每個軟體包安裝最多選取一個授權檔（.bin 或 .rif）。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="424"/>
@@ -2281,17 +2298,17 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="66"/>
       <source>Lockscreen</source>
-      <translation type="unfinished"/>
+      <translation>鎖定畫面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="67"/>
       <source>Home</source>
-      <translation type="unfinished"/>
+      <translation>首頁</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="136"/>
       <source>Download Firmware: %1</source>
-      <translation type="unfinished"/>
+      <translation>下載韌體：%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="49"/>
@@ -2331,22 +2348,22 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="56"/>
       <source>Parental Level</source>
-      <translation type="unfinished"/>
+      <translation>家長監護級別</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="57"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>磁碟上的大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="91"/>
       <source>Game Digital Application</source>
-      <translation type="unfinished"/>
+      <translation>遊戲數位應用程式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="93"/>
       <source>Game Patch</source>
-      <translation type="unfinished"/>
+      <translation>遊戲修補</translation>
     </message>
   </context>
   <context>
@@ -2354,7 +2371,7 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="114"/>
       <source>Search fonts...</source>
-      <translation type="unfinished"/>
+      <translation>搜尋字型……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="149"/>
@@ -2381,17 +2398,17 @@ Check the log for details.</source>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="399"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1033"/>
       <source>Theme music volume: %1%</source>
-      <translation type="unfinished"/>
+      <translation>主題音樂音量：%1%</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="419"/>
       <source>Check</source>
-      <translation type="unfinished"/>
+      <translation>檢查</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="420"/>
       <source>Don&apos;t Check</source>
-      <translation type="unfinished"/>
+      <translation>&apos;不 檢查</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="438"/>
@@ -2640,27 +2657,27 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="963"/>
       <source>Failed to switch the emulator storage folder.</source>
-      <translation type="unfinished"/>
+      <translation>無法切換模擬器儲存空間資料夾。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="976"/>
       <source>Timeout Attempts: %1 attempts</source>
-      <translation type="unfinished"/>
+      <translation>逾時嘗試：%1 次嘗試</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="978"/>
       <source>Timeout Sleep: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>超時睡眠：%1 毫秒</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="980"/>
       <source>Read End Attempts: %1 attempts</source>
-      <translation type="unfinished"/>
+      <translation>讀取結束嘗試：%1 次嘗試</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="982"/>
       <source>Read End Sleep: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>讀取結束睡眠：%1 毫秒</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1075"/>
@@ -2732,258 +2749,258 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1191"/>
       <source>Automatic</source>
-      <translation type="unfinished"/>
+      <translation>自動</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1192"/>
       <source>Auto &amp; Manual</source>
-      <translation type="unfinished"/>
+      <translation>自動及手動</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1193"/>
       <source>Manual</source>
-      <translation type="unfinished"/>
+      <translation>手動</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1195"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>啟用 CPU 最佳化</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1197"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>後端算繪器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1198"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>算繪準確度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1199"/>
       <source>V-Sync</source>
-      <translation type="unfinished"/>
+      <translation>垂直同步</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1200"/>
       <source>Disable Surface Sync</source>
-      <translation type="unfinished"/>
+      <translation>停用表面同步</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1201"/>
       <source>Asynchronous Pipeline Compilation</source>
-      <translation type="unfinished"/>
+      <translation>非同步管線編譯</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1202"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>記憶體對應</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1203"/>
       <source>Screen Filter</source>
-      <translation type="unfinished"/>
+      <translation>畫面濾鏡</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1204"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1205"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>圖形裝置</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1206"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>內部解析度上採樣</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1207"/>
       <source>Anisotropic Filtering</source>
-      <translation type="unfinished"/>
+      <translation>各向異性過濾</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1208"/>
       <source>Export Textures</source>
-      <translation type="unfinished"/>
+      <translation>匯出紋理</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1209"/>
       <source>Import Textures</source>
-      <translation type="unfinished"/>
+      <translation>匯入紋理</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1210"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1211"/>
       <source>Texture Exporting Format</source>
-      <translation type="unfinished"/>
+      <translation>紋理匯出格式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1212"/>
       <source>Enable Shader Cache</source>
-      <translation type="unfinished"/>
+      <translation>啟用著色器快取</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1213"/>
       <source>Use SPIR-V Shader</source>
-      <translation type="unfinished"/>
+      <translation>使用 SPIR-V 著色器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1214"/>
       <source>FPS Hack</source>
-      <translation type="unfinished"/>
+      <translation>FPS修改</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1216"/>
       <source>Audio Backend</source>
-      <translation type="unfinished"/>
+      <translation>音訊後端</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1217"/>
       <source>Volume</source>
-      <translation type="unfinished"/>
+      <translation>音量</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1218"/>
       <source>Enable Vita Theme Background Music</source>
-      <translation type="unfinished"/>
+      <translation>啟用Vita主題背景音樂</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1219"/>
       <source>Theme Music Volume</source>
-      <translation type="unfinished"/>
+      <translation>主題音樂音量</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1220"/>
       <source>Enable NGS Support</source>
-      <translation type="unfinished"/>
+      <translation>啟用 NGS 支援</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1222"/>
       <source>Front Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>前置相機來源</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1223"/>
       <source>Back Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>後置相機來源</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1225"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1226"/>
       <source>Enter Button Assignment</source>
-      <translation type="unfinished"/>
+      <translation>確定按鈕指定</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1227"/>
       <source>PlayStation TV Mode (PSTV)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation TV 模式 (PSTV)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1228"/>
       <source>Show Mode</source>
-      <translation type="unfinished"/>
+      <translation>展示模式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1229"/>
       <source>Demo Mode</source>
-      <translation type="unfinished"/>
+      <translation>試玩模式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1230"/>
       <source>System Language</source>
-      <translation type="unfinished"/>
+      <translation>系統語言</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1231"/>
       <source>Date Format</source>
-      <translation type="unfinished"/>
+      <translation>日期格式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1232"/>
       <source>Time Format</source>
-      <translation type="unfinished"/>
+      <translation>時間格式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1233"/>
       <source>IME Languages</source>
-      <translation type="unfinished"/>
+      <translation>輸入法語言</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1235"/>
       <source>Boot Games in Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>以全螢幕啟動遊戲</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1236"/>
       <source>Show Live Area Before Booting</source>
-      <translation type="unfinished"/>
+      <translation>啟動前顯示Live Area</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1237"/>
       <source>Show Shader Compilation Hint</source>
-      <translation type="unfinished"/>
+      <translation>顯示著色器編譯提示</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1238"/>
       <source>Update Check Mode</source>
-      <translation type="unfinished"/>
+      <translation>檢查更新模式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1239"/>
       <source>Log Compatibility Warnings</source>
-      <translation type="unfinished"/>
+      <translation>記錄相容性警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1240"/>
       <source>Enable Texture Cache</source>
-      <translation type="unfinished"/>
+      <translation>啟用紋理快取</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1241"/>
       <source>Archive Log</source>
-      <translation type="unfinished"/>
+      <translation>封存日誌記錄</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1242"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1243"/>
       <source>Log Level</source>
-      <translation type="unfinished"/>
+      <translation>日誌記錄等級</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1244"/>
       <source>Enable Discord Rich Presence</source>
-      <translation type="unfinished"/>
+      <translation>啟用 Discord 動態狀態展示</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1245"/>
       <source>Performance Overlay</source>
-      <translation type="unfinished"/>
+      <translation>效能疊加層</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1246"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1247"/>
       <source>Overlay Detail</source>
-      <translation type="unfinished"/>
+      <translation>疊加層詳情</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1248"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1249"/>
       <source>Overlay Position</source>
-      <translation type="unfinished"/>
+      <translation>疊加層位置</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1250"/>
       <source>Stretch the Display Area</source>
-      <translation type="unfinished"/>
+      <translation>延伸顯示區域</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1251"/>
       <source>Fullscreen HD Pixel Perfect</source>
-      <translation type="unfinished"/>
+      <translation>全螢幕HD像素精準對齊</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1252"/>
       <source>File Loading Delay</source>
-      <translation type="unfinished"/>
+      <translation>檔案載入延遲</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1253"/>
@@ -2991,153 +3008,153 @@ Check the log for details.</source>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1255"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1256"/>
       <source>Emulated System Storage Folder</source>
-      <translation type="unfinished"/>
+      <translation>模擬系統儲存空間資料夾</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1257"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1258"/>
       <source>Custom Config Settings</source>
-      <translation type="unfinished"/>
+      <translation>自訂組態設定</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1259"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1260"/>
       <source>Screenshot Format</source>
-      <translation type="unfinished"/>
+      <translation>螢幕截圖格式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1262"/>
       <source>Show welcome screen</source>
-      <translation type="unfinished"/>
+      <translation>顯示歡迎畫面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1263"/>
       <source>Warn when firmware is missing</source>
-      <translation type="unfinished"/>
+      <translation>缺少韌體時發出警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1264"/>
       <source>Show exit app confirmation</source>
-      <translation type="unfinished"/>
+      <translation>顯示退出應用程式的確認</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1265"/>
       <source>Warn when running with administrator privileges</source>
-      <translation type="unfinished"/>
+      <translation>以管理員權限執行時發出警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1266"/>
       <source>Rounded corners</source>
-      <translation type="unfinished"/>
+      <translation>圓角</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1267"/>
       <source>Interface Language</source>
-      <translation type="unfinished"/>
+      <translation>介面語言</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1268"/>
       <source>Log Buffer Size</source>
-      <translation type="unfinished"/>
+      <translation>日誌記錄緩衝區大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1269"/>
       <source>Log Font</source>
-      <translation type="unfinished"/>
+      <translation>日誌字型</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1270"/>
       <source>Stylesheet</source>
-      <translation type="unfinished"/>
+      <translation>樣式表</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1272"/>
       <source>PSN Signed In</source>
-      <translation type="unfinished"/>
+      <translation>已登入 PSN</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1273"/>
       <source>Enable HTTP Networking</source>
-      <translation type="unfinished"/>
+      <translation>啟用 HTTP 網路</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1274"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1275"/>
       <source>Timeout Attempts</source>
-      <translation type="unfinished"/>
+      <translation>逾時嘗試次數</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1276"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1277"/>
       <source>Timeout Sleep</source>
-      <translation type="unfinished"/>
+      <translation>逾時休眠</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1278"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1279"/>
       <source>Read End Attempts</source>
-      <translation type="unfinished"/>
+      <translation>讀取結束嘗試</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1280"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1281"/>
       <source>Read End Sleep</source>
-      <translation type="unfinished"/>
+      <translation>讀取結束休眠</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1282"/>
       <source>Ad-Hoc Address</source>
-      <translation type="unfinished"/>
+      <translation>Ad-Hoc位址</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1284"/>
       <source>Import Logging</source>
-      <translation type="unfinished"/>
+      <translation>匯入日誌記錄</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1285"/>
       <source>Export Logging</source>
-      <translation type="unfinished"/>
+      <translation>匯出日誌記錄</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1286"/>
       <source>Log Active Shaders</source>
-      <translation type="unfinished"/>
+      <translation>記錄使用中的著色器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1287"/>
       <source>Log Shader Uniforms</source>
-      <translation type="unfinished"/>
+      <translation>記錄著色器統一變數</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1288"/>
       <source>Save color surfaces</source>
-      <translation type="unfinished"/>
+      <translation>儲存色彩表面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1289"/>
       <source>Vulkan Validation Layer</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan 驗證層</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1290"/>
       <source>ELF Dumping</source>
-      <translation type="unfinished"/>
+      <translation>ELF 傾印</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1291"/>
       <source>Tracy Profiler</source>
-      <translation type="unfinished"/>
+      <translation>追蹤分析器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1292"/>
       <source>Primitive Implementation</source>
-      <translation type="unfinished"/>
+      <translation>初步實現</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1293"/>
       <source>Tracy modules list</source>
-      <translation type="unfinished"/>
+      <translation>追蹤模組列表</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1395"/>
@@ -3147,22 +3164,22 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1396"/>
       <source>You have unsaved changes. What would you like to do?</source>
-      <translation>您有尚未儲存的變更。您想怎麼做？</translation>
+      <translation>你有尚未儲存的變更。你想怎麼做？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1398"/>
       <source>Save</source>
-      <translation type="unfinished"/>
+      <translation>儲存</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1399"/>
       <source>Discard</source>
-      <translation type="unfinished"/>
+      <translation>捨棄</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1400"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>取消</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1441"/>
@@ -3175,233 +3192,239 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="28"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>啟用 CPU 最佳化</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="30"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>後端算繪器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="32"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>圖形裝置</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="34"/>
       <source>Custom Driver</source>
-      <translation type="unfinished"/>
+      <translation>自訂驅動程式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="36"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>算繪準確度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="38"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>內部解析度上採樣</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="40"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>記憶體對應</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="42"/>
       <source>Audio Backend</source>
-      <translation type="unfinished"/>
+      <translation>音訊後端</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="44"/>
       <source>Vulkan Validation Layer</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan 驗證層</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="61"/>
       <source>Restart Required</source>
-      <translation type="unfinished"/>
+      <translation>需要重新啟動</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="62"/>
       <source>Some changes need an app restart to fully take effect.</source>
-      <translation type="unfinished"/>
+      <translation>部份變更需要重新啟動應用程式才能完全生效。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="64"/>
       <source>Restart App</source>
-      <translation type="unfinished"/>
+      <translation>重新啟動應用程式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="65"/>
       <source>Restart Later</source>
-      <translation type="unfinished"/>
+      <translation>稍後再重新啟動</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="67"/>
       <source>These changed settings will apply after restart:
 - %1</source>
-      <translation type="unfinished"/>
+      <translation>這些設定變更將於重新啟動後套用：
+- %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="78"/>
       <source>Control how low-level modules are loaded.</source>
-      <translation type="unfinished"/>
+      <translation>控制底層模組的載入方式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="80"/>
       <source>Manage CPU behavior.</source>
-      <translation type="unfinished"/>
+      <translation>管理CPU行為。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="82"/>
       <source>Tune renderer behavior, textures, and shader behavior.</source>
-      <translation type="unfinished"/>
+      <translation>調整算繪器行為、紋理和著色器行為。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="84"/>
       <source>Adjust audio.</source>
-      <translation type="unfinished"/>
+      <translation>調整音訊。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="86"/>
       <source>Choose how front and back camera input should be simulated.</source>
-      <translation type="unfinished"/>
+      <translation>選擇前／後相機輸入的模擬方式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="88"/>
       <source>Set regional behavior, and emulated console system related settings here.</source>
-      <translation type="unfinished"/>
+      <translation>在此設定區域行為及模擬控制台系統相關設定。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="90"/>
       <source>Configure app-level behavior in this section.</source>
-      <translation type="unfinished"/>
+      <translation>在此部份中設定應用程式層級的行為。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="92"/>
       <source>Customize the Vita3K interface.</source>
-      <translation type="unfinished"/>
+      <translation>自訂Vita3K介面。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="94"/>
       <source>Configure network related settings here.</source>
-      <translation type="unfinished"/>
+      <translation>在此設定網路相關設定。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="96"/>
       <source>Internal diagnostics, GPU debugging, and watch controls live here. These settings are mainly for developers.</source>
-      <translation type="unfinished"/>
+      <translation>內部診斷、GPU 偵錯和監察控制都在這裡。這些設定主要是為開發者而設的。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="104"/>
       <source>Point your mouse at an option to display a description here.</source>
-      <translation type="unfinished"/>
+      <translation>將滑鼠指標移動至選項上，即可在此處顯示描述。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="105"/>
       <source>Automatically select modules to load. Recommended for most apps.</source>
-      <translation type="unfinished"/>
+      <translation>自動選取要載入的模組。建議大多數應用程式使用。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="106"/>
       <source>Select this mode to load modules automatically in addition to selected modules from the list on the right.</source>
-      <translation type="unfinished"/>
+      <translation>選取此模式後，除了右側列表中已選取的模組外，也會自動載入其他模組。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="107"/>
       <source>Only load the modules selected from the list. Advanced users only.</source>
-      <translation type="unfinished"/>
+      <translation>僅載入列表中所選的模組。僅限進階使用者。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="108"/>
       <source>Enable Dynarmic JIT optimizations. Improves performance.</source>
-      <translation type="unfinished"/>
+      <translation>啟用動態 JIT 最佳化。提升效能。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="109"/>
       <source>Select the preferred backend renderer. Vulkan is recommended for most systems.</source>
-      <translation type="unfinished"/>
+      <translation>請選取偏好的後端算繪器。建議大多數系統使用 Vulkan。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="110"/>
       <source>Set the renderer accuracy level for Vulkan. High accuracy may improve visuals but reduce performance.</source>
-      <translation type="unfinished"/>
+      <translation>設定 Vulkan 的算繪器準確度等級。高準確度可能會改善視覺效果，但會降低效能。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="111"/>
       <source>Enable V-Sync for OpenGL. Reduces screen tearing.</source>
-      <translation type="unfinished"/>
+      <translation>啟用 OpenGL 的垂直同步。可減少畫面撕裂。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="112"/>
       <source>Speed hack, disabling turns off surface syncing between CPU and GPU. Surface syncing is needed by a few games.
 Gives a big performance boost if disabled (in particular when upscaling is on).</source>
-      <translation type="unfinished"/>
+      <translation>速度修改：將停用 CPU 與 GPU 之間的表面同步。少數遊戲需要表面同步。
+若停用（尤其是在開啟縮放時），可大幅提升效能。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="113"/>
       <source>Allow pipelines to be compiled concurrently on multiple concurrent threads.
 This decreases pipeline compilation stutter at the cost of temporary graphical glitches.</source>
-      <translation type="unfinished"/>
+      <translation>允許在多個並行執行緒上同時編譯管線。
+這樣會減少管線編譯時的停頓，但代價是短暫的圖形錯誤。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="114"/>
       <source>Select the final image filter to apply.</source>
-      <translation type="unfinished"/>
+      <translation>請選取要套用的最終影像濾鏡。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="115"/>
       <source>Select which GPU Vita3k should use.</source>
-      <translation type="unfinished"/>
+      <translation>選取 Vita3k 應使用的 GPU。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="116"/>
       <source>Scale the games resolution by a multiplier.
 Experimental: apps are not guaranteed to render properly at more than 1x.</source>
-      <translation type="unfinished"/>
+      <translation>以倍數縮放遊戲解析度。
+實驗性功能：應用程式不保證能在高於 1倍 的倍率下正常呈現。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="117"/>
       <source>Technique to increase the sharpness of textures which are sloped relative to the viewer.
 It has no drawbacks but can impact performance on older GPUs.</source>
-      <translation type="unfinished"/>
+      <translation>用於提升相對於視圖的傾斜紋理銳利度的技術。
+它沒有缺點，但可能會影響舊型 GPU 的效能。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="118"/>
       <source>Export textures used by the app to the textures folder.</source>
-      <translation type="unfinished"/>
+      <translation>將應用程式使用的紋理匯出至 textures 資料夾。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="119"/>
       <source>Import replacement textures from the textures folder.</source>
-      <translation type="unfinished"/>
+      <translation>從 textures 資料夾匯入替換紋理。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="120"/>
       <source>Format to export textures in.</source>
-      <translation type="unfinished"/>
+      <translation>匯出紋理的格式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="121"/>
       <source>Enable shader caching. Reduces stuttering on subsequent runs.</source>
-      <translation type="unfinished"/>
+      <translation>啟用著色器快取。可減少後續執行時的停頓現像。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="122"/>
       <source>Pass generated Spir-V shader directly to driver.
 Note that some beneficial extensions will be disabled, and not all GPUs are compatible with this.</source>
-      <translation type="unfinished"/>
+      <translation>直接將產生的 Spir-V 著色器傳遞給驅動程式。
+請注意，某些有益的擴充功能將會被停用，且並非所有 GPU 都相容此著色器。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="123"/>
       <source>Game hack. May double the framerate from 30 FPS to 60 FPS in some games, but can cause some games to run twice as fast.</source>
-      <translation type="unfinished"/>
+      <translation>遊戲修改。可能會使某些遊戲的影格率從 30 FPS 加倍到 60 FPS，但也可能導致某些遊戲執行速度變為兩倍。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="124"/>
       <source>Memory mapping improved performance, reduces memory usage and fixes many graphical issues. However, it may be unstable on some GPUs.</source>
-      <translation type="unfinished"/>
+      <translation>記憶體對應改善了效能、減少了記憶體使用量並修復了許多圖形問題。不過，這樣在某些 GPU 上可能不穩定。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="125"/>
@@ -3480,7 +3503,7 @@ Solid Color or Static Image can be used as substitutes.</source>
       <source>Choose whether Vita3K checks for updates at startup.
 &quot;Check&quot; notifies you when a newer build is available, and &quot;Don&apos;t Check&quot; disables startup checks.</source>
       <translation>選取 Vita3K 是否在啟動時檢查更新。
-&quot;檢查&quot;會在有新版本時通知您，&quot;不檢查&quot;則會停用啟動檢查。</translation>
+&quot;檢查&quot;會在有新版本時通知你，&quot;不&apos; 檢查&quot;則會停用啟動檢查。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="140"/>
@@ -3495,217 +3518,222 @@ Solid Color or Static Image can be used as substitutes.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="142"/>
       <source>Keep a duplicate of the log file named after the current title when an app runs.</source>
-      <translation type="unfinished"/>
+      <translation>當執行應用程式時，會保留一份以目前標題命名的日誌記錄檔副本。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="143"/>
       <source>Select the verbosity of the logging system.</source>
-      <translation type="unfinished"/>
+      <translation>選取日誌記錄系統的詳細程度。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="144"/>
       <source>Enable Discord Rich Presence to show what app you&apos;re running on Discord.</source>
-      <translation type="unfinished"/>
+      <translation>啟用 Discord即時動態顯示 以在 Discord 上顯示 &apos;你執行的 應用程式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="145"/>
       <source>Show a performance overlay with FPS and other statistics.</source>
-      <translation type="unfinished"/>
+      <translation>顯示包含 FPS 及其他統計資料的效能疊加層。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="146"/>
       <source>Select the detail level for the performance overlay.</source>
-      <translation type="unfinished"/>
+      <translation>選取效能疊加層的詳細程度。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="147"/>
       <source>Select the location to display the performance overlay in.</source>
-      <translation type="unfinished"/>
+      <translation>選取效能疊加層的顯示位置。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="148"/>
       <source>Add an artificial delay to file loading. This is required for some games that load files too quickly compared to real hardware (e.g., Silent Hill).</source>
-      <translation type="unfinished"/>
+      <translation>加入人為延遲到載入檔案過程。這個設定對於某些載入檔案速度過快(比起真實硬體)的遊戲(例如《沉默之丘Silent Hill》)是必需的。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="149"/>
       <source>Stretch the display area to fill the entire window, ignoring the original aspect ratio.</source>
-      <translation type="unfinished"/>
+      <translation>拉伸顯示區域以填滿整個視窗，忽略原始長寬比。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="150"/>
       <source>Check the box to get a pixel perfect rendering with HD resolutions (1080p, 4K) in fullscreen on a 16:9 aspect ratio monitor at the price of slight cropping at the top and the bottom of the screen.</source>
-      <translation type="unfinished"/>
+      <translation>勾選此方塊，即可在 16:9 比例螢幕上以全螢幕模式獲得像素精準對齊的 HD 解析度 (1080p, 4K) 算繪，代價是畫面頂部和底部會稍有裁切。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="151"/>
       <source>Change the location of the emulated system storage folder.
 If you move to a different folder, move your existing data there manually.</source>
-      <translation type="unfinished"/>
+      <translation>變更模擬系統儲存空間資料夾的位置。
+如果你移動至不同的資料夾，請手動將現有的資料移動至該處。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="152"/>
       <source>This will remove all per-app custom configuration files. This action cannot be undone.</source>
-      <translation type="unfinished"/>
+      <translation>這將移除所有應用程式的個別自訂組態檔。此操作無法復原。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="153"/>
       <source>Select image format to select screenshots in.</source>
-      <translation type="unfinished"/>
+      <translation>選取影像格式以便選取螢幕截圖。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="154"/>
       <source>Pretend to be signed in to PlayStation Network (but offline).</source>
-      <translation type="unfinished"/>
+      <translation>模擬已登入 PlayStation Network (但處於離線狀態)。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="155"/>
       <source>Enable HTTP networking support for apps that use it.</source>
-      <translation type="unfinished"/>
+      <translation>啟用 HTTP 網路以供支援的應用程式去使用。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="156"/>
       <source>How many times to retry connecting when the server doesn&apos;t respond.  Could be useful if you have very unstable or VERY SLOW internet.</source>
-      <translation type="unfinished"/>
+      <translation>伺服器 &apos;沒有回應 時嘗試連線的次數。如果你的網路非常不穩定或者非常慢，這樣會很有用。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="157"/>
       <source>How long to wait between connection retries. Could be useful if you have very unstable or VERY SLOW internet.</source>
-      <translation type="unfinished"/>
+      <translation>重試連線的間隔時間。如果你的網路非常不穩定或速度非常慢，這樣會很有用。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="158"/>
       <source>How many retries to attempt when there isn&apos;t more data to read, lower can improve performance but can make games unstable if you have bad enough internet.</source>
-      <translation type="unfinished"/>
+      <translation>當 &apos;沒有 更多資料可讀取時，重試的次數。數值較低可提升效能，但如果網路連線不佳，可能會導致遊戲不穩定。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="159"/>
       <source>How long to wait between read attempt retries, lower can improve performance but can make games unstable if you have bad enough internet</source>
-      <translation type="unfinished"/>
+      <translation>重試讀取操作之間的等待時間，調低可以提升效能，若網路連線品質太差可能會導致遊戲不穩定</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="160"/>
       <source>Select the IP address to be used in adhoc networking.</source>
-      <translation type="unfinished"/>
+      <translation>請選取要在Ad-Hoc網路中使用的IP位址。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="161"/>
       <source>Log module import symbols.</source>
-      <translation type="unfinished"/>
+      <translation>匯入日誌模組符號。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="162"/>
       <source>Log module export symbols.</source>
-      <translation type="unfinished"/>
+      <translation>匯出日誌模組符號。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="163"/>
       <source>Log active shader programs.</source>
-      <translation type="unfinished"/>
+      <translation>記錄使用中的著色器程式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="164"/>
       <source>Log shader uniform values.</source>
-      <translation type="unfinished"/>
+      <translation>記錄著色器統一變數的值。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="165"/>
       <source>Save color surfaces to files.</source>
-      <translation type="unfinished"/>
+      <translation>將色彩表面儲存至檔案。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="166"/>
       <source>Enable Vulkan validation layers. Useful for debugging but reduces performance.</source>
-      <translation type="unfinished"/>
+      <translation>啟用 Vulkan 驗證層。對偵錯很有用，但會降低效能。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="167"/>
       <source>Dump loaded code as ELFs.</source>
-      <translation type="unfinished"/>
+      <translation>將載入的程式碼傾印為 ELF 檔案。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="168"/>
       <source>The Tracy profiler implementation in the emulator allows among other things to track the functions that a game calls in real-time and visualize them in a timeline with timings for every frame and audio buffer.</source>
-      <translation type="unfinished"/>
+      <translation>模擬器內的追蹤分析器實現允許追蹤遊戲即時呼叫的函數，並在時間軸中將它們視覺化，其中包含每個畫格和音訊緩衝區的計時。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="169"/>
       <source>The primitive Tracy implementation for HLE modules allows for all HLE module calls to be logged without manual instrumentation needed. However it is just a general workaround that doesn&apos;t count for statistic analysis neither for trace searching on Tracy. Due to the amount of functions being logged due to this implementation Tracy logs can become gigabytes long in a matter of minutes. Because of this it is only recommended to be used when the module(s) to debug aren&apos;t available for advanced profiling or a more general overview of the function calls is needed and in a PC with at least 12GB (Linux) or 16GB (Windows) of RAM.</source>
-      <translation type="unfinished"/>
+      <translation>初步追蹤實現針對 HLE 模組，可記錄所有模組呼叫，無需手動編譯。但這只是一個通用方法，&apos;無法 用於統計分析或在追蹤上進行追蹤搜尋。由於此實作會記錄大量的函數，因此追蹤的日誌記錄檔案可能在幾分鐘內膨脹至數十億位元組。因此，僅建議在需要進階分析的模組 &apos;無法偵錯 或需要對函數呼叫進行通用概覽的情況下使用，而且PC至少需搭載 12GB (Linux) 或 16GB (Windows) 的 RAM。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="170"/>
       <source>Available modules for advanced profiling. Modules enabled for advanced profiling don&apos;t only provide function call timings but also log the arguments they were called with for every single function call except arguments driving a large amount of data such as large sized arrays. Advanced profiling requires functions to be manually instrumented in source code.</source>
-      <translation type="unfinished"/>
+      <translation>進階分析用的模組可用。啟用進階分析模組 &apos;不只 提供函數呼叫時間，還會記錄每個函數呼叫時傳入的參數，除非是驅動大量資料的函數，例如大型陣列。進階分析需要手動在原始程式碼中對函數進行工具化。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="171"/>
       <source>Set the system language reported to applications.</source>
-      <translation type="unfinished"/>
+      <translation>設定回報給應用程式的系統語言。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="172"/>
       <source>Set the date format used by the emulated system.</source>
-      <translation type="unfinished"/>
+      <translation>設定模擬系統使用的日期格式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="173"/>
       <source>Set the time format used by the emulated system.</source>
-      <translation type="unfinished"/>
+      <translation>設定模擬系統使用的時間格式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="174"/>
       <source>Select which IME keyboard languages are available to applications.</source>
-      <translation type="unfinished"/>
+      <translation>選取哪些 IME 輸入法語言可供應用程式使用。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="175"/>
       <source>Show the Welcome Dialog at startup.</source>
-      <translation type="unfinished"/>
+      <translation>啟動時顯示歡迎對話視窗。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="176"/>
       <source>Show a warning before launching a game when one or more firmware packages are missing.</source>
-      <translation type="unfinished"/>
+      <translation>當缺少一個或多個韌體軟體包時，在啟動遊戲前顯示警告。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="177"/>
       <source>Show a confirmation dialog before closing a running app.</source>
-      <translation type="unfinished"/>
+      <translation>在關閉正在執行的應用程式之前顯示確認對話視窗。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="178"/>
       <source>Show a warning at startup when Vita3K is launched with administrator or root privileges.</source>
-      <translation type="unfinished"/>
+      <translation>啟動時顯示警告，當 Vita3K 以管理員或 root 權限執行時。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="179"/>
       <source>Enable rounded corners for the game window on Windows.
 Unsupported Windows versions may ignore this setting.</source>
-      <translation type="unfinished"/>
+      <translation>在 Windows 上為遊戲視窗啟用圓角。
+不受支援的 Windows 版本可能會忽略此設定。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="180"/>
       <source>Set the maximum number of log lines to keep in memory.
 Set to 0 to remove the user cap and use the built-in safety limit.</source>
-      <translation type="unfinished"/>
+      <translation>設定儲存在記憶體中的最大日誌列數。
+將其設定為 0 可移除使用者限制並使用內建安全限制。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="181"/>
       <source>Choose the font family used by the log view.</source>
-      <translation type="unfinished"/>
+      <translation>選擇日誌紀錄檢視用的字型系列。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="182"/>
       <source>Select the visual theme for the application.
 You can also place custom .qss files in the gui-configs folder.</source>
-      <translation type="unfinished"/>
+      <translation>選取應用程式的視覺主題。
+你也可以將自訂 .qss 檔案放在 gui-configs 資料夾中。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="183"/>
       <source>Select the desktop interface language used by the Qt frontend.
 Use System Default to follow the operating system language.</source>
-      <translation type="unfinished"/>
+      <translation>選取 Qt 前端所使用的桌面介面語言。
+使用「系統預設值」可跟隨作業系統語言。</translation>
     </message>
   </context>
   <context>
@@ -3713,40 +3741,40 @@ Use System Default to follow the operating system language.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="525"/>
       <source>the installed Vita theme &quot;%1&quot; could not be found</source>
-      <translation type="unfinished"/>
+      <translation>找不到已安裝的Vita主題 &quot;%1&quot;</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="531"/>
       <source>the selected Vita background &quot;%1&quot; is no longer available</source>
-      <translation type="unfinished"/>
+      <translation>所選的Vita背景 &quot;%1&quot; 不再可用</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="547"/>
       <source>the generated Vita theme stylesheet could not be rebuilt</source>
-      <translation type="unfinished"/>
+      <translation>無法重建產生的Vita主題樣式表</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="673"/>
       <source>Light</source>
       <comment>Stylesheets</comment>
-      <translation type="unfinished"/>
+      <translation>淺色</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="682"/>
       <source>Dark</source>
       <comment>Stylesheets</comment>
-      <translation type="unfinished"/>
+      <translation>深色</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1054"/>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1057"/>
       <source>Vita Theme: %1</source>
-      <translation type="unfinished"/>
+      <translation>Vita主題：%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1057"/>
       <source>Generated</source>
-      <translation type="unfinished"/>
+      <translation>已產生</translation>
     </message>
   </context>
   <context>
@@ -3985,332 +4013,333 @@ All user data will be lost!</source>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="125"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1077"/>
       <source>Vita Themes</source>
-      <translation type="unfinished"/>
+      <translation>Vita主題</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="198"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="207"/>
       <source>Installed Themes</source>
-      <translation type="unfinished"/>
+      <translation>已安裝的主題</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="208"/>
       <source>Select an installed Vita theme to preview it, choose a primary background, and prepare a generated emulator theme.</source>
-      <translation type="unfinished"/>
+      <translation>選取已安裝的 Vita 主題以預覽，選擇主要背景，並準備產生模擬器主題。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="245"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="270"/>
       <source>Preview</source>
-      <translation type="unfinished"/>
+      <translation>預覽</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="264"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="831"/>
       <source>No preview available</source>
-      <translation type="unfinished"/>
+      <translation>沒有可用的預覽</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="271"/>
       <source>Shows the currently previewed Vita background. Select a row in the list to compare slides, or use Primary to choose which one gets applied.</source>
-      <translation type="unfinished"/>
+      <translation>顯示目前預覽的 Vita 背景。請在列表上選取一行以比較幻燈片，或使用主要選項來選擇要套用哪個。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="281"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="343"/>
       <source>Slides</source>
-      <translation type="unfinished"/>
+      <translation>幻燈片</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="292"/>
       <source>Cycle Backgrounds</source>
-      <translation type="unfinished"/>
+      <translation>循環背景</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="293"/>
       <source>Rotate through the backgrounds checked in the list below. The primary background always remains part of the cycle order.</source>
-      <translation type="unfinished"/>
+      <translation>順序輪流查看列表中的背景。主要背景始終會出現在循環順序中。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="295"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="428"/>
       <source>Cycle</source>
-      <translation type="unfinished"/>
+      <translation>循環</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="298"/>
       <source>Every</source>
-      <translation type="unfinished"/>
+      <translation>每</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="303"/>
       <source> s</source>
-      <translation type="unfinished"/>
+      <translation> 秒</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="309"/>
       <source>Cycle Interval</source>
-      <translation type="unfinished"/>
+      <translation>循環間隔</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="310"/>
       <source>Choose how long each selected background stays on screen before the next fade begins.</source>
-      <translation type="unfinished"/>
+      <translation>選擇每個選取的背景圖停留螢幕的時間，直到下一個漸顯開始。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="424"/>
       <source>Background</source>
-      <translation type="unfinished"/>
+      <translation>背景</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>主要</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="344"/>
       <source>Select a slide to preview it. Use the Primary column to choose the applied background and the Cycle column to decide which slides rotate.</source>
-      <translation type="unfinished"/>
+      <translation>選取一個幻燈片以預覽。使用『主要』欄位選擇背景，使用『循環』欄位決定哪些幻燈片會輪流顯示。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="357"/>
       <source>Appearance</source>
-      <translation type="unfinished"/>
+      <translation>外觀</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="368"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="377"/>
       <source>Background Opaqueness</source>
-      <translation type="unfinished"/>
+      <translation>背景不透明度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="378"/>
       <source>Adjust how strongly the generated theme dims the background behind Vita shell panels for readability.</source>
-      <translation type="unfinished"/>
+      <translation>調整產生的動態主題，背景對 Vita Shell 介面的亮度，以提升可讀性。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="384"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="389"/>
       <source>Normalize Font Colors</source>
-      <translation type="unfinished"/>
+      <translation>標準化字型顏色</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="390"/>
       <source>Use a more reliable light or dark text palette instead of the original Vita theme font colors when generating the stylesheet.</source>
-      <translation type="unfinished"/>
+      <translation>改用更可靠的淺色或深色文字配色方案，產生樣式表時取代原 Vita 主題字體顏色。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="393"/>
       <source>Details</source>
-      <translation type="unfinished"/>
+      <translation>詳細資訊</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="408"/>
       <source>Version</source>
-      <translation type="unfinished"/>
+      <translation>版本</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="412"/>
       <source>Theme ID</source>
-      <translation type="unfinished"/>
+      <translation>主題ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="416"/>
       <source>Installed Size</source>
-      <translation type="unfinished"/>
+      <translation>已安裝大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="420"/>
       <source>Updated</source>
-      <translation type="unfinished"/>
+      <translation>更新於</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="458"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="462"/>
       <source>Refresh</source>
-      <translation type="unfinished"/>
+      <translation>重新整理</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="463"/>
       <source>Rescan the Vita theme folder and update the installed theme list.</source>
-      <translation type="unfinished"/>
+      <translation>重新掃描 Vita 主題資料夾並更新已安裝的主題列表。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="465"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="469"/>
       <source>Open Theme Folder</source>
-      <translation type="unfinished"/>
+      <translation>開啟主題資料夾</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="470"/>
       <source>Open the selected theme&apos;s folder in the file manager.</source>
-      <translation type="unfinished"/>
+      <translation>在檔案總管中開啟所選主題 &apos;的 資料夾。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="474"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="478"/>
       <source>Delete</source>
-      <translation type="unfinished"/>
+      <translation>刪除</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="479"/>
       <source>Remove the selected installed Vita theme from ux0/theme.</source>
-      <translation type="unfinished"/>
+      <translation>從 ux0/theme 中移除所選的已安裝 Vita 主題。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="481"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="486"/>
       <source>Apply</source>
-      <translation type="unfinished"/>
+      <translation>套用</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="487"/>
       <source>Generate and apply the emulator theme using the currently selected background, cycling options, and appearance settings.</source>
-      <translation type="unfinished"/>
+      <translation>使用目前所選的背景、循環選項和外觀設定產生並套用模擬器主題。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="562"/>
       <source>%1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>%1
+%2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="747"/>
       <source>Set this as the primary background for the generated theme. %1 backgrounds can also be included in cycling.</source>
-      <translation type="unfinished"/>
+      <translation>將此設定為產生主題的主要背景。 %1 背景也可以包含在循環中。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="749"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="750"/>
       <source>Primary Background</source>
-      <translation type="unfinished"/>
+      <translation>主要背景</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="753"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="757"/>
       <source>Include In Cycle</source>
-      <translation type="unfinished"/>
+      <translation>包含在循環內</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="754"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="758"/>
       <source>Include this background when cycling is enabled. The primary background is always kept in the cycle order.</source>
-      <translation type="unfinished"/>
+      <translation>啟用循環時包含此背景。主要背景會一直保留在循環順序內。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="849"/>
       <source>Unable to load preview</source>
-      <translation type="unfinished"/>
+      <translation>無法載入預覽</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="866"/>
       <source>No themes installed</source>
-      <translation type="unfinished"/>
+      <translation>未安裝任何主題</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="867"/>
       <source>Install or copy a Vita theme into ux0/theme to get started.</source>
-      <translation type="unfinished"/>
+      <translation>安裝或複製 Vita 主題到 ux0/theme 即可開始。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="880"/>
       <source>Unknown provider</source>
-      <translation type="unfinished"/>
+      <translation>未知的提供者</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="881"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="885"/>
       <source>Unknown</source>
-      <translation type="unfinished"/>
+      <translation>未知</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="889"/>
       <source>%1: %2</source>
-      <translation type="unfinished"/>
+      <translation>%1：%2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="896"/>
       <source>%1 backgrounds every %2 seconds</source>
-      <translation type="unfinished"/>
+      <translation>%1背景變更每%2秒</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="900"/>
       <source>Off (%1 saved)</source>
-      <translation type="unfinished"/>
+      <translation>關 (已儲存%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="902"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="945"/>
       <source>Off</source>
-      <translation type="unfinished"/>
+      <translation>關</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="939"/>
       <source>Single background</source>
-      <translation type="unfinished"/>
+      <translation>單一背景</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="941"/>
       <source>%1 selected</source>
-      <translation type="unfinished"/>
+      <translation>已選取%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="943"/>
       <source>%1 saved</source>
-      <translation type="unfinished"/>
+      <translation>已儲存%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="973"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="980"/>
       <source>No package thumbnail</source>
-      <translation type="unfinished"/>
+      <translation>沒有軟體包封面圖</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="995"/>
       <source>%1%</source>
-      <translation type="unfinished"/>
+      <translation>%1%</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1009"/>
       <source>Apply Failed</source>
-      <translation type="unfinished"/>
+      <translation>套用失敗</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1010"/>
       <source>Vita3K could not generate or apply the selected theme stylesheet.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K 無法產生或套用所選的主題樣式。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1022"/>
       <source>Delete Theme</source>
-      <translation type="unfinished"/>
+      <translation>刪除主題</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1023"/>
       <source>Delete &quot;%1&quot; from ux0/theme?</source>
-      <translation type="unfinished"/>
+      <translation>從 ux0/theme 刪除 &quot;%1&quot; 嗎？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1037"/>
       <source>Delete Failed</source>
-      <translation type="unfinished"/>
+      <translation>刪除失敗</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1038"/>
       <source>Vita3K could not remove the selected theme folder.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K 無法移除所選的主題資料夾。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1082"/>
       <source>Select an installed Vita theme to preview its backgrounds and generate a matching emulator theme.</source>
-      <translation type="unfinished"/>
+      <translation>請選取已安裝的 Vita 主題，以預覽其背景並產生相符的模擬器主題。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1085"/>
       <source>Choose one primary background, decide which backgrounds should appear in the cycle, adjust readability options, then apply the generated theme.</source>
-      <translation type="unfinished"/>
+      <translation>請選擇一個主要背景，決定哪些背景應在循環中出現，調整可讀性選項，然後應用產生的主題。</translation>
     </message>
   </context>
   <context>
@@ -4330,7 +4359,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="65"/>
       <source>Vita3K does not condone piracy. You must dump your own games.</source>
-      <translation>Vita3K不會縱容盜版，你必須轉儲自己擁有的遊戲。</translation>
+      <translation>Vita3K不會縱容盜版，你必須傾印自己擁有的遊戲。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="96"/>
@@ -4340,12 +4369,12 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="97"/>
       <source>Download Firmware Font Package</source>
-      <translation>下載韌體字型套件</translation>
+      <translation>下載韌體字型軟體包</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="147"/>
       <source>Download Firmware: %1</source>
-      <translation type="unfinished"/>
+      <translation>下載韌體：%1</translation>
     </message>
   </context>
   <context>

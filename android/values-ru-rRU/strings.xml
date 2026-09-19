@@ -26,7 +26,7 @@
     <string name="app_action_application">Приложение</string>
     <string name="app_action_save_data">Сохранить</string>
     <string name="app_action_patch">Патч</string>
-    <string name="app_action_dlc">Дополнение</string>
+    <string name="app_action_dlc">Дополнения</string>
     <string name="app_action_license">Лицензия</string>
     <string name="app_action_shader_cache">Кэш шейдеров</string>
     <string name="app_action_shader_log">Журнал шейдеров</string>
@@ -52,7 +52,7 @@
     <string name="apps_list_cd_more_options">Дополнительно</string>
     <string name="apps_list_cd_close_search">Закрыть поиск</string>
     <string name="apps_list_cd_selected">Выбрано</string>
-    <string name="apps_list_menu_users">Настроить пользователя</string>
+    <string name="apps_list_menu_users">Настройка пользователя</string>
     <string name="apps_list_menu_welcome">Начальный экран</string>
     <string name="apps_list_menu_check_updates">Проверить обновления</string>
     <string name="apps_list_menu_about">О программе</string>
@@ -689,4 +689,5 @@
     <string name="settings_ime_english_gb">Английский (Британский)</string>
     <string name="settings_ime_turkish">Турецкий</string>
     <!-- Trophy viewer -->
+    <string name="trophy_progress_percent_format">%1$d%%</string>
 </resources>
