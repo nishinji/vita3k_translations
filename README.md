@@ -27,9 +27,9 @@ project holds, so a hand-written change is lost at the next run.
 3. **`crowdin.yml`** (daily, 01:00 UTC) — uploads both sources to Crowdin and commits the
    translations it downloads straight to `main`.
 4. **`generate-qm.yml`** — runs `lrelease`, commits the `.qm` files, screens the incoming
-   strings with Gemini, and publishes `vita3k-qt-translations.zip` and `vita3k-android-translations.zip`
-   as a release. The sync calls it directly, because a push made with `GITHUB_TOKEN` raises no
-   push event.
+   strings with Gemini, publishes `vita3k-qt-translations.zip` and `vita3k-android-translations.zip`
+   as a release, and reports anything the screen flagged in an issue. The sync calls it
+   directly, because a push made with `GITHUB_TOKEN` raises no push event.
 5. **Emulator build** — `.ci/common.sh` unpacks the Qt archive into the build's
    `qt_translations` directory and the Android archive into `android/app/src/main/res`, where
    every packaging step already looks. A failed download only means a build without
@@ -37,18 +37,23 @@ project holds, so a hand-written change is lost at the next run.
 
 ## Review
 
-Every import is screened by `scripts/review_translations.py` before it is published, and what
-it finds goes to the run summary. Placeholders are compared in code, so a translation that
-drops a `%1` or a `%1$s` the English source has is caught exactly; abuse, spam, vandalism and
-obvious mistranslation are what Gemini is asked for. It reads only what the import changed.
-Run `generate-qm.yml` by hand with **Review every translated string** to screen everything.
+Every import is screened by `scripts/review_translations.py` before it is published.
+Placeholders are compared in code, so a translation that drops a `%1` or a `%1$s` the English
+source has is caught exactly; abuse, spam, vandalism and obvious mistranslation are what Gemini
+is asked for. It reads only what the import changed. Run `generate-qm.yml` by hand with
+**Review every translated string** to screen everything.
+
+The full report goes to the run summary. An import with anything flagged, or one the review
+could not screen, also adds a comment to the open issue labelled `translation-review`, which
+the run opens when there is none, so nobody has to go looking through runs.
 
 What it finds is reported, not acted on: a string it flags still ships, and clearing it is done
 by hand on Crowdin, where the translation actually lives. Editing one out of this repository
-alone would only last until the next sync put it back.
+alone would only last until the next sync put it back. Close the issue once everything in it
+has been dealt with there.
 
 The review needs a `GEMINI_API_KEY` secret. Without one the run still publishes, and the
-summary says the review did not happen.
+issue says the review did not happen.
 
 ## Adding a language
 

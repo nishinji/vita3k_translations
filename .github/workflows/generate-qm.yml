@@ -21,6 +21,8 @@ on:
 
 permissions:
   contents: write
+  # What the review flags is reported in an issue.
+  issues: write
 
 concurrency:
   group: publish-translations
@@ -60,10 +62,12 @@ jobs:
       # Crowdsourced strings reach users unread otherwise, so screen them for abuse and
       # obvious mistranslation. A review that cannot run must not hold up the release.
       - name: Review the incoming translations
+        id: review
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           REVIEW_ALL: ${{ inputs.review_all || 'false' }}
+          REPORT_PATH: ${{ runner.temp }}/translation-review.md
         run: python3 scripts/review_translations.py
 
       - name: Commit the compiled translations
@@ -122,3 +126,51 @@ jobs:
           gh release create "translations-${date}-${{ github.run_number }}" "${assets[@]}" \
             --title "Translations $date" \
             --notes "Qt translations compiled from the .ts files, and the Android string resources, in this repository."
+
+      # The run stays green whatever the review finds, so a flagged string would otherwise sit in a
+      # run summary nobody opens. Every report goes to the one open issue until someone closes it.
+      # This comes last so that failing to post cannot hold up the release, and it is left to fail
+      # the run rather than lose the report quietly.
+      - name: Report the review in an issue
+        if: ${{ !cancelled() && (steps.review.outcome == 'failure' || steps.review.outputs.attention == 'true') }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_PATH: ${{ runner.temp }}/translation-review.md
+          REVIEW_OUTCOME: ${{ steps.review.outcome }}
+        run: |
+          comment="$RUNNER_TEMP/translation-review-comment.md"
+
+          if [ "$REVIEW_OUTCOME" = "success" ]; then
+            cp "$REPORT_PATH" "$comment"
+          else
+            # continue-on-error keeps a crashed review from holding up the release, and would
+            # also keep anyone from hearing about it.
+            printf '%s\n' "## Translation review" "" "> [!CAUTION]" \
+              "> The review crashed before it could report, so this import shipped unscreened. The run log says why." \
+              > "$comment"
+          fi
+
+          printf '\nFrom [%s #%s](%s/%s/actions/runs/%s).\n' "$GITHUB_WORKFLOW" "$GITHUB_RUN_NUMBER" \
+            "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$GITHUB_RUN_ID" >> "$comment"
+
+          number=$(gh issue list --label translation-review --state open --limit 1 --json number --jq '.[0].number // empty')
+
+          if [ -z "$number" ]; then
+            gh label create translation-review --force --color d93f0b \
+              --description "Strings the automated translation review flagged"
+
+            body="$RUNNER_TEMP/translation-review-issue.md"
+            cat > "$body" <<'EOF'
+          Every import in which the automated review flags a string, or cannot review at all, adds a
+          comment here. The strings have shipped by then: the review reports and does not block.
+
+          Fix or reject them on [Crowdin](https://crowdin.com/project/vita3k), where the translations
+          live; a change made in this repository is undone by the next sync. Close this issue once
+          everything in it has been dealt with, and the next finding opens a new one.
+          EOF
+
+            url=$(gh issue create --label translation-review --title "Translation review" --body-file "$body")
+            number=${url##*/}
+          fi
+
+          gh issue comment "$number" --body-file "$comment"

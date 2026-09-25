@@ -31,6 +31,10 @@ BATCH_SIZE = 120
 # import that has gone wrong, not a budget: past it the run is sampled instead.
 MAX_ENTRIES = 25000
 
+# An issue comment holds 65536 characters and a finding's row can take over 700, so the copy
+# posted to the issue carries the most severe findings and leaves the rest to the run summary.
+ISSUE_ROWS = 50
+
 UNFINISHED_TYPES = frozenset({"unfinished", "vanished", "obsolete"})
 
 # Qt uses %1 through %9; Android uses the positional %1$s, %1$d and %1$.2f forms. The positional
@@ -387,14 +391,23 @@ def ask(batch: list[dict]) -> list[dict]:
     raise RuntimeError(last_error)
 
 
-# Findings quote text written by anonymous contributors, so it is defanged before it lands
-# in the run summary.
+def plain(text, limit: int = 160) -> str:
+    flat = re.sub(r"[|`]", " ", re.sub(r"\s+", " ", str(text if text is not None else ""))).strip()
+    return f"{flat[:limit]}..." if len(flat) > limit else flat
+
+
+# Findings quote text written by anonymous contributors, and the report is posted to an issue,
+# where @name notifies that account, #12 links another issue, and a URL or [text](url) becomes a
+# link. Inside a code span all of that stays plain text; plain() strips the backticks and pipes
+# that would end the span or the table cell early.
 def cell(text, limit: int = 160) -> str:
-    flat = re.sub(r"[|`<>]", " ", re.sub(r"\s+", " ", str(text if text is not None else ""))).strip()
-    return f"{flat[:limit]}..." if len(flat) > limit else flat or "-"
+    flat = plain(text, limit)
+    return f"`{flat}`" if flat else "-"
 
 
-def render(entries: list[dict], reviewed: list[dict], findings: list[dict], failure: str) -> str:
+def render(
+    entries: list[dict], reviewed: list[dict], findings: list[dict], failure: str, limit: int | None = None
+) -> str:
     languages = {entry["locale"] for entry in entries}
     lines = ["## Translation review", ""]
 
@@ -429,7 +442,7 @@ def render(entries: list[dict], reviewed: list[dict], findings: list[dict], fail
             "| Severity | Language | Category | Incoming translation | English source | Why |",
             "| --- | --- | --- | --- | --- | --- |",
         ]
-        for finding in findings:
+        for finding in findings[:limit]:
             entry = finding["entry"]
             severity = finding.get("severity", "low")
             lines.append(
@@ -446,6 +459,9 @@ def render(entries: list[dict], reviewed: list[dict], findings: list[dict], fail
                 )
                 + " |"
             )
+
+        if limit is not None and len(findings) > limit:
+            lines += ["", f"...and {len(findings) - limit} more, listed in the run summary."]
 
     if len(reviewed) < len(entries) and not failure:
         lines += [
@@ -493,10 +509,21 @@ def main() -> None:
         with open(summary, "a", encoding="utf-8") as handle:
             handle.write(report)
 
+    # The run stays green whatever the review finds, so the workflow posts this copy to an issue
+    # whenever there is something in it to act on.
+    issue_report = os.environ.get("REPORT_PATH")
+    if issue_report:
+        Path(issue_report).write_text(render(entries, reviewed, findings, failure, ISSUE_ROWS), encoding="utf-8")
+
+    output = os.environ.get("GITHUB_OUTPUT")
+    if output:
+        with open(output, "a", encoding="utf-8") as handle:
+            handle.write(f"attention={'true' if findings or failure else 'false'}\n")
+
     for finding in findings:
         if finding.get("severity") == "high":
             entry = finding["entry"]
-            print(f"::warning title=Translation review ({entry['locale']})::{cell(finding.get('explanation'), 300)}")
+            print(f"::warning title=Translation review ({entry['locale']})::{plain(finding.get('explanation'), 300)}")
 
 
 if __name__ == "__main__":

@@ -67,7 +67,9 @@ jobs:
   publish:
     name: Publish
     needs: synchronize-with-crowdin
+    # A called workflow gets no more than this grants, and one asking for more fails to start.
     permissions:
       contents: write
+      issues: write
     uses: ./.github/workflows/generate-qm.yml
     secrets: inherit
