@@ -138,7 +138,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="246"/>
       <source>Copy Test Environment Summary</source>
-      <translation type="unfinished"/>
+      <translation>复制测试环境摘要</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="272"/>
@@ -380,7 +380,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>占用空间</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
@@ -398,22 +398,22 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>正在计算...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
       <source>Icon Crop</source>
-      <translation type="unfinished"/>
+      <translation>图标裁剪</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="537"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>正方键</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="538"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>圆圈键</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="598"/>
@@ -477,7 +477,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation type="unfinished"/>
+      <translation>选择文件（.zip/ .vpk/ .vci格式）…</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
@@ -497,7 +497,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation Vita商业软件包（NoNpDrm/FAGDec）/ PlayStation Vita自制软件包（*.zip、*.vpk、*.vci）；PlayStation Vita商业软件包（NoNpDrm/FAGDec）（*.zip）；PlayStation Vita自制软件包（*.vpk）；Vita卡带镜像（VCI）文件（*.vci）</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
@@ -512,37 +512,37 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="249"/>
       <source>The selected directory contains no .zip, .vpk, or .vci files.</source>
-      <translation type="unfinished"/>
+      <translation>所选目录中不包含.zip、.vpk或.vci格式的文件。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>正在安装压缩包</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>正在准备安装...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>压缩包安装进度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
       <source>Archive 1 of %1</source>
-      <translation type="unfinished"/>
+      <translation>压缩包：1 / %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>内容安装进度</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>内容：0 / 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
@@ -552,12 +552,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
       <source>0% complete</source>
-      <translation type="unfinished"/>
+      <translation>已完成 0%</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
@@ -568,17 +568,18 @@ This action cannot be undone.</source>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1已安装。
+是否覆盖当前内容？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
       <source>Installation complete. %1 item(s) installed successfully.</source>
-      <translation type="unfinished"/>
+      <translation>安装完成。已成功安装 %1个。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>安装完成。成功%1个，失败%2个。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
@@ -675,7 +676,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>全屏</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>

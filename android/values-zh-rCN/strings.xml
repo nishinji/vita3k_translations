@@ -53,6 +53,7 @@
     <string name="apps_list_menu_welcome">欢迎界面</string>
     <string name="apps_list_menu_check_updates">检查更新</string>
     <string name="apps_list_menu_about">关于</string>
+    <string name="apps_list_menu_trophies">奖杯收集</string>
     <string name="apps_list_search_placeholder">搜索应用程序\u2026</string>
     <string name="apps_list_sort_title">按标题</string>
     <string name="apps_list_sort_last_played">按游玩时间</string>
@@ -677,4 +678,32 @@
     <string name="settings_ime_english_gb">英语（英国）</string>
     <string name="settings_ime_turkish">土耳其语</string>
     <!-- Trophy viewer -->
+    <string name="trophy_back_short">返回</string>
+    <string name="trophy_progress_percent_format">%1$d%%</string>
+    <string name="trophy_unlocked_count_format">已解锁 %1$d / %2$d 个奖杯</string>
+    <string name="trophy_error_title">奖杯加载失败</string>
+    <string name="trophy_empty_title">未找到奖杯收藏</string>
+    <string name="trophy_empty_body">安装支持奖杯功能的应用程序，并至少启动一次，以生成奖杯收藏列表。</string>
+    <string name="trophy_not_found_title">奖杯数据不可用</string>
+    <string name="trophy_not_found_body">无法从模拟器存储中加载此奖杯收藏的数据。</string>
+    <string name="trophy_detail_not_found_body">无法从模拟器存储中加载此奖杯的详细信息。</string>
+    <string name="trophy_hidden_title">隐藏奖杯</string>
+    <string name="trophy_hidden_detail">继续游玩以解锁此奖杯。</string>
+    <string name="trophy_filter_all">全部</string>
+    <string name="trophy_filter_earned">已获得</string>
+    <string name="trophy_filter_locked">未解锁</string>
+    <string name="trophy_filter_show_hidden">显示隐藏奖杯</string>
+    <string name="trophy_filter_empty_title">没有符合当前筛选条件的奖杯</string>
+    <string name="trophy_filter_empty_body">调整状态或奖杯等级筛选条件，以显示更多奖杯。</string>
+    <string name="trophy_status_earned">已获得</string>
+    <string name="trophy_status_locked">未解锁</string>
+    <string name="trophy_grade_platinum">白金</string>
+    <string name="trophy_grade_gold">金</string>
+    <string name="trophy_grade_silver">银</string>
+    <string name="trophy_grade_bronze">铜</string>
+    <string name="trophy_grade_unknown">未知</string>
+    <string name="trophy_detail_grade_label">等级</string>
+    <string name="trophy_detail_earned_label">已获得</string>
+    <string name="trophy_detail_description_label">详细信息</string>
+    <string name="trophy_not_yet_earned">尚未获得</string>
 </resources>
