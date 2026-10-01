@@ -6,52 +6,52 @@
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="14"/>
       <source>About Vita3K</source>
-      <translation type="unfinished"/>
+      <translation>Über Vita3K</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="114"/>
       <source>Vita3K PlayStation Vita Emulator</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K PlayStation-Vita-Emulator</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="235"/>
       <source>Developers:</source>
-      <translation type="unfinished"/>
+      <translation>Entwickler:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="273"/>
       <source>Contributors:</source>
-      <translation type="unfinished"/>
+      <translation>Mitwirkende:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="311"/>
       <source>Supporters:</source>
-      <translation type="unfinished"/>
+      <translation>Unterstützer:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="351"/>
       <source>GitHub</source>
-      <translation type="unfinished"/>
+      <translation>GitHub</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="358"/>
       <source>Website</source>
-      <translation type="unfinished"/>
+      <translation>Website</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="365"/>
       <source>Ko-fi</source>
-      <translation type="unfinished"/>
+      <translation>Ko-fi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="372"/>
       <source>Discord</source>
-      <translation type="unfinished"/>
+      <translation>Discord</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.ui" line="392"/>
       <source>Close</source>
-      <translation type="unfinished"/>
+      <translation>Schließen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.cpp" line="51"/>
@@ -62,12 +62,13 @@
       <location filename="../vita3k/gui-qt/src/about_dialog.cpp" line="53"/>
       <source>Vita3K is the world&apos;s first functional PS Vita™/PS TV™ emulator, open-source and written in C++ for Windows, Linux, macOS, and Android.
 Visit our website at &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&gt;vita3k.org&lt;/a&gt; for more info. If you&apos;re interested in contributing, check out our &lt;a href=&quot;https://github.com/Vita3K/Vita3K&quot;&gt;GitHub&lt;/a&gt;. If you want to support us, you can donate via &lt;a href=&quot;https://ko-fi.com/vita3k&quot;&gt;Ko-fi&lt;/a&gt;.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K ist der weltweit erste funktionsfähige Emulator für PS Vita™ und PS TV™. Er ist quelloffen und wurde in C++ für Windows, Linux, macOS und Android entwickelt.
+Weitere Informationen findest du auf unserer Website unter &lt;a href="https://vita3k.org/quickstart.html"&gt;vita3k.org&lt;/a&gt;. Wenn du mithelfen möchtest, besuche unser &lt;a href="https://github.com/Vita3K/Vita3K"&gt;GitHub&lt;/a&gt;-Projekt. Du kannst uns auch mit einer Spende über &lt;a href="https://ko-fi.com/vita3k"&gt;Ko-fi&lt;/a&gt; unterstützen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/about_dialog.cpp" line="61"/>
       <source>Icon by %1</source>
-      <translation type="unfinished"/>
+      <translation>Symbol von %1</translation>
     </message>
   </context>
   <context>
@@ -75,7 +76,7 @@ Visit our website at &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&g
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list.cpp" line="35"/>
       <source>App Library</source>
-      <translation type="unfinished"/>
+      <translation>App-Bibliothek</translation>
     </message>
   </context>
   <context>
@@ -83,34 +84,36 @@ Visit our website at &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&g
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="149"/>
       <source>Delete Selected Applications</source>
-      <translation type="unfinished"/>
+      <translation>Ausgewählte Apps löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="153"/>
       <source>Delete Applications</source>
-      <translation type="unfinished"/>
+      <translation>Apps löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="154"/>
       <source>Are you sure you want to delete %1 selected applications?
 
 This action cannot be undone.</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die %1 ausgewählten Apps wirklich löschen?
+
+Diese Aktion kann nicht rückgängig gemacht werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="167"/>
       <source>Delete Shader Caches</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Caches löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="185"/>
       <source>Boot</source>
-      <translation type="unfinished"/>
+      <translation>Starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="193"/>
       <source>View Live Area</source>
-      <translation type="unfinished"/>
+      <translation>LiveArea anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="208"/>
@@ -121,74 +124,74 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="211"/>
       <source>Check Compatibility</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilität prüfen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="227"/>
       <source>Open State Report</source>
-      <translation type="unfinished"/>
+      <translation>Statusbericht öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="233"/>
       <source>Copy Vita3K Summary</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K-Zusammenfassung kopieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="246"/>
       <source>Copy Test Environment Summary</source>
-      <translation type="unfinished"/>
+      <translation>Zusammenfassung der Testumgebung kopieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="272"/>
       <source>Create State Report</source>
-      <translation type="unfinished"/>
+      <translation>Statusbericht erstellen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="333"/>
       <source>Update Database</source>
-      <translation type="unfinished"/>
+      <translation>Datenbank aktualisieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="342"/>
       <source>Copy Info</source>
-      <translation type="unfinished"/>
+      <translation>Informationen kopieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="344"/>
       <source>Name and Serial</source>
-      <translation type="unfinished"/>
+      <translation>Name und Seriennummer</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="350"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="717"/>
       <source>Name</source>
-      <translation type="unfinished"/>
+      <translation>Name</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="355"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="718"/>
       <source>Serial</source>
-      <translation type="unfinished"/>
+      <translation>Seriennummer</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="360"/>
       <source>App Summary</source>
-      <translation type="unfinished"/>
+      <translation>App-Zusammenfassung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="372"/>
       <source>Custom Config</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerdefinierte Konfiguration</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="375"/>
       <source>Create</source>
-      <translation type="unfinished"/>
+      <translation>Erstellen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="380"/>
       <source>Edit</source>
-      <translation type="unfinished"/>
+      <translation>Bearbeiten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="385"/>
@@ -198,190 +201,192 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="394"/>
       <source>Open Folder</source>
-      <translation type="unfinished"/>
+      <translation>Ordner öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="396"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="464"/>
       <source>Application</source>
-      <translation type="unfinished"/>
+      <translation>App</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="402"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="481"/>
       <source>Save Data</source>
-      <translation type="unfinished"/>
+      <translation>Speicherdaten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="409"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="498"/>
       <source>Patch</source>
-      <translation type="unfinished"/>
+      <translation>Patch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="416"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="515"/>
       <source>DLC</source>
-      <translation type="unfinished"/>
+      <translation>DLC</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="423"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="532"/>
       <source>License</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="430"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="549"/>
       <source>Shader Cache</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Cache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="440"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="560"/>
       <source>Shader Log</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Protokoll</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="447"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="571"/>
       <source>Export Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen exportieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="454"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="582"/>
       <source>Import Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen importieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="462"/>
       <source>Delete</source>
-      <translation type="unfinished"/>
+      <translation>Löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="468"/>
       <source>Delete Application</source>
-      <translation type="unfinished"/>
+      <translation>App löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="469"/>
       <source>Are you sure you want to delete %1 [%2]?
 
 This action cannot be undone.</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du %1 [%2] wirklich löschen?
+
+Diese Aktion kann nicht rückgängig gemacht werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="484"/>
       <source>Delete Save Data</source>
-      <translation type="unfinished"/>
+      <translation>Speicherdaten löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="485"/>
       <source>Are you sure you want to delete the save data?</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die Speicherdaten wirklich löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="501"/>
       <source>Delete Patch</source>
-      <translation type="unfinished"/>
+      <translation>Patch löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="502"/>
       <source>Are you sure you want to delete the patch data?</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die Patch-Daten wirklich löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="518"/>
       <source>Delete DLC</source>
-      <translation type="unfinished"/>
+      <translation>DLC löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="519"/>
       <source>Are you sure you want to delete the DLC data?</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die DLC-Daten wirklich löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="535"/>
       <source>Delete License</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="536"/>
       <source>Are you sure you want to delete the license?</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die Lizenz wirklich löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="596"/>
       <source>Other</source>
-      <translation type="unfinished"/>
+      <translation>Sonstiges</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="598"/>
       <source>Decrypt All SELF</source>
-      <translation type="unfinished"/>
+      <translation>Alle SELF-Dateien entschlüsseln</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="605"/>
       <source>Reset Last Time Played</source>
-      <translation type="unfinished"/>
+      <translation>Zeitpunkt des letzten Spielens zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="613"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="646"/>
       <source>Update History</source>
-      <translation type="unfinished"/>
+      <translation>Update-Verlauf</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="658"/>
       <source>Version %1</source>
-      <translation type="unfinished"/>
+      <translation>Version %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="677"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="729"/>
       <source>Close</source>
-      <translation type="unfinished"/>
+      <translation>Schließen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="687"/>
       <source>Information</source>
-      <translation type="unfinished"/>
+      <translation>Informationen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="701"/>
       <source>App Information</source>
-      <translation type="unfinished"/>
+      <translation>App-Informationen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="719"/>
       <source>Version</source>
-      <translation type="unfinished"/>
+      <translation>Version</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="720"/>
       <source>Category</source>
-      <translation type="unfinished"/>
+      <translation>Kategorie</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="721"/>
       <source>Content ID</source>
-      <translation type="unfinished"/>
+      <translation>Inhalts-ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="722"/>
       <source>Parental Level</source>
-      <translation type="unfinished"/>
+      <translation>Jugendschutzstufe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Größe auf dem Datenträger</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
       <source>Path</source>
-      <translation type="unfinished"/>
+      <translation>Pfad</translation>
     </message>
   </context>
   <context>
@@ -389,67 +394,67 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="419"/>
       <source>Never</source>
-      <translation type="unfinished"/>
+      <translation>Nie</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>Wird berechnet ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
       <source>Icon Crop</source>
-      <translation type="unfinished"/>
+      <translation>Symbol zuschneiden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="537"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>Quadrat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="538"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>Kreis</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="598"/>
       <source>Playable</source>
-      <translation type="unfinished"/>
+      <translation>Spielbar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="599"/>
       <source>Ingame+</source>
-      <translation type="unfinished"/>
+      <translation>Im Spiel+</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="600"/>
       <source>Ingame</source>
-      <translation type="unfinished"/>
+      <translation>Im Spiel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="601"/>
       <source>Menu</source>
-      <translation type="unfinished"/>
+      <translation>Menü</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="602"/>
       <source>Intro</source>
-      <translation type="unfinished"/>
+      <translation>Intro</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="603"/>
       <source>Boots</source>
-      <translation type="unfinished"/>
+      <translation>Startet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="604"/>
       <source>Nothing</source>
-      <translation type="unfinished"/>
+      <translation>Keine Funktion</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="605"/>
       <source>Unknown</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannt</translation>
     </message>
   </context>
   <context>
@@ -458,140 +463,143 @@ This action cannot be undone.</source>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="170"/>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="185"/>
       <source>Install Archive</source>
-      <translation type="unfinished"/>
+      <translation>Archiv installieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="198"/>
       <source>Select Install Type</source>
-      <translation type="unfinished"/>
+      <translation>Installationsart auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="202"/>
       <source>What would you like to install?</source>
-      <translation type="unfinished"/>
+      <translation>Was möchtest du installieren?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation type="unfinished"/>
+      <translation>Datei auswählen (.zip / .vpk / .vci) ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
       <source>Select a directory (installs all archives inside)...</source>
-      <translation type="unfinished"/>
+      <translation>Ordner auswählen (installiert alle enthaltenen Archive) ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="206"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="232"/>
       <source>Select Archive</source>
-      <translation type="unfinished"/>
+      <translation>Archiv auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation type="unfinished"/>
+      <translation>Kommerzielles PlayStation-Vita-Softwarepaket (NoNpDrm/FAGDec) / PlayStation-Vita-Homebrew-Paket (*.zip *.vpk *.vci);;Kommerzielles PlayStation-Vita-Softwarepaket (NoNpDrm/FAGDec) (*.zip);;PlayStation-Vita-Homebrew-Paket (*.vpk);;Vita-Cartridge-Image-Datei (VCI) (*.vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
       <source>Select Directory Containing Archives</source>
-      <translation type="unfinished"/>
+      <translation>Ordner mit Archiven auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="248"/>
       <source>No Archives Found</source>
-      <translation type="unfinished"/>
+      <translation>Keine Archive gefunden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="249"/>
       <source>The selected directory contains no .zip, .vpk, or .vci files.</source>
-      <translation type="unfinished"/>
+      <translation>Der ausgewählte Ordner enthält keine .zip-, .vpk- oder .vci-Dateien.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>Archiv wird installiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>Installation wird vorbereitet ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>Archivfortschritt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
       <source>Archive 1 of %1</source>
-      <translation type="unfinished"/>
+      <translation>Archiv 1 von %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>Inhaltsfortschritt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>Inhalt 0 von 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
       <source>File Extraction</source>
-      <translation type="unfinished"/>
+      <translation>Dateien werden entpackt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
       <source>0% complete</source>
-      <translation type="unfinished"/>
+      <translation>0 % abgeschlossen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
       <source>Already Installed</source>
-      <translation type="unfinished"/>
+      <translation>Bereits installiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1 ist bereits installiert.
+Möchtest du den Inhalt überschreiben?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
       <source>Installation complete. %1 item(s) installed successfully.</source>
-      <translation type="unfinished"/>
+      <translation>Installation abgeschlossen. %1 Element(e) erfolgreich installiert.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>Installation abgeschlossen. %1 erfolgreich, %2 fehlgeschlagen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
       <source>Delete archive files after install?</source>
-      <translation type="unfinished"/>
+      <translation>Archivdateien nach der Installation löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
       <source>Could Not Delete Archives</source>
-      <translation type="unfinished"/>
+      <translation>Archive konnten nicht gelöscht werden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="447"/>
       <source>The following archive files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Die folgenden Archivdateien konnten nicht gelöscht werden. Möglicherweise sind sie noch in einem anderen Programm geöffnet:
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -600,219 +608,220 @@ Do you want to overwrite it?</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.ui" line="20"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="337"/>
       <source>Controls</source>
-      <translation type="unfinished"/>
+      <translation>Steuerung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.ui" line="23"/>
       <source>settings-window</source>
-      <translation type="unfinished"/>
+      <translation>settings-window</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="281"/>
       <source>Button %1</source>
-      <translation type="unfinished"/>
+      <translation>Taste %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="321"/>
       <source>Axis %1</source>
-      <translation type="unfinished"/>
+      <translation>Achse %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="413"/>
       <source>Keyboard</source>
-      <translation type="unfinished"/>
+      <translation>Tastatur</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="414"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="600"/>
       <source>Hotkeys</source>
-      <translation type="unfinished"/>
+      <translation>Tastenkürzel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="420"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1112"/>
       <source>Controller Port %1
 Not Connected</source>
-      <translation type="unfinished"/>
+      <translation>Controller-Anschluss %1
+Nicht verbunden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="502"/>
       <source>Keyboard Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Tastaturbelegung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="505"/>
       <source>Map your keyboard to Vita controls. Left-click a field to capture a key, press Escape to cancel, and right-click a keyboard binding to clear it.</source>
-      <translation type="unfinished"/>
+      <translation>Belege die Vita-Steuerung mit Tastaturtasten. Klicke mit der linken Maustaste auf ein Feld, um eine Taste zu erfassen. Drücke Escape zum Abbrechen oder klicke mit der rechten Maustaste auf eine Belegung, um sie zu löschen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="511"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="624"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>Primär</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="512"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="625"/>
       <source>Alternate</source>
-      <translation type="unfinished"/>
+      <translation>Alternativ</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="518"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="608"/>
       <source>Reset to Defaults</source>
-      <translation type="unfinished"/>
+      <translation>Auf Standard zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="603"/>
       <source>Keyboard-only emulator actions.</source>
-      <translation type="unfinished"/>
+      <translation>Emulatoraktionen, die nur über die Tastatur verfügbar sind.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Vollbild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>
       <source>Toggle Front/Back Touch</source>
-      <translation type="unfinished"/>
+      <translation>Vordere/hintere Touch-Eingabe umschalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="638"/>
       <source>Replace Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen ersetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="639"/>
       <source>Take a Screenshot</source>
-      <translation type="unfinished"/>
+      <translation>Screenshot erstellen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="640"/>
       <source>Pinch Modifier</source>
-      <translation type="unfinished"/>
+      <translation>Modifikatortaste für Pinch-Geste</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="641"/>
       <source>Alternate Pinch In</source>
-      <translation type="unfinished"/>
+      <translation>Alternativ: Finger zusammenziehen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="642"/>
       <source>Alternate Pinch Out</source>
-      <translation type="unfinished"/>
+      <translation>Alternativ: Finger auseinanderziehen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="664"/>
       <source>Controller Port %1</source>
-      <translation type="unfinished"/>
+      <translation>Controller-Anschluss %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="666"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1111"/>
       <source>No controller connected.</source>
-      <translation type="unfinished"/>
+      <translation>Kein Controller verbunden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="670"/>
       <source>Bindings</source>
-      <translation type="unfinished"/>
+      <translation>Belegung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="671"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>Einstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
       <source>Reset Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Belegung zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="695"/>
       <source>D-Pad</source>
-      <translation type="unfinished"/>
+      <translation>Steuerkreuz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="698"/>
       <source>Left Stick</source>
-      <translation type="unfinished"/>
+      <translation>Linker Stick</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="708"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="710"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="719"/>
       <source>PS Button</source>
-      <translation type="unfinished"/>
+      <translation>PS-Taste</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="721"/>
       <source>Select</source>
-      <translation type="unfinished"/>
+      <translation>Select</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="722"/>
       <source>Start</source>
-      <translation type="unfinished"/>
+      <translation>Start</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="724"/>
       <source>PS TV Mode</source>
-      <translation type="unfinished"/>
+      <translation>PS-TV-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="731"/>
       <source>Face Buttons</source>
-      <translation type="unfinished"/>
+      <translation>Aktionstasten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="734"/>
       <source>Triangle</source>
-      <translation type="unfinished"/>
+      <translation>Dreieck</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="735"/>
       <source>Cross</source>
-      <translation type="unfinished"/>
+      <translation>Kreuz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="736"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>Quadrat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="737"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>Kreis</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="738"/>
       <source>Right Stick</source>
-      <translation type="unfinished"/>
+      <translation>Rechter Stick</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="751"/>
       <source>Shared Controller Settings</source>
-      <translation type="unfinished"/>
+      <translation>Gemeinsame Controller-Einstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="753"/>
       <source>Analog Stick Multiplier:</source>
-      <translation type="unfinished"/>
+      <translation>Analogstick-Multiplikator:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="763"/>
       <source>Disable Motion Controls</source>
-      <translation type="unfinished"/>
+      <translation>Bewegungssteuerung deaktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="936"/>
@@ -821,38 +830,39 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1194"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1207"/>
       <source>Capturing...(%1)</source>
-      <translation type="unfinished"/>
+      <translation>Wird erfasst ... (%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="972"/>
       <source>Unsupported Key</source>
-      <translation type="unfinished"/>
+      <translation>Nicht unterstützte Taste</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="973"/>
       <source>This key cannot be mapped on the current platform.</source>
-      <translation type="unfinished"/>
+      <translation>Diese Taste kann auf der aktuellen Plattform nicht zugewiesen werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="977"/>
       <source>Duplicate Key</source>
-      <translation type="unfinished"/>
+      <translation>Taste bereits belegt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="978"/>
       <source>The key &quot;%1&quot; is already assigned to another action.</source>
-      <translation type="unfinished"/>
+      <translation>Die Taste „%1“ ist bereits einer anderen Aktion zugewiesen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1104"/>
       <source>Connected to %1. Use Bindings to remap controls or Settings for shared controller options.</source>
-      <translation type="unfinished"/>
+      <translation>Verbunden mit %1. Unter „Belegung“ kannst du die Steuerung anpassen; gemeinsame Controller-Optionen findest du unter „Einstellungen“.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1105"/>
       <source>Controller Port %1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>Controller-Anschluss %1
+%2</translation>
     </message>
   </context>
   <context>
@@ -860,7 +870,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="45"/>
       <source>Debug</source>
-      <translation type="unfinished"/>
+      <translation>Debug</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="72"/>
@@ -871,7 +881,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="100"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="105"/>
       <source>ID</source>
-      <translation type="unfinished"/>
+      <translation>ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="72"/>
@@ -883,29 +893,29 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="105"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="110"/>
       <source>Name</source>
-      <translation type="unfinished"/>
+      <translation>Name</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="72"/>
       <source>Status</source>
-      <translation type="unfinished"/>
+      <translation>Status</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="72"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="434"/>
       <source>Stack</source>
-      <translation type="unfinished"/>
+      <translation>Stack</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="78"/>
       <source>Threads</source>
-      <translation type="unfinished"/>
+      <translation>Threads</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="80"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="85"/>
       <source>Lock Count</source>
-      <translation type="unfinished"/>
+      <translation>Sperrzähler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="80"/>
@@ -914,7 +924,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="95"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="105"/>
       <source>Attributes</source>
-      <translation type="unfinished"/>
+      <translation>Attribute</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="80"/>
@@ -924,192 +934,192 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="100"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="105"/>
       <source>Waiting Threads</source>
-      <translation type="unfinished"/>
+      <translation>Wartende Threads</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="80"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="85"/>
       <source>Owner</source>
-      <translation type="unfinished"/>
+      <translation>Besitzer</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="83"/>
       <source>Mutexes</source>
-      <translation type="unfinished"/>
+      <translation>Mutexe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="88"/>
       <source>LW Mutexes</source>
-      <translation type="unfinished"/>
+      <translation>Leichtgewichtige Mutexe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="93"/>
       <source>Condvars</source>
-      <translation type="unfinished"/>
+      <translation>Bedingungsvariablen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="98"/>
       <source>LW Condvars</source>
-      <translation type="unfinished"/>
+      <translation>Leichtgewichtige Bedingungsvariablen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="100"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="406"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
       <source>Value</source>
-      <translation type="unfinished"/>
+      <translation>Wert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="100"/>
       <source>Max</source>
-      <translation type="unfinished"/>
+      <translation>Maximum</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="103"/>
       <source>Semaphores</source>
-      <translation type="unfinished"/>
+      <translation>Semaphore</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="105"/>
       <source>Flags</source>
-      <translation type="unfinished"/>
+      <translation>Flags</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="108"/>
       <source>Event Flags</source>
-      <translation type="unfinished"/>
+      <translation>Ereignis-Flags</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="110"/>
       <source>Page</source>
-      <translation type="unfinished"/>
+      <translation>Seite</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="110"/>
       <source>Address Range</source>
-      <translation type="unfinished"/>
+      <translation>Adressbereich</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="110"/>
       <source>Size (KiB)</source>
-      <translation type="unfinished"/>
+      <translation>Größe (KiB)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="110"/>
       <source>Pages</source>
-      <translation type="unfinished"/>
+      <translation>Seiten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="114"/>
       <source>Allocations</source>
-      <translation type="unfinished"/>
+      <translation>Speicherzuweisungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="121"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
       <source>Address</source>
-      <translation type="unfinished"/>
+      <translation>Adresse</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="129"/>
       <source>Count</source>
-      <translation type="unfinished"/>
+      <translation>Anzahl</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="136"/>
       <source>Arch</source>
-      <translation type="unfinished"/>
+      <translation>Architektur</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="154"/>
       <source>Disassembly</source>
-      <translation type="unfinished"/>
+      <translation>Disassemblierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="255"/>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="271"/>
       <source>not owned</source>
-      <translation type="unfinished"/>
+      <translation>kein Besitzer</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="365"/>
       <source>Thread Not Found</source>
-      <translation type="unfinished"/>
+      <translation>Thread nicht gefunden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="366"/>
       <source>Thread 0x%1 no longer exists.</source>
-      <translation type="unfinished"/>
+      <translation>Thread 0x%1 existiert nicht mehr.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="377"/>
       <source>Thread: %1 (0x%2)</source>
-      <translation type="unfinished"/>
+      <translation>Thread: %1 (0x%2)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="392"/>
       <source>Name:</source>
-      <translation type="unfinished"/>
+      <translation>Name:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="393"/>
       <source>Status:</source>
-      <translation type="unfinished"/>
+      <translation>Status:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="394"/>
       <source>PC:</source>
-      <translation type="unfinished"/>
+      <translation>PC:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="395"/>
       <source>SP:</source>
-      <translation type="unfinished"/>
+      <translation>SP:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="396"/>
       <source>LR:</source>
-      <translation type="unfinished"/>
+      <translation>LR:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="397"/>
       <source>Executing:</source>
-      <translation type="unfinished"/>
+      <translation>Wird ausgeführt:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="401"/>
       <source>Registers</source>
-      <translation type="unfinished"/>
+      <translation>Register</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="406"/>
       <source>Register</source>
-      <translation type="unfinished"/>
+      <translation>Register</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
       <source>Offset</source>
-      <translation type="unfinished"/>
+      <translation>Offset</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="450"/>
       <source>(invalid)</source>
-      <translation type="unfinished"/>
+      <translation>(ungültig)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="468"/>
       <source>Nothing to disassemble.</source>
-      <translation type="unfinished"/>
+      <translation>Nichts zum Disassemblieren vorhanden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="475"/>
       <source>Invalid address.</source>
-      <translation type="unfinished"/>
+      <translation>Ungültige Adresse.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="491"/>
       <source>Disassembled %1 instructions.</source>
-      <translation type="unfinished"/>
+      <translation>%1 Anweisungen disassembliert.</translation>
     </message>
   </context>
   <context>
@@ -1118,62 +1128,67 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="46"/>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="66"/>
       <source>Install Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Firmware installieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="51"/>
       <source>Select Firmware Package</source>
-      <translation type="unfinished"/>
+      <translation>Firmware-Paket auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="53"/>
       <source>PlayStation Vita Firmware Package (*.PUP *.pup)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-Vita-Firmware-Paket (*.PUP *.pup)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="80"/>
       <source>Installing firmware, please wait…</source>
-      <translation type="unfinished"/>
+      <translation>Firmware wird installiert. Bitte warten …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="114"/>
       <source>Installation Failed</source>
-      <translation type="unfinished"/>
+      <translation>Installation fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="115"/>
       <source>Failed to install firmware.
 Check the log for details.</source>
-      <translation type="unfinished"/>
+      <translation>Firmware konnte nicht installiert werden.
+Weitere Informationen stehen im Protokoll.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="126"/>
       <source>Firmware installed successfully!%1</source>
-      <translation type="unfinished"/>
+      <translation>Firmware erfolgreich installiert!%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="127"/>
       <source>
 
 Version: %1</source>
-      <translation type="unfinished"/>
+      <translation>
+
+Version: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="132"/>
       <source>Delete firmware file after install?</source>
-      <translation type="unfinished"/>
+      <translation>Firmware-Datei nach der Installation löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="141"/>
       <source>Could Not Delete Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Firmware konnte nicht gelöscht werden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="142"/>
       <source>The firmware file could not be deleted. It may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Die Firmware-Datei konnte nicht gelöscht werden. Möglicherweise ist sie noch in einem anderen Programm geöffnet:
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -1181,12 +1196,12 @@ Version: %1</source>
     <message>
       <location filename="../vita3k/gui-qt/src/game_compatibility.cpp" line="63"/>
       <source>Failed to parse version response.</source>
-      <translation type="unfinished"/>
+      <translation>Versionsantwort konnte nicht verarbeitet werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_compatibility.cpp" line="99"/>
       <source>Failed to install compatibility database</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilitätsdatenbank konnte nicht installiert werden.</translation>
     </message>
   </context>
   <context>
@@ -1194,19 +1209,21 @@ Version: %1</source>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="429"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>App beenden?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="430"/>
       <source>Do you really want to exit the app?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du die App wirklich beenden?
+
+Nicht gespeicherter Fortschritt geht verloren!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="435"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>Dies nicht mehr anzeigen</translation>
     </message>
   </context>
   <context>
@@ -1214,55 +1231,56 @@ Any unsaved progress will be lost!</source>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="36"/>
       <source>Install License</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz installieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="40"/>
       <source>How would you like to install the license?</source>
-      <translation type="unfinished"/>
+      <translation>Wie möchtest du die Lizenz installieren?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="42"/>
       <source>Select .bin / .rif file…</source>
-      <translation type="unfinished"/>
+      <translation>.bin- oder .rif-Datei auswählen …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="43"/>
       <source>Enter zRIF key manually…</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel manuell eingeben …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="44"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="57"/>
       <source>Select License File</source>
-      <translation type="unfinished"/>
+      <translation>Lizenzdatei auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="59"/>
       <source>PlayStation Vita software license file (*.bin *.rif)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-Vita-Softwarelizenzdatei (*.bin *.rif)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="67"/>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="98"/>
       <source>Installation Failed</source>
-      <translation type="unfinished"/>
+      <translation>Installation fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="68"/>
       <source>Failed to install the license file.
 The file may be corrupted.</source>
-      <translation type="unfinished"/>
+      <translation>Die Lizenzdatei konnte nicht installiert werden.
+Die Datei ist möglicherweise beschädigt.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="73"/>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="104"/>
       <source>License Installed</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz installiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="75"/>
@@ -1271,23 +1289,27 @@ The file may be corrupted.</source>
 
 Content ID: %1
 Title ID:   %2</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz erfolgreich installiert!
+
+Inhalts-ID: %1
+Titel-ID:   %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="86"/>
       <source>Enter zRIF Key</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel eingeben</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="87"/>
       <source>Paste your zRIF key:</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel einfügen:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/license_install_dialog.cpp" line="99"/>
       <source>Failed to create license from zRIF key.
 The key may be invalid.</source>
-      <translation type="unfinished"/>
+      <translation>Aus dem zRIF-Schlüssel konnte keine Lizenz erstellt werden.
+Der Schlüssel ist möglicherweise ungültig.</translation>
     </message>
   </context>
   <context>
@@ -1295,17 +1317,17 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/live_area_widget.cpp" line="567"/>
       <source>Start</source>
-      <translation type="unfinished"/>
+      <translation>Starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/live_area_widget.cpp" line="581"/>
       <source>Manual</source>
-      <translation type="unfinished"/>
+      <translation>Handbuch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/live_area_widget.cpp" line="600"/>
       <source>%1 / %2</source>
-      <translation type="unfinished"/>
+      <translation>%1 / %2</translation>
     </message>
   </context>
   <context>
@@ -1313,27 +1335,27 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="170"/>
       <source>Log</source>
-      <translation type="unfinished"/>
+      <translation>Protokoll</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="595"/>
       <source>Find in log...</source>
-      <translation type="unfinished"/>
+      <translation>Im Protokoll suchen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="597"/>
       <source>Find Previous</source>
-      <translation type="unfinished"/>
+      <translation>Vorherigen Treffer suchen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="598"/>
       <source>Find Next</source>
-      <translation type="unfinished"/>
+      <translation>Nächsten Treffer suchen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="599"/>
       <source>Close Search</source>
-      <translation type="unfinished"/>
+      <translation>Suche schließen</translation>
     </message>
   </context>
   <context>
@@ -1341,67 +1363,67 @@ The key may be invalid.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="25"/>
       <source>File</source>
-      <translation type="unfinished"/>
+      <translation>Datei</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="35"/>
       <source>Emulation</source>
-      <translation type="unfinished"/>
+      <translation>Emulation</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="42"/>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="176"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>Einstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="59"/>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="302"/>
       <source>Debug</source>
-      <translation type="unfinished"/>
+      <translation>Debug</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="73"/>
       <source>Manage</source>
-      <translation type="unfinished"/>
+      <translation>Verwalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="81"/>
       <source>View</source>
-      <translation type="unfinished"/>
+      <translation>Ansicht</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="91"/>
       <source>Help</source>
-      <translation type="unfinished"/>
+      <translation>Hilfe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="114"/>
       <source>Tool Bar</source>
-      <translation type="unfinished"/>
+      <translation>Symbolleiste</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="150"/>
       <source>Open</source>
-      <translation type="unfinished"/>
+      <translation>Öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="155"/>
       <source>Refresh</source>
-      <translation type="unfinished"/>
+      <translation>Aktualisieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="163"/>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="237"/>
       <source>Stop</source>
-      <translation type="unfinished"/>
+      <translation>Stoppen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="171"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1366"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1370"/>
       <source>Play</source>
-      <translation type="unfinished"/>
+      <translation>Starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="181"/>
@@ -1412,191 +1434,191 @@ The key may be invalid.</source>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1234"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1701"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Vollbild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="186"/>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="307"/>
       <source>Controls</source>
-      <translation type="unfinished"/>
+      <translation>Steuerung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="191"/>
       <source>Check for updates</source>
-      <translation type="unfinished"/>
+      <translation>Nach Updates suchen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="196"/>
       <source>About Vita3k</source>
-      <translation type="unfinished"/>
+      <translation>Über Vita3K</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="201"/>
       <source>About Qt</source>
-      <translation type="unfinished"/>
+      <translation>Über Qt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="206"/>
       <source>Install Firmware (.PUP)</source>
-      <translation type="unfinished"/>
+      <translation>Firmware installieren (.PUP)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="211"/>
       <source>Install Package (.pkg)</source>
-      <translation type="unfinished"/>
+      <translation>Paket installieren (.pkg)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="216"/>
       <source>Install Archive (.zip / .vpk / .vci)</source>
-      <translation type="unfinished"/>
+      <translation>Archiv installieren (.zip / .vpk / .vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="221"/>
       <source>Install License (.rif / work.bin)</source>
-      <translation type="unfinished"/>
+      <translation>Lizenz installieren (.rif / work.bin)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="229"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1358"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1362"/>
       <source>Pause</source>
-      <translation type="unfinished"/>
+      <translation>Pausieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="242"/>
       <source>Trophy Collection</source>
-      <translation type="unfinished"/>
+      <translation>Trophäensammlung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="247"/>
       <source>Vita Themes</source>
-      <translation type="unfinished"/>
+      <translation>Vita-Designs</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="252"/>
       <source>User Management</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerverwaltung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="257"/>
       <source>Core</source>
-      <translation type="unfinished"/>
+      <translation>Kern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="262"/>
       <source>CPU</source>
-      <translation type="unfinished"/>
+      <translation>CPU</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="267"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>Grafik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="272"/>
       <source>Audio</source>
-      <translation type="unfinished"/>
+      <translation>Audio</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="277"/>
       <source>Camera</source>
-      <translation type="unfinished"/>
+      <translation>Kamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="282"/>
       <source>System</source>
-      <translation type="unfinished"/>
+      <translation>System</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="287"/>
       <source>Emulator</source>
-      <translation type="unfinished"/>
+      <translation>Emulator</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="292"/>
       <source>Interface</source>
-      <translation type="unfinished"/>
+      <translation>Oberfläche</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="297"/>
       <source>Network</source>
-      <translation type="unfinished"/>
+      <translation>Netzwerk</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="318"/>
       <source>Show Tool Bar</source>
-      <translation type="unfinished"/>
+      <translation>Symbolleiste anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="329"/>
       <source>Show Title Bars</source>
-      <translation type="unfinished"/>
+      <translation>Titelleisten anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="340"/>
       <source>Show Apps List</source>
-      <translation type="unfinished"/>
+      <translation>App-Liste anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="351"/>
       <source>Show Log</source>
-      <translation type="unfinished"/>
+      <translation>Protokoll anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="356"/>
       <source>View Welcome Dialog</source>
-      <translation type="unfinished"/>
+      <translation>Willkommensdialog anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="361"/>
       <source>Threads</source>
-      <translation type="unfinished"/>
+      <translation>Threads</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="366"/>
       <source>Mutexes</source>
-      <translation type="unfinished"/>
+      <translation>Mutexe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="371"/>
       <source>Lightweight Mutexes</source>
-      <translation type="unfinished"/>
+      <translation>Leichtgewichtige Mutexe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="376"/>
       <source>Condition Variables</source>
-      <translation type="unfinished"/>
+      <translation>Bedingungsvariablen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="381"/>
       <source>Lightweight Condition Variables</source>
-      <translation type="unfinished"/>
+      <translation>Leichtgewichtige Bedingungsvariablen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="386"/>
       <source>Semaphores</source>
-      <translation type="unfinished"/>
+      <translation>Semaphore</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="391"/>
       <source>Event Flags</source>
-      <translation type="unfinished"/>
+      <translation>Ereignis-Flags</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="396"/>
       <source>Memory Allocations</source>
-      <translation type="unfinished"/>
+      <translation>Speicherzuweisungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="401"/>
       <source>Disassembly</source>
-      <translation type="unfinished"/>
+      <translation>Disassemblierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="173"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1494"/>
       <source>Search...</source>
-      <translation type="unfinished"/>
+      <translation>Suchen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="174"/>
@@ -1604,40 +1626,43 @@ The key may be invalid.</source>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1212"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1709"/>
       <source>Exit Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Vollbild verlassen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="224"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>App beenden?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="225"/>
       <source>An app is still running. Do you really want to exit?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Eine App läuft noch. Möchtest du Vita3K wirklich beenden?
+
+Nicht gespeicherter Fortschritt geht verloren!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="229"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>Dies nicht mehr anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="741"/>
       <source>Install Failed</source>
-      <translation type="unfinished"/>
+      <translation>Installation fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="742"/>
       <source>Failed to install the dropped license file.
 The file may be corrupted.</source>
-      <translation type="unfinished"/>
+      <translation>Die abgelegte Lizenzdatei konnte nicht installiert werden.
+Die Datei ist möglicherweise beschädigt.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="904"/>
       <source>Switch App?</source>
-      <translation type="unfinished"/>
+      <translation>App wechseln?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="905"/>
@@ -1645,96 +1670,100 @@ The file may be corrupted.</source>
 Do you want to close it and launch another app?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Eine App läuft bereits.
+Möchtest du sie schließen und eine andere App starten?
+
+Nicht gespeicherter Fortschritt geht verloren!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="926"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="968"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1186"/>
       <source>Error</source>
-      <translation type="unfinished"/>
+      <translation>Fehler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="927"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1187"/>
       <source>Could not find app &apos;%1&apos; in apps list.</source>
-      <translation type="unfinished"/>
+      <translation>App „%1“ wurde in der App-Liste nicht gefunden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="939"/>
       <source>%1 (%2) | Loading...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Wird geladen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="982"/>
       <source>Could not create OpenGL context.
 Does your GPU support at least OpenGL 4.4?</source>
-      <translation type="unfinished"/>
+      <translation>OpenGL-Kontext konnte nicht erstellt werden.
+Unterstützt deine GPU mindestens OpenGL 4.4?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="986"/>
       <source>Could not make OpenGL context current.</source>
-      <translation type="unfinished"/>
+      <translation>OpenGL-Kontext konnte nicht aktiviert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="992"/>
       <source>Failed to initialise the renderer.</source>
-      <translation type="unfinished"/>
+      <translation>Renderer konnte nicht initialisiert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="996"/>
       <source>%1 (%2) | Initializing...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Wird initialisiert ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1001"/>
       <source>Failed to initialize emulator state.</source>
-      <translation type="unfinished"/>
+      <translation>Emulatorstatus konnte nicht initialisiert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1005"/>
       <source>%1 (%2) | Loading modules...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Module werden geladen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1010"/>
       <source>Failed to start game threads.</source>
-      <translation type="unfinished"/>
+      <translation>Spiel-Threads konnten nicht gestartet werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1040"/>
       <source>%1 (%2) | Please wait, loading...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Bitte warten, wird geladen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1117"/>
       <source>Main firmware</source>
-      <translation type="unfinished"/>
+      <translation>Haupt-Firmware</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1119"/>
       <source>Font package</source>
-      <translation type="unfinished"/>
+      <translation>Schriftartenpaket</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1124"/>
       <source>Missing Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Firmware fehlt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1125"/>
       <source>Firmware is not fully installed.</source>
-      <translation type="unfinished"/>
+      <translation>Die Firmware ist nicht vollständig installiert.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1127"/>
       <source>Launch Anyway</source>
-      <translation type="unfinished"/>
+      <translation>Trotzdem starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1128"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1130"/>
@@ -1742,18 +1771,21 @@ Does your GPU support at least OpenGL 4.4?</source>
 - %1
 
 Games may fail to boot or render correctly until they are installed.</source>
-      <translation type="unfinished"/>
+      <translation>Die folgenden Firmware-Komponenten fehlen:
+- %1
+
+Spiele starten oder rendern möglicherweise erst nach deren Installation korrekt.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1134"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1169"/>
       <source>Don&apos;t show this warning again</source>
-      <translation type="unfinished"/>
+      <translation>Diese Warnung nicht mehr anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1151"/>
       <source>Running with Administrator Privileges</source>
-      <translation type="unfinished"/>
+      <translation>Ausführung mit Administratorrechten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1152"/>
@@ -1761,116 +1793,119 @@ Games may fail to boot or render correctly until they are installed.</source>
 
 This can create files owned by the wrong user and cause permission problems later.
 Please close Vita3K and relaunch it without elevated privileges.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K wird mit Administrator- oder Root-Rechten ausgeführt.
+
+Dadurch können Dateien mit einem falschen Besitzer erstellt werden, was später zu Berechtigungsproblemen führt.
+Bitte schließe Vita3K und starte es ohne erhöhte Rechte neu.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1165"/>
       <source>Continue</source>
-      <translation type="unfinished"/>
+      <translation>Fortfahren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1166"/>
       <source>Exit</source>
-      <translation type="unfinished"/>
+      <translation>Beenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1199"/>
       <source>%1 | %2 (%3)</source>
-      <translation type="unfinished"/>
+      <translation>%1 | %2 (%3)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1351"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1355"/>
       <source>Resume</source>
-      <translation type="unfinished"/>
+      <translation>Fortsetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1428"/>
       <source>Open Emulated Storage Path</source>
-      <translation type="unfinished"/>
+      <translation>Ordner des emulierten Speichers öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1433"/>
       <source>Open Patch Path</source>
-      <translation type="unfinished"/>
+      <translation>Patch-Ordner öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1438"/>
       <source>Open Textures Path</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Ordner öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1445"/>
       <source>Open ELF Dumps Path</source>
-      <translation type="unfinished"/>
+      <translation>Ordner für ELF-Dumps öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1483"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1484"/>
       <source>Icon Size</source>
-      <translation type="unfinished"/>
+      <translation>Symbolgröße</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1832"/>
       <source>Standard</source>
-      <translation type="unfinished"/>
+      <translation>Standard</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1833"/>
       <source>High</source>
-      <translation type="unfinished"/>
+      <translation>Hoch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1925"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2056"/>
       <source>NGS: ON</source>
-      <translation type="unfinished"/>
+      <translation>NGS: EIN</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1926"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2059"/>
       <source>NGS: OFF</source>
-      <translation type="unfinished"/>
+      <translation>NGS: AUS</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1967"/>
       <source>Mute</source>
-      <translation type="unfinished"/>
+      <translation>Stummschalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1968"/>
       <source>Reset to 100%</source>
-      <translation type="unfinished"/>
+      <translation>Auf 100 % zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2015"/>
       <source>HIGH</source>
-      <translation type="unfinished"/>
+      <translation>HOCH</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2018"/>
       <source>STANDARD</source>
-      <translation type="unfinished"/>
+      <translation>STANDARD</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2068"/>
       <source>VOLUME: MUTED</source>
-      <translation type="unfinished"/>
+      <translation>LAUTSTÄRKE: STUMM</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2071"/>
       <source>VOLUME: %1%</source>
-      <translation type="unfinished"/>
+      <translation>LAUTSTÄRKE: %1 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2080"/>
       <source>UPDATE AVAILABLE</source>
-      <translation type="unfinished"/>
+      <translation>UPDATE VERFÜGBAR</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2083"/>
       <source>Click to review the latest Vita3K release information.</source>
-      <translation type="unfinished"/>
+      <translation>Klicke hier, um die Informationen zur neuesten Vita3K-Version anzusehen.</translation>
     </message>
   </context>
   <context>
@@ -1880,137 +1915,145 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="145"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="160"/>
       <source>Install Package</source>
-      <translation type="unfinished"/>
+      <translation>Paket installieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="114"/>
       <source>Select Package And Optional License</source>
-      <translation type="unfinished"/>
+      <translation>Paket und optionale Lizenz auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="116"/>
       <source>PlayStation Vita package or license (*.pkg *.bin *.rif);;PlayStation Store Downloaded Package (*.pkg);;PlayStation Vita software license file (*.bin *.rif)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-Vita-Paket oder -Lizenz (*.pkg *.bin *.rif);;Aus dem PlayStation Store heruntergeladenes Paket (*.pkg);;PlayStation-Vita-Softwarelizenzdatei (*.bin *.rif)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="127"/>
       <source>Invalid Selection</source>
-      <translation type="unfinished"/>
+      <translation>Ungültige Auswahl</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="176"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="217"/>
       <source>Invalid License File</source>
-      <translation type="unfinished"/>
+      <translation>Ungültige Lizenzdatei</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="177"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="218"/>
       <source>Failed to read the selected license file.
 The file may be corrupted.</source>
-      <translation type="unfinished"/>
+      <translation>Die ausgewählte Lizenzdatei konnte nicht gelesen werden.
+Die Datei ist möglicherweise beschädigt.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="189"/>
       <source>Select License Type</source>
-      <translation type="unfinished"/>
+      <translation>Lizenzart auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="193"/>
       <source>No license was found automatically.
 How would you like to provide it?</source>
-      <translation type="unfinished"/>
+      <translation>Es wurde keine Lizenz automatisch gefunden.
+Wie möchtest du sie bereitstellen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="195"/>
       <source>Select .bin / .rif file…</source>
-      <translation type="unfinished"/>
+      <translation>.bin- oder .rif-Datei auswählen …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="196"/>
       <source>Enter zRIF key manually…</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel manuell eingeben …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="197"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="207"/>
       <source>Select License File</source>
-      <translation type="unfinished"/>
+      <translation>Lizenzdatei auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="209"/>
       <source>PlayStation Vita software license file (*.bin *.rif)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-Vita-Softwarelizenzdatei (*.bin *.rif)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="229"/>
       <source>Enter zRIF Key</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel eingeben</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="230"/>
       <source>Paste your zRIF key:</source>
-      <translation type="unfinished"/>
+      <translation>zRIF-Schlüssel einfügen:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="236"/>
       <source>Invalid zRIF Key</source>
-      <translation type="unfinished"/>
+      <translation>Ungültiger zRIF-Schlüssel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="237"/>
       <source>The zRIF key you entered is not valid.
 Please check and try again.</source>
-      <translation type="unfinished"/>
+      <translation>Der eingegebene zRIF-Schlüssel ist ungültig.
+Bitte prüfe ihn und versuche es erneut.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="255"/>
       <source>Installing package, please wait…</source>
-      <translation type="unfinished"/>
+      <translation>Paket wird installiert. Bitte warten …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="292"/>
       <source>Installation Failed</source>
-      <translation type="unfinished"/>
+      <translation>Installation fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="293"/>
       <source>Failed to install the package.
 Check the log for details.</source>
-      <translation type="unfinished"/>
+      <translation>Das Paket konnte nicht installiert werden.
+Weitere Informationen stehen im Protokoll.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="308"/>
       <source>Installation complete!
 
 %1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>Installation abgeschlossen!
+
+%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="313"/>
       <source>Delete package file after install</source>
-      <translation type="unfinished"/>
+      <translation>Paketdatei nach der Installation löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="316"/>
       <source>Delete .bin / .rif file after install</source>
-      <translation type="unfinished"/>
+      <translation>.bin- oder .rif-Datei nach der Installation löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="341"/>
       <source>Could Not Delete Files</source>
-      <translation type="unfinished"/>
+      <translation>Dateien konnten nicht gelöscht werden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="342"/>
       <source>The following files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Die folgenden Dateien konnten nicht gelöscht werden. Möglicherweise sind sie noch in einem anderen Programm geöffnet:
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -2018,307 +2061,307 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="62"/>
       <source>Nothing</source>
-      <translation type="unfinished"/>
+      <translation>Keine Funktion</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="63"/>
       <source>Bootable</source>
-      <translation type="unfinished"/>
+      <translation>Startfähig</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="64"/>
       <source>Intro</source>
-      <translation type="unfinished"/>
+      <translation>Intro</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="65"/>
       <source>Menu</source>
-      <translation type="unfinished"/>
+      <translation>Menü</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="66"/>
       <source>In-Game (less)</source>
-      <translation type="unfinished"/>
+      <translation>Im Spiel (eingeschränkt)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="67"/>
       <source>In-Game (more)</source>
-      <translation type="unfinished"/>
+      <translation>Im Spiel (weitgehend)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="68"/>
       <source>Playable</source>
-      <translation type="unfinished"/>
+      <translation>Spielbar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="69"/>
       <source>Unknown</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="71"/>
       <source>Never played</source>
-      <translation type="unfinished"/>
+      <translation>Noch nie gespielt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="91"/>
       <source>Unknown Content</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannter Inhalt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="105"/>
       <source>Installed</source>
-      <translation type="unfinished"/>
+      <translation>Installiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="105"/>
       <source>Failed</source>
-      <translation type="unfinished"/>
+      <translation>Fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="141"/>
       <source>(incompatible or no content found)</source>
-      <translation type="unfinished"/>
+      <translation>(inkompatibel oder kein Inhalt gefunden)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="338"/>
       <source>Archive %1 of %2</source>
-      <translation type="unfinished"/>
+      <translation>Archiv %1 von %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="345"/>
       <source>Content %1 of %2</source>
-      <translation type="unfinished"/>
+      <translation>Inhalt %1 von %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="352"/>
       <source>%1% complete</source>
-      <translation type="unfinished"/>
+      <translation>%1 % abgeschlossen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="122"/>
       <source>Capturing...(%1)</source>
-      <translation type="unfinished"/>
+      <translation>Wird erfasst ... (%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="141"/>
       <source>Up</source>
-      <translation type="unfinished"/>
+      <translation>Oben</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="142"/>
       <source>Down</source>
-      <translation type="unfinished"/>
+      <translation>Unten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="143"/>
       <source>Left</source>
-      <translation type="unfinished"/>
+      <translation>Links</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="144"/>
       <source>Right</source>
-      <translation type="unfinished"/>
+      <translation>Rechts</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="198"/>
       <source>L2</source>
-      <translation type="unfinished"/>
+      <translation>L2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="199"/>
       <source>L3</source>
-      <translation type="unfinished"/>
+      <translation>L3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="200"/>
       <source>R3</source>
-      <translation type="unfinished"/>
+      <translation>R3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="201"/>
       <source>R2</source>
-      <translation type="unfinished"/>
+      <translation>R2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="447"/>
       <source>D-Pad</source>
-      <translation type="unfinished"/>
+      <translation>Steuerkreuz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="449"/>
       <source>Left Stick</source>
-      <translation type="unfinished"/>
+      <translation>Linker Stick</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="458"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="460"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="471"/>
       <source>PS Button</source>
-      <translation type="unfinished"/>
+      <translation>PS-Taste</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="473"/>
       <source>Select</source>
-      <translation type="unfinished"/>
+      <translation>Select</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="474"/>
       <source>Start</source>
-      <translation type="unfinished"/>
+      <translation>Start</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="476"/>
       <source>PS TV Mode</source>
-      <translation type="unfinished"/>
+      <translation>PS-TV-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="482"/>
       <source>Face Buttons</source>
-      <translation type="unfinished"/>
+      <translation>Aktionstasten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="484"/>
       <source>Triangle</source>
-      <translation type="unfinished"/>
+      <translation>Dreieck</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="485"/>
       <source>Cross</source>
-      <translation type="unfinished"/>
+      <translation>Kreuz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="486"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>Quadrat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="487"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>Kreis</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="488"/>
       <source>Right Stick</source>
-      <translation type="unfinished"/>
+      <translation>Rechter Stick</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="71"/>
       <source>Only .pkg, .bin, and .rif files can be selected here.</source>
-      <translation type="unfinished"/>
+      <translation>Hier können nur .pkg-, .bin- und .rif-Dateien ausgewählt werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="78"/>
       <source>Select one .pkg file to install.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle eine .pkg-Datei zur Installation aus.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="79"/>
       <source>Select only one .pkg file at a time.</source>
-      <translation type="unfinished"/>
+      <translation>Es kann jeweils nur eine .pkg-Datei ausgewählt werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="84"/>
       <source>Select at most one license file (.bin or .rif) per package install.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle pro Paketinstallation höchstens eine Lizenzdatei (.bin oder .rif) aus.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="424"/>
       <source>Platinum</source>
-      <translation type="unfinished"/>
+      <translation>Platin</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="425"/>
       <source>Gold</source>
-      <translation type="unfinished"/>
+      <translation>Gold</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="426"/>
       <source>Silver</source>
-      <translation type="unfinished"/>
+      <translation>Silber</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="427"/>
       <source>Bronze</source>
-      <translation type="unfinished"/>
+      <translation>Bronze</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="66"/>
       <source>Lockscreen</source>
-      <translation type="unfinished"/>
+      <translation>Sperrbildschirm</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="67"/>
       <source>Home</source>
-      <translation type="unfinished"/>
+      <translation>Startbildschirm</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="136"/>
       <source>Download Firmware: %1</source>
-      <translation type="unfinished"/>
+      <translation>Firmware herunterladen: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="49"/>
       <source>Title</source>
-      <translation type="unfinished"/>
+      <translation>Titel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="50"/>
       <source>Title ID</source>
-      <translation type="unfinished"/>
+      <translation>Titel-ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="51"/>
       <source>Version</source>
-      <translation type="unfinished"/>
+      <translation>Version</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="52"/>
       <source>Category</source>
-      <translation type="unfinished"/>
+      <translation>Kategorie</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="53"/>
       <source>Compatibility</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilität</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="54"/>
       <source>Last Played</source>
-      <translation type="unfinished"/>
+      <translation>Zuletzt gespielt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="55"/>
       <source>Time Played</source>
-      <translation type="unfinished"/>
+      <translation>Spielzeit</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="56"/>
       <source>Parental Level</source>
-      <translation type="unfinished"/>
+      <translation>Jugendschutzstufe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="57"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Größe auf dem Datenträger</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="91"/>
       <source>Game Digital Application</source>
-      <translation type="unfinished"/>
+      <translation>Digitales Spiel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="93"/>
       <source>Game Patch</source>
-      <translation type="unfinished"/>
+      <translation>Spiel-Patch</translation>
     </message>
   </context>
   <context>
@@ -2326,636 +2369,636 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="114"/>
       <source>Search fonts...</source>
-      <translation type="unfinished"/>
+      <translation>Schriftarten suchen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="149"/>
       <source>Settings - %1</source>
-      <translation type="unfinished"/>
+      <translation>Einstellungen – %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="319"/>
       <source>Standard</source>
-      <translation type="unfinished"/>
+      <translation>Standard</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="320"/>
       <source>High</source>
-      <translation type="unfinished"/>
+      <translation>Hoch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="388"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1030"/>
       <source>Current volume: %1%</source>
-      <translation type="unfinished"/>
+      <translation>Aktuelle Lautstärke: %1 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="399"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1033"/>
       <source>Theme music volume: %1%</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke der Designmusik: %1 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="419"/>
       <source>Check</source>
-      <translation type="unfinished"/>
+      <translation>Prüfen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="420"/>
       <source>Don&apos;t Check</source>
-      <translation type="unfinished"/>
+      <translation>Nicht prüfen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="438"/>
       <source>Trace</source>
-      <translation type="unfinished"/>
+      <translation>Trace</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="438"/>
       <source>Debug</source>
-      <translation type="unfinished"/>
+      <translation>Debug</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="438"/>
       <source>Info</source>
-      <translation type="unfinished"/>
+      <translation>Info</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="439"/>
       <source>Warning</source>
-      <translation type="unfinished"/>
+      <translation>Warnung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="439"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="962"/>
       <source>Error</source>
-      <translation type="unfinished"/>
+      <translation>Fehler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="439"/>
       <source>Critical</source>
-      <translation type="unfinished"/>
+      <translation>Kritisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="439"/>
       <source>Off</source>
-      <translation type="unfinished"/>
+      <translation>Aus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="444"/>
       <source>Minimum</source>
-      <translation type="unfinished"/>
+      <translation>Minimal</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="444"/>
       <source>Low</source>
-      <translation type="unfinished"/>
+      <translation>Niedrig</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="444"/>
       <source>Medium</source>
-      <translation type="unfinished"/>
+      <translation>Mittel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="444"/>
       <source>Maximum</source>
-      <translation type="unfinished"/>
+      <translation>Maximum</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="447"/>
       <source>Top Left</source>
-      <translation type="unfinished"/>
+      <translation>Oben links</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="447"/>
       <source>Top Center</source>
-      <translation type="unfinished"/>
+      <translation>Oben mittig</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="447"/>
       <source>Top Right</source>
-      <translation type="unfinished"/>
+      <translation>Oben rechts</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="448"/>
       <source>Bottom Left</source>
-      <translation type="unfinished"/>
+      <translation>Unten links</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="448"/>
       <source>Bottom Center</source>
-      <translation type="unfinished"/>
+      <translation>Unten mittig</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="448"/>
       <source>Bottom Right</source>
-      <translation type="unfinished"/>
+      <translation>Unten rechts</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="460"/>
       <source>None</source>
-      <translation type="unfinished"/>
+      <translation>Keine</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="472"/>
       <source>Japanese</source>
-      <translation type="unfinished"/>
+      <translation>Japanisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="472"/>
       <source>English (US)</source>
-      <translation type="unfinished"/>
+      <translation>Englisch (USA)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="472"/>
       <source>French</source>
-      <translation type="unfinished"/>
+      <translation>Französisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="472"/>
       <source>Spanish</source>
-      <translation type="unfinished"/>
+      <translation>Spanisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="473"/>
       <source>German</source>
-      <translation type="unfinished"/>
+      <translation>Deutsch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="473"/>
       <source>Italian</source>
-      <translation type="unfinished"/>
+      <translation>Italienisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="473"/>
       <source>Dutch</source>
-      <translation type="unfinished"/>
+      <translation>Niederländisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="473"/>
       <source>Portuguese (PT)</source>
-      <translation type="unfinished"/>
+      <translation>Portugiesisch (Portugal)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="474"/>
       <source>Russian</source>
-      <translation type="unfinished"/>
+      <translation>Russisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="474"/>
       <source>Korean</source>
-      <translation type="unfinished"/>
+      <translation>Koreanisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="474"/>
       <source>Chinese (Traditional)</source>
-      <translation type="unfinished"/>
+      <translation>Chinesisch (traditionell)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="475"/>
       <source>Chinese (Simplified)</source>
-      <translation type="unfinished"/>
+      <translation>Chinesisch (vereinfacht)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="475"/>
       <source>Finnish</source>
-      <translation type="unfinished"/>
+      <translation>Finnisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="475"/>
       <source>Swedish</source>
-      <translation type="unfinished"/>
+      <translation>Schwedisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="476"/>
       <source>Danish</source>
-      <translation type="unfinished"/>
+      <translation>Dänisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="476"/>
       <source>Norwegian</source>
-      <translation type="unfinished"/>
+      <translation>Norwegisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="476"/>
       <source>Polish</source>
-      <translation type="unfinished"/>
+      <translation>Polnisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="476"/>
       <source>Portuguese (BR)</source>
-      <translation type="unfinished"/>
+      <translation>Portugiesisch (Brasilien)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="477"/>
       <source>English (GB)</source>
-      <translation type="unfinished"/>
+      <translation>Englisch (Großbritannien)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="477"/>
       <source>Turkish</source>
-      <translation type="unfinished"/>
+      <translation>Türkisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="481"/>
       <source>YYYY/MM/DD</source>
-      <translation type="unfinished"/>
+      <translation>JJJJ/MM/TT</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="481"/>
       <source>DD/MM/YYYY</source>
-      <translation type="unfinished"/>
+      <translation>TT/MM/JJJJ</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="481"/>
       <source>MM/DD/YYYY</source>
-      <translation type="unfinished"/>
+      <translation>MM/TT/JJJJ</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="485"/>
       <source>12-Hour</source>
-      <translation type="unfinished"/>
+      <translation>12-Stunden-Format</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="485"/>
       <source>24-Hour</source>
-      <translation type="unfinished"/>
+      <translation>24-Stunden-Format</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="549"/>
       <source>System Default</source>
-      <translation type="unfinished"/>
+      <translation>Systemstandard</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="855"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="857"/>
       <source>Solid Color</source>
-      <translation type="unfinished"/>
+      <translation>Einfarbiger Hintergrund</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="856"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="858"/>
       <source>Static Image</source>
-      <translation type="unfinished"/>
+      <translation>Statisches Bild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="886"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="887"/>
       <source>No image selected</source>
-      <translation type="unfinished"/>
+      <translation>Kein Bild ausgewählt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="948"/>
       <source>File Loading Delay: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>Dateiladeverzögerung: %1 ms</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="963"/>
       <source>Failed to switch the emulator storage folder.</source>
-      <translation type="unfinished"/>
+      <translation>Der Speicherordner des Emulators konnte nicht gewechselt werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="976"/>
       <source>Timeout Attempts: %1 attempts</source>
-      <translation type="unfinished"/>
+      <translation>Versuche bei Zeitüberschreitung: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="978"/>
       <source>Timeout Sleep: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bei Zeitüberschreitung: %1 ms</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="980"/>
       <source>Read End Attempts: %1 attempts</source>
-      <translation type="unfinished"/>
+      <translation>Versuche bei Leseende: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="982"/>
       <source>Read End Sleep: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bei Leseende: %1 ms</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1075"/>
       <source>Front Camera Color</source>
-      <translation type="unfinished"/>
+      <translation>Farbe der Frontkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1083"/>
       <source>Back Camera Color</source>
-      <translation type="unfinished"/>
+      <translation>Farbe der Rückkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1092"/>
       <source>Select Front Camera Image</source>
-      <translation type="unfinished"/>
+      <translation>Bild für die Frontkamera auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1094"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1104"/>
       <source>Images (*.png *.jpg *.jpeg *.bmp)</source>
-      <translation type="unfinished"/>
+      <translation>Bilder (*.png *.jpg *.jpeg *.bmp)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1102"/>
       <source>Select Back Camera Image</source>
-      <translation type="unfinished"/>
+      <translation>Bild für die Rückkamera auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1117"/>
       <source>Select Emulator Storage Folder</source>
-      <translation type="unfinished"/>
+      <translation>Speicherordner des Emulators auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1154"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1167"/>
       <source>Unwatch Code</source>
-      <translation type="unfinished"/>
+      <translation>Codeüberwachung beenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1154"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1167"/>
       <source>Watch Code</source>
-      <translation type="unfinished"/>
+      <translation>Code überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1159"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1168"/>
       <source>Unwatch Memory</source>
-      <translation type="unfinished"/>
+      <translation>Speicherüberwachung beenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1159"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1168"/>
       <source>Watch Memory</source>
-      <translation type="unfinished"/>
+      <translation>Speicher überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1164"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1169"/>
       <source>Unwatch Import Calls</source>
-      <translation type="unfinished"/>
+      <translation>Überwachung von Importaufrufen beenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1164"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1169"/>
       <source>Watch Import Calls</source>
-      <translation type="unfinished"/>
+      <translation>Importaufrufe überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1191"/>
       <source>Automatic</source>
-      <translation type="unfinished"/>
+      <translation>Automatisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1192"/>
       <source>Auto &amp; Manual</source>
-      <translation type="unfinished"/>
+      <translation>Automatisch und manuell</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1193"/>
       <source>Manual</source>
-      <translation type="unfinished"/>
+      <translation>Manuell</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1195"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>CPU-Optimierungen aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1197"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>Grafik-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1198"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>Rendergenauigkeit</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1199"/>
       <source>V-Sync</source>
-      <translation type="unfinished"/>
+      <translation>V-Sync</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1200"/>
       <source>Disable Surface Sync</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächensynchronisierung deaktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1201"/>
       <source>Asynchronous Pipeline Compilation</source>
-      <translation type="unfinished"/>
+      <translation>Asynchrone Pipeline-Kompilierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1202"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Speicherzuordnung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1203"/>
       <source>Screen Filter</source>
-      <translation type="unfinished"/>
+      <translation>Bildschirmfilter</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1204"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1205"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>Grafikgerät</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1206"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>Interne Auflösung hochskalieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1207"/>
       <source>Anisotropic Filtering</source>
-      <translation type="unfinished"/>
+      <translation>Anisotrope Filterung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1208"/>
       <source>Export Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen exportieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1209"/>
       <source>Import Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen importieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1210"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1211"/>
       <source>Texture Exporting Format</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Exportformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1212"/>
       <source>Enable Shader Cache</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Cache aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1213"/>
       <source>Use SPIR-V Shader</source>
-      <translation type="unfinished"/>
+      <translation>SPIR-V-Shader verwenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1214"/>
       <source>FPS Hack</source>
-      <translation type="unfinished"/>
+      <translation>FPS-Hack</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1216"/>
       <source>Audio Backend</source>
-      <translation type="unfinished"/>
+      <translation>Audio-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1217"/>
       <source>Volume</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1218"/>
       <source>Enable Vita Theme Background Music</source>
-      <translation type="unfinished"/>
+      <translation>Hintergrundmusik für Vita-Designs aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1219"/>
       <source>Theme Music Volume</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke der Designmusik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1220"/>
       <source>Enable NGS Support</source>
-      <translation type="unfinished"/>
+      <translation>NGS-Unterstützung aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1222"/>
       <source>Front Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>Quelle der Frontkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1223"/>
       <source>Back Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>Quelle der Rückkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1225"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1226"/>
       <source>Enter Button Assignment</source>
-      <translation type="unfinished"/>
+      <translation>Bestätigungstaste zuweisen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1227"/>
       <source>PlayStation TV Mode (PSTV)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-TV-Modus (PSTV)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1228"/>
       <source>Show Mode</source>
-      <translation type="unfinished"/>
+      <translation>Show-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1229"/>
       <source>Demo Mode</source>
-      <translation type="unfinished"/>
+      <translation>Demo-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1230"/>
       <source>System Language</source>
-      <translation type="unfinished"/>
+      <translation>Systemsprache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1231"/>
       <source>Date Format</source>
-      <translation type="unfinished"/>
+      <translation>Datumsformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1232"/>
       <source>Time Format</source>
-      <translation type="unfinished"/>
+      <translation>Zeitformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1233"/>
       <source>IME Languages</source>
-      <translation type="unfinished"/>
+      <translation>IME-Sprachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1235"/>
       <source>Boot Games in Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Spiele im Vollbild starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1236"/>
       <source>Show Live Area Before Booting</source>
-      <translation type="unfinished"/>
+      <translation>LiveArea vor dem Start anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1237"/>
       <source>Show Shader Compilation Hint</source>
-      <translation type="unfinished"/>
+      <translation>Hinweis zur Shader-Kompilierung anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1238"/>
       <source>Update Check Mode</source>
-      <translation type="unfinished"/>
+      <translation>Modus für Update-Prüfung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1239"/>
       <source>Log Compatibility Warnings</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilitätswarnungen protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1240"/>
       <source>Enable Texture Cache</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Cache aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1241"/>
       <source>Archive Log</source>
-      <translation type="unfinished"/>
+      <translation>Protokoll archivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1242"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1243"/>
       <source>Log Level</source>
-      <translation type="unfinished"/>
+      <translation>Protokollstufe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1244"/>
       <source>Enable Discord Rich Presence</source>
-      <translation type="unfinished"/>
+      <translation>Discord Rich Presence aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1245"/>
       <source>Performance Overlay</source>
-      <translation type="unfinished"/>
+      <translation>Leistungsanzeige</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1246"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1247"/>
       <source>Overlay Detail</source>
-      <translation type="unfinished"/>
+      <translation>Anzeigedetails</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1248"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1249"/>
       <source>Overlay Position</source>
-      <translation type="unfinished"/>
+      <translation>Anzeigeposition</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1250"/>
       <source>Stretch the Display Area</source>
-      <translation type="unfinished"/>
+      <translation>Bildbereich strecken</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1251"/>
       <source>Fullscreen HD Pixel Perfect</source>
-      <translation type="unfinished"/>
+      <translation>Pixelgenaues HD-Vollbild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1252"/>
       <source>File Loading Delay</source>
-      <translation type="unfinished"/>
+      <translation>Dateiladeverzögerung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1253"/>
@@ -2963,183 +3006,183 @@ Check the log for details.</source>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1255"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1256"/>
       <source>Emulated System Storage Folder</source>
-      <translation type="unfinished"/>
+      <translation>Speicherordner des emulierten Systems</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1257"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1258"/>
       <source>Custom Config Settings</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerdefinierte Konfigurationen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1259"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1260"/>
       <source>Screenshot Format</source>
-      <translation type="unfinished"/>
+      <translation>Screenshot-Format</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1262"/>
       <source>Show welcome screen</source>
-      <translation type="unfinished"/>
+      <translation>Willkommensbildschirm anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1263"/>
       <source>Warn when firmware is missing</source>
-      <translation type="unfinished"/>
+      <translation>Bei fehlender Firmware warnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1264"/>
       <source>Show exit app confirmation</source>
-      <translation type="unfinished"/>
+      <translation>Beenden einer App bestätigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1265"/>
       <source>Warn when running with administrator privileges</source>
-      <translation type="unfinished"/>
+      <translation>Bei Administratorrechten warnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1266"/>
       <source>Rounded corners</source>
-      <translation type="unfinished"/>
+      <translation>Abgerundete Ecken</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1267"/>
       <source>Interface Language</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächensprache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1268"/>
       <source>Log Buffer Size</source>
-      <translation type="unfinished"/>
+      <translation>Größe des Protokollpuffers</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1269"/>
       <source>Log Font</source>
-      <translation type="unfinished"/>
+      <translation>Schriftart des Protokolls</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1270"/>
       <source>Stylesheet</source>
-      <translation type="unfinished"/>
+      <translation>Stylesheet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1272"/>
       <source>PSN Signed In</source>
-      <translation type="unfinished"/>
+      <translation>Bei PSN angemeldet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1273"/>
       <source>Enable HTTP Networking</source>
-      <translation type="unfinished"/>
+      <translation>HTTP-Netzwerk aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1274"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1275"/>
       <source>Timeout Attempts</source>
-      <translation type="unfinished"/>
+      <translation>Zeitüberschreitungsversuche</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1276"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1277"/>
       <source>Timeout Sleep</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bei Zeitüberschreitung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1278"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1279"/>
       <source>Read End Attempts</source>
-      <translation type="unfinished"/>
+      <translation>Versuche bis zum Leseende</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1280"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1281"/>
       <source>Read End Sleep</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bis zum Leseende</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1282"/>
       <source>Ad-Hoc Address</source>
-      <translation type="unfinished"/>
+      <translation>Ad-hoc-Adresse</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1284"/>
       <source>Import Logging</source>
-      <translation type="unfinished"/>
+      <translation>Importe protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1285"/>
       <source>Export Logging</source>
-      <translation type="unfinished"/>
+      <translation>Exporte protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1286"/>
       <source>Log Active Shaders</source>
-      <translation type="unfinished"/>
+      <translation>Aktive Shader protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1287"/>
       <source>Log Shader Uniforms</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Uniformwerte protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1288"/>
       <source>Save color surfaces</source>
-      <translation type="unfinished"/>
+      <translation>Farboberflächen speichern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1289"/>
       <source>Vulkan Validation Layer</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan-Validierungsebene</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1290"/>
       <source>ELF Dumping</source>
-      <translation type="unfinished"/>
+      <translation>ELF-Dump</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1291"/>
       <source>Tracy Profiler</source>
-      <translation type="unfinished"/>
+      <translation>Tracy-Profiler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1292"/>
       <source>Primitive Implementation</source>
-      <translation type="unfinished"/>
+      <translation>Primitive Implementierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1293"/>
       <source>Tracy modules list</source>
-      <translation type="unfinished"/>
+      <translation>Liste der Tracy-Module</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1395"/>
       <source>Unsaved Changes</source>
-      <translation type="unfinished"/>
+      <translation>Nicht gespeicherte Änderungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1396"/>
       <source>You have unsaved changes. What would you like to do?</source>
-      <translation type="unfinished"/>
+      <translation>Du hast nicht gespeicherte Änderungen. Was möchtest du tun?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1398"/>
       <source>Save</source>
-      <translation type="unfinished"/>
+      <translation>Speichern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1399"/>
       <source>Discard</source>
-      <translation type="unfinished"/>
+      <translation>Verwerfen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1400"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1441"/>
       <source>Current emulator path: %1</source>
-      <translation type="unfinished"/>
+      <translation>Aktueller Emulator-Pfad: %1</translation>
     </message>
   </context>
   <context>
@@ -3147,536 +3190,550 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="28"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>CPU-Optimierungen aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="30"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>Grafik-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="32"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>Grafikgerät</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="34"/>
       <source>Custom Driver</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerdefinierter Treiber</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="36"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>Rendergenauigkeit</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="38"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>Interne Auflösung hochskalieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="40"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Speicherzuordnung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="42"/>
       <source>Audio Backend</source>
-      <translation type="unfinished"/>
+      <translation>Audio-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="44"/>
       <source>Vulkan Validation Layer</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan-Validierungsebene</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="61"/>
       <source>Restart Required</source>
-      <translation type="unfinished"/>
+      <translation>Neustart erforderlich</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="62"/>
       <source>Some changes need an app restart to fully take effect.</source>
-      <translation type="unfinished"/>
+      <translation>Einige Änderungen werden erst nach einem Neustart der App vollständig wirksam.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="64"/>
       <source>Restart App</source>
-      <translation type="unfinished"/>
+      <translation>App neu starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="65"/>
       <source>Restart Later</source>
-      <translation type="unfinished"/>
+      <translation>Später neu starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="67"/>
       <source>These changed settings will apply after restart:
 - %1</source>
-      <translation type="unfinished"/>
+      <translation>Diese geänderten Einstellungen werden nach dem Neustart wirksam:
+- %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="78"/>
       <source>Control how low-level modules are loaded.</source>
-      <translation type="unfinished"/>
+      <translation>Steuere, wie Low-Level-Module geladen werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="80"/>
       <source>Manage CPU behavior.</source>
-      <translation type="unfinished"/>
+      <translation>Verwalte das CPU-Verhalten.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="82"/>
       <source>Tune renderer behavior, textures, and shader behavior.</source>
-      <translation type="unfinished"/>
+      <translation>Passe Renderer, Texturen und Shader an.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="84"/>
       <source>Adjust audio.</source>
-      <translation type="unfinished"/>
+      <translation>Passe die Audioausgabe an.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="86"/>
       <source>Choose how front and back camera input should be simulated.</source>
-      <translation type="unfinished"/>
+      <translation>Lege fest, wie die Eingaben der Front- und Rückkamera simuliert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="88"/>
       <source>Set regional behavior, and emulated console system related settings here.</source>
-      <translation type="unfinished"/>
+      <translation>Hier findest du regionale Einstellungen und Optionen für das emulierte Konsolensystem.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="90"/>
       <source>Configure app-level behavior in this section.</source>
-      <translation type="unfinished"/>
+      <translation>Konfiguriere in diesem Bereich das Verhalten der App.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="92"/>
       <source>Customize the Vita3K interface.</source>
-      <translation type="unfinished"/>
+      <translation>Passe die Vita3K-Oberfläche an.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="94"/>
       <source>Configure network related settings here.</source>
-      <translation type="unfinished"/>
+      <translation>Konfiguriere hier die Netzwerkeinstellungen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="96"/>
       <source>Internal diagnostics, GPU debugging, and watch controls live here. These settings are mainly for developers.</source>
-      <translation type="unfinished"/>
+      <translation>Hier findest du interne Diagnosen, GPU-Debugging und Überwachungsoptionen. Diese Einstellungen sind hauptsächlich für Entwickler gedacht.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="104"/>
       <source>Point your mouse at an option to display a description here.</source>
-      <translation type="unfinished"/>
+      <translation>Bewege den Mauszeiger über eine Option, um hier ihre Beschreibung anzuzeigen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="105"/>
       <source>Automatically select modules to load. Recommended for most apps.</source>
-      <translation type="unfinished"/>
+      <translation>Zu ladende Module automatisch auswählen. Für die meisten Apps empfohlen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="106"/>
       <source>Select this mode to load modules automatically in addition to selected modules from the list on the right.</source>
-      <translation type="unfinished"/>
+      <translation>In diesem Modus werden Module automatisch und zusätzlich die rechts ausgewählten Module geladen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="107"/>
       <source>Only load the modules selected from the list. Advanced users only.</source>
-      <translation type="unfinished"/>
+      <translation>Nur die in der Liste ausgewählten Module laden. Nur für erfahrene Benutzer.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="108"/>
       <source>Enable Dynarmic JIT optimizations. Improves performance.</source>
-      <translation type="unfinished"/>
+      <translation>Dynarmic-JIT-Optimierungen aktivieren. Verbessert die Leistung.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="109"/>
       <source>Select the preferred backend renderer. Vulkan is recommended for most systems.</source>
-      <translation type="unfinished"/>
+      <translation>Bevorzugtes Grafik-Backend auswählen. Vulkan wird für die meisten Systeme empfohlen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="110"/>
       <source>Set the renderer accuracy level for Vulkan. High accuracy may improve visuals but reduce performance.</source>
-      <translation type="unfinished"/>
+      <translation>Rendergenauigkeit für Vulkan festlegen. Hohe Genauigkeit kann die Darstellung verbessern, aber die Leistung verringern.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="111"/>
       <source>Enable V-Sync for OpenGL. Reduces screen tearing.</source>
-      <translation type="unfinished"/>
+      <translation>V-Sync für OpenGL aktivieren. Verringert Bildzerreißen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="112"/>
       <source>Speed hack, disabling turns off surface syncing between CPU and GPU. Surface syncing is needed by a few games.
 Gives a big performance boost if disabled (in particular when upscaling is on).</source>
-      <translation type="unfinished"/>
+      <translation>Leistungs-Hack: Deaktiviert die Oberflächensynchronisierung zwischen CPU und GPU. Einige Spiele benötigen diese Synchronisierung.
+Ist sie deaktiviert, kann die Leistung deutlich steigen, insbesondere bei aktivierter Hochskalierung.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="113"/>
       <source>Allow pipelines to be compiled concurrently on multiple concurrent threads.
 This decreases pipeline compilation stutter at the cost of temporary graphical glitches.</source>
-      <translation type="unfinished"/>
+      <translation>Pipelines gleichzeitig in mehreren Threads kompilieren.
+Das verringert Ruckler beim Kompilieren, kann aber vorübergehend Grafikfehler verursachen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="114"/>
       <source>Select the final image filter to apply.</source>
-      <translation type="unfinished"/>
+      <translation>Filter für das fertige Bild auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="115"/>
       <source>Select which GPU Vita3k should use.</source>
-      <translation type="unfinished"/>
+      <translation>GPU auswählen, die Vita3K verwenden soll.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="116"/>
       <source>Scale the games resolution by a multiplier.
 Experimental: apps are not guaranteed to render properly at more than 1x.</source>
-      <translation type="unfinished"/>
+      <translation>Spielauflösung um einen Faktor skalieren.
+Experimentell: Bei mehr als 1x ist eine korrekte Darstellung der Apps nicht gewährleistet.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="117"/>
       <source>Technique to increase the sharpness of textures which are sloped relative to the viewer.
 It has no drawbacks but can impact performance on older GPUs.</source>
-      <translation type="unfinished"/>
+      <translation>Erhöht die Schärfe von Texturen, die aus einem schrägen Blickwinkel betrachtet werden.
+Hat keine Nachteile für die Bildqualität, kann aber ältere GPUs belasten.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="118"/>
       <source>Export textures used by the app to the textures folder.</source>
-      <translation type="unfinished"/>
+      <translation>Von der App verwendete Texturen in den Texturordner exportieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="119"/>
       <source>Import replacement textures from the textures folder.</source>
-      <translation type="unfinished"/>
+      <translation>Ersatztexturen aus dem Texturordner importieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="120"/>
       <source>Format to export textures in.</source>
-      <translation type="unfinished"/>
+      <translation>Format für den Texturexport auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="121"/>
       <source>Enable shader caching. Reduces stuttering on subsequent runs.</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Cache aktivieren. Verringert Ruckler bei späteren Starts.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="122"/>
       <source>Pass generated Spir-V shader directly to driver.
 Note that some beneficial extensions will be disabled, and not all GPUs are compatible with this.</source>
-      <translation type="unfinished"/>
+      <translation>Erzeugte SPIR-V-Shader direkt an den Treiber übergeben.
+Einige nützliche Erweiterungen werden dadurch deaktiviert; nicht alle GPUs sind kompatibel.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="123"/>
       <source>Game hack. May double the framerate from 30 FPS to 60 FPS in some games, but can cause some games to run twice as fast.</source>
-      <translation type="unfinished"/>
+      <translation>Spiel-Hack: Kann die Bildrate in einigen Spielen von 30 auf 60 FPS verdoppeln, aber andere Spiele dadurch doppelt so schnell laufen lassen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="124"/>
       <source>Memory mapping improved performance, reduces memory usage and fixes many graphical issues. However, it may be unstable on some GPUs.</source>
-      <translation type="unfinished"/>
+      <translation>Die Speicherzuordnung verbessert die Leistung, verringert den Speicherverbrauch und behebt viele Grafikfehler. Auf manchen GPUs kann sie jedoch instabil sein.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="125"/>
       <source>Select the audio backend. Cubeb is recommended for most systems.</source>
-      <translation type="unfinished"/>
+      <translation>Audio-Backend auswählen. Cubeb wird für die meisten Systeme empfohlen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="126"/>
       <source>Set the in-game audio volume.</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke im Spiel festlegen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="127"/>
       <source>Enable background music for generated Vita themes when the selected theme provides an ATRAC9 BGM file.</source>
-      <translation type="unfinished"/>
+      <translation>Hintergrundmusik für generierte Vita-Designs aktivieren, sofern das ausgewählte Design eine ATRAC9-BGM-Datei enthält.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="128"/>
       <source>Set the playback volume for Vita theme background music. This only affects interface theme music.</source>
-      <translation type="unfinished"/>
+      <translation>Wiedergabelautstärke der Hintergrundmusik von Vita-Designs festlegen. Betrifft nur die Musik des Oberflächendesigns.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="129"/>
       <source>Enable advanced audio library NGS support.</source>
-      <translation type="unfinished"/>
+      <translation>Unterstützung für die erweiterte Audiobibliothek NGS aktivieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="130"/>
       <source>Select the front camera source.
 Solid Color or Static Image can be used as substitutes.</source>
-      <translation type="unfinished"/>
+      <translation>Quelle für die Frontkamera auswählen.
+Als Ersatz können eine einfarbige Fläche oder ein statisches Bild verwendet werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="131"/>
       <source>Select the back camera source.
 Solid Color or Static Image can be used as substitutes.</source>
-      <translation type="unfinished"/>
+      <translation>Quelle für die Rückkamera auswählen.
+Als Ersatz können eine einfarbige Fläche oder ein statisches Bild verwendet werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="132"/>
       <source>Select which button acts as the Enter/Confirm button. Some apps ignore this setting.</source>
-      <translation type="unfinished"/>
+      <translation>Taste zum Bestätigen auswählen. Einige Apps ignorieren diese Einstellung.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="133"/>
       <source>Enable PlayStation TV mode.</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-TV-Modus aktivieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="134"/>
       <source>Enable Show Mode.</source>
-      <translation type="unfinished"/>
+      <translation>Show-Modus aktivieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="135"/>
       <source>Enable Demo Mode.</source>
-      <translation type="unfinished"/>
+      <translation>Demo-Modus aktivieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="136"/>
       <source>Automatically enter fullscreen when booting an app.</source>
-      <translation type="unfinished"/>
+      <translation>Beim Starten einer App automatisch in den Vollbildmodus wechseln.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="137"/>
       <source>Show an imitated PS Vita Live Area screen before booting an app.</source>
-      <translation type="unfinished"/>
+      <translation>Vor dem Starten einer App einen nachgebildeten PS-Vita-LiveArea-Bildschirm anzeigen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="138"/>
       <source>Show a hint when shaders are being compiled during gameplay.</source>
-      <translation type="unfinished"/>
+      <translation>Während des Spielens einen Hinweis anzeigen, wenn Shader kompiliert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="139"/>
       <source>Choose whether Vita3K checks for updates at startup.
 &quot;Check&quot; notifies you when a newer build is available, and &quot;Don&apos;t Check&quot; disables startup checks.</source>
-      <translation type="unfinished"/>
+      <translation>Festlegen, ob Vita3K beim Start nach Updates sucht.
+„Prüfen“ meldet eine neuere Version; „Nicht prüfen“ deaktiviert die Prüfung beim Start.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="140"/>
       <source>Log compatibility database related warnings.</source>
-      <translation type="unfinished"/>
+      <translation>Warnungen zur Kompatibilitätsdatenbank protokollieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="141"/>
       <source>Enable the texture cache. Improves performance in games at the cost of additional VRAM usage.</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Cache aktivieren. Verbessert die Leistung in Spielen, benötigt aber zusätzlichen VRAM.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="142"/>
       <source>Keep a duplicate of the log file named after the current title when an app runs.</source>
-      <translation type="unfinished"/>
+      <translation>Beim Ausführen einer App eine zusätzliche Protokolldatei speichern, die nach dem aktuellen Titel benannt ist.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="143"/>
       <source>Select the verbosity of the logging system.</source>
-      <translation type="unfinished"/>
+      <translation>Ausführlichkeit der Protokollierung auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="144"/>
       <source>Enable Discord Rich Presence to show what app you&apos;re running on Discord.</source>
-      <translation type="unfinished"/>
+      <translation>Discord Rich Presence aktivieren, um auf Discord anzuzeigen, welche App gerade läuft.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="145"/>
       <source>Show a performance overlay with FPS and other statistics.</source>
-      <translation type="unfinished"/>
+      <translation>Leistungsanzeige mit FPS und weiteren Statistiken einblenden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="146"/>
       <source>Select the detail level for the performance overlay.</source>
-      <translation type="unfinished"/>
+      <translation>Detailgrad der Leistungsanzeige auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="147"/>
       <source>Select the location to display the performance overlay in.</source>
-      <translation type="unfinished"/>
+      <translation>Position der Leistungsanzeige auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="148"/>
       <source>Add an artificial delay to file loading. This is required for some games that load files too quickly compared to real hardware (e.g., Silent Hill).</source>
-      <translation type="unfinished"/>
+      <translation>Beim Laden von Dateien eine künstliche Verzögerung einfügen. Einige Spiele laden Dateien im Emulator zu schnell im Vergleich zur echten Hardware (z. B. Silent Hill) und benötigen diese Einstellung.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="149"/>
       <source>Stretch the display area to fill the entire window, ignoring the original aspect ratio.</source>
-      <translation type="unfinished"/>
+      <translation>Bildbereich auf die gesamte Fenstergröße strecken. Das ursprüngliche Seitenverhältnis wird ignoriert.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="150"/>
       <source>Check the box to get a pixel perfect rendering with HD resolutions (1080p, 4K) in fullscreen on a 16:9 aspect ratio monitor at the price of slight cropping at the top and the bottom of the screen.</source>
-      <translation type="unfinished"/>
+      <translation>Aktiviere diese Option für eine pixelgenaue Darstellung bei HD-Auflösungen (1080p, 4K) im Vollbild auf einem Monitor mit 16:9-Seitenverhältnis. Dabei werden der obere und untere Bildrand leicht beschnitten.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="151"/>
       <source>Change the location of the emulated system storage folder.
 If you move to a different folder, move your existing data there manually.</source>
-      <translation type="unfinished"/>
+      <translation>Speicherort des emulierten Systems ändern.
+Wenn du einen anderen Ordner auswählst, verschiebe deine vorhandenen Daten manuell dorthin.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="152"/>
       <source>This will remove all per-app custom configuration files. This action cannot be undone.</source>
-      <translation type="unfinished"/>
+      <translation>Alle benutzerdefinierten Konfigurationsdateien für einzelne Apps werden gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="153"/>
       <source>Select image format to select screenshots in.</source>
-      <translation type="unfinished"/>
+      <translation>Bildformat für Screenshots auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="154"/>
       <source>Pretend to be signed in to PlayStation Network (but offline).</source>
-      <translation type="unfinished"/>
+      <translation>Eine Anmeldung beim PlayStation Network simulieren (ohne Onlineverbindung).</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="155"/>
       <source>Enable HTTP networking support for apps that use it.</source>
-      <translation type="unfinished"/>
+      <translation>HTTP-Netzwerkunterstützung für Apps aktivieren, die sie verwenden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="156"/>
       <source>How many times to retry connecting when the server doesn&apos;t respond.  Could be useful if you have very unstable or VERY SLOW internet.</source>
-      <translation type="unfinished"/>
+      <translation>Anzahl der Verbindungsversuche, wenn der Server nicht antwortet. Kann bei einer sehr instabilen oder langsamen Internetverbindung hilfreich sein.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="157"/>
       <source>How long to wait between connection retries. Could be useful if you have very unstable or VERY SLOW internet.</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit zwischen Verbindungsversuchen. Kann bei einer sehr instabilen oder langsamen Internetverbindung hilfreich sein.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="158"/>
       <source>How many retries to attempt when there isn&apos;t more data to read, lower can improve performance but can make games unstable if you have bad enough internet.</source>
-      <translation type="unfinished"/>
+      <translation>Anzahl weiterer Leseversuche, wenn keine Daten mehr verfügbar sind. Ein niedrigerer Wert kann die Leistung verbessern, bei einer schlechten Internetverbindung aber Spiele instabil machen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="159"/>
       <source>How long to wait between read attempt retries, lower can improve performance but can make games unstable if you have bad enough internet</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit zwischen erneuten Leseversuchen. Ein niedrigerer Wert kann die Leistung verbessern, bei einer schlechten Internetverbindung aber Spiele instabil machen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="160"/>
       <source>Select the IP address to be used in adhoc networking.</source>
-      <translation type="unfinished"/>
+      <translation>IP-Adresse für Ad-hoc-Netzwerkverbindungen auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="161"/>
       <source>Log module import symbols.</source>
-      <translation type="unfinished"/>
+      <translation>Importsymbole von Modulen protokollieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="162"/>
       <source>Log module export symbols.</source>
-      <translation type="unfinished"/>
+      <translation>Exportsymbole von Modulen protokollieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="163"/>
       <source>Log active shader programs.</source>
-      <translation type="unfinished"/>
+      <translation>Aktive Shader-Programme protokollieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="164"/>
       <source>Log shader uniform values.</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Uniformwerte protokollieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="165"/>
       <source>Save color surfaces to files.</source>
-      <translation type="unfinished"/>
+      <translation>Farboberflächen in Dateien speichern.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="166"/>
       <source>Enable Vulkan validation layers. Useful for debugging but reduces performance.</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan-Validierungsebenen aktivieren. Nützlich zur Fehlersuche, verringert aber die Leistung.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="167"/>
       <source>Dump loaded code as ELFs.</source>
-      <translation type="unfinished"/>
+      <translation>Geladenen Code als ELF-Dateien dumpen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="168"/>
       <source>The Tracy profiler implementation in the emulator allows among other things to track the functions that a game calls in real-time and visualize them in a timeline with timings for every frame and audio buffer.</source>
-      <translation type="unfinished"/>
+      <translation>Mit dem Tracy-Profiler des Emulators lassen sich unter anderem die von einem Spiel aufgerufenen Funktionen in Echtzeit verfolgen und auf einer Zeitleiste mit Zeitmessungen für jeden Frame und Audiopuffer darstellen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="169"/>
       <source>The primitive Tracy implementation for HLE modules allows for all HLE module calls to be logged without manual instrumentation needed. However it is just a general workaround that doesn&apos;t count for statistic analysis neither for trace searching on Tracy. Due to the amount of functions being logged due to this implementation Tracy logs can become gigabytes long in a matter of minutes. Because of this it is only recommended to be used when the module(s) to debug aren&apos;t available for advanced profiling or a more general overview of the function calls is needed and in a PC with at least 12GB (Linux) or 16GB (Windows) of RAM.</source>
-      <translation type="unfinished"/>
+      <translation>Die primitive Tracy-Implementierung für HLE-Module protokolliert alle HLE-Modulaufrufe ohne manuelle Instrumentierung. Sie ist jedoch nur eine allgemeine Behelfslösung und eignet sich weder für statistische Analysen noch für die Suche nach Traces in Tracy. Wegen der großen Zahl protokollierter Funktionen können Tracy-Protokolle innerhalb weniger Minuten mehrere Gigabyte groß werden. Nutze sie daher nur, wenn die zu untersuchenden Module nicht für das erweiterte Profiling verfügbar sind oder ein allgemeiner Überblick über die Funktionsaufrufe benötigt wird. Empfohlen wird ein PC mit mindestens 12 GB RAM unter Linux oder 16 GB unter Windows.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="170"/>
       <source>Available modules for advanced profiling. Modules enabled for advanced profiling don&apos;t only provide function call timings but also log the arguments they were called with for every single function call except arguments driving a large amount of data such as large sized arrays. Advanced profiling requires functions to be manually instrumented in source code.</source>
-      <translation type="unfinished"/>
+      <translation>Verfügbare Module für das erweiterte Profiling. Bei diesen Modulen werden neben den Aufrufzeiten auch die Argumente jedes Funktionsaufrufs protokolliert, ausgenommen Argumente mit großen Datenmengen wie umfangreiche Arrays. Für das erweiterte Profiling müssen Funktionen im Quellcode manuell instrumentiert werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="171"/>
       <source>Set the system language reported to applications.</source>
-      <translation type="unfinished"/>
+      <translation>Systemsprache festlegen, die den Apps gemeldet wird.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="172"/>
       <source>Set the date format used by the emulated system.</source>
-      <translation type="unfinished"/>
+      <translation>Datumsformat des emulierten Systems festlegen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="173"/>
       <source>Set the time format used by the emulated system.</source>
-      <translation type="unfinished"/>
+      <translation>Zeitformat des emulierten Systems festlegen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="174"/>
       <source>Select which IME keyboard languages are available to applications.</source>
-      <translation type="unfinished"/>
+      <translation>IME-Tastatursprachen auswählen, die Apps zur Verfügung stehen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="175"/>
       <source>Show the Welcome Dialog at startup.</source>
-      <translation type="unfinished"/>
+      <translation>Willkommensdialog beim Start anzeigen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="176"/>
       <source>Show a warning before launching a game when one or more firmware packages are missing.</source>
-      <translation type="unfinished"/>
+      <translation>Vor dem Start eines Spiels warnen, wenn ein oder mehrere Firmware-Pakete fehlen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="177"/>
       <source>Show a confirmation dialog before closing a running app.</source>
-      <translation type="unfinished"/>
+      <translation>Vor dem Schließen einer laufenden App einen Bestätigungsdialog anzeigen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="178"/>
       <source>Show a warning at startup when Vita3K is launched with administrator or root privileges.</source>
-      <translation type="unfinished"/>
+      <translation>Beim Start warnen, wenn Vita3K mit Administrator- oder Root-Rechten ausgeführt wird.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="179"/>
       <source>Enable rounded corners for the game window on Windows.
 Unsupported Windows versions may ignore this setting.</source>
-      <translation type="unfinished"/>
+      <translation>Abgerundete Ecken für das Spielfenster unter Windows aktivieren.
+Nicht unterstützte Windows-Versionen ignorieren diese Einstellung möglicherweise.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="180"/>
       <source>Set the maximum number of log lines to keep in memory.
 Set to 0 to remove the user cap and use the built-in safety limit.</source>
-      <translation type="unfinished"/>
+      <translation>Maximale Anzahl der im Arbeitsspeicher behaltenen Protokollzeilen festlegen.
+Mit 0 wird die Benutzergrenze entfernt und die integrierte Sicherheitsgrenze verwendet.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="181"/>
       <source>Choose the font family used by the log view.</source>
-      <translation type="unfinished"/>
+      <translation>Schriftfamilie für die Protokollansicht auswählen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="182"/>
       <source>Select the visual theme for the application.
 You can also place custom .qss files in the gui-configs folder.</source>
-      <translation type="unfinished"/>
+      <translation>Design der Oberfläche auswählen.
+Eigene .qss-Dateien können auch im Ordner gui-configs abgelegt werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="183"/>
       <source>Select the desktop interface language used by the Qt frontend.
 Use System Default to follow the operating system language.</source>
-      <translation type="unfinished"/>
+      <translation>Sprache der Qt-Benutzeroberfläche auswählen.
+Mit „Systemstandard“ wird die Sprache des Betriebssystems verwendet.</translation>
     </message>
   </context>
   <context>
@@ -3684,40 +3741,40 @@ Use System Default to follow the operating system language.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="525"/>
       <source>the installed Vita theme &quot;%1&quot; could not be found</source>
-      <translation type="unfinished"/>
+      <translation>Das installierte Vita-Design „%1“ konnte nicht gefunden werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="531"/>
       <source>the selected Vita background &quot;%1&quot; is no longer available</source>
-      <translation type="unfinished"/>
+      <translation>Der ausgewählte Vita-Hintergrund „%1“ ist nicht mehr verfügbar.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="547"/>
       <source>the generated Vita theme stylesheet could not be rebuilt</source>
-      <translation type="unfinished"/>
+      <translation>Das Stylesheet des generierten Vita-Designs konnte nicht neu erstellt werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="673"/>
       <source>Light</source>
       <comment>Stylesheets</comment>
-      <translation type="unfinished"/>
+      <translation>Hell</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="682"/>
       <source>Dark</source>
       <comment>Stylesheets</comment>
-      <translation type="unfinished"/>
+      <translation>Dunkel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1054"/>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1057"/>
       <source>Vita Theme: %1</source>
-      <translation type="unfinished"/>
+      <translation>Vita-Design: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/theme_manager.cpp" line="1057"/>
       <source>Generated</source>
-      <translation type="unfinished"/>
+      <translation>Generiert</translation>
     </message>
   </context>
   <context>
@@ -3725,189 +3782,190 @@ Use System Default to follow the operating system language.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="130"/>
       <source>Trophy Collection</source>
-      <translation type="unfinished"/>
+      <translation>Trophäensammlung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="141"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="167"/>
       <source>Icon</source>
-      <translation type="unfinished"/>
+      <translation>Symbol</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="141"/>
       <source>App</source>
-      <translation type="unfinished"/>
+      <translation>App</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="141"/>
       <source>Progress</source>
-      <translation type="unfinished"/>
+      <translation>Fortschritt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="141"/>
       <source>Trophies</source>
-      <translation type="unfinished"/>
+      <translation>Trophäen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="167"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="677"/>
       <source>Name</source>
-      <translation type="unfinished"/>
+      <translation>Name</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="167"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="680"/>
       <source>Description</source>
-      <translation type="unfinished"/>
+      <translation>Beschreibung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="168"/>
       <source>Grade</source>
-      <translation type="unfinished"/>
+      <translation>Trophäenstufe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="168"/>
       <source>Status</source>
-      <translation type="unfinished"/>
+      <translation>Status</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="168"/>
       <source>ID</source>
-      <translation type="unfinished"/>
+      <translation>ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="168"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="223"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="439"/>
       <source>Earned</source>
-      <translation type="unfinished"/>
+      <translation>Erhalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="199"/>
       <source>Progress: 0% (0/0)</source>
-      <translation type="unfinished"/>
+      <translation>Fortschritt: 0 % (0/0)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="222"/>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="439"/>
       <source>Not Earned</source>
-      <translation type="unfinished"/>
+      <translation>Nicht erhalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="224"/>
       <source>Hidden</source>
-      <translation type="unfinished"/>
+      <translation>Versteckt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="225"/>
       <source>Bronze</source>
-      <translation type="unfinished"/>
+      <translation>Bronze</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="226"/>
       <source>Silver</source>
-      <translation type="unfinished"/>
+      <translation>Silber</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="227"/>
       <source>Gold</source>
-      <translation type="unfinished"/>
+      <translation>Gold</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="228"/>
       <source>Platinum</source>
-      <translation type="unfinished"/>
+      <translation>Platin</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="248"/>
       <source>Icon size:</source>
-      <translation type="unfinished"/>
+      <translation>Symbolgröße:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="254"/>
       <source>← Back to Apps</source>
-      <translation type="unfinished"/>
+      <translation>← Zurück zu den Apps</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="351"/>
       <source>Loading trophies…</source>
-      <translation type="unfinished"/>
+      <translation>Trophäen werden geladen …</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="351"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>Abbrechen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="393"/>
       <source>%1% (%2/%3)</source>
-      <translation type="unfinished"/>
+      <translation>%1 % (%2/%3)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="419"/>
       <source>Progress: %1% (%2/%3)</source>
-      <translation type="unfinished"/>
+      <translation>Fortschritt: %1 % (%2/%3)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="441"/>
       <source>—</source>
-      <translation type="unfinished"/>
+      <translation>—</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="570"/>
       <source>Total: %1% (%2/%3 trophies across %4 apps)</source>
-      <translation type="unfinished"/>
+      <translation>Gesamt: %1 % (%2/%3 Trophäen in %4 Apps)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="672"/>
       <source>&amp;Copy Info</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Informationen kopieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="674"/>
       <source>Name + Description</source>
-      <translation type="unfinished"/>
+      <translation>Name und Beschreibung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="689"/>
       <source>&amp;Lock Trophy</source>
-      <translation type="unfinished"/>
+      <translation>Trophäe &amp;sperren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="689"/>
       <source>&amp;Unlock Trophy</source>
-      <translation type="unfinished"/>
+      <translation>Trophäe &amp;freischalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="692"/>
       <source>Not permitted</source>
-      <translation type="unfinished"/>
+      <translation>Nicht erlaubt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="693"/>
       <source>Platinum trophies can only be unlocked in-game.</source>
-      <translation type="unfinished"/>
+      <translation>Platin-Trophäen können nur im Spiel freigeschaltet werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="745"/>
       <source>&amp;Remove</source>
-      <translation type="unfinished"/>
+      <translation>&amp;Entfernen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="746"/>
       <source>Confirm delete</source>
-      <translation type="unfinished"/>
+      <translation>Löschen bestätigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="747"/>
       <source>Delete all trophies for:
 %1?</source>
-      <translation type="unfinished"/>
+      <translation>Alle Trophäen für
+%1 löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/trophy_collection_dialog.cpp" line="820"/>
       <source>Unknown</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannt</translation>
     </message>
   </context>
   <context>
@@ -3915,36 +3973,38 @@ Use System Default to follow the operating system language.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="34"/>
       <source>User Management</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerverwaltung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="44"/>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="90"/>
       <source>Create User</source>
-      <translation type="unfinished"/>
+      <translation>Benutzer erstellen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="45"/>
       <source>Select User</source>
-      <translation type="unfinished"/>
+      <translation>Benutzer auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="46"/>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="119"/>
       <source>Delete User</source>
-      <translation type="unfinished"/>
+      <translation>Benutzer löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="91"/>
       <source>Enter user name:</source>
-      <translation type="unfinished"/>
+      <translation>Benutzernamen eingeben:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/user_management_dialog.cpp" line="120"/>
       <source>Are you sure you want to delete user &apos;%1&apos;?
 
 All user data will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Möchtest du den Benutzer „%1“ wirklich löschen?
+
+Alle Benutzerdaten gehen verloren!</translation>
     </message>
   </context>
   <context>
@@ -3953,332 +4013,333 @@ All user data will be lost!</source>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="125"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1077"/>
       <source>Vita Themes</source>
-      <translation type="unfinished"/>
+      <translation>Vita-Designs</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="198"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="207"/>
       <source>Installed Themes</source>
-      <translation type="unfinished"/>
+      <translation>Installierte Designs</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="208"/>
       <source>Select an installed Vita theme to preview it, choose a primary background, and prepare a generated emulator theme.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle ein installiertes Vita-Design aus, um es in der Vorschau anzusehen, einen primären Hintergrund festzulegen und ein Emulatordesign zu erstellen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="245"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="270"/>
       <source>Preview</source>
-      <translation type="unfinished"/>
+      <translation>Vorschau</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="264"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="831"/>
       <source>No preview available</source>
-      <translation type="unfinished"/>
+      <translation>Keine Vorschau verfügbar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="271"/>
       <source>Shows the currently previewed Vita background. Select a row in the list to compare slides, or use Primary to choose which one gets applied.</source>
-      <translation type="unfinished"/>
+      <translation>Zeigt den aktuell ausgewählten Vita-Hintergrund. Wähle einen Eintrag in der Liste, um die Bilder zu vergleichen, oder lege unter „Primär“ den verwendeten Hintergrund fest.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="281"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="343"/>
       <source>Slides</source>
-      <translation type="unfinished"/>
+      <translation>Hintergrundbilder</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="292"/>
       <source>Cycle Backgrounds</source>
-      <translation type="unfinished"/>
+      <translation>Hintergründe wechseln</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="293"/>
       <source>Rotate through the backgrounds checked in the list below. The primary background always remains part of the cycle order.</source>
-      <translation type="unfinished"/>
+      <translation>Wechsle zwischen den unten ausgewählten Hintergründen. Der primäre Hintergrund bleibt immer Teil der Abfolge.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="295"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="428"/>
       <source>Cycle</source>
-      <translation type="unfinished"/>
+      <translation>Wechseln</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="298"/>
       <source>Every</source>
-      <translation type="unfinished"/>
+      <translation>Alle</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="303"/>
       <source> s</source>
-      <translation type="unfinished"/>
+      <translation> s</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="309"/>
       <source>Cycle Interval</source>
-      <translation type="unfinished"/>
+      <translation>Wechselintervall</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="310"/>
       <source>Choose how long each selected background stays on screen before the next fade begins.</source>
-      <translation type="unfinished"/>
+      <translation>Lege fest, wie lange jeder ausgewählte Hintergrund sichtbar bleibt, bevor die nächste Überblendung beginnt.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="424"/>
       <source>Background</source>
-      <translation type="unfinished"/>
+      <translation>Hintergrund</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="324"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>Primär</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="344"/>
       <source>Select a slide to preview it. Use the Primary column to choose the applied background and the Cycle column to decide which slides rotate.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle ein Bild für die Vorschau aus. In der Spalte „Primär“ legst du den verwendeten Hintergrund fest, in der Spalte „Wechseln“ die Bilder für die Abfolge.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="357"/>
       <source>Appearance</source>
-      <translation type="unfinished"/>
+      <translation>Darstellung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="368"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="377"/>
       <source>Background Opaqueness</source>
-      <translation type="unfinished"/>
+      <translation>Deckkraft des Hintergrunds</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="378"/>
       <source>Adjust how strongly the generated theme dims the background behind Vita shell panels for readability.</source>
-      <translation type="unfinished"/>
+      <translation>Lege fest, wie stark das generierte Design den Hintergrund hinter den Vita-Oberflächenelementen abdunkelt, damit Texte besser lesbar sind.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="384"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="389"/>
       <source>Normalize Font Colors</source>
-      <translation type="unfinished"/>
+      <translation>Schriftfarben normalisieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="390"/>
       <source>Use a more reliable light or dark text palette instead of the original Vita theme font colors when generating the stylesheet.</source>
-      <translation type="unfinished"/>
+      <translation>Beim Erstellen des Stylesheets eine besser lesbare helle oder dunkle Textpalette statt der ursprünglichen Schriftfarben des Vita-Designs verwenden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="393"/>
       <source>Details</source>
-      <translation type="unfinished"/>
+      <translation>Details</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="408"/>
       <source>Version</source>
-      <translation type="unfinished"/>
+      <translation>Version</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="412"/>
       <source>Theme ID</source>
-      <translation type="unfinished"/>
+      <translation>Design-ID</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="416"/>
       <source>Installed Size</source>
-      <translation type="unfinished"/>
+      <translation>Installierte Größe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="420"/>
       <source>Updated</source>
-      <translation type="unfinished"/>
+      <translation>Aktualisiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="458"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="462"/>
       <source>Refresh</source>
-      <translation type="unfinished"/>
+      <translation>Aktualisieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="463"/>
       <source>Rescan the Vita theme folder and update the installed theme list.</source>
-      <translation type="unfinished"/>
+      <translation>Ordner mit Vita-Designs erneut durchsuchen und die Liste installierter Designs aktualisieren.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="465"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="469"/>
       <source>Open Theme Folder</source>
-      <translation type="unfinished"/>
+      <translation>Designordner öffnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="470"/>
       <source>Open the selected theme&apos;s folder in the file manager.</source>
-      <translation type="unfinished"/>
+      <translation>Ordner des ausgewählten Designs im Dateimanager öffnen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="474"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="478"/>
       <source>Delete</source>
-      <translation type="unfinished"/>
+      <translation>Löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="479"/>
       <source>Remove the selected installed Vita theme from ux0/theme.</source>
-      <translation type="unfinished"/>
+      <translation>Ausgewähltes installiertes Vita-Design aus ux0/theme entfernen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="481"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="486"/>
       <source>Apply</source>
-      <translation type="unfinished"/>
+      <translation>Anwenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="487"/>
       <source>Generate and apply the emulator theme using the currently selected background, cycling options, and appearance settings.</source>
-      <translation type="unfinished"/>
+      <translation>Emulatordesign mit dem ausgewählten Hintergrund, den Wechseloptionen und den Darstellungseinstellungen erstellen und anwenden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="562"/>
       <source>%1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>%1
+%2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="747"/>
       <source>Set this as the primary background for the generated theme. %1 backgrounds can also be included in cycling.</source>
-      <translation type="unfinished"/>
+      <translation>Als primären Hintergrund für das generierte Design festlegen. %1 Hintergründe können außerdem in die Abfolge aufgenommen werden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="749"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="750"/>
       <source>Primary Background</source>
-      <translation type="unfinished"/>
+      <translation>Primärer Hintergrund</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="753"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="757"/>
       <source>Include In Cycle</source>
-      <translation type="unfinished"/>
+      <translation>In Wechsel aufnehmen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="754"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="758"/>
       <source>Include this background when cycling is enabled. The primary background is always kept in the cycle order.</source>
-      <translation type="unfinished"/>
+      <translation>Diesen Hintergrund bei aktiviertem Wechsel berücksichtigen. Der primäre Hintergrund bleibt immer Teil der Abfolge.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="849"/>
       <source>Unable to load preview</source>
-      <translation type="unfinished"/>
+      <translation>Vorschau konnte nicht geladen werden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="866"/>
       <source>No themes installed</source>
-      <translation type="unfinished"/>
+      <translation>Keine Designs installiert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="867"/>
       <source>Install or copy a Vita theme into ux0/theme to get started.</source>
-      <translation type="unfinished"/>
+      <translation>Installiere oder kopiere ein Vita-Design nach ux0/theme, um zu beginnen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="880"/>
       <source>Unknown provider</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannter Anbieter</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="881"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="885"/>
       <source>Unknown</source>
-      <translation type="unfinished"/>
+      <translation>Unbekannt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="889"/>
       <source>%1: %2</source>
-      <translation type="unfinished"/>
+      <translation>%1: %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="896"/>
       <source>%1 backgrounds every %2 seconds</source>
-      <translation type="unfinished"/>
+      <translation>%1 Hintergründe alle %2 Sekunden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="900"/>
       <source>Off (%1 saved)</source>
-      <translation type="unfinished"/>
+      <translation>Aus (%1 gespeichert)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="902"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="945"/>
       <source>Off</source>
-      <translation type="unfinished"/>
+      <translation>Aus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="939"/>
       <source>Single background</source>
-      <translation type="unfinished"/>
+      <translation>Einzelner Hintergrund</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="941"/>
       <source>%1 selected</source>
-      <translation type="unfinished"/>
+      <translation>%1 ausgewählt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="943"/>
       <source>%1 saved</source>
-      <translation type="unfinished"/>
+      <translation>%1 gespeichert</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="973"/>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="980"/>
       <source>No package thumbnail</source>
-      <translation type="unfinished"/>
+      <translation>Kein Paketvorschaubild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="995"/>
       <source>%1%</source>
-      <translation type="unfinished"/>
+      <translation>%1 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1009"/>
       <source>Apply Failed</source>
-      <translation type="unfinished"/>
+      <translation>Anwenden fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1010"/>
       <source>Vita3K could not generate or apply the selected theme stylesheet.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K konnte das Stylesheet des ausgewählten Designs nicht erstellen oder anwenden.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1022"/>
       <source>Delete Theme</source>
-      <translation type="unfinished"/>
+      <translation>Design löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1023"/>
       <source>Delete &quot;%1&quot; from ux0/theme?</source>
-      <translation type="unfinished"/>
+      <translation>„%1“ aus ux0/theme löschen?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1037"/>
       <source>Delete Failed</source>
-      <translation type="unfinished"/>
+      <translation>Löschen fehlgeschlagen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1038"/>
       <source>Vita3K could not remove the selected theme folder.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K konnte den Ordner des ausgewählten Designs nicht entfernen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1082"/>
       <source>Select an installed Vita theme to preview its backgrounds and generate a matching emulator theme.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle ein installiertes Vita-Design aus, um seine Hintergründe in der Vorschau anzusehen und ein passendes Emulatordesign zu erstellen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1085"/>
       <source>Choose one primary background, decide which backgrounds should appear in the cycle, adjust readability options, then apply the generated theme.</source>
-      <translation type="unfinished"/>
+      <translation>Wähle einen primären Hintergrund, lege die Bilder für den Hintergrundwechsel fest, passe die Lesbarkeit an und wende das generierte Design an.</translation>
     </message>
   </context>
   <context>
@@ -4287,32 +4348,33 @@ All user data will be lost!</source>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="50"/>
       <source>Vita3K is an open-source PlayStation Vita emulator written in C++ for Windows, Linux, macOS and Android.
 The emulator is still in its development stages so any feedback and testing is greatly appreciated.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K ist ein quelloffener PlayStation-Vita-Emulator, der in C++ für Windows, Linux, macOS und Android entwickelt wurde.
+Der Emulator befindet sich noch in der Entwicklung. Über Rückmeldungen und Tests freuen wir uns sehr.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="55"/>
       <source>&lt;div align=&quot;center&quot;&gt;To get started, please install all PS Vita firmware files.&lt;br&gt;&lt;br&gt;A comprehensive guide on how to set up Vita3K can be found on the &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&gt;Quickstart&lt;/a&gt; page.&lt;br&gt;Consult the Commercial game and Homebrew compatibility lists to see what currently runs.&lt;br&gt;&lt;br&gt;Contributions are welcome! &lt;a href=&quot;https://github.com/Vita3K/Vita3K&quot;&gt;GitHub&lt;/a&gt;&lt;br&gt;Additional support can be found in the #help channel on &lt;a href=&quot;https://discord.gg/6aGwQzh&quot;&gt;Discord&lt;/a&gt;.&lt;/div&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;div align="center"&gt;Installiere zunächst alle PS-Vita-Firmware-Dateien.&lt;br&gt;&lt;br&gt;Eine ausführliche Anleitung zur Einrichtung von Vita3K findest du auf der Seite &lt;a href="https://vita3k.org/quickstart.html"&gt;Schnellstart&lt;/a&gt;.&lt;br&gt;In den Kompatibilitätslisten für kommerzielle Spiele und Homebrew erfährst du, welche Programme derzeit laufen.&lt;br&gt;&lt;br&gt;Beiträge sind willkommen! &lt;a href="https://github.com/Vita3K/Vita3K"&gt;GitHub&lt;/a&gt;&lt;br&gt;Weitere Hilfe findest du im Kanal #help auf &lt;a href="https://discord.gg/6aGwQzh"&gt;Discord&lt;/a&gt;.&lt;/div&gt;</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="65"/>
       <source>Vita3K does not condone piracy. You must dump your own games.</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K duldet keine Piraterie. Du musst deine Spiele selbst dumpen.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="96"/>
       <source>Download Pre-Install Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Vorinstallations-Firmware herunterladen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="97"/>
       <source>Download Firmware Font Package</source>
-      <translation type="unfinished"/>
+      <translation>Firmware-Schriftartenpaket herunterladen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="147"/>
       <source>Download Firmware: %1</source>
-      <translation type="unfinished"/>
+      <translation>Firmware herunterladen: %1</translation>
     </message>
   </context>
   <context>
@@ -4320,830 +4382,830 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="23"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>Einstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="51"/>
       <source>settings-window</source>
-      <translation type="unfinished"/>
+      <translation>settings-window</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="142"/>
       <source>Core</source>
-      <translation type="unfinished"/>
+      <translation>Kern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="193"/>
       <source>Module Management</source>
-      <translation type="unfinished"/>
+      <translation>Modulverwaltung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="202"/>
       <source>Module Loading Mode</source>
-      <translation type="unfinished"/>
+      <translation>Modul-Lademodus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="226"/>
       <source>Automatic</source>
-      <translation type="unfinished"/>
+      <translation>Automatisch</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="233"/>
       <source>Auto &amp;&amp; Manual</source>
-      <translation type="unfinished"/>
+      <translation>Automatisch &amp;&amp; Manuell</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="240"/>
       <source>Manual</source>
-      <translation type="unfinished"/>
+      <translation>Manuell</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="250"/>
       <source>LLE Modules List</source>
-      <translation type="unfinished"/>
+      <translation>Liste der LLE-Module</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="279"/>
       <source>Search modules...</source>
-      <translation type="unfinished"/>
+      <translation>Module suchen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="286"/>
       <source>Clear List</source>
-      <translation type="unfinished"/>
+      <translation>Liste leeren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="293"/>
       <source>Refresh List</source>
-      <translation type="unfinished"/>
+      <translation>Liste aktualisieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="329"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="380"/>
       <source>CPU</source>
-      <translation type="unfinished"/>
+      <translation>CPU</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="389"/>
       <source>Dynarmic Settings</source>
-      <translation type="unfinished"/>
+      <translation>Dynarmic-Einstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="410"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>CPU-Optimierungen aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="441"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3080"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>Grafik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="492"/>
       <source>Renderer</source>
-      <translation type="unfinished"/>
+      <translation>Renderer</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="504"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>Grafik-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="531"/>
       <source>Screen Filter</source>
-      <translation type="unfinished"/>
+      <translation>Bildschirmfilter</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="558"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>Grafikgerät</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="585"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>Rendergenauigkeit</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="612"/>
       <source>Surface Sync</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächensynchronisierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="633"/>
       <source>Disable Surface Sync</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächensynchronisierung deaktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="643"/>
       <source>OpenGL Options</source>
-      <translation type="unfinished"/>
+      <translation>OpenGL-Optionen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="664"/>
       <source>V-Sync</source>
-      <translation type="unfinished"/>
+      <translation>V-Sync</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="674"/>
       <source>Vulkan Options</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan-Optionen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="698"/>
       <source>Asynchronous Pipeline Compilation</source>
-      <translation type="unfinished"/>
+      <translation>Asynchrone Pipeline-Kompilierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="710"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Speicherzuordnung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="728"/>
       <source>Image Quality</source>
-      <translation type="unfinished"/>
+      <translation>Bildqualität</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="737"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>Interne Auflösung hochskalieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="760"/>
       <source>0.5x</source>
-      <translation type="unfinished"/>
+      <translation>0,5x</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="777"/>
       <source>8x</source>
-      <translation type="unfinished"/>
+      <translation>8x</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="788"/>
       <source>960x544</source>
-      <translation type="unfinished"/>
+      <translation>960x544</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="808"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="891"/>
       <source>Reset</source>
-      <translation type="unfinished"/>
+      <translation>Zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="820"/>
       <source>Anisotropic Filtering</source>
-      <translation type="unfinished"/>
+      <translation>Anisotrope Filterung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="843"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="871"/>
       <source>1x</source>
-      <translation type="unfinished"/>
+      <translation>1x</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="860"/>
       <source>16x</source>
-      <translation type="unfinished"/>
+      <translation>16x</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="906"/>
       <source>Textures and Shaders</source>
-      <translation type="unfinished"/>
+      <translation>Texturen und Shader</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="918"/>
       <source>Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="939"/>
       <source>Export Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen exportieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="946"/>
       <source>Import Textures</source>
-      <translation type="unfinished"/>
+      <translation>Texturen importieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="956"/>
       <source>Texture Exporting Format</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Exportformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="983"/>
       <source>Shaders</source>
-      <translation type="unfinished"/>
+      <translation>Shader</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1007"/>
       <source>Enable Shader Cache</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Cache aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1014"/>
       <source>Use SPIR-V Shader (deprecated)</source>
-      <translation type="unfinished"/>
+      <translation>SPIR-V-Shader verwenden (veraltet)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1021"/>
       <source>Clean Shaders Cache and Log</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Cache und -Protokoll löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1031"/>
       <source>Hacks</source>
-      <translation type="unfinished"/>
+      <translation>Hacks</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1052"/>
       <source>FPS Hack</source>
-      <translation type="unfinished"/>
+      <translation>FPS-Hack</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1083"/>
       <source>Audio</source>
-      <translation type="unfinished"/>
+      <translation>Audio</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1134"/>
       <source>Audio Output</source>
-      <translation type="unfinished"/>
+      <translation>Audioausgabe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1146"/>
       <source>Audio Backend</source>
-      <translation type="unfinished"/>
+      <translation>Audio-Backend</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1173"/>
       <source>Volume</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1197"/>
       <source>Current volume: 100%</source>
-      <translation type="unfinished"/>
+      <translation>Aktuelle Lautstärke: 100 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1232"/>
       <source>Features</source>
-      <translation type="unfinished"/>
+      <translation>Funktionen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1238"/>
       <source>Audio Settings</source>
-      <translation type="unfinished"/>
+      <translation>Audioeinstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1259"/>
       <source>Enable NGS Support</source>
-      <translation type="unfinished"/>
+      <translation>NGS-Unterstützung aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1272"/>
       <source>Theme Music</source>
-      <translation type="unfinished"/>
+      <translation>Designmusik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1278"/>
       <source>Vita Theme Music</source>
-      <translation type="unfinished"/>
+      <translation>Vita-Designmusik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1302"/>
       <source>Enable Vita theme background music</source>
-      <translation type="unfinished"/>
+      <translation>Hintergrundmusik des Vita-Designs aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1309"/>
       <source>Theme music volume: 50%</source>
-      <translation type="unfinished"/>
+      <translation>Lautstärke der Designmusik: 50 %</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1362"/>
       <source>Camera</source>
-      <translation type="unfinished"/>
+      <translation>Kamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1413"/>
       <source>Camera Sources</source>
-      <translation type="unfinished"/>
+      <translation>Kameraquellen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1422"/>
       <source>Front Camera</source>
-      <translation type="unfinished"/>
+      <translation>Frontkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1446"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1541"/>
       <source>Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>Kameraquelle</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1456"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1551"/>
       <source>Camera Color</source>
-      <translation type="unfinished"/>
+      <translation>Kamerafarbe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1481"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1576"/>
       <source>Choose Color...</source>
-      <translation type="unfinished"/>
+      <translation>Farbe auswählen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1490"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1585"/>
       <source>Camera Image</source>
-      <translation type="unfinished"/>
+      <translation>Kamerabild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1497"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1592"/>
       <source>No image selected</source>
-      <translation type="unfinished"/>
+      <translation>Kein Bild ausgewählt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1507"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1602"/>
       <source>Set Image...</source>
-      <translation type="unfinished"/>
+      <translation>Bild auswählen ...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1517"/>
       <source>Back Camera</source>
-      <translation type="unfinished"/>
+      <translation>Rückkamera</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1633"/>
       <source>System</source>
-      <translation type="unfinished"/>
+      <translation>System</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1684"/>
       <source>Console Settings</source>
-      <translation type="unfinished"/>
+      <translation>Konsoleneinstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1693"/>
       <source>Enter Button Assignment</source>
-      <translation type="unfinished"/>
+      <translation>Bestätigungstaste zuweisen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1717"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>Kreis</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1724"/>
       <source>Cross</source>
-      <translation type="unfinished"/>
+      <translation>Kreuz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1734"/>
       <source>System Modes</source>
-      <translation type="unfinished"/>
+      <translation>Systemmodi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1758"/>
       <source>PlayStation TV Mode (PSTV)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation-TV-Modus (PSTV)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1765"/>
       <source>Show Mode</source>
-      <translation type="unfinished"/>
+      <translation>Show-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1772"/>
       <source>Demo Mode</source>
-      <translation type="unfinished"/>
+      <translation>Demo-Modus</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1785"/>
       <source>Region and Language</source>
-      <translation type="unfinished"/>
+      <translation>Region und Sprache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1791"/>
       <source>System Settings</source>
-      <translation type="unfinished"/>
+      <translation>Systemeinstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1815"/>
       <source>System Language</source>
-      <translation type="unfinished"/>
+      <translation>Systemsprache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1825"/>
       <source>Date Format</source>
-      <translation type="unfinished"/>
+      <translation>Datumsformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1835"/>
       <source>Time Format</source>
-      <translation type="unfinished"/>
+      <translation>Zeitformat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1845"/>
       <source>IME Languages</source>
-      <translation type="unfinished"/>
+      <translation>IME-Sprachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1879"/>
       <source>Emulator</source>
-      <translation type="unfinished"/>
+      <translation>Emulator</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1930"/>
       <source>Behavior</source>
-      <translation type="unfinished"/>
+      <translation>Verhalten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1939"/>
       <source>General</source>
-      <translation type="unfinished"/>
+      <translation>Allgemein</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1963"/>
       <source>Boot Games in Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Spiele im Vollbild starten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1970"/>
       <source>Show Live Area Before Booting</source>
-      <translation type="unfinished"/>
+      <translation>LiveArea vor dem Start anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1977"/>
       <source>Show Shader Compilation Hint</source>
-      <translation type="unfinished"/>
+      <translation>Hinweis zur Shader-Kompilierung anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1986"/>
       <source>Update Check Mode</source>
-      <translation type="unfinished"/>
+      <translation>Modus für Update-Prüfung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1998"/>
       <source>Enable Texture Cache</source>
-      <translation type="unfinished"/>
+      <translation>Textur-Cache aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2005"/>
       <source>Enable Discord Rich Presence</source>
-      <translation type="unfinished"/>
+      <translation>Discord Rich Presence aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2015"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2580"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3025"/>
       <source>Logging</source>
-      <translation type="unfinished"/>
+      <translation>Protokollierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2039"/>
       <source>Log Level</source>
-      <translation type="unfinished"/>
+      <translation>Protokollstufe</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2049"/>
       <source>Log Compatibility Warnings</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilitätswarnungen protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2056"/>
       <source>Archive Log</source>
-      <translation type="unfinished"/>
+      <translation>Protokoll archivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2069"/>
       <source>Display and Overlay</source>
-      <translation type="unfinished"/>
+      <translation>Anzeige und Leistungsanzeige</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2078"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2102"/>
       <source>Performance Overlay</source>
-      <translation type="unfinished"/>
+      <translation>Leistungsanzeige</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2123"/>
       <source>Overlay Detail</source>
-      <translation type="unfinished"/>
+      <translation>Anzeigedetails</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2149"/>
       <source>Overlay Position</source>
-      <translation type="unfinished"/>
+      <translation>Anzeigeposition</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2164"/>
       <source>Display</source>
-      <translation type="unfinished"/>
+      <translation>Anzeige</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2188"/>
       <source>Stretch the Display Area</source>
-      <translation type="unfinished"/>
+      <translation>Bildbereich strecken</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2195"/>
       <source>Fullscreen HD Pixel Perfect</source>
-      <translation type="unfinished"/>
+      <translation>Pixelgenaues HD-Vollbild</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2208"/>
       <source>Storage and Capture</source>
-      <translation type="unfinished"/>
+      <translation>Speicher und Aufnahmen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2220"/>
       <source>Emulated System Storage Folder</source>
-      <translation type="unfinished"/>
+      <translation>Speicherordner des emulierten Systems</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2244"/>
       <source>Current emulator path: (not set)</source>
-      <translation type="unfinished"/>
+      <translation>Aktueller Emulator-Pfad: (nicht festgelegt)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2256"/>
       <source>Change Emulator Path</source>
-      <translation type="unfinished"/>
+      <translation>Emulator-Pfad ändern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2263"/>
       <source>Reset Emulator Path</source>
-      <translation type="unfinished"/>
+      <translation>Emulator-Pfad zurücksetzen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2275"/>
       <source>Custom Config Settings</source>
-      <translation type="unfinished"/>
+      <translation>Benutzerdefinierte Konfigurationen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2296"/>
       <source>Clear All Custom Configs</source>
-      <translation type="unfinished"/>
+      <translation>Alle benutzerdefinierten Konfigurationen löschen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2306"/>
       <source>Screenshot</source>
-      <translation type="unfinished"/>
+      <translation>Screenshot</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2330"/>
       <source>Screenshot Format:</source>
-      <translation type="unfinished"/>
+      <translation>Screenshot-Format:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2343"/>
       <source>File Loading</source>
-      <translation type="unfinished"/>
+      <translation>Dateiladevorgang</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2367"/>
       <source>File Loading Delay: 0 ms</source>
-      <translation type="unfinished"/>
+      <translation>Dateiladeverzögerung: 0 ms</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2408"/>
       <source>Interface</source>
-      <translation type="unfinished"/>
+      <translation>Oberfläche</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2459"/>
       <source>Appearance</source>
-      <translation type="unfinished"/>
+      <translation>Darstellung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2468"/>
       <source>UI Options</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächenoptionen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2492"/>
       <source>Interface Language</source>
-      <translation type="unfinished"/>
+      <translation>Oberflächensprache</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2502"/>
       <source>Show welcome screen</source>
-      <translation type="unfinished"/>
+      <translation>Willkommensbildschirm anzeigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2509"/>
       <source>Warn when firmware is missing</source>
-      <translation type="unfinished"/>
+      <translation>Bei fehlender Firmware warnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2516"/>
       <source>Show exit app confirmation</source>
-      <translation type="unfinished"/>
+      <translation>Beenden einer App bestätigen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2523"/>
       <source>Warn when running with administrator privileges</source>
-      <translation type="unfinished"/>
+      <translation>Bei Administratorrechten warnen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2530"/>
       <source>Enable rounded corners for the game window</source>
-      <translation type="unfinished"/>
+      <translation>Abgerundete Ecken für das Spielfenster aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2540"/>
       <source>Stylesheet</source>
-      <translation type="unfinished"/>
+      <translation>Stylesheet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2567"/>
       <source>Apply Theme</source>
-      <translation type="unfinished"/>
+      <translation>Design anwenden</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2603"/>
       <source>Log Buffer Size:</source>
-      <translation type="unfinished"/>
+      <translation>Größe des Protokollpuffers:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2610"/>
       <source>Infinite</source>
-      <translation type="unfinished"/>
+      <translation>Unbegrenzt</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2626"/>
       <source>Log Font:</source>
-      <translation type="unfinished"/>
+      <translation>Protokollschriftart:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2659"/>
       <source>Network</source>
-      <translation type="unfinished"/>
+      <translation>Netzwerk</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2710"/>
       <source>Connection</source>
-      <translation type="unfinished"/>
+      <translation>Verbindung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2719"/>
       <source>PlayStation Network</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation Network</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2740"/>
       <source>PSN Signed In</source>
-      <translation type="unfinished"/>
+      <translation>Bei PSN angemeldet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2750"/>
       <source>Ad-Hoc</source>
-      <translation type="unfinished"/>
+      <translation>Ad-hoc</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2774"/>
       <source>Ad-Hoc Address</source>
-      <translation type="unfinished"/>
+      <translation>Ad-hoc-Adresse</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2784"/>
       <source>Subnet Mask:</source>
-      <translation type="unfinished"/>
+      <translation>Subnetzmaske:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2800"/>
       <source>HTTP Networking</source>
-      <translation type="unfinished"/>
+      <translation>HTTP-Netzwerk</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2806"/>
       <source>Timeout and Retry</source>
-      <translation type="unfinished"/>
+      <translation>Zeitüberschreitung und Wiederholung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2830"/>
       <source>Enable HTTP Networking</source>
-      <translation type="unfinished"/>
+      <translation>HTTP-Netzwerk aktivieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2837"/>
       <source>Timeout Attempts</source>
-      <translation type="unfinished"/>
+      <translation>Zeitüberschreitungsversuche</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2863"/>
       <source>Timeout Sleep</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bei Zeitüberschreitung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2889"/>
       <source>Read End Attempts</source>
-      <translation type="unfinished"/>
+      <translation>Versuche bis zum Leseende</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2915"/>
       <source>Read End Sleep</source>
-      <translation type="unfinished"/>
+      <translation>Wartezeit bis zum Leseende</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2965"/>
       <source>Debug</source>
-      <translation type="unfinished"/>
+      <translation>Debug</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3016"/>
       <source>Diagnostics</source>
-      <translation type="unfinished"/>
+      <translation>Diagnose</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3049"/>
       <source>Import Logging</source>
-      <translation type="unfinished"/>
+      <translation>Importe protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3056"/>
       <source>Export Logging</source>
-      <translation type="unfinished"/>
+      <translation>Exporte protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3063"/>
       <source>Log Active Shaders</source>
-      <translation type="unfinished"/>
+      <translation>Aktive Shader protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3070"/>
       <source>Log Shader Uniforms</source>
-      <translation type="unfinished"/>
+      <translation>Shader-Uniformwerte protokollieren</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3104"/>
       <source>Save color surfaces</source>
-      <translation type="unfinished"/>
+      <translation>Farboberflächen speichern</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3111"/>
       <source>Vulkan Validation Layer</source>
-      <translation type="unfinished"/>
+      <translation>Vulkan-Validierungsebene</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3124"/>
       <source>Actions</source>
-      <translation type="unfinished"/>
+      <translation>Aktionen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3133"/>
       <source>Watch Controls</source>
-      <translation type="unfinished"/>
+      <translation>Überwachungseinstellungen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3157"/>
       <source>Watch Code</source>
-      <translation type="unfinished"/>
+      <translation>Code überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3164"/>
       <source>Watch Memory</source>
-      <translation type="unfinished"/>
+      <translation>Speicher überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3171"/>
       <source>Watch Import Calls</source>
-      <translation type="unfinished"/>
+      <translation>Importaufrufe überwachen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3181"/>
       <source>Miscellaneous</source>
-      <translation type="unfinished"/>
+      <translation>Sonstiges</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3205"/>
       <source>ELF Dumping</source>
-      <translation type="unfinished"/>
+      <translation>ELF-Dump</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3224"/>
       <source>Tracy Profiler</source>
-      <translation type="unfinished"/>
+      <translation>Tracy-Profiler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3263"/>
       <source>Primitive implementation</source>
-      <translation type="unfinished"/>
+      <translation>Primitive Implementierung</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3331"/>
       <source>Select all</source>
-      <translation type="unfinished"/>
+      <translation>Alle auswählen</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3338"/>
       <source>None</source>
-      <translation type="unfinished"/>
+      <translation>Keine</translation>
     </message>
   </context>
   <context>
@@ -5151,32 +5213,32 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="14"/>
       <source>Welcome to Vita3K</source>
-      <translation type="unfinished"/>
+      <translation>Willkommen bei Vita3K</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="109"/>
       <source>Vita3K PlayStation Vita Emulator</source>
-      <translation type="unfinished"/>
+      <translation>Vita3K PlayStation-Vita-Emulator</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="199"/>
       <source>Commercial Compatibility List</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilitätsliste für kommerzielle Spiele</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="206"/>
       <source>Homebrew Compatibility List</source>
-      <translation type="unfinished"/>
+      <translation>Kompatibilitätsliste für Homebrew</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="244"/>
       <source>Ok</source>
-      <translation type="unfinished"/>
+      <translation>OK</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.ui" line="267"/>
       <source>Show next time</source>
-      <translation type="unfinished"/>
+      <translation>Beim nächsten Mal anzeigen</translation>
     </message>
   </context>
 </TS>
