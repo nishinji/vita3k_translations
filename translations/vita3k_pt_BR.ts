@@ -478,7 +478,7 @@ Essa ação não pode ser desfeita.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation type="unfinished"/>
+      <translation>Selecione um arquivo (.zip / .vpk / .vci)...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
@@ -498,7 +498,7 @@ Essa ação não pode ser desfeita.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation type="unfinished"/>
+      <translation>Pacote de software comercial do PlayStation Vita (NoNpDrm/FAGDec) / Pacote de software homebrew do PlayStation Vita (*.zip *.vpk *.vci);;Pacote de software comercial do PlayStation Vita (NoNpDrm/FAGDec) (*.zip);;Pacote de software homebrew do PlayStation Vita (*.vpk);;Arquivo Vita Cartridge Image (VCI) (*.vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
@@ -513,52 +513,52 @@ Essa ação não pode ser desfeita.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="249"/>
       <source>The selected directory contains no .zip, .vpk, or .vci files.</source>
-      <translation type="unfinished"/>
+      <translation>O diretório selecionado não contém arquivos .zip, .vpk ou .vci.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>Instalando arquivo</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>Preparando a instalação...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>Progresso do arquivo</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
       <source>Archive 1 of %1</source>
-      <translation type="unfinished"/>
+      <translation>Arquivo 1 de %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>Progresso do conteúdo</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>Conteúdo 0 de 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
       <source>File Extraction</source>
-      <translation type="unfinished"/>
+      <translation>Extração de arquivos</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
       <source>0% complete</source>
-      <translation type="unfinished"/>
+      <translation>0% concluído</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
@@ -569,17 +569,18 @@ Essa ação não pode ser desfeita.</translation>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1 já está instalado.
+Deseja sobrescrevê-lo?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
       <source>Installation complete. %1 item(s) installed successfully.</source>
-      <translation type="unfinished"/>
+      <translation>Instalação concluída. %1 item(ns) instalado(s) com sucesso.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>Instalação concluída. %1 com sucesso, %2 com falha.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
@@ -589,14 +590,16 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
       <source>Could Not Delete Archives</source>
-      <translation type="unfinished"/>
+      <translation>Não foi possível excluir os arquivos</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="447"/>
       <source>The following archive files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Não foi possível excluir os seguintes arquivos compactados. Eles ainda podem estar abertos em outro programa:
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -610,7 +613,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.ui" line="23"/>
       <source>settings-window</source>
-      <translation type="unfinished"/>
+      <translation>janela de configurações</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="281"/>
@@ -631,36 +634,37 @@ Do you want to overwrite it?</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="414"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="600"/>
       <source>Hotkeys</source>
-      <translation type="unfinished"/>
+      <translation>Teclas de atalho</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="420"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1112"/>
       <source>Controller Port %1
 Not Connected</source>
-      <translation type="unfinished"/>
+      <translation>Porta do Controle %1
+Não conectado</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="502"/>
       <source>Keyboard Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Mapeamento do Teclado</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="505"/>
       <source>Map your keyboard to Vita controls. Left-click a field to capture a key, press Escape to cancel, and right-click a keyboard binding to clear it.</source>
-      <translation type="unfinished"/>
+      <translation>Mapeie as teclas do teclado para os controles do Vita. Clique com o botão esquerdo em um campo para capturar uma tecla, pressione Escape para cancelar e clique com o botão direito em uma atribuição de tecla para limpá-la.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="511"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="624"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>Principal</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="512"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="625"/>
       <source>Alternate</source>
-      <translation type="unfinished"/>
+      <translation>Alternativo</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="518"/>
@@ -671,27 +675,27 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="603"/>
       <source>Keyboard-only emulator actions.</source>
-      <translation type="unfinished"/>
+      <translation>Ações do emulador somente pelo teclado.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Tela cheia</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>
       <source>Toggle Front/Back Touch</source>
-      <translation type="unfinished"/>
+      <translation>Alternar Toque Frontal/Traseiro</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="638"/>
       <source>Replace Textures</source>
-      <translation type="unfinished"/>
+      <translation>Substituir Texturas</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="639"/>
       <source>Take a Screenshot</source>
-      <translation type="unfinished"/>
+      <translation>Fazer uma Captura de Tela</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="640"/>
@@ -711,7 +715,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="664"/>
       <source>Controller Port %1</source>
-      <translation type="unfinished"/>
+      <translation>Porta do Controle %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="666"/>
@@ -722,17 +726,17 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="670"/>
       <source>Bindings</source>
-      <translation type="unfinished"/>
+      <translation>Atribuições</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="671"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>Configurações</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
       <source>Reset Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Redefinir Mapeamento</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="695"/>
