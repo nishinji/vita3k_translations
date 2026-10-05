@@ -54,6 +54,7 @@
     <string name="apps_list_menu_welcome">Hoş Geldiniz Ekranı</string>
     <string name="apps_list_menu_check_updates">Güncellemeleri Denetle</string>
     <string name="apps_list_menu_about">Hakkında</string>
+    <string name="apps_list_menu_trophies">Kupa Koleksiyonu</string>
     <string name="apps_list_search_placeholder">Uygulamaları ara\u2026</string>
     <string name="apps_list_sort_title">Başlık</string>
     <string name="apps_list_sort_last_played">Son Oynanan</string>
@@ -62,7 +63,7 @@
     <string name="apps_list_empty_search">Eşleşen uygulama yok \"%1$s\"</string>
     <string name="apps_list_empty_missing_firmware">Eksik Yazılım Bileşenleri: \"%1$s\"</string>
     <string name="apps_list_empty_firmware_title">Yazılım Gerekli</string>
-    <string name="apps_list_empty_firmware_body"></string>
+    <string name="apps_list_empty_firmware_body">Uygulamaların düzgün çalışabilmesi için eksik PS Vita yazılım bileşenlerini yükleyin.</string>
     <string name="apps_list_empty_firmware_missing_list_title">Kayıp Bileşenler</string>
     <string name="apps_list_empty_no_firmware">Hiçbir sistem yazılımı yüklenmedi</string>
     <string name="apps_list_empty_missing_main_firmware">Ana yazılım kurulu değil</string>
@@ -81,7 +82,7 @@
     <string name="user_management_active_none">Hiçbir kullanıcı seçilmedi</string>
     <string name="user_management_active_badge">Aktif</string>
     <string name="user_management_create_user">Kullanıcı Oluştur</string>
-    <string name="user_management_create_prompt">Kayıt dosyaları, oynama geçmişi ve uygulama verileri için yerel bir Vita kullanıcı profili oluşuturun.</string>
+    <string name="user_management_create_prompt">Kayıt dosyaları, oynama geçmişi ve uygulama verileri için yerel bir Vita kullanıcı profili oluşturun.</string>
     <string name="user_management_name_label">Kullanıcı adı</string>
     <string name="user_management_switch_user">Kullanıcı seçin</string>
     <string name="user_management_delete_user">Kullanıcıyı Sil</string>
@@ -89,9 +90,9 @@
     <string name="user_management_delete_message">%1$s isimli kullanıcıyı silmek istediğinize emin misiniz?\n\nTüm kullanıcı verisi kaybolacak.</string>
     <string name="user_management_empty_title">Kullanıcı bulunamadı</string>
     <string name="user_management_empty_message">Kayıt dosyalarını saklamak ve oyun geçmişi için kullanıcı oluşturun.</string>
-    <string name="user_management_created_success">Kullanıcı oluşturuldu %1$s</string>
-    <string name="user_management_selected_success">Seçilen kullanıcı %1$s</string>
-    <string name="user_management_deleted_success">Silinen kullanıcı %1$s</string>
+    <string name="user_management_created_success">Kullanıcı oluşturuldu %1$s.</string>
+    <string name="user_management_selected_success">Seçilen kullanıcı %1$s.</string>
+    <string name="user_management_deleted_success">Silinen kullanıcı %1$s.</string>
     <string name="user_management_create_failed">Kullanıcı oluşturulamadı.</string>
     <string name="user_management_select_failed">Kullanıcı seçilemedi.</string>
     <string name="user_management_delete_failed">Kullanıcı silinemedi.</string>
@@ -119,7 +120,7 @@
         <item quantity="one">%1$d uygulama silindi.</item>
         <item quantity="other">%1$d uygulama silindi.</item>
     </plurals>
-    <string name="batch_delete_partial">%2$d uygulamadan silinen %1$d</string>
+    <string name="batch_delete_partial">%2$d uygulamadan silinen %1$d.</string>
     <string name="action_deleted_success">%2$s için %1$s silindi.</string>
     <string name="action_deleted_failed">%2$s için %1$s silinemedi.</string>
     <!-- App info sheet -->
@@ -145,10 +146,10 @@
     <!-- About sheet -->
     <string name="about_build">Sürüm: %1$s</string>
     <string name="about_revision">Revizyon: %1$s</string>
-    <string name="about_legal_notice">Vita3K korsan oyunu onaylamamaktadır. Kendi sahip olduğunuz oyunları yükleyiniz.</string>
+    <string name="about_legal_notice">Vita3K korsanlığı hoş görmez. Kendi oyununuzun veri dökümünü kendiniz çıkarmalısınız.</string>
     <!-- Updates -->
     <string name="updates_check_title">Güncellemeleri Denetle</string>
-    <string name="updates_check_progress">Güncellemeler kontrol ediliyor...</string>
+    <string name="updates_check_progress">Güncellemeler kontrol ediliyor…</string>
     <string name="updates_check_in_progress">Güncelleme kontrolü zaten devam ediyor.</string>
     <string name="updates_available_title">Güncelleme Mevcut</string>
     <string name="updates_official_available_title">Resmi Sürüm Mevcut</string>
@@ -157,13 +158,13 @@
     <string name="updates_summary_available">Daha yeni bir Vita3K sürümü mevcut.\n\nMevcut Sürüm: %1$s\nEn son sürüm: %2$s</string>
     <string name="updates_summary_available_with_date">Daha yeni bir Vita3K sürümü mevcut.\n\nMevcut Sürüm: %1$s\nEn son sürüm: %2$s\nYayımlandı: %3$s</string>
     <string name="updates_summary_custom_build">Resmi olmayan veya PR sürümü olan bir sürümü çalıştırıyorsunuz\n\nGüncelleme yaparsanız en son resmi sürüme geçiş yapacaksınız ve artık bu değiştirilmiş veya PR sürümüne geri dönemeyeceksiniz.\n\nEn son resmi sürüm: %1$s</string>
-    <string name="updates_summary_custom_build_with_date">Resmi olmayan veya PR sürümü olan bir sürümü çalıştırıyorsunuz\n\nGüncelleme yaparsanız en son resmi sürüme geçiş yapacaksınız ve artık bu değiştirilmiş veya PR sürümüne geri dönemeyeceksiniz.\n\nEn son resmi sürüm: %1$s Yayımlandı: %2$s</string>
+    <string name="updates_summary_custom_build_with_date">Resmi olmayan veya PR sürümü olan bir sürümü çalıştırıyorsunuz\n\nGüncelleme yaparsanız en son resmi sürüme geçiş yapacaksınız ve artık bu değiştirilmiş veya PR sürümüne geri dönemeyeceksiniz.\n\nEn son resmi sürüm: %1$s\n Yayımlandı: %2$s</string>
     <!-- Initial setup -->
-    <string name="initial_setup_welcome_title">Vita3K\'ya Hoşgeldiniz</string>
+    <string name="initial_setup_welcome_title">Vita3K\'ya Hoş geldiniz</string>
     <string name="initial_setup_welcome_body">Vita3K Windows, Linux, macOS ve Android için C++ ile yazılmış açık kaynak kodlu PlayStation Vita emülatörüdür. Emülatör hala aktif olarak geliştirilmektedir bu yüzden geri dönüşleriniz ve testleriniz için şimdiden teşekkür ederiz.</string>
     <string name="initial_setup_piracy_notice">Vita3K korsan oyunu onaylamamaktadır. Kendi sahip olduğunuz oyunları yükleyiniz.</string>
     <string name="initial_setup_firmware_title">Yazılım Yükle</string>
-    <string name="initial_setup_firmware_body">Başlamak için PS Vita yazılımını aşağıya yükleyin.</string>
+    <string name="initial_setup_firmware_body">Başlamak için, aşağıdaki PS Vita yazılım dosyalarını yükleyin.</string>
     <string name="initial_setup_preinstall_title">Ön Kurulum Paketi</string>
     <string name="initial_setup_main_title">Ana Yazılım</string>
     <string name="initial_setup_font_title">Font Paketi</string>
@@ -474,6 +475,7 @@
     <string name="settings_network_http_timeout_sleep">Zaman Aşımı Uykusu</string>
     <string name="settings_network_http_timeout_sleep_desc">Yeniden bağlantı denemeleri arasında ne kadar bekleneceğini belirler. Çok yavaş veya dengesiz bir İnternet bağlantınız varsa yararlıdır.</string>
     <string name="settings_network_http_read_end_attempts">Read End Attempts</string>
+    <string name="settings_network_http_read_end_attempts_desc">Okunacak daha fazla veri kalmadığında kaç kez yeniden deneme yapılacağı, düşük oluşu performansı artırabilir ancak internet bağlantınız yeterince kötüyse oyunları kararsızlaştırabilir.</string>
     <string name="settings_network_http_read_end_sleep">Read End Sleep</string>
     <string name="settings_network_http_attempts_value">%1$d deneme</string>
     <string name="settings_network_http_sleep_value">%1$d ms</string>
@@ -485,7 +487,14 @@
     <string name="settings_controls_show_desc">Oyun çalışırken dokunmatik kontrolleri göster.</string>
     <string name="settings_controls_hide_on_controller">Kontrolcü Bağlıyken Ekran Kontrollerini Gizle</string>
     <string name="settings_controls_hide_on_controller_desc">Fiziksel kontrolcü bağlandığında dokunmatik kontrolleri otomatik gizle.</string>
+    <string name="settings_controls_l2r2">L2 / R2 Butonlarını Göster</string>
+    <string name="settings_controls_l2r2_desc">Dokunmatik katmana ekstra tetik butonları ekle.</string>
+    <string name="settings_controls_l3r3">L3 / R3 Butonlarını Göster</string>
+    <string name="settings_controls_touch_switch">Dokunmatik ekran anahtarını göster</string>
+    <string name="settings_controls_touch_switch_desc">Ön ve arka dokunmatik girişini anahtarlayan butonu göster</string>
+    <string name="settings_controls_opacity">Genel Saydamlık</string>
     <!-- Settings — Debug tab -->
+    <string name="settings_debug_misc_section">Çeşitli</string>
     <string name="settings_controls_mapping_axes_title">Çubuk ve Tetik Haritalama</string>
     <string name="settings_controls_behavior_title">Kontrolcü Davranışları</string>
     <string name="settings_controls_analog_multiplier">Analog Çubuk Çoğaltıcı</string>
@@ -532,6 +541,7 @@
     <string name="settings_debug_color_surface">Renk Yüzeylerini Kaydet</string>
     <!-- Settings — Emulator tab -->
     <string name="settings_interface_appearance">Görünüş</string>
+    <string name="settings_interface_ui_options">Kullanıcı Arayüzü Seçenekleri</string>
     <string name="settings_emulator_storage_folder_resolve_failed">Seçtiğiniz depolama klasörüne erişilemedi.</string>
     <string name="settings_emulator_file_loading_delay">Dosya Yükleme Gecikmesi: %1$d ms</string>
     <string name="settings_emulator_file_loading_delay_desc">Dosya yüklemesine yapay bir gecikme ekler. Gerçek konsola kıyasla dosyaları çok hızlı yükleyen bazı oyunlar için gereklidir (ör. Silent Hill).</string>
@@ -549,6 +559,7 @@
     <string name="settings_emulator_perf_overlay_detail_desc">Performans göstergesinin detay düzeyini belirleyin.</string>
     <string name="settings_emulator_perf_overlay_position">Gösterge Konumu</string>
     <string name="settings_emulator_screenshot_format">Ekran Görüntüsü Biçimi</string>
+    <string name="settings_emulator_screenshot_format_desc">Ekran görüntüleri için görsel formatını belirleyin.</string>
     <!-- Settings option values -->
     <string name="settings_opt_trace">İzleme</string>
     <string name="settings_opt_debug">Hata Ayıklama</string>
@@ -616,4 +627,25 @@
     <string name="settings_ime_english_gb">İngilizce (Birleşik Krallık)</string>
     <string name="settings_ime_turkish">Türkçe</string>
     <!-- Trophy viewer -->
+    <string name="trophy_back_short">Geri</string>
+    <string name="trophy_progress_percent_format">%1$d%%</string>
+    <string name="trophy_unlocked_count_format">%1$d / %2$d kilidi açıldı</string>
+    <string name="trophy_error_title">Kupalar yüklenemiyor</string>
+    <string name="trophy_empty_title">Kupa kolleksiyonu bulunamadı</string>
+    <string name="trophy_hidden_title">Gizli Kupa</string>
+    <string name="trophy_hidden_detail">Kupayı ortaya çıkarmak için oynamaya devam et.</string>
+    <string name="trophy_filter_all">Tamamı</string>
+    <string name="trophy_filter_earned">Kazanılmış</string>
+    <string name="trophy_filter_locked">Kilitli</string>
+    <string name="trophy_status_earned">Kazanıldı</string>
+    <string name="trophy_status_locked">Kilitli</string>
+    <string name="trophy_grade_platinum">Platin</string>
+    <string name="trophy_grade_gold">Altın</string>
+    <string name="trophy_grade_silver">Gümüş</string>
+    <string name="trophy_grade_bronze">Bronz</string>
+    <string name="trophy_grade_unknown">Bilinmiyor</string>
+    <string name="trophy_detail_grade_label">Derece</string>
+    <string name="trophy_detail_earned_label">Kazanıldı</string>
+    <string name="trophy_detail_description_label">Detaylar</string>
+    <string name="trophy_not_yet_earned">Henüz kazanılmadı</string>
 </resources>

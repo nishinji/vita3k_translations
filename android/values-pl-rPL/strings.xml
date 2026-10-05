@@ -56,6 +56,7 @@
     <string name="apps_list_menu_welcome">Ekran powitalny</string>
     <string name="apps_list_menu_check_updates">Sprawdź aktualizacje</string>
     <string name="apps_list_menu_about">O aplikacji</string>
+    <string name="apps_list_menu_trophies">Kolekcja Trofeów</string>
     <string name="apps_list_search_placeholder">Szukaj aplikacji\u2026</string>
     <string name="apps_list_sort_title">Tytułu</string>
     <string name="apps_list_sort_last_played">Ostatnio odtwarzane</string>
@@ -688,4 +689,29 @@
     <string name="settings_ime_english_gb">Angielski (GB)</string>
     <string name="settings_ime_turkish">Turecki</string>
     <!-- Trophy viewer -->
+    <string name="trophy_back_short">Wstecz</string>
+    <string name="trophy_progress_percent_format">%1$d%%</string>
+    <string name="trophy_unlocked_count_format">%1$d / %2$d odblokowane</string>
+    <string name="trophy_error_title">Nie można załadować trofeów</string>
+    <string name="trophy_empty_title">Nie znaleziono kolekcji trofeów</string>
+    <string name="trophy_not_found_title">Dane trofeów niedostępne</string>
+    <string name="trophy_not_found_body">Ta kolekcja trofeów nie może zostać załadowana z pamięci emulatora.</string>
+    <string name="trophy_hidden_title">Ukryte trofeum</string>
+    <string name="trophy_hidden_detail">Kontynuuj grę, aby ujawnić to trofeum.</string>
+    <string name="trophy_filter_all">Wszystkie</string>
+    <string name="trophy_filter_earned">Zdobyte</string>
+    <string name="trophy_filter_locked">Zablokowane</string>
+    <string name="trophy_filter_show_hidden">Pokaż ukryte</string>
+    <string name="trophy_filter_empty_title">Żadne trofea nie pasują do obecnych filtrów</string>
+    <string name="trophy_status_earned">Zdobyte</string>
+    <string name="trophy_status_locked">Zablokowane</string>
+    <string name="trophy_grade_platinum">Platyna</string>
+    <string name="trophy_grade_gold">Złoto</string>
+    <string name="trophy_grade_silver">Srebro</string>
+    <string name="trophy_grade_bronze">Brąz</string>
+    <string name="trophy_grade_unknown">Nieznany</string>
+    <string name="trophy_detail_grade_label">Ocena</string>
+    <string name="trophy_detail_earned_label">Zdobyte</string>
+    <string name="trophy_detail_description_label">Szczegóły</string>
+    <string name="trophy_not_yet_earned">Jeszcze nie zdobyte</string>
 </resources>
