@@ -694,8 +694,10 @@
     <string name="trophy_unlocked_count_format">%1$d / %2$d odblokowane</string>
     <string name="trophy_error_title">Nie można załadować trofeów</string>
     <string name="trophy_empty_title">Nie znaleziono kolekcji trofeów</string>
+    <string name="trophy_empty_body">Zainstaluj aplikację obsługującą trofea i uruchom ją raz, aby uzupełnić listę kolekcji.</string>
     <string name="trophy_not_found_title">Dane trofeów niedostępne</string>
     <string name="trophy_not_found_body">Ta kolekcja trofeów nie może zostać załadowana z pamięci emulatora.</string>
+    <string name="trophy_detail_not_found_body">Nie udało się wczytać szczegółów tego trofeum z pamięci emulatora.</string>
     <string name="trophy_hidden_title">Ukryte trofeum</string>
     <string name="trophy_hidden_detail">Kontynuuj grę, aby ujawnić to trofeum.</string>
     <string name="trophy_filter_all">Wszystkie</string>
@@ -703,6 +705,7 @@
     <string name="trophy_filter_locked">Zablokowane</string>
     <string name="trophy_filter_show_hidden">Pokaż ukryte</string>
     <string name="trophy_filter_empty_title">Żadne trofea nie pasują do obecnych filtrów</string>
+    <string name="trophy_filter_empty_body">Zmień filtry stanu lub typu, aby zobaczyć więcej trofeów.</string>
     <string name="trophy_status_earned">Zdobyte</string>
     <string name="trophy_status_locked">Zablokowane</string>
     <string name="trophy_grade_platinum">Platyna</string>

@@ -139,7 +139,7 @@ Tej akcji nie można cofnąć.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="246"/>
       <source>Copy Test Environment Summary</source>
-      <translation type="unfinished"/>
+      <translation>Skopiuj podsumowanie środowiska testowego</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="272"/>
@@ -381,7 +381,7 @@ Tej operacji nie można cofnąć.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Rozmiar na dysku</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
@@ -399,17 +399,17 @@ Tej operacji nie można cofnąć.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>Obliczanie...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
       <source>Icon Crop</source>
-      <translation type="unfinished"/>
+      <translation>Przytnij ikonę</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="537"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>Kwadrat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="538"/>
