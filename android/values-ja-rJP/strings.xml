@@ -34,7 +34,9 @@
     <!-- Apps list screen -->
     <string name="apps_list_app_title">Vita3K</string>
     <string name="apps_list_cd_install">インストール</string>
+    <string name="apps_list_cd_search">検索</string>
     <string name="apps_list_cd_sort">並び替え</string>
+    <string name="apps_list_menu_check_updates">アップデートの確認</string>
     <string name="apps_list_sort_title">タイトル</string>
     <string name="apps_list_sort_last_played">前回のプレイ</string>
     <string name="apps_list_sort_compatibility">互換性リスト</string>
@@ -45,7 +47,11 @@
     <string name="app_menu_custom_config">カスタム設定</string>
     <!-- User management -->
     <string name="user_management_refresh">ユーザーの更新</string>
+    <string name="user_management_create_user">ユーザーを作成</string>
     <string name="user_management_name_label">ユーザー名</string>
+    <string name="user_management_switch_user">ユーザーを選択</string>
+    <string name="user_management_delete_user">ユーザを削除</string>
+    <string name="user_management_delete_title">ユーザを削除</string>
     <!-- Batch delete dialog -->
     <!-- Action confirm dialog -->
     <string name="confirm_reset_playtime_this_app">このアプリ</string>
@@ -53,17 +59,24 @@
     <string name="action_done">完了</string>
     <!-- App info sheet -->
     <string name="app_info_size_unknown">不明</string>
+    <string name="app_info_size_kb">%1$d KB</string>
+    <string name="app_info_size_mb">%1$.1f MB</string>
+    <string name="app_info_size_gb">%1$.2f GB</string>
     <!-- About sheet -->
+    <string name="about_build">ビルド: %1$s</string>
     <!-- Updates -->
     <!-- Initial setup -->
     <string name="initial_setup_welcome_title">Vita3Kへようこそ</string>
     <string name="initial_setup_firmware_title">ファームウェアをインストール</string>
+    <string name="initial_setup_font_title">フォントパッケージ</string>
     <string name="initial_setup_download">ダウンロード</string>
     <string name="initial_setup_install_pup">インストール</string>
     <string name="initial_setup_back">戻る</string>
     <!-- In-game pause menu -->
+    <string name="emulation_tab_settings">設定</string>
     <string name="emulation_resume">つづける</string>
     <string name="emulation_exit">終了</string>
+    <string name="emulation_save_config_short">保存</string>
     <!-- Install bottom sheet -->
     <string name="install_progress_title">インストール中</string>
     <!-- zRIF / license dialogs -->
