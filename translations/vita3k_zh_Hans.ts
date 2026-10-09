@@ -497,7 +497,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation>PlayStation Vita 商业软件包（NoNpDrm/FAGDec）/ PlayStation Vita 自制软件包 (*.zip、*.vpk、*.vci);;PlayStation Vita 商业软件包（NoNpDrm/FAGDec）(*.zip);;PlayStation Vita 自制软件包 (*.vpk);;Vita 卡带映像（VCI）文件 (*.vci)</translation>
+      <translation>PlayStation Vita 商业软件包（NoNpDrm/FAGDec）/ PlayStation Vita 自制软件包 (*.zip *.vpk *.vci);;PlayStation Vita 商业软件包（NoNpDrm/FAGDec）(*.zip);;PlayStation Vita 自制软件包 (*.vpk);;Vita 卡带映像（VCI）文件 (*.vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
