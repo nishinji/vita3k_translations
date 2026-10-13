@@ -82,17 +82,17 @@ Visit our website at &lt;a href=&quot;https://vita3k.org/quickstart.html&quot;&g
   <context>
     <name>AppsListContextMenu</name>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="149"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="153"/>
       <source>Delete Selected Applications</source>
       <translation>刪除所選的應用程式</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="153"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="157"/>
       <source>Delete Applications</source>
       <translation>刪除應用程式</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="154"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="158"/>
       <source>Are you sure you want to delete %1 selected applications?
 
 This action cannot be undone.</source>
@@ -101,174 +101,174 @@ This action cannot be undone.</source>
 此動作無法復原。</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="167"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="171"/>
       <source>Delete Shader Caches</source>
       <translation>刪除著色器快取</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="185"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="189"/>
       <source>Boot</source>
       <translation>啟動</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="193"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="197"/>
       <source>View Live Area</source>
       <translation>檢視Live Area</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="208"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="723"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="212"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
       <source>Compatibility</source>
       <translation>相容性</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="211"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="215"/>
       <source>Check Compatibility</source>
       <translation>檢查相容性</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="227"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="231"/>
       <source>Open State Report</source>
       <translation>開啟狀態報告</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="233"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="237"/>
       <source>Copy Vita3K Summary</source>
       <translation>複製 Vita3K 摘要</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="246"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="250"/>
       <source>Copy Test Environment Summary</source>
       <translation>複製測試環境摘要</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="272"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="276"/>
       <source>Create State Report</source>
       <translation>建立狀態報告</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="333"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="335"/>
       <source>Update Database</source>
       <translation>更新資料庫</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="342"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="344"/>
       <source>Copy Info</source>
       <translation>複製資訊</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="344"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="346"/>
       <source>Name and Serial</source>
       <translation>名稱與序號</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="350"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="717"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="352"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="719"/>
       <source>Name</source>
       <translation>名稱</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="355"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="718"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="357"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="720"/>
       <source>Serial</source>
       <translation>序號</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="360"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="362"/>
       <source>App Summary</source>
       <translation>應用程式摘要</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="372"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="374"/>
       <source>Custom Config</source>
       <translation>自訂組態</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="375"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="377"/>
       <source>Create</source>
       <translation>建立</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="380"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="382"/>
       <source>Edit</source>
       <translation>編輯</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="385"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="387"/>
       <source>Remove</source>
       <translation>移除</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="394"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="396"/>
       <source>Open Folder</source>
       <translation>開啟資料夾</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="396"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="464"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="398"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="466"/>
       <source>Application</source>
       <translation>應用程式</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="402"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="481"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="404"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="483"/>
       <source>Save Data</source>
       <translation>遊戲儲存資料</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="409"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="498"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="411"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="500"/>
       <source>Patch</source>
       <translation>修補檔</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="416"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="515"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="418"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="517"/>
       <source>DLC</source>
       <translation>DLC</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="423"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="532"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="425"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="534"/>
       <source>License</source>
       <translation>授權</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="430"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="549"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="432"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="551"/>
       <source>Shader Cache</source>
       <translation>著色器暫存檔</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="440"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="560"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="442"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="562"/>
       <source>Shader Log</source>
       <translation>著色器日誌</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="447"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="571"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="449"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="573"/>
       <source>Export Textures</source>
       <translation>匯出紋理</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="454"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="582"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="456"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="584"/>
       <source>Import Textures</source>
       <translation>匯入紋理</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="462"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="464"/>
       <source>Delete</source>
       <translation>刪除</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="468"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="470"/>
       <source>Delete Application</source>
       <translation>刪除應用程式</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="469"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="471"/>
       <source>Are you sure you want to delete %1 [%2]?
 
 This action cannot be undone.</source>
@@ -277,114 +277,114 @@ This action cannot be undone.</source>
 此操作無法復原。</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="484"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="486"/>
       <source>Delete Save Data</source>
       <translation>刪除遊戲儲存資料</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="485"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="487"/>
       <source>Are you sure you want to delete the save data?</source>
       <translation>確定要刪除遊戲儲存資料嗎？</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="501"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="503"/>
       <source>Delete Patch</source>
       <translation>刪除修補檔</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="502"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="504"/>
       <source>Are you sure you want to delete the patch data?</source>
       <translation>確定要刪除修補檔資料嗎？</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="518"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="520"/>
       <source>Delete DLC</source>
       <translation>刪除DLC</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="519"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="521"/>
       <source>Are you sure you want to delete the DLC data?</source>
       <translation>確定要刪除DLC資料嗎？</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="535"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="537"/>
       <source>Delete License</source>
       <translation>刪除授權</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="536"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="538"/>
       <source>Are you sure you want to delete the license?</source>
       <translation>確定要刪除授權嗎？</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="596"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="598"/>
       <source>Other</source>
       <translation>其他</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="598"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="600"/>
       <source>Decrypt All SELF</source>
       <translation>解密全部 SELF</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="605"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="607"/>
       <source>Reset Last Time Played</source>
       <translation>重設最近遊玩時間</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="613"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="646"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="615"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="648"/>
       <source>Update History</source>
       <translation>更新歷程記錄</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="658"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="660"/>
       <source>Version %1</source>
       <translation>版本 %1</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="677"/>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="729"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="679"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="731"/>
       <source>Close</source>
       <translation>關閉</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="687"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="689"/>
       <source>Information</source>
       <translation>資訊</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="701"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="703"/>
       <source>App Information</source>
       <translation>應用程式資訊</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="719"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="721"/>
       <source>Version</source>
       <translation>版本</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="720"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="722"/>
       <source>Category</source>
       <translation>類別</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="721"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="723"/>
       <source>Content ID</source>
       <translation>內容ID</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="722"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Parental Level</source>
       <translation>家長監護級別</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="726"/>
       <source>Size on Disk</source>
       <translation>磁碟上的大小</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="725"/>
+      <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="727"/>
       <source>Path</source>
       <translation>路徑</translation>
     </message>
@@ -902,7 +902,7 @@ Not Connected</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="72"/>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="434"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="422"/>
       <source>Stack</source>
       <translation>堆疊</translation>
     </message>
@@ -964,8 +964,8 @@ Not Connected</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="100"/>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="406"/>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="394"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="427"/>
       <source>Value</source>
       <translation>數值</translation>
     </message>
@@ -1016,7 +1016,7 @@ Not Connected</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="121"/>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="427"/>
       <source>Address</source>
       <translation>位址</translation>
     </message>
@@ -1036,88 +1036,88 @@ Not Connected</source>
       <translation>逆向組譯</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="255"/>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="271"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="253"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="267"/>
       <source>not owned</source>
       <translation>未擁有</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="365"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="353"/>
       <source>Thread Not Found</source>
       <translation>找不到執行緒</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="366"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="354"/>
       <source>Thread 0x%1 no longer exists.</source>
       <translation>執行緒 0x%1 已不存在。</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="377"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="365"/>
       <source>Thread: %1 (0x%2)</source>
       <translation>執行緒：%1 (0x%2)</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="392"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="380"/>
       <source>Name:</source>
       <translation>名稱：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="393"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="381"/>
       <source>Status:</source>
       <translation>狀態：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="394"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="382"/>
       <source>PC:</source>
       <translation>程式計數器：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="395"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="383"/>
       <source>SP:</source>
       <translation>堆疊指針：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="396"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="384"/>
       <source>LR:</source>
       <translation>連結暫存器：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="397"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="385"/>
       <source>Executing:</source>
       <translation>執行中：</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="401"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="389"/>
       <source>Registers</source>
       <translation>寄存器</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="406"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="394"/>
       <source>Register</source>
       <translation>寄存器</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="439"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="427"/>
       <source>Offset</source>
       <translation>偏移</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="450"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="438"/>
       <source>(invalid)</source>
       <translation>(無效)</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="468"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="456"/>
       <source>Nothing to disassemble.</source>
       <translation>沒有可逆向組譯的項目。</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="475"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="463"/>
       <source>Invalid address.</source>
       <translation>無效的位址。</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="491"/>
+      <location filename="../vita3k/gui-qt/src/debug_widget.cpp" line="479"/>
       <source>Disassembled %1 instructions.</source>
       <translation>已逆向組譯%1個指令。</translation>
     </message>
@@ -1421,8 +1421,8 @@ The key may be invalid.</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="171"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1366"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1370"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1367"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1371"/>
       <source>Play</source>
       <translation>遊玩</translation>
     </message>
@@ -1433,7 +1433,7 @@ The key may be invalid.</source>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1078"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1212"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1234"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1701"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1702"/>
       <source>Fullscreen</source>
       <translation>全螢幕</translation>
     </message>
@@ -1480,8 +1480,8 @@ The key may be invalid.</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="229"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1358"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1362"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1359"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1363"/>
       <source>Pause</source>
       <translation>暫停</translation>
     </message>
@@ -1617,7 +1617,7 @@ The key may be invalid.</source>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="173"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1494"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1495"/>
       <source>Search...</source>
       <translation>搜尋……</translation>
     </message>
@@ -1625,7 +1625,7 @@ The key may be invalid.</source>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="174"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="962"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1212"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1709"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1710"/>
       <source>Exit Fullscreen</source>
       <translation>退出全螢幕</translation>
     </message>
@@ -1815,96 +1815,96 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
       <translation>%1 | %2 (%3)</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1351"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1355"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1352"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1356"/>
       <source>Resume</source>
       <translation>恢復</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1428"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1429"/>
       <source>Open Emulated Storage Path</source>
       <translation>開啟模擬儲存空間路徑</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1433"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1434"/>
       <source>Open Patch Path</source>
       <translation>開啟修補檔路徑</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1438"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1439"/>
       <source>Open Textures Path</source>
       <translation>開啟紋理路徑</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1445"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1446"/>
       <source>Open ELF Dumps Path</source>
       <translation>開啟 ELF 傾印路徑</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1483"/>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1484"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1485"/>
       <source>Icon Size</source>
       <translation>圖示大小</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1832"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1833"/>
       <source>Standard</source>
       <translation>標準</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1833"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1834"/>
       <source>High</source>
       <translation>高</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1925"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2056"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1926"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2057"/>
       <source>NGS: ON</source>
       <translation>NGS：開</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1926"/>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2059"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1927"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2060"/>
       <source>NGS: OFF</source>
       <translation>NGS：關</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1967"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1968"/>
       <source>Mute</source>
       <translation>靜音</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1968"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1969"/>
       <source>Reset to 100%</source>
       <translation>重設到100%</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2015"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2016"/>
       <source>HIGH</source>
       <translation>高</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2018"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2019"/>
       <source>STANDARD</source>
       <translation>標準</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2068"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2069"/>
       <source>VOLUME: MUTED</source>
       <translation>音量：靜音</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2071"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2072"/>
       <source>VOLUME: %1%</source>
       <translation>音量：%1%</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2080"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2081"/>
       <source>UPDATE AVAILABLE</source>
       <translation>有可用更新</translation>
     </message>
     <message>
-      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2083"/>
+      <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2084"/>
       <source>Click to review the latest Vita3K release information.</source>
       <translation>點擊去查閱最新的Vita3K發佈資訊。</translation>
     </message>
