@@ -212,7 +212,7 @@ This action cannot be undone.</source>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="404"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="483"/>
       <source>Save Data</source>
-      <translation>存档资料</translation>
+      <translation>保存数据</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="411"/>
@@ -224,13 +224,13 @@ This action cannot be undone.</source>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="418"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="517"/>
       <source>DLC</source>
-      <translation>DLC</translation>
+      <translation>追加内容</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="425"/>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="534"/>
       <source>License</source>
-      <translation>许可证</translation>
+      <translation>授权</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="432"/>
@@ -283,7 +283,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="487"/>
       <source>Are you sure you want to delete the save data?</source>
-      <translation>你确定要删除存档资料吗？</translation>
+      <translation>你确定要删除保存数据吗？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="503"/>
@@ -293,27 +293,27 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="504"/>
       <source>Are you sure you want to delete the patch data?</source>
-      <translation>你确定要删除补丁资料吗？</translation>
+      <translation>你确定要删除补丁数据吗？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="520"/>
       <source>Delete DLC</source>
-      <translation>删除DLC</translation>
+      <translation>删除追加内容</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="521"/>
       <source>Are you sure you want to delete the DLC data?</source>
-      <translation>你确定要删除DLC资料吗？</translation>
+      <translation>你确定要删除追加内容数据吗？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="537"/>
       <source>Delete License</source>
-      <translation>删除许可证</translation>
+      <translation>删除授权</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="538"/>
       <source>Are you sure you want to delete the license?</source>
-      <translation>确定要删除许可证吗？</translation>
+      <translation>确定要删除授权吗？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="598"/>
@@ -323,12 +323,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="600"/>
       <source>Decrypt All SELF</source>
-      <translation>解密所有SELF文件</translation>
+      <translation>解密所有SELF</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="607"/>
       <source>Reset Last Time Played</source>
-      <translation>重置上次游玩时间</translation>
+      <translation>重设最近游玩时间</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="615"/>
@@ -350,7 +350,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="689"/>
       <source>Information</source>
-      <translation>资讯信息</translation>
+      <translation>信息</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="703"/>
@@ -375,12 +375,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="724"/>
       <source>Parental Level</source>
-      <translation>限制级别</translation>
+      <translation>试听者限制</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="726"/>
       <source>Size on Disk</source>
-      <translation>占用空间</translation>
+      <translation>大小</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="727"/>
@@ -393,12 +393,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="419"/>
       <source>Never</source>
-      <translation>还未玩过</translation>
+      <translation>从未游玩</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation>正在计算...</translation>
+      <translation>正在计算……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
@@ -433,17 +433,17 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="601"/>
       <source>Menu</source>
-      <translation>菜单界面</translation>
+      <translation>仅菜单</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="602"/>
       <source>Intro</source>
-      <translation>开场画面</translation>
+      <translation>有图像</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="603"/>
       <source>Boots</source>
-      <translation>仅可启动</translation>
+      <translation>可启动</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="604"/>
@@ -477,12 +477,12 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation>选择文件（.zip/ .vpk/ .vci格式）…</translation>
+      <translation>选择文件（zip/vpk/vci格式）……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
       <source>Select a directory (installs all archives inside)...</source>
-      <translation>选择目录（将安装其中的所有压缩包）…</translation>
+      <translation>选择目录（将安装其中的所有压缩包）……</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="206"/>
@@ -497,7 +497,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="234"/>
       <source>PlayStation Vita commercial software package (NoNpDrm/FAGDec) / PlayStation Vita homebrew software package (*.zip *.vpk *.vci);;PlayStation Vita commercial software package (NoNpDrm/FAGDec) (*.zip);;PlayStation Vita homebrew software package (*.vpk);;Vita Cartridge Image (VCI) File (*.vci)</source>
-      <translation>PlayStation Vita 商业软件包（NoNpDrm/FAGDec）/ PlayStation Vita 自制软件包 (*.zip *.vpk *.vci);;PlayStation Vita 商业软件包（NoNpDrm/FAGDec）(*.zip);;PlayStation Vita 自制软件包 (*.vpk);;Vita 卡带映像（VCI）文件 (*.vci)</translation>
+      <translation>PlayStation Vita商业软件包（NoNpDrm/FAGDec）/ PlayStation Vita自制软件包 (*.zip *.vpk *.vci);;PlayStation Vita商业软件包（NoNpDrm/FAGDec）(*.zip);;PlayStation Vita自制软件包 (*.vpk);;Vita卡带映像（VCI）文件 (*.vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="242"/>
@@ -512,7 +512,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="249"/>
       <source>The selected directory contains no .zip, .vpk, or .vci files.</source>
-      <translation>所选目录中不包含.zip、.vpk或.vci格式的文件。</translation>
+      <translation>所选目录中不包含zip、vpk或vci格式的文件。</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
@@ -584,7 +584,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
       <source>Delete archive files after install?</source>
-      <translation>安装后要删除压缩包文件吗？</translation>
+      <translation>安装后是否要删除压缩包文件？</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
