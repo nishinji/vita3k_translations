@@ -560,7 +560,7 @@ This action cannot be undone.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
@@ -753,12 +753,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="708"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="710"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="719"/>
@@ -2165,22 +2165,22 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="198"/>
       <source>L2</source>
-      <translation type="unfinished"/>
+      <translation>L2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="199"/>
       <source>L3</source>
-      <translation type="unfinished"/>
+      <translation>L3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="200"/>
       <source>R3</source>
-      <translation type="unfinished"/>
+      <translation>R3</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="201"/>
       <source>R2</source>
-      <translation type="unfinished"/>
+      <translation>R2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="447"/>
@@ -2195,12 +2195,12 @@ Check the log for details.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="458"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="460"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="471"/>
@@ -4201,7 +4201,8 @@ All user data will be lost!</source>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="562"/>
       <source>%1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>%1
+%2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="747"/>
@@ -4255,7 +4256,7 @@ All user data will be lost!</source>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="889"/>
       <source>%1: %2</source>
-      <translation type="unfinished"/>
+      <translation>%1: %2</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="896"/>
@@ -4297,7 +4298,7 @@ All user data will be lost!</source>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="995"/>
       <source>%1%</source>
-      <translation type="unfinished"/>
+      <translation>%1%</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="1009"/>
