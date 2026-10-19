@@ -4361,7 +4361,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="193"/>
       <source>Module Management</source>
-      <translation type="unfinished"/>
+      <translation>模块管理</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="202"/>
@@ -4386,12 +4386,12 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="250"/>
       <source>LLE Modules List</source>
-      <translation>LLE模块列表</translation>
+      <translation>LLE 模块列表</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="279"/>
       <source>Search modules...</source>
-      <translation>搜索模块...</translation>
+      <translation>搜索模块…</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="286"/>
@@ -4412,23 +4412,23 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="389"/>
       <source>Dynarmic Settings</source>
-      <translation>动态编译设置</translation>
+      <translation>Dynarmic 设置</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="410"/>
       <source>Enable CPU Optimizations</source>
-      <translation>启用CPU优化</translation>
+      <translation>启用 CPU 优化</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="441"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3080"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>图形</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="492"/>
       <source>Renderer</source>
-      <translation type="unfinished"/>
+      <translation>渲染器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="504"/>
@@ -4488,7 +4488,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="728"/>
       <source>Image Quality</source>
-      <translation type="unfinished"/>
+      <translation>图像质量</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="737"/>
@@ -4535,7 +4535,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="906"/>
       <source>Textures and Shaders</source>
-      <translation type="unfinished"/>
+      <translation>纹理与着色器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="918"/>
@@ -4570,7 +4570,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1014"/>
       <source>Use SPIR-V Shader (deprecated)</source>
-      <translation type="unfinished"/>
+      <translation>使用 SPIR-V 着色器（已废弃）</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1021"/>
@@ -4595,7 +4595,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1134"/>
       <source>Audio Output</source>
-      <translation type="unfinished"/>
+      <translation>音频输出</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1146"/>
@@ -4615,7 +4615,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1232"/>
       <source>Features</source>
-      <translation type="unfinished"/>
+      <translation>功能</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1238"/>
@@ -4630,22 +4630,22 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1272"/>
       <source>Theme Music</source>
-      <translation type="unfinished"/>
+      <translation>主题音乐</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1278"/>
       <source>Vita Theme Music</source>
-      <translation type="unfinished"/>
+      <translation>Vita 主题音乐</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1302"/>
       <source>Enable Vita theme background music</source>
-      <translation type="unfinished"/>
+      <translation>启用 Vita 主题背景音乐</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1309"/>
       <source>Theme music volume: 50%</source>
-      <translation type="unfinished"/>
+      <translation>主题音乐音量：50%</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1362"/>
@@ -4655,7 +4655,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1413"/>
       <source>Camera Sources</source>
-      <translation type="unfinished"/>
+      <translation>摄像头源</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1422"/>
@@ -4711,7 +4711,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1684"/>
       <source>Console Settings</source>
-      <translation type="unfinished"/>
+      <translation>主机设置</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1693"/>
@@ -4751,7 +4751,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1785"/>
       <source>Region and Language</source>
-      <translation type="unfinished"/>
+      <translation>区域与语言</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1791"/>
@@ -4786,7 +4786,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1930"/>
       <source>Behavior</source>
-      <translation type="unfinished"/>
+      <translation>行为</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1939"/>
@@ -4811,7 +4811,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1986"/>
       <source>Update Check Mode</source>
-      <translation type="unfinished"/>
+      <translation>更新检查模式</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="1998"/>
@@ -4848,7 +4848,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2069"/>
       <source>Display and Overlay</source>
-      <translation type="unfinished"/>
+      <translation>显示与叠加层</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2078"/>
@@ -4884,7 +4884,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2208"/>
       <source>Storage and Capture</source>
-      <translation type="unfinished"/>
+      <translation>存储与容量</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2220"/>
@@ -4939,12 +4939,12 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2408"/>
       <source>Interface</source>
-      <translation type="unfinished"/>
+      <translation>界面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2459"/>
       <source>Appearance</source>
-      <translation type="unfinished"/>
+      <translation>外观</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2468"/>
@@ -4959,27 +4959,27 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2502"/>
       <source>Show welcome screen</source>
-      <translation type="unfinished"/>
+      <translation>展示欢迎界面</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2509"/>
       <source>Warn when firmware is missing</source>
-      <translation type="unfinished"/>
+      <translation>在缺少固件时警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2516"/>
       <source>Show exit app confirmation</source>
-      <translation type="unfinished"/>
+      <translation>展示退出应用确认</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2523"/>
       <source>Warn when running with administrator privileges</source>
-      <translation type="unfinished"/>
+      <translation>在以管理员身份运行时警告</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2530"/>
       <source>Enable rounded corners for the game window</source>
-      <translation type="unfinished"/>
+      <translation>启用游戏窗口圆角</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2540"/>
@@ -5004,7 +5004,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2626"/>
       <source>Log Font:</source>
-      <translation type="unfinished"/>
+      <translation>日志字体：</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2659"/>
@@ -5014,7 +5014,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2710"/>
       <source>Connection</source>
-      <translation type="unfinished"/>
+      <translation>连接</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2719"/>
@@ -5044,12 +5044,12 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2800"/>
       <source>HTTP Networking</source>
-      <translation type="unfinished"/>
+      <translation>HTTP 网络</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2806"/>
       <source>Timeout and Retry</source>
-      <translation type="unfinished"/>
+      <translation>超时与重试</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="2830"/>
@@ -5084,7 +5084,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3016"/>
       <source>Diagnostics</source>
-      <translation type="unfinished"/>
+      <translation>诊断</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3049"/>
@@ -5119,7 +5119,7 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3124"/>
       <source>Actions</source>
-      <translation type="unfinished"/>
+      <translation>活动</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3133"/>
@@ -5154,22 +5154,22 @@ The emulator is still in its development stages so any feedback and testing is g
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3224"/>
       <source>Tracy Profiler</source>
-      <translation type="unfinished"/>
+      <translation>Tracy 分析器</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3263"/>
       <source>Primitive implementation</source>
-      <translation type="unfinished"/>
+      <translation>原始实现</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3331"/>
       <source>Select all</source>
-      <translation type="unfinished"/>
+      <translation>选择全部</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.ui" line="3338"/>
       <source>None</source>
-      <translation type="unfinished"/>
+      <translation>无</translation>
     </message>
   </context>
   <context>
