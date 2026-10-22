@@ -381,7 +381,7 @@ Aksi ini tidak dapat diurungkan.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="726"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Ukuran pada memori</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="727"/>
@@ -399,7 +399,7 @@ Aksi ini tidak dapat diurungkan.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>Mengkalkulasi...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
@@ -478,7 +478,7 @@ Aksi ini tidak dapat diurungkan.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="204"/>
       <source>Select a file (.zip / .vpk / .vci)...</source>
-      <translation type="unfinished"/>
+      <translation>Pilih file (.zip / .vpk / .vci )...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="205"/>
@@ -518,17 +518,17 @@ Aksi ini tidak dapat diurungkan.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>Memasang arsip</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>Menyiapkan pemasangan...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>Arsip progres</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
@@ -538,22 +538,22 @@ Aksi ini tidak dapat diurungkan.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>Progres konten</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>Isi 0 dari 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
       <source>File Extraction</source>
-      <translation type="unfinished"/>
+      <translation>Ekstraksi berkas</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
       <source>0% complete</source>
-      <translation type="unfinished"/>
+      <translation>0% selesai</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
@@ -569,7 +569,8 @@ Aksi ini tidak dapat diurungkan.</translation>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1 sudah terpasang.
+Apakah ingin menimpanya?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
@@ -579,7 +580,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>Pemasangan selesai. %1 sukses, %2 gagal.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
@@ -589,7 +590,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
       <source>Could Not Delete Archives</source>
-      <translation type="unfinished"/>
+      <translation>Tidak Dapat Menghapus Arsip</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="447"/>
@@ -732,7 +733,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
       <source>Reset Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Atur ulang pemetaan</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="695"/>
@@ -1174,7 +1175,7 @@ Versi: %1</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="141"/>
       <source>Could Not Delete Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Tidak dapat menghapus firmware</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="142"/>
@@ -1503,7 +1504,7 @@ Kunci mungkin tidak sah.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="267"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>Grafik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="272"/>
@@ -1622,14 +1623,16 @@ Kunci mungkin tidak sah.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="224"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>Keluar Aplikasi?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="225"/>
       <source>An app is still running. Do you really want to exit?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Sebuah aplikasi masih berjalan. Apakah kamu yakin ingin keluar?
+
+Semua progres yang tidak tersimpan akan hilang!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="229"/>
@@ -1787,12 +1790,12 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1165"/>
       <source>Continue</source>
-      <translation type="unfinished"/>
+      <translation>Lanjutkan</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1166"/>
       <source>Exit</source>
-      <translation type="unfinished"/>
+      <translation>Keluar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1199"/>
@@ -1886,7 +1889,7 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2081"/>
       <source>UPDATE AVAILABLE</source>
-      <translation type="unfinished"/>
+      <translation>UPDATE TERSEDIA</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="2084"/>
@@ -1906,7 +1909,7 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="114"/>
       <source>Select Package And Optional License</source>
-      <translation type="unfinished"/>
+      <translation>Pilih paket dan lisensi opsional</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="116"/>
@@ -1916,20 +1919,21 @@ Please close Vita3K and relaunch it without elevated privileges.</source>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="127"/>
       <source>Invalid Selection</source>
-      <translation type="unfinished"/>
+      <translation>Pilihan tidak valid</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="176"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="217"/>
       <source>Invalid License File</source>
-      <translation type="unfinished"/>
+      <translation>Berkas lisensi tidak valid</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="177"/>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="218"/>
       <source>Failed to read the selected license file.
 The file may be corrupted.</source>
-      <translation type="unfinished"/>
+      <translation>Gagal untuk membaca berkas lisensi yang dipilih.
+Berkas kemungkinan korup.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="189"/>
@@ -2029,7 +2033,7 @@ Cek log untuk detailnya.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="341"/>
       <source>Could Not Delete Files</source>
-      <translation type="unfinished"/>
+      <translation>Tidak dapat menghapus berkas-berkas</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="342"/>
@@ -2089,7 +2093,7 @@ Cek log untuk detailnya.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="91"/>
       <source>Unknown Content</source>
-      <translation type="unfinished"/>
+      <translation>Konten tidak diketaui</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="105"/>
