@@ -381,7 +381,7 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="726"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Diskteki boyut</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="727"/>
@@ -399,7 +399,7 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="437"/>
       <source>Calculating...</source>
-      <translation type="unfinished"/>
+      <translation>Hesaplanıyor...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="536"/>
@@ -409,12 +409,12 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="537"/>
       <source>Square</source>
-      <translation type="unfinished"/>
+      <translation>Kare</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="538"/>
       <source>Circle</source>
-      <translation type="unfinished"/>
+      <translation>Daire</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_table.cpp" line="598"/>
@@ -518,12 +518,12 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="261"/>
       <source>Installing Archive</source>
-      <translation type="unfinished"/>
+      <translation>Arşiv yükleniyor</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="268"/>
       <source>Preparing installation...</source>
-      <translation type="unfinished"/>
+      <translation>Yükleme hazırlanıyor...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
@@ -638,7 +638,7 @@ Do you want to overwrite it?</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1112"/>
       <source>Controller Port %1
 Not Connected</source>
-      <translation type="unfinished"/>
+      <translation>Port %1 Kontrolcü Bağlanmadı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="502"/>
@@ -654,7 +654,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="511"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="624"/>
       <source>Primary</source>
-      <translation type="unfinished"/>
+      <translation>Birincil</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="512"/>
@@ -676,7 +676,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
       <source>Fullscreen</source>
-      <translation type="unfinished"/>
+      <translation>Tam Ekran</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>
@@ -691,7 +691,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="639"/>
       <source>Take a Screenshot</source>
-      <translation type="unfinished"/>
+      <translation>Ekran görüntüsü al</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="640"/>
@@ -711,7 +711,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="664"/>
       <source>Controller Port %1</source>
-      <translation type="unfinished"/>
+      <translation/>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="666"/>
@@ -722,12 +722,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="670"/>
       <source>Bindings</source>
-      <translation type="unfinished"/>
+      <translation>Tuş Atamaları</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="671"/>
       <source>Settings</source>
-      <translation type="unfinished"/>
+      <translation>Ayarlar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
@@ -747,12 +747,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="708"/>
       <source>L1</source>
-      <translation type="unfinished"/>
+      <translation>L1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="710"/>
       <source>R1</source>
-      <translation type="unfinished"/>
+      <translation>R1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="719"/>
@@ -831,7 +831,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="972"/>
       <source>Unsupported Key</source>
-      <translation type="unfinished"/>
+      <translation>Desteklenmeyen Anahtar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="973"/>
@@ -857,7 +857,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1105"/>
       <source>Controller Port %1
 %2</source>
-      <translation type="unfinished"/>
+      <translation>Kontrolcü Portu %1%2</translation>
     </message>
   </context>
   <context>

@@ -492,9 +492,19 @@
     <string name="settings_controls_l3r3">L3 / R3 Butonlarını Göster</string>
     <string name="settings_controls_touch_switch">Dokunmatik ekran anahtarını göster</string>
     <string name="settings_controls_touch_switch_desc">Ön ve arka dokunmatik girişini anahtarlayan butonu göster</string>
+    <string name="settings_controls_hide_toggle">Gizleme Butonunu Göster</string>
     <string name="settings_controls_opacity">Genel Saydamlık</string>
+    <string name="settings_controls_controller_connected">Kontrolcü bağlandı</string>
+    <string name="settings_controls_controller_disconnected">Bağlı kontrolcü bulunamadı</string>
     <!-- Settings — Debug tab -->
+    <string name="settings_debug_diagnostics">Tanılama</string>
+    <string name="settings_debug_logging_section">Günlükleme</string>
+    <string name="settings_debug_graphics_section">Grafik</string>
     <string name="settings_debug_misc_section">Çeşitli</string>
+    <string name="settings_controls_connected_title">Bağlı Kontrolcüler</string>
+    <string name="settings_controls_connected_none">Fiziksel Kontrolcü bulunamadı.</string>
+    <string name="settings_controls_manual_available">Anlık olarak kontrolcü bağlı olmasa bile manuel olarak haritalandırma seçebilirsin.</string>
+    <string name="settings_controls_mapping_buttons_title">Kontrolcü Buton Haritalandırma</string>
     <string name="settings_controls_mapping_axes_title">Çubuk ve Tetik Haritalama</string>
     <string name="settings_controls_behavior_title">Kontrolcü Davranışları</string>
     <string name="settings_controls_analog_multiplier">Analog Çubuk Çoğaltıcı</string>
@@ -539,9 +549,14 @@
     <string name="settings_debug_log_active_shaders">Aktif Gölgelendirici Günlüğü</string>
     <string name="settings_debug_log_active_shaders_desc">Aktif gölgelendirici günlüğü programları.</string>
     <string name="settings_debug_color_surface">Renk Yüzeylerini Kaydet</string>
+    <string name="settings_debug_validation_layer">Vulkan Doğrulama Katmanı</string>
     <!-- Settings — Emulator tab -->
     <string name="settings_interface_appearance">Görünüş</string>
     <string name="settings_interface_ui_options">Kullanıcı Arayüzü Seçenekleri</string>
+    <string name="settings_emulator_general">Genel</string>
+    <string name="settings_emulator_logging">Günlük Alma</string>
+    <string name="settings_emulator_texture_cache"></string>
+    <string name="settings_emulator_ui_language">Arayüz Dili</string>
     <string name="settings_emulator_storage_folder_resolve_failed">Seçtiğiniz depolama klasörüne erişilemedi.</string>
     <string name="settings_emulator_file_loading_delay">Dosya Yükleme Gecikmesi: %1$d ms</string>
     <string name="settings_emulator_file_loading_delay_desc">Dosya yüklemesine yapay bir gecikme ekler. Gerçek konsola kıyasla dosyaları çok hızlı yükleyen bazı oyunlar için gereklidir (ör. Silent Hill).</string>
@@ -632,6 +647,7 @@
     <string name="trophy_unlocked_count_format">%1$d / %2$d kilidi açıldı</string>
     <string name="trophy_error_title">Kupalar yüklenemiyor</string>
     <string name="trophy_empty_title">Kupa kolleksiyonu bulunamadı</string>
+    <string name="trophy_not_found_title">Kupa verisi ulaşılamaz</string>
     <string name="trophy_hidden_title">Gizli Kupa</string>
     <string name="trophy_hidden_detail">Kupayı ortaya çıkarmak için oynamaya devam et.</string>
     <string name="trophy_filter_all">Tamamı</string>
