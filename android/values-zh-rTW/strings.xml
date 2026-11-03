@@ -12,34 +12,34 @@
     <string name="action_install">安裝</string>
     <!-- Compatibility states -->
     <string name="compat_unknown">尚未測試</string>
-    <string name="compat_nothing">沒有回應</string>
+    <string name="compat_nothing">無法啟動</string>
     <string name="compat_bootable">可啟動</string>
-    <string name="compat_intro">只能進到開頭畫面</string>
-    <string name="compat_menu">只能進到遊戲選單</string>
-    <string name="compat_ingame_less">可進入遊戲過程-</string>
-    <string name="compat_ingame_more">可進入遊戲過程+</string>
+    <string name="compat_intro">可進入開頭畫面</string>
+    <string name="compat_menu">可進入遊戲選單</string>
+    <string name="compat_ingame_less">可遊玩 -</string>
+    <string name="compat_ingame_more">可遊玩 +</string>
     <string name="compat_playable">可正常遊玩</string>
     <!-- App action groups -->
     <string name="action_group_delete">刪除</string>
-    <string name="action_group_other">其他</string>
+    <string name="action_group_other">其它</string>
     <!-- App action labels -->
     <string name="app_action_application">應用程式</string>
     <string name="app_action_save_data">儲存資料</string>
-    <string name="app_action_patch">修補檔</string>
+    <string name="app_action_patch">更新</string>
     <string name="app_action_dlc">DLC</string>
     <string name="app_action_license">授權</string>
     <string name="app_action_shader_cache">著色器暫存檔</string>
     <string name="app_action_shader_log">著色器日誌</string>
     <string name="app_action_export_textures">匯出紋理</string>
     <string name="app_action_import_textures">匯入紋理</string>
-    <string name="app_action_reset_last_played">重設最近遊玩</string>
+    <string name="app_action_reset_last_played">重設最後遊玩的時間</string>
     <!-- Apps list screen -->
     <string name="apps_list_app_title">Vita3K</string>
     <plurals name="apps_list_n_selected">
         <item quantity="other">已選取%1$d</item>
     </plurals>
     <string name="apps_list_cd_install">安裝</string>
-    <string name="apps_list_cd_exit_selection">退出選取</string>
+    <string name="apps_list_cd_exit_selection">退出選取模式</string>
     <string name="apps_list_cd_select_all">選取全部</string>
     <string name="apps_list_cd_delete_selected">刪除選取的項目</string>
     <string name="apps_list_cd_search">搜尋</string>
