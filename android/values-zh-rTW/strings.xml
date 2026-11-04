@@ -60,20 +60,20 @@
     <string name="apps_list_sort_compatibility">相容性</string>
     <string name="apps_list_custom_config_badge">CC</string>
     <string name="apps_list_empty_search">找不到與「%1$s」相符的應用程式</string>
-    <string name="apps_list_empty_missing_firmware">缺乏的韌體組件：%1$s</string>
+    <string name="apps_list_empty_missing_firmware">缺少韌體檔案：%1$s</string>
     <string name="apps_list_empty_firmware_title">需要韌體</string>
-    <string name="apps_list_empty_firmware_body">安裝缺乏的PS Vita韌體組件以便應用程式能正常運作。</string>
-    <string name="apps_list_empty_firmware_missing_list_title">缺乏組件</string>
+    <string name="apps_list_empty_firmware_body">安裝缺少的 PS Vita 韌體檔案以便應用程式能正常運作</string>
+    <string name="apps_list_empty_firmware_missing_list_title">缺少元件</string>
     <string name="apps_list_empty_no_firmware">未安裝韌體</string>
-    <string name="apps_list_empty_missing_main_firmware">未安裝主要的韌體</string>
+    <string name="apps_list_empty_missing_main_firmware">主韌體尚未安裝</string>
     <string name="apps_list_empty_no_apps">未安裝任何應用程式</string>
     <string name="apps_list_install_firmware">安裝韌體</string>
     <string name="apps_list_install_app">安裝應用程式</string>
-    <string name="apps_list_init_failed">無法初始化模擬器。</string>
+    <string name="apps_list_init_failed">無法初始化模擬器</string>
     <!-- App actions menu -->
     <string name="app_menu_information">資訊</string>
     <string name="app_menu_delete">刪除\u2026</string>
-    <string name="app_menu_custom_config">自訂組態</string>
+    <string name="app_menu_custom_config">自訂設定</string>
     <!-- User management -->
     <string name="user_management_title">使用者管理</string>
     <string name="user_management_refresh">重新整理使用者</string>
@@ -81,30 +81,30 @@
     <string name="user_management_active_none">未選取使用者</string>
     <string name="user_management_active_badge">使用中</string>
     <string name="user_management_create_user">建立使用者</string>
-    <string name="user_management_create_prompt">建立用於儲存遊戲儲存資料、遊玩紀錄及應用程式資料的本機Vita使用者設定檔。</string>
+    <string name="user_management_create_prompt">建立用於儲存遊戲儲存資料、遊玩紀錄及應用程式資料的本機 Vita 使用者設定檔</string>
     <string name="user_management_name_label">使用者名稱</string>
     <string name="user_management_switch_user">選取使用者</string>
     <string name="user_management_delete_user">刪除使用者</string>
     <string name="user_management_delete_title">刪除使用者</string>
-    <string name="user_management_delete_message">確定要刪除使用者「%1$s」？\n\n會失去使用者的全部資料。</string>
+    <string name="user_management_delete_message">確定要刪除使用者「%1$s」？\n\n會失去該使用者的所有資料</string>
     <string name="user_management_empty_title">找不到使用者</string>
-    <string name="user_management_empty_message">建立使用者來開始儲存遊戲儲存資料和遊玩紀錄。</string>
-    <string name="user_management_created_success">已建立使用者 %1$s 。</string>
-    <string name="user_management_selected_success">已選取使用者 %1$s 。</string>
-    <string name="user_management_deleted_success">已刪除使用者 %1$s 。</string>
-    <string name="user_management_create_failed">無法建立使用者。</string>
-    <string name="user_management_select_failed">無法選取使用者。</string>
-    <string name="user_management_delete_failed">無法刪除使用者。</string>
+    <string name="user_management_empty_message">建立使用者來儲存遊戲存檔和遊玩紀錄</string>
+    <string name="user_management_created_success">已建立使用者 %1$s </string>
+    <string name="user_management_selected_success">已選取使用者 %1$s </string>
+    <string name="user_management_deleted_success">已刪除使用者 %1$s </string>
+    <string name="user_management_create_failed">建立使用者失敗</string>
+    <string name="user_management_select_failed">選取使用者失敗</string>
+    <string name="user_management_delete_failed">刪除使用者失敗</string>
     <!-- Batch delete dialog -->
     <plurals name="batch_delete_title">
         <item quantity="other">刪除應用程式 %1$d</item>
     </plurals>
     <plurals name="batch_delete_message">
-        <item quantity="other">確定要刪除已選取的應用程式 %1$d 嗎？\n\n此操作無法復原。</item>
+        <item quantity="other">確定要刪除已選取的應用程式 %1$d 嗎？\n\n此操作無法復原</item>
     </plurals>
     <!-- Action confirm dialog -->
     <string name="confirm_delete_title">刪除 %1$s</string>
-    <string name="confirm_delete_message">將會永久刪除此應用程式的 %1$s 。此操作無法復原。</string>
+    <string name="confirm_delete_message">將會永久刪除此應用程式的 %1$s 。此操作無法復原</string>
     <string name="confirm_reset_playtime_title">重設遊玩時間</string>
     <string name="confirm_reset_playtime_message">確定要重設 %1$s 的遊玩時間嗎？</string>
     <string name="confirm_reset_playtime_this_app">此應用程式</string>
@@ -114,11 +114,11 @@
     <string name="action_done">完成</string>
     <string name="action_reset">重設</string>
     <plurals name="batch_delete_success">
-        <item quantity="other">已刪除應用程式 %1$d 。</item>
+        <item quantity="other">已刪除應用程式 %1$d </item>
     </plurals>
-    <string name="batch_delete_partial">已刪除應用程式 %2$d 的 %1$d 。</string>
-    <string name="action_deleted_success">已為 %2$s 刪除 %1$s 。</string>
-    <string name="action_deleted_failed">無法為 %2$s 刪除 %1$s 。</string>
+    <string name="batch_delete_partial">已刪除應用程式 %2$d 的 %1$d </string>
+    <string name="action_deleted_success">已為 %2$s 刪除 %1$s </string>
+    <string name="action_deleted_failed">為 %2$s 刪除 %1$s 失敗</string>
     <!-- App info sheet -->
     <string name="app_info_title">應用程式資訊</string>
     <string name="app_info_cd_close">關閉</string>
