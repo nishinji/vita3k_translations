@@ -528,27 +528,27 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="278"/>
       <source>Archive Progress</source>
-      <translation type="unfinished"/>
+      <translation>Arşiv İlerlemesi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="279"/>
       <source>Archive 1 of %1</source>
-      <translation type="unfinished"/>
+      <translation>Arşiv: 1 / %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="284"/>
       <source>Content Progress</source>
-      <translation type="unfinished"/>
+      <translation>İçerik İlerlemesi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="285"/>
       <source>Content 0 of 0</source>
-      <translation type="unfinished"/>
+      <translation>İçerik: 0 / 0</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="290"/>
       <source>File Extraction</source>
-      <translation type="unfinished"/>
+      <translation>Dosya Ayıklama</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="291"/>
@@ -558,7 +558,7 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="317"/>
       <source>%1 [%2]</source>
-      <translation type="unfinished"/>
+      <translation>%1 [%2]</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="321"/>
@@ -569,17 +569,18 @@ Bu işlem geri alınamaz.</translation>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="322"/>
       <source>%1 is already installed.
 Do you want to overwrite it?</source>
-      <translation type="unfinished"/>
+      <translation>%1 zaten yüklenmiş.
+Üzerine yazılsın mı?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="381"/>
       <source>Installation complete. %1 item(s) installed successfully.</source>
-      <translation type="unfinished"/>
+      <translation>Yükleme tamamlandı. %1 öğe(ler) başarıyla indirildi.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="382"/>
       <source>Installation complete. %1 succeeded, %2 failed.</source>
-      <translation type="unfinished"/>
+      <translation>Yükleme tamamlandı. %1 başarılı, %2 başarısız.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="423"/>
@@ -589,14 +590,16 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="446"/>
       <source>Could Not Delete Archives</source>
-      <translation type="unfinished"/>
+      <translation>Arşivler silinemedi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/archive_install_dialog.cpp" line="447"/>
       <source>The following archive files could not be deleted. They may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Arşiv dosyaları silinemedi. Dosyalar hala bir program tarafından kullanılıyor olabilir
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -610,7 +613,7 @@ Do you want to overwrite it?</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.ui" line="23"/>
       <source>settings-window</source>
-      <translation type="unfinished"/>
+      <translation>ayarlar-penceresi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="281"/>
@@ -631,7 +634,7 @@ Do you want to overwrite it?</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="414"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="600"/>
       <source>Hotkeys</source>
-      <translation type="unfinished"/>
+      <translation>Kısayol Tuşları</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="420"/>
@@ -643,7 +646,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="502"/>
       <source>Keyboard Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Tuş Atamaları</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="505"/>
@@ -660,7 +663,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="512"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="625"/>
       <source>Alternate</source>
-      <translation type="unfinished"/>
+      <translation>Alternatif</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="518"/>
@@ -681,12 +684,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="637"/>
       <source>Toggle Front/Back Touch</source>
-      <translation type="unfinished"/>
+      <translation>Ön/Arka Dokunmayı Ayarla</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="638"/>
       <source>Replace Textures</source>
-      <translation type="unfinished"/>
+      <translation>Dokuları Değiştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="639"/>
@@ -732,7 +735,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="677"/>
       <source>Reset Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Tuş Atamalarını Sıfırla</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="695"/>
@@ -807,12 +810,12 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="751"/>
       <source>Shared Controller Settings</source>
-      <translation type="unfinished"/>
+      <translation>Paylaşılan Kontrolcü Ayarları</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="753"/>
       <source>Analog Stick Multiplier:</source>
-      <translation type="unfinished"/>
+      <translation>Analog Çubuk Çoğaltıcı:</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="763"/>
@@ -826,7 +829,7 @@ Not Connected</source>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1194"/>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1207"/>
       <source>Capturing...(%1)</source>
-      <translation type="unfinished"/>
+      <translation>Yakalanıyor...(%1)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="972"/>
@@ -836,7 +839,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="973"/>
       <source>This key cannot be mapped on the current platform.</source>
-      <translation type="unfinished"/>
+      <translation>Bu tuş şu anki platformda atanamıyor.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="977"/>
@@ -851,7 +854,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1104"/>
       <source>Connected to %1. Use Bindings to remap controls or Settings for shared controller options.</source>
-      <translation type="unfinished"/>
+      <translation>%1'e bağlanıldı. Kontrolleri yeniden atamak için Tuş Atamaları'nı kullanın veya paylaşılan kontrolcü ayarları için Ayarlar'a gidin.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="1105"/>
@@ -1155,7 +1158,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="126"/>
       <source>Firmware installed successfully!%1</source>
-      <translation type="unfinished"/>
+      <translation>Yazılım başarıyla yüklendi!%1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="127"/>
@@ -1174,14 +1177,16 @@ Versiyon: %1</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="141"/>
       <source>Could Not Delete Firmware</source>
-      <translation type="unfinished"/>
+      <translation>Yazılım Silinemedi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/firmware_install_dialog.cpp" line="142"/>
       <source>The firmware file could not be deleted. It may still be open in another program:
 
 %1</source>
-      <translation type="unfinished"/>
+      <translation>Yazılım dosyası silinemedi. Dosya başka bir programda açık olabilir:
+
+%1</translation>
     </message>
   </context>
   <context>
@@ -1202,19 +1207,21 @@ Versiyon: %1</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="429"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>Uygulamadan çıkılsın mı?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="430"/>
       <source>Do you really want to exit the app?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Gerçekten uygulamadan çıkmak istiyor musunuz?
+
+Kaydedilmemiş tüm ilerlemeniz kaybolacaktır!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/game_window.cpp" line="435"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>Bunu tekrar gösterme</translation>
     </message>
   </context>
   <context>
@@ -1331,22 +1338,22 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="595"/>
       <source>Find in log...</source>
-      <translation type="unfinished"/>
+      <translation>Geçmişte bul...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="597"/>
       <source>Find Previous</source>
-      <translation type="unfinished"/>
+      <translation>Öncekini Bul</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="598"/>
       <source>Find Next</source>
-      <translation type="unfinished"/>
+      <translation>Sonrakini Bul</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/log_widget.cpp" line="599"/>
       <source>Close Search</source>
-      <translation type="unfinished"/>
+      <translation>Aramayı Kapat</translation>
     </message>
   </context>
   <context>
@@ -1461,7 +1468,7 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="216"/>
       <source>Install Archive (.zip / .vpk / .vci)</source>
-      <translation type="unfinished"/>
+      <translation>Arşiv Yükle (.zip / .vpk / .vci)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="221"/>
@@ -1483,7 +1490,7 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="247"/>
       <source>Vita Themes</source>
-      <translation type="unfinished"/>
+      <translation>Vita Temaları</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="252"/>
@@ -1503,7 +1510,7 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="267"/>
       <source>Graphics</source>
-      <translation type="unfinished"/>
+      <translation>Grafikler</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="272"/>
@@ -1528,7 +1535,7 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="292"/>
       <source>Interface</source>
-      <translation type="unfinished"/>
+      <translation>Arayüz</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.ui" line="297"/>
@@ -1622,19 +1629,21 @@ Anahtar geçersiz olabilir.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="224"/>
       <source>Exit App?</source>
-      <translation type="unfinished"/>
+      <translation>Uygulamadan Çıkılsın Mı?</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="225"/>
       <source>An app is still running. Do you really want to exit?
 
 Any unsaved progress will be lost!</source>
-      <translation type="unfinished"/>
+      <translation>Bir uygulama hala çalışıyor. Yine de çıkmak istiyor musunuz?
+
+Kaydedilmemiş bütün ilerlemeniz kaybolacak!</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="229"/>
       <source>Don&apos;t show this again</source>
-      <translation type="unfinished"/>
+      <translation>Bunu tekrar gösterme</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="741"/>
@@ -1680,7 +1689,7 @@ Kaydedilmemiş tüm değişiklikler kaybolacak!</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="939"/>
       <source>%1 (%2) | Loading...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Yükleniyor...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="982"/>
@@ -1702,7 +1711,7 @@ Grafik biriminiz en az OpenGL 4.4'ü destekliyor mu?</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="996"/>
       <source>%1 (%2) | Initializing...</source>
-      <translation type="unfinished"/>
+      <translation>%1 (%2) | Başlatılıyor...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/main_window.cpp" line="1001"/>
@@ -2234,22 +2243,22 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="488"/>
       <source>Right Stick</source>
-      <translation type="unfinished"/>
+      <translation>Sağ Çubuk</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="71"/>
       <source>Only .pkg, .bin, and .rif files can be selected here.</source>
-      <translation type="unfinished"/>
+      <translation>Burada yalnızca .pkg, .bin ve .rif dosyaları seçilebilir.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="78"/>
       <source>Select one .pkg file to install.</source>
-      <translation type="unfinished"/>
+      <translation>Yüklemek için bir .pkg dosyası seçin.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="79"/>
       <source>Select only one .pkg file at a time.</source>
-      <translation type="unfinished"/>
+      <translation>Bir kerede yalnızca bir .pkg dosyası seçin.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/pkg_install_dialog.cpp" line="84"/>
@@ -2279,17 +2288,17 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="66"/>
       <source>Lockscreen</source>
-      <translation type="unfinished"/>
+      <translation>Kilit Ekranı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/vita_themes_dialog.cpp" line="67"/>
       <source>Home</source>
-      <translation type="unfinished"/>
+      <translation>Ana Sayfa</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/welcome_dialog.cpp" line="136"/>
       <source>Download Firmware: %1</source>
-      <translation type="unfinished"/>
+      <translation>Yazılımı İndir: %1</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="49"/>
@@ -2334,7 +2343,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="57"/>
       <source>Size on Disk</source>
-      <translation type="unfinished"/>
+      <translation>Diskteki boyut</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="91"/>
@@ -2344,7 +2353,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/include/gui-qt/apps_list_columns.h" line="93"/>
       <source>Game Patch</source>
-      <translation type="unfinished"/>
+      <translation>Oyun Yaması</translation>
     </message>
   </context>
   <context>
@@ -2352,7 +2361,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="114"/>
       <source>Search fonts...</source>
-      <translation type="unfinished"/>
+      <translation>Fontları ara...</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="149"/>
@@ -2384,12 +2393,12 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="419"/>
       <source>Check</source>
-      <translation type="unfinished"/>
+      <translation>Kontrol Et</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="420"/>
       <source>Don&apos;t Check</source>
-      <translation type="unfinished"/>
+      <translation>Kontrol Etme</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="438"/>
@@ -2638,17 +2647,17 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="963"/>
       <source>Failed to switch the emulator storage folder.</source>
-      <translation type="unfinished"/>
+      <translation>Emulatör depolama klasörü değiştirme işlemi başarısız oldu.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="976"/>
       <source>Timeout Attempts: %1 attempts</source>
-      <translation type="unfinished"/>
+      <translation>Zaman Aşımı Girişimleri: %1 girişim</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="978"/>
       <source>Timeout Sleep: %1 ms</source>
-      <translation type="unfinished"/>
+      <translation>Uyku Zaman Aşımı: %1 ms</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="980"/>
@@ -2730,22 +2739,22 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1191"/>
       <source>Automatic</source>
-      <translation type="unfinished"/>
+      <translation>Otomatik</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1192"/>
       <source>Auto &amp; Manual</source>
-      <translation type="unfinished"/>
+      <translation>Otomatik &amp; Manuel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1193"/>
       <source>Manual</source>
-      <translation type="unfinished"/>
+      <translation>Manuel</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1195"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>CPU Optimizasyonlarını Aktifleştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1197"/>
@@ -2760,64 +2769,64 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1199"/>
       <source>V-Sync</source>
-      <translation type="unfinished"/>
+      <translation>Dikey Senkronizasyon (V-Sync)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1200"/>
       <source>Disable Surface Sync</source>
-      <translation type="unfinished"/>
+      <translation>Yüzeysel Senkronizasyonu Devre Dışı Bırak</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1201"/>
       <source>Asynchronous Pipeline Compilation</source>
-      <translation type="unfinished"/>
+      <translation>Eşzamansız Boru Hattı Derlemesi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1202"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Hafıza Haritalama</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1203"/>
       <source>Screen Filter</source>
-      <translation type="unfinished"/>
+      <translation>Ekran Filtresi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1204"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1205"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>Grafik Cihazı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1206"/>
       <source>Internal Resolution Upscaling</source>
-      <translation type="unfinished"/>
+      <translation>Dahili Çözünürlük Yükseltme</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1207"/>
       <source>Anisotropic Filtering</source>
-      <translation type="unfinished"/>
+      <translation>Eşyönsüz Filtreleme</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1208"/>
       <source>Export Textures</source>
-      <translation type="unfinished"/>
+      <translation>Dokuları Dışa Aktar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1209"/>
       <source>Import Textures</source>
-      <translation type="unfinished"/>
+      <translation>Dokuları İçe Aktar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1210"/>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1211"/>
       <source>Texture Exporting Format</source>
-      <translation type="unfinished"/>
+      <translation>Doku Dışa Aktarma Formatı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1212"/>
       <source>Enable Shader Cache</source>
-      <translation type="unfinished"/>
+      <translation>Shader Önbelleğini Etkinleştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1213"/>
@@ -2837,12 +2846,12 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1217"/>
       <source>Volume</source>
-      <translation type="unfinished"/>
+      <translation>Ses Düzeyi</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1218"/>
       <source>Enable Vita Theme Background Music</source>
-      <translation type="unfinished"/>
+      <translation>Vita Teması Arkaplan Müziğini Etkinleştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1219"/>
@@ -2852,17 +2861,17 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1220"/>
       <source>Enable NGS Support</source>
-      <translation type="unfinished"/>
+      <translation>NGS Desteğini Aktifleştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1222"/>
       <source>Front Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>Ön Kamera Kaynağı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1223"/>
       <source>Back Camera Source</source>
-      <translation type="unfinished"/>
+      <translation>Arka Kamera Kaynağı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1225"/>
@@ -2873,7 +2882,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1227"/>
       <source>PlayStation TV Mode (PSTV)</source>
-      <translation type="unfinished"/>
+      <translation>PlayStation TV Modu (PSTV)</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1228"/>
@@ -3090,12 +3099,12 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1284"/>
       <source>Import Logging</source>
-      <translation type="unfinished"/>
+      <translation>Günlükleme İçe Aktar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1285"/>
       <source>Export Logging</source>
-      <translation type="unfinished"/>
+      <translation>Günlükleme Dışa Aktar</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1286"/>
@@ -3150,17 +3159,17 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1398"/>
       <source>Save</source>
-      <translation type="unfinished"/>
+      <translation>Kaydet</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1399"/>
       <source>Discard</source>
-      <translation type="unfinished"/>
+      <translation>Vazgeç</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1400"/>
       <source>Cancel</source>
-      <translation type="unfinished"/>
+      <translation>İptal Et</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog.cpp" line="1441"/>
@@ -3173,27 +3182,27 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="28"/>
       <source>Enable CPU Optimizations</source>
-      <translation type="unfinished"/>
+      <translation>CPU Optimizasyonlarını Aktifleştir</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="30"/>
       <source>Backend Renderer</source>
-      <translation type="unfinished"/>
+      <translation>Arka Plan İşleyici</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="32"/>
       <source>Graphics Device</source>
-      <translation type="unfinished"/>
+      <translation>Grafik Cihazı</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="34"/>
       <source>Custom Driver</source>
-      <translation type="unfinished"/>
+      <translation>Özel Sürücü</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="36"/>
       <source>Rendering Accuracy</source>
-      <translation type="unfinished"/>
+      <translation>Oluşturma İsabeti</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="38"/>
@@ -3203,7 +3212,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="40"/>
       <source>Memory Mapping</source>
-      <translation type="unfinished"/>
+      <translation>Bellek Haritalama</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="42"/>
@@ -3233,7 +3242,7 @@ Detaylar için günlüğü kontrol edin.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="65"/>
       <source>Restart Later</source>
-      <translation type="unfinished"/>
+      <translation>Daha Sonra Yeniden Başlat</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/settings_dialog_tooltips.cpp" line="67"/>
