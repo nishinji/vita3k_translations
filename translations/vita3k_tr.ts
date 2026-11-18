@@ -139,7 +139,7 @@ Bu işlem geri alınamaz.</translation>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="250"/>
       <source>Copy Test Environment Summary</source>
-      <translation type="unfinished"/>
+      <translation>Test Ortamı Özetini Kopyala</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/apps_list_context_menu.cpp" line="276"/>
@@ -651,7 +651,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="505"/>
       <source>Map your keyboard to Vita controls. Left-click a field to capture a key, press Escape to cancel, and right-click a keyboard binding to clear it.</source>
-      <translation type="unfinished"/>
+      <translation>Klavyenizi Vita kontrollerine atayın. bir alana sol tıklayarak bir tuş atayın, Esc ile iptal edin ve sağ tıklayarak temizleyin.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="511"/>
@@ -674,7 +674,7 @@ Not Connected</source>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="603"/>
       <source>Keyboard-only emulator actions.</source>
-      <translation type="unfinished"/>
+      <translation>Klavyeye özel emülatör eylemleri.</translation>
     </message>
     <message>
       <location filename="../vita3k/gui-qt/src/controls_dialog.cpp" line="636"/>
